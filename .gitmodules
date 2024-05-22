@@ -1,0 +1,4 @@
+[submodule "docs/docfx-tools"]
+	path = docs/docfx-tools
+	url = https://github.com/fchampalimaud/docfx-tools-custom/
+	branch = feature/recursive-workflows-handling
