@@ -3,7 +3,7 @@
 ## Heading 1
 
 :::workflow
-![Example](~/workflows/example.bonsai)
+![Example](~/workflows/testing2/TrialBasedSession3.bonsai)
 :::
 
 

@@ -9,7 +9,7 @@
     - name: Starter
       href: examples_starter.md
     - name: Neuro Tasks
-      href: example_neuro.md
+      href: examples_neuro.md
     - name: Harp Devices
       href: examples_harp.md
 - name: Packages
