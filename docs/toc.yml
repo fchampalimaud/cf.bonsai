@@ -1,4 +1,19 @@
-- name: Docs
-  href: articles/
-- name: API
-  href: api/
+- name: Getting Started
+  items:
+    - name: Bonsai 
+      href: articles/about_bonsai.md
+    - name: Harp
+      href: articles/about_harp.md
+- name: Examples
+  items:
+    - name: Starter
+      href: articles/examples_starter.md
+    - name: Neuro Tasks
+      href: articles/examples_neuro.md
+    - name: Harp Devices
+      href: articles/examples_harp.md
+- name: Packages
+  items:
+    - name: Quickstart
+      href: articles/about_packages.md
+

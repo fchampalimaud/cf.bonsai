@@ -15,7 +15,7 @@ Refer to [Markdown](http://daringfireball.net/projects/markdown/) for how to wri
 Example Workflow
 
 :::workflow
-![TrialBasedSession](/workflows/TrialBasedSession.bonsai)
+![TrialBasedSession](~/workflows/TrialBasedSession.bonsai)
 :::
 
 
@@ -24,5 +24,5 @@ Example Workflow
 Example Workflow
 
 :::workflow
-![TrialBasedSession3](/workflows/testing2/TrialBasedSession3.bonsai)
+![TrialBasedSession3](~/workflows/testing2/TrialBasedSession3.bonsai)
 :::
