@@ -4,14 +4,12 @@
       href: about_bonsai.md
     - name: Harp
       href: about_harp.md
-- name: Examples
+- name: Starter Examples
   items:
-    - name: Starter
-    - href: harp/harp.yml
-    - name: Neuro Tasks
-      href: examples_neuro.md
-    - name: Harp Devices        
-      href: examples_harp.md
+    - name: Harp
+      href: harp/harp.yml
+- name: Neuro Tasks 
+  href: examples_neuro.md
 - name: Packages
   items:
     - name: Quickstart
