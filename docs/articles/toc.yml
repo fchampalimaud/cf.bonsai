@@ -8,8 +8,10 @@
   items:
     - name: Harp
       href: harp_behavior_pwm_example.md
-- name: Neuro Tasks 
-  href: examples_neuro.md
+- name: Neuro Tasks
+  items:
+    - name: Neuro 
+      href: examples_neuro.md
 - name: Packages
   items:
     - name: Quickstart
