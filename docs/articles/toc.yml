@@ -7,11 +7,7 @@
 - name: Examples
   items:
     - name: Starter
-      items: 
-        - name: Harp devices
-          items:
-            name: Behavior board
-            href: harp_behavior_pwm_example.md
+    - href: harp/harp.yml
     - name: Neuro Tasks
       href: examples_neuro.md
     - name: Harp Devices        
