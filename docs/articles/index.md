@@ -15,8 +15,8 @@ Example Workflow
 ![TrialBasedSession](~/workflows/TrialBasedSession.bonsai)
 :::
 
-Test
 ## Neuro
+Test
 
 Example Workflow
 
