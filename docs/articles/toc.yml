@@ -7,7 +7,7 @@
 - name: Starter Examples
   items:
     - name: Harp
-      href: harp/harp.yml
+      href: harp_behavior_pwm_example.md
 - name: Neuro Tasks 
   href: examples_neuro.md
 - name: Packages
