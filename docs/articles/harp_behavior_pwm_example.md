@@ -3,7 +3,7 @@
 ## Workflow
 
 :::workflow
-![Example](~/workflows/examples.starter/Harp.Behavior/PWM Example.bonsai)
+![Example](~/workflows/examples.starter/Harp.Behavior/PWM.bonsai)
 :::
 
 Testing text
