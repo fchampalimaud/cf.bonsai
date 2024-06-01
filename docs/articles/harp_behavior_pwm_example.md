@@ -1,9 +1,9 @@
-# Examples Neuro
+# Harp.Behavior PWM Example
 
-## Heading 1
+## Workflow
 
 :::workflow
-![Example](~/workflows/testing2/TrialBasedSession3.bonsai)
+![Example](~/workflows/examples.starter/Harp.Behavior/PWM Example.bonsai)
 :::
 
 Testing text
