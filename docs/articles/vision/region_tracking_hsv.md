@@ -7,7 +7,7 @@
 :::
 
 ## Summary
-This example demonstrates how setup a simple tracker based on thresholding the HSV channels.
+This example demonstrates how to setup a simple tracker based on thresholding the HSV channels.
 
 ## Details
 1. Convert the image to HSV space (hue, saturation, value). This space is advantageous because it allows the user to separate colors, using only the hue channel, independently of the overall image brightness. 

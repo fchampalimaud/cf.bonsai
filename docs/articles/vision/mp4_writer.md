@@ -1,4 +1,4 @@
-# Vision: Video Annotation
+# Vision: MP4 Writer
 
 :::workflow
 ![Example](~/workflows/examples.starter/Vision/MP4Writer/MP4Writer.bonsai)
