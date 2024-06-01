@@ -26,6 +26,8 @@
           href: vision_camera_calibration.md
         - name: ColumnwiseOperations
           href: vision_columnwise_operations.md
+        - name: VideoAnnotation
+          href: vision/video_annotation.md
 - name: Neuro Tasks
   items:
     - name: Neuro 
