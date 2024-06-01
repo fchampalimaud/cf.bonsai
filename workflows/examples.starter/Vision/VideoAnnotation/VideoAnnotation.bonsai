@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WorkflowBuilder Version="2.8.1"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xmlns:cv="clr-namespace:Bonsai.Vision;assembly=Bonsai.Vision"
+                 xmlns:rx="clr-namespace:Bonsai.Reactive;assembly=Bonsai.Core"
+                 xmlns:drw="clr-namespace:Bonsai.Vision.Drawing;assembly=Bonsai.Vision"
+                 xmlns="https://bonsai-rx.org/2018/workflow">
+  <Workflow>
+    <Nodes>
+      <Expression xsi:type="Combinator">
+        <Combinator xsi:type="cv:CameraCapture">
+          <cv:Index>0</cv:Index>
+          <cv:CaptureProperties />
+        </Combinator>
+      </Expression>
+      <Expression xsi:type="rx:BehaviorSubject">
+        <Name>Frames</Name>
+      </Expression>
+      <Expression xsi:type="SubscribeSubject">
+        <Name>Frames</Name>
+      </Expression>
+      <Expression xsi:type="SubscribeSubject">
+        <Name>Frames</Name>
+      </Expression>
+      <Expression xsi:type="MemberSelector">
+        <Selector>Size</Selector>
+      </Expression>
+      <Expression xsi:type="PropertyMapping">
+        <PropertyMappings>
+          <Property Name="Size" />
+        </PropertyMappings>
+      </Expression>
+      <Expression xsi:type="Combinator">
+        <Combinator xsi:type="drw:CreateCanvas">
+          <drw:Size>
+            <drw:Width>640</drw:Width>
+            <drw:Height>480</drw:Height>
+          </drw:Size>
+          <drw:Depth>U8</drw:Depth>
+          <drw:Channels>3</drw:Channels>
+          <drw:Color>
+            <drw:Val0>0</drw:Val0>
+            <drw:Val1>0</drw:Val1>
+            <drw:Val2>0</drw:Val2>
+            <drw:Val3>0</drw:Val3>
+          </drw:Color>
+        </Combinator>
+      </Expression>
+      <Expression xsi:type="SubscribeSubject">
+        <Name>Frames</Name>
+      </Expression>
+      <Expression xsi:type="PropertyMapping">
+        <PropertyMappings>
+          <Property Name="Image" />
+        </PropertyMappings>
+      </Expression>
+      <Expression xsi:type="Combinator">
+        <Combinator xsi:type="drw:AddImage">
+          <drw:Destination>
+            <drw:X>0</drw:X>
+            <drw:Y>0</drw:Y>
+            <drw:Width>0</drw:Width>
+            <drw:Height>0</drw:Height>
+          </drw:Destination>
+          <drw:Interpolation>Linear</drw:Interpolation>
+        </Combinator>
+      </Expression>
+      <Expression xsi:type="Combinator">
+        <Combinator xsi:type="drw:Circle">
+          <drw:Center>
+            <drw:X>72</drw:X>
+            <drw:Y>288</drw:Y>
+          </drw:Center>
+          <drw:Radius>10</drw:Radius>
+          <drw:Color>
+            <drw:Val0>0</drw:Val0>
+            <drw:Val1>0</drw:Val1>
+            <drw:Val2>255</drw:Val2>
+            <drw:Val3>255</drw:Val3>
+          </drw:Color>
+          <drw:Thickness>3</drw:Thickness>
+          <drw:LineType>Connected8</drw:LineType>
+          <drw:Shift>0</drw:Shift>
+        </Combinator>
+      </Expression>
+      <Expression xsi:type="Combinator">
+        <Combinator xsi:type="drw:DrawCanvas" />
+      </Expression>
+    </Nodes>
+    <Edges>
+      <Edge From="0" To="1" Label="Source1" />
+      <Edge From="2" To="6" Label="Source1" />
+      <Edge From="3" To="4" Label="Source1" />
+      <Edge From="4" To="5" Label="Source1" />
+      <Edge From="5" To="6" Label="Source2" />
+      <Edge From="6" To="9" Label="Source1" />
+      <Edge From="7" To="8" Label="Source1" />
+      <Edge From="8" To="9" Label="Source2" />
+      <Edge From="9" To="10" Label="Source1" />
+      <Edge From="10" To="11" Label="Source1" />
+    </Edges>
+  </Workflow>
+</WorkflowBuilder>
