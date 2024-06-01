@@ -7,7 +7,9 @@
 - name: Starter Examples
   items:
     - name: Harp
-      href: harp_behavior_pwm_example.md
+      items:
+        - name: Behavior
+          href: harp_behavior_pwm_example.md
 - name: Neuro Tasks
   items:
     - name: Neuro 
