@@ -16,6 +16,16 @@
           href: harp_behavior_pwm_example.md
         - name: Behavior.Lick Detection
           href: harp_behavior_pwm_example.md
+    - name: Vision
+      items:
+        - name: RegionTrackingRGB
+          href: vision_region_tracking_rgb.md
+        - name: RegionTrackingHSV
+          href: vision_region_tracking_hsv.md
+        - name: CameraCalibration
+          href: vision_camera_calibration.md
+        - name: ColumnwiseOperations
+          href: vision_columnwise_operations.md
 - name: Neuro Tasks
   items:
     - name: Neuro 
