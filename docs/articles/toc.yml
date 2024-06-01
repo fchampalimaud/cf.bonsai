@@ -19,13 +19,13 @@
     - name: Vision
       items:
         - name: RegionTrackingRGB
-          href: vision_region_tracking_rgb.md
+          href: vision/region_tracking_rgb.md
         - name: RegionTrackingHSV
-          href: vision_region_tracking_hsv.md
+          href: vision/region_tracking_hsv.md
         - name: CameraCalibration
-          href: vision_camera_calibration.md
+          href: vision/camera_calibration.md
         - name: ColumnwiseOperations
-          href: vision_columnwise_operations.md
+          href: vision/columnwise_operations.md
         - name: VideoAnnotation
           href: vision/video_annotation.md
 - name: Neuro Tasks
