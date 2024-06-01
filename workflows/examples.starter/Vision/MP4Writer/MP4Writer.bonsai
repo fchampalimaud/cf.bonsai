@@ -7,10 +7,6 @@
                  xmlns="https://bonsai-rx.org/2018/workflow">
   <Workflow>
     <Nodes>
-      <Expression xsi:type="Annotation">
-        <Name>1</Name>
-        <Text><![CDATA[]]></Text>
-      </Expression>
       <Expression xsi:type="Combinator">
         <Combinator xsi:type="cv:CameraCapture">
           <cv:Index>0</cv:Index>
@@ -27,10 +23,6 @@
           <cv:Overwrite>true</cv:Overwrite>
         </Combinator>
       </Expression>
-      <Expression xsi:type="Annotation">
-        <Name>2</Name>
-        <Text><![CDATA[]]></Text>
-      </Expression>
       <Expression xsi:type="Combinator">
         <Combinator xsi:type="io:StartProcess">
           <io:FileName>C:\Users\HugoMarques\Downloads\ffmpeg-master-latest-win64-gpl-shared\bin\ffmpeg.exe</io:FileName>
@@ -45,10 +37,8 @@
     <Edges>
       <Edge From="0" To="1" Label="Source1" />
       <Edge From="1" To="2" Label="Source1" />
-      <Edge From="2" To="3" Label="Source1" />
+      <Edge From="3" To="4" Label="Source1" />
       <Edge From="4" To="5" Label="Source1" />
-      <Edge From="5" To="6" Label="Source1" />
-      <Edge From="6" To="7" Label="Source1" />
     </Edges>
   </Workflow>
 </WorkflowBuilder>

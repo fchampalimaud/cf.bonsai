@@ -28,6 +28,8 @@
           href: vision/columnwise_operations.md
         - name: VideoAnnotation
           href: vision/video_annotation.md
+        - name: MP4Writer
+          href: vision/mp4_writer.md
 - name: Neuro Tasks
   items:
     - name: Neuro 
