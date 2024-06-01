@@ -3,7 +3,7 @@
 ## Workflow
 
 :::workflow
-![Example](~/workflows/examples.starter/Vision/ColumnwiseOperations.bonsai)
+![Example](~/workflows/examples.starter/Vision/ColumnwiseOperations/ColumnwiseOperations.bonsai)
 :::
 
 Testing text

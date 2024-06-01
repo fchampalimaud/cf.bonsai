@@ -3,7 +3,7 @@
 ## Workflow
 
 :::workflow
-![Example](~/workflows/examples.starter/Vision/CameraCalibration.bonsai)
+![Example](~/workflows/examples.starter/Vision/CameraCalibration/CameraCalibration.bonsai)
 :::
 
 Testing text

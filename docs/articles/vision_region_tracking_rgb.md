@@ -3,7 +3,7 @@
 ## Workflow
 
 :::workflow
-![Example](~/workflows/examples.starter/Vision/RegionTrackingRGB.bonsai)
+![Example](~/workflows/examples.starter/Vision/RegionTrackingRGB/RegionTrackingRGB.bonsai)
 :::
 
 Testing text

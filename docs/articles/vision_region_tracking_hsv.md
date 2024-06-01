@@ -3,7 +3,7 @@
 ## Workflow
 
 :::workflow
-![Example](~/workflows/examples.starter/Vision/RegionTrackingHSV.bonsai)
+![Example](~/workflows/examples.starter/Vision/RegionTrackingHSV/RegionTrackingHSV.bonsai)
 :::
 
 Testing text
