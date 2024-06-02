@@ -1,11 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<WorkflowBuilder Version="2.8.1"
+<WorkflowBuilder Version="2.8.2"
                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:io="clr-namespace:Bonsai.IO;assembly=Bonsai.System"
                  xmlns:rx="clr-namespace:Bonsai.Reactive;assembly=Bonsai.Core"
                  xmlns="https://bonsai-rx.org/2018/workflow">
   <Workflow>
     <Nodes>
+      <Expression xsi:type="Annotation">
+        <Name>1</Name>
+        <Text><![CDATA[]]></Text>
+      </Expression>
       <Expression xsi:type="Combinator">
         <Combinator xsi:type="io:GetFiles">
           <io:Path>.</io:Path>
@@ -13,10 +17,19 @@
           <io:SearchOption>TopDirectoryOnly</io:SearchOption>
         </Combinator>
       </Expression>
+      <Expression xsi:type="Annotation">
+        <Name>2</Name>
+        <Text><![CDATA[]]></Text>
+      </Expression>
       <Expression xsi:type="Combinator">
         <Combinator xsi:type="rx:Concat" />
       </Expression>
+      <Expression xsi:type="Annotation">
+        <Name>3</Name>
+        <Text><![CDATA[]]></Text>
+      </Expression>
       <Expression xsi:type="rx:SelectMany">
+        <Name>Modify Filename</Name>
         <Workflow>
           <Nodes>
             <Expression xsi:type="WorkflowInput">
@@ -39,6 +52,10 @@
           </Edges>
         </Workflow>
       </Expression>
+      <Expression xsi:type="Annotation">
+        <Name>4</Name>
+        <Text><![CDATA[]]></Text>
+      </Expression>
       <Expression xsi:type="Combinator">
         <Combinator xsi:type="IntProperty">
           <Value>0</Value>
@@ -47,7 +64,11 @@
     </Nodes>
     <Edges>
       <Edge From="0" To="1" Label="Source1" />
-      <Edge From="1" To="2" Label="Source1" />
+      <Edge From="1" To="3" Label="Source1" />
+      <Edge From="2" To="3" Label="Source2" />
+      <Edge From="3" To="5" Label="Source1" />
+      <Edge From="4" To="5" Label="Source2" />
+      <Edge From="6" To="7" Label="Source1" />
     </Edges>
   </Workflow>
 </WorkflowBuilder>
