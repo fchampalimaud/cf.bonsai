@@ -9,9 +9,9 @@
     - name: Harp
       items:
         - name: Behavior.Camera Trigger
-          href: camera_trigger.md
+          href: harp/camera_trigger.md
         - name: Behavior.GeneratePWM
-          href: generate_pwm.md
+          href: harp/generate_pwm.md
     - name: Vision
       items:
         - name: RegionTrackingRGB
@@ -26,6 +26,10 @@
           href: vision/video_annotation.md
         - name: MP4Writer
           href: vision/mp4_writer.md
+    - name: Osc
+      items:
+        - name: ServerAndClient
+          href: osc/server_and_cient.md
 - name: Neuro Tasks
   items:
     - name: Neuro 
