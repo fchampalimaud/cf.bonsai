@@ -3,7 +3,7 @@
 ## Workflow
 
 :::workflow
-![Example](~/workflows/examples.starter/Shaders/MovingCircle/MovingCircle.bonsai)
+![Example](~/workflows/examples.starter/BonVision/MovingCircle/MovingCircle.bonsai)
 :::
 
 ## Summary
