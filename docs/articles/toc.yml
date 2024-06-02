@@ -30,6 +30,10 @@
       items:
         - name: UDPSendAndReceive
           href: osc/udp_server_and_client.md
+    - name: BonVision
+      items:
+        - name: MovingCircle
+          href: bonvision/moving_circle.md
 - name: Neuro Tasks
   items:
     - name: Neuro 

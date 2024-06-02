@@ -190,7 +190,7 @@
       <TimeSeriesVisualizer>
         <Capacity>640</Capacity>
         <Min>-1</Min>
-        <Max>0.60000000000000009</Max>
+        <Max>1</Max>
         <AutoScale>true</AutoScale>
       </TimeSeriesVisualizer>
     </VisualizerSettings>

@@ -104,8 +104,8 @@
       </Expression>
       <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawCircle.bonsai">
         <Diameter>0.2</Diameter>
-        <LocationX>-0.983333349</LocationX>
-        <LocationY>0.51</LocationY>
+        <LocationX>-0.99</LocationX>
+        <LocationY>0.173333347</LocationY>
         <Layer>0</Layer>
         <ColorR>1</ColorR>
         <ColorG>0</ColorG>
