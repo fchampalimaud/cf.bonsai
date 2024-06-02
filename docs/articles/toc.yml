@@ -28,8 +28,8 @@
           href: vision/mp4_writer.md
     - name: Osc
       items:
-        - name: ServerAndClient
-          href: osc/server_and_cient.md
+        - name: UDPSendAndReceive
+          href: osc/udp_server_and_client.md
 - name: Neuro Tasks
   items:
     - name: Neuro 
