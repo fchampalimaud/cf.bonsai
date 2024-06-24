@@ -9,9 +9,9 @@
     - name: Harp
       items:
         - name: Behavior.Camera Trigger
-          href: harp/camera_trigger.md
+          href: harp/behavior/camera_trigger.md
         - name: Behavior.GeneratePWM
-          href: harp/generate_pwm.md
+          href: harp//behavior/generate_pwm.md
     - name: Vision
       items:
         - name: RegionTrackingRGB
