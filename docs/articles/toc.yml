@@ -38,6 +38,8 @@
       items:
         - name: ProcessFileList
           href: io/process_file_list.md
+- name: Examples
+  href: ../workflows/toc.yml
 - name: Neuro Tasks
   items:
     - name: Neuro 
