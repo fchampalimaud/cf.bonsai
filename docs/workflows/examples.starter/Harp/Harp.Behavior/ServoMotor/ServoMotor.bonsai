@@ -3,6 +3,8 @@
                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:beh="clr-namespace:Harp.Behavior;assembly=Harp.Behavior"
                  xmlns:harp="clr-namespace:Bonsai.Harp;assembly=Bonsai.Harp"
+                 xmlns:dsp="clr-namespace:Bonsai.Dsp;assembly=Bonsai.Dsp"
+                 xmlns:scr="clr-namespace:Bonsai.Scripting.Expressions;assembly=Bonsai.Scripting.Expressions"
                  xmlns:wie="clr-namespace:Bonsai.Windows.Input;assembly=Bonsai.Windows.Input"
                  xmlns:rx="clr-namespace:Bonsai.Reactive;assembly=Bonsai.Core"
                  xmlns="https://bonsai-rx.org/2018/workflow">
@@ -32,18 +34,53 @@
       </Expression>
       <Expression xsi:type="beh:CreateMessage">
         <harp:MessageType>Write</harp:MessageType>
-        <harp:Payload xsi:type="beh:CreatePwmDutyCycleDO0Payload">
-          <beh:PwmDutyCycleDO0>50</beh:PwmDutyCycleDO0>
+        <harp:Payload xsi:type="beh:CreateServoMotor3PeriodPayload">
+          <beh:ServoMotor3Period>20000</beh:ServoMotor3Period>
         </harp:Payload>
       </Expression>
       <Expression xsi:type="Annotation">
         <Name>3</Name>
         <Text><![CDATA[]]></Text>
       </Expression>
+      <Expression xsi:type="Combinator">
+        <Combinator xsi:type="IntProperty">
+          <Value>0</Value>
+        </Combinator>
+      </Expression>
+      <Expression xsi:type="Annotation">
+        <Name>3.1</Name>
+        <Text><![CDATA[]]></Text>
+      </Expression>
+      <Expression xsi:type="Combinator">
+        <Combinator xsi:type="dsp:Rescale">
+          <dsp:Min>0</dsp:Min>
+          <dsp:Max>90</dsp:Max>
+          <dsp:RangeMin>1000</dsp:RangeMin>
+          <dsp:RangeMax>2000</dsp:RangeMax>
+          <dsp:RescaleType>Linear</dsp:RescaleType>
+        </Combinator>
+      </Expression>
+      <Expression xsi:type="Annotation">
+        <Name>3.2</Name>
+        <Text><![CDATA[]]></Text>
+      </Expression>
+      <Expression xsi:type="scr:ExpressionTransform">
+        <scr:Expression>Convert.ToInt32(it)</scr:Expression>
+      </Expression>
+      <Expression xsi:type="Annotation">
+        <Name>3.3</Name>
+        <Text><![CDATA[]]></Text>
+      </Expression>
+      <Expression xsi:type="InputMapping">
+        <PropertyMappings>
+          <Property Name="ServoMotor3Pulse" Selector="it" />
+        </PropertyMappings>
+        <Selector>it</Selector>
+      </Expression>
       <Expression xsi:type="beh:CreateMessage">
         <harp:MessageType>Write</harp:MessageType>
-        <harp:Payload xsi:type="beh:CreatePwmFrequencyDO0Payload">
-          <beh:PwmFrequencyDO0>100</beh:PwmFrequencyDO0>
+        <harp:Payload xsi:type="beh:CreateServoMotor3PulsePayload">
+          <beh:ServoMotor3Pulse>1000</beh:ServoMotor3Pulse>
         </harp:Payload>
       </Expression>
       <Expression xsi:type="Annotation">
@@ -58,8 +95,8 @@
       </Expression>
       <Expression xsi:type="beh:CreateMessage">
         <harp:MessageType>Write</harp:MessageType>
-        <harp:Payload xsi:type="beh:CreatePwmStartPayload">
-          <beh:PwmStart>PwmDO0</beh:PwmStart>
+        <harp:Payload xsi:type="beh:CreateEnableServosPayload">
+          <beh:EnableServos>ServoOutput3</beh:EnableServos>
         </harp:Payload>
       </Expression>
       <Expression xsi:type="Annotation">
@@ -74,8 +111,8 @@
       </Expression>
       <Expression xsi:type="beh:CreateMessage">
         <harp:MessageType>Write</harp:MessageType>
-        <harp:Payload xsi:type="beh:CreatePwmStopPayload">
-          <beh:PwmStop>PwmDO0</beh:PwmStop>
+        <harp:Payload xsi:type="beh:CreateDisableServosPayload">
+          <beh:DisableServos>ServoOutput3</beh:DisableServos>
         </harp:Payload>
       </Expression>
       <Expression xsi:type="Combinator">
@@ -89,16 +126,23 @@
       <Edge From="0" To="1" Label="Source1" />
       <Edge From="1" To="2" Label="Source1" />
       <Edge From="3" To="4" Label="Source1" />
-      <Edge From="4" To="13" Label="Source1" />
+      <Edge From="4" To="20" Label="Source1" />
       <Edge From="5" To="6" Label="Source1" />
-      <Edge From="6" To="13" Label="Source2" />
-      <Edge From="7" To="8" Label="Source1" />
-      <Edge From="8" To="9" Label="Source1" />
-      <Edge From="9" To="13" Label="Source3" />
-      <Edge From="10" To="11" Label="Source1" />
-      <Edge From="11" To="12" Label="Source1" />
-      <Edge From="12" To="13" Label="Source4" />
-      <Edge From="13" To="14" Label="Source1" />
+      <Edge From="6" To="8" Label="Source1" />
+      <Edge From="7" To="8" Label="Source2" />
+      <Edge From="8" To="10" Label="Source1" />
+      <Edge From="9" To="10" Label="Source2" />
+      <Edge From="10" To="12" Label="Source1" />
+      <Edge From="11" To="12" Label="Source2" />
+      <Edge From="12" To="13" Label="Source1" />
+      <Edge From="13" To="20" Label="Source2" />
+      <Edge From="14" To="15" Label="Source1" />
+      <Edge From="15" To="16" Label="Source1" />
+      <Edge From="16" To="20" Label="Source3" />
+      <Edge From="17" To="18" Label="Source1" />
+      <Edge From="18" To="19" Label="Source1" />
+      <Edge From="19" To="20" Label="Source4" />
+      <Edge From="20" To="21" Label="Source1" />
     </Edges>
   </Workflow>
 </WorkflowBuilder>
