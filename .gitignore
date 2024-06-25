@@ -5,4 +5,4 @@ bin
 .vs
 
 # ignore all .svg files in the workflow directory and subfolders
-workflows/**/*.svg
+docs/workflows/**/*.svg
