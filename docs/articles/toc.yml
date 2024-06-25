@@ -11,7 +11,7 @@
         - name: Behavior.Camera Trigger
           href: harp/behavior/camera_trigger.md
         - name: Behavior.GeneratePWM
-          href: harp//behavior/generate_pwm.md
+          href: harp/behavior/generate_PWM.md
     - name: Vision
       items:
         - name: RegionTrackingRGB
@@ -38,6 +38,8 @@
       items:
         - name: ProcessFileList
           href: io/process_file_list.md
+- name: Examples
+  href: ../workflows/toc.yml
 - name: Neuro Tasks
   items:
     - name: Neuro 
