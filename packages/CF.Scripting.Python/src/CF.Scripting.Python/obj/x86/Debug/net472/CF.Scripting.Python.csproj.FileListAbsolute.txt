@@ -1,0 +1,17 @@
+C:\Users\hgmar\Documents\Code\Bonsai\cf.bonsai\packages\CF.Scripting.Python\src\CF.Scripting.Python\bin\x86\Debug\net472\CF.Scripting.Python.dll
+C:\Users\hgmar\Documents\Code\Bonsai\cf.bonsai\packages\CF.Scripting.Python\src\CF.Scripting.Python\bin\x86\Debug\net472\CF.Scripting.Python.pdb
+C:\Users\hgmar\Documents\Code\Bonsai\cf.bonsai\packages\CF.Scripting.Python\src\CF.Scripting.Python\bin\x86\Debug\net472\Bonsai.Core.dll
+C:\Users\hgmar\Documents\Code\Bonsai\cf.bonsai\packages\CF.Scripting.Python\src\CF.Scripting.Python\bin\x86\Debug\net472\OpenCV.Net.dll
+C:\Users\hgmar\Documents\Code\Bonsai\cf.bonsai\packages\CF.Scripting.Python\src\CF.Scripting.Python\bin\x86\Debug\net472\Python.Runtime.dll
+C:\Users\hgmar\Documents\Code\Bonsai\cf.bonsai\packages\CF.Scripting.Python\src\CF.Scripting.Python\bin\x86\Debug\net472\System.Reactive.Core.dll
+C:\Users\hgmar\Documents\Code\Bonsai\cf.bonsai\packages\CF.Scripting.Python\src\CF.Scripting.Python\bin\x86\Debug\net472\System.Reactive.Interfaces.dll
+C:\Users\hgmar\Documents\Code\Bonsai\cf.bonsai\packages\CF.Scripting.Python\src\CF.Scripting.Python\bin\x86\Debug\net472\System.Reactive.Linq.dll
+C:\Users\hgmar\Documents\Code\Bonsai\cf.bonsai\packages\CF.Scripting.Python\src\CF.Scripting.Python\bin\x86\Debug\net472\System.Reactive.PlatformServices.dll
+C:\Users\hgmar\Documents\Code\Bonsai\cf.bonsai\packages\CF.Scripting.Python\src\CF.Scripting.Python\obj\x86\Debug\net472\CF.Scripting.Python.csproj.AssemblyReference.cache
+C:\Users\hgmar\Documents\Code\Bonsai\cf.bonsai\packages\CF.Scripting.Python\src\CF.Scripting.Python\obj\x86\Debug\net472\CF.Scripting.Python.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hgmar\Documents\Code\Bonsai\cf.bonsai\packages\CF.Scripting.Python\src\CF.Scripting.Python\obj\x86\Debug\net472\CF.Scripting.Python.AssemblyInfoInputs.cache
+C:\Users\hgmar\Documents\Code\Bonsai\cf.bonsai\packages\CF.Scripting.Python\src\CF.Scripting.Python\obj\x86\Debug\net472\CF.Scripting.Python.AssemblyInfo.cs
+C:\Users\hgmar\Documents\Code\Bonsai\cf.bonsai\packages\CF.Scripting.Python\src\CF.Scripting.Python\obj\x86\Debug\net472\CF.Scripting.Python.csproj.CoreCompileInputs.cache
+C:\Users\hgmar\Documents\Code\Bonsai\cf.bonsai\packages\CF.Scripting.Python\src\CF.Scripting.Python\obj\x86\Debug\net472\CF.Scripting.Python.csproj.CopyComplete
+C:\Users\hgmar\Documents\Code\Bonsai\cf.bonsai\packages\CF.Scripting.Python\src\CF.Scripting.Python\obj\x86\Debug\net472\CF.Scripting.Python.dll
+C:\Users\hgmar\Documents\Code\Bonsai\cf.bonsai\packages\CF.Scripting.Python\src\CF.Scripting.Python\obj\x86\Debug\net472\CF.Scripting.Python.pdb

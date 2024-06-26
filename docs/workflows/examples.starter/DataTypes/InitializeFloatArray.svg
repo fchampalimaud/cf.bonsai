@@ -1,0 +1,35 @@
+<?xml version="1.0" standalone="yes"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"[
+<!ENTITY E7 'stroke:none;opacity:1;fill:rgb(255,255,255);'><!ENTITY E2 'matrix(1.00 0.00 0.00 1.00 84.00 4.00 ) '><!ENTITY E4 'stroke:rgb(169,169,169);fill:none;stroke-linecap:butt;stroke-miterlimit:9;opacity:1;stroke-width:2;stroke-linejoin:miter;'><!ENTITY E6 'stroke:rgb(255,255,255);fill:none;stroke-linecap:butt;stroke-miterlimit:9;opacity:1;stroke-width:2;stroke-linejoin:miter;'><!ENTITY E11 'matrix(1.00 0.00 0.00 1.00 4.00 4.00 ) '><!ENTITY E9 'matrix(1.00 0.00 0.00 1.00 0.00 0.00 ) '>
+]>
+<svg width="147.9259" height="52.82519" id="SvgGdi_output" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <style>text { fill: #000; } @media (prefers-color-scheme: dark) { text { fill: #eee; } }</style>
+  <rect id="background" height="100.00%" style="fill:none;" width="100.00%" y="0.00" x="0.00" />
+  <g style="shape-rendering:auto;" id="root_group">
+    <line y1="19.00" id="2" x2="80.00" y2="19.00" x1="38.00" style="stroke:rgb(169,169,169);fill:none;stroke-linecap:butt;stroke-miterlimit:9;opacity:1;stroke-width:1;stroke-linejoin:miter;" />
+    <ellipse id="35" cy="15.00" cx="15.00" transform="matrix(1.00 0.00 0.00 1.00 84.00 4.00 ) " rx="15.00" ry="15.00" style="stroke:none;opacity:1;fill:rgb(238,192,75);" />
+    <ellipse id="38" cy="15.00" cx="15.00" transform="matrix(1.00 0.00 0.00 1.00 84.00 4.00 ) " rx="15.00" ry="15.00" style="stroke:rgb(169,169,169);fill:none;stroke-linecap:butt;stroke-miterlimit:9;opacity:1;stroke-width:2;stroke-linejoin:miter;" />
+    <path style="stroke:rgb(255,255,255);fill:none;stroke-linecap:butt;stroke-miterlimit:9;opacity:1;stroke-width:2;stroke-linejoin:miter;" transform="matrix(1.00 0.00 0.00 1.00 84.00 4.00 ) " id="45" d="M 14.876 5.6408 14.876 24.0228 " />
+    <ellipse id="46" cy="10.20" cx="8.47" transform="matrix(1.00 0.00 0.00 1.00 84.00 4.00 ) " rx="3.40" ry="3.40" style="stroke:none;opacity:1;fill:rgb(255,255,255);" />
+    <ellipse id="47" cy="10.20" cx="21.33" transform="matrix(1.00 0.00 0.00 1.00 84.00 4.00 ) " rx="3.40" ry="3.40" style="stroke:none;opacity:1;fill:rgb(255,255,255);" />
+    <ellipse id="48" cy="19.20" cx="21.33" transform="matrix(1.00 0.00 0.00 1.00 84.00 4.00 ) " rx="3.40" ry="3.40" style="stroke:none;opacity:1;fill:rgb(255,255,255);" />
+    <text id="49" transform="matrix(1.00 0.00 0.00 1.00 0.00 0.00 ) " x="84.00px" y="39.00px" style="stroke:none;clip-path:url(#51_text_clipper);font-family:Microsoft Sans Serif;font-size:8.25pt;opacity:1;">
+      <tspan dy="8.25pt" id="53">SelectMany</tspan>
+    </text>
+    <path style="stroke:rgb(169,169,169);fill:none;stroke-linecap:butt;stroke-miterlimit:9;opacity:1;stroke-width:2;stroke-linejoin:miter;" transform="matrix(1.00 0.00 0.00 1.00 4.00 4.00 ) " id="58" d="M 31.179 5.2 C 34.9985 11.0918 34.9814 18.682 31.13552 24.557 " />
+    <ellipse id="59" cy="15.00" cx="15.00" transform="matrix(1.00 0.00 0.00 1.00 4.00 4.00 ) " rx="15.00" ry="15.00" style="stroke:none;opacity:1;fill:rgb(91,178,126);" />
+    <path transform="matrix(1.00 0.00 0.00 1.00 4.00 4.00 ) " id="63" d="M 8.5404 18.526 C 8.154759 18.14036 8.426559 17.3734 8.7512 17.0487 9.0693 16.7306 9.8857 16.65478 10.3397 17.03595 L 12.5301 18.80525 12.82094 9.664146 C 12.82094 9.305857 13.42471 8.739877 14.05254 8.739877 14.79871 8.739877 15.36764 9.316096 15.36764 9.695367 L 15.5586 15.04327 20.0645 16.74627 C 20.25033 16.81 20.49544 16.99536 20.49518 17.22225 L 20.49808 21.04985 19.11318 23.37955 19.11318 24.51755 13.23218 24.51755 13.23218 23.37955 z " style="stroke:none;fill-rule:evenodd;opacity:1;fill:rgb(255,255,255);" />
+    <path style="stroke:rgb(255,255,255);fill:none;stroke-linecap:butt;stroke-miterlimit:9;opacity:1;stroke-width:2;stroke-linejoin:miter;" transform="matrix(1.00 0.00 0.00 1.00 4.00 4.00 ) " id="64" d="M 10.482 12.156 C 9.063601 9.8878 10.57304 6.5688 13.2149 6.1474 15.8164 5.52346 18.4832 8.0098 18.0432 10.6485 L 17.97693 11.02591 " />
+    <text id="65" transform="matrix(1.00 0.00 0.00 1.00 0.00 0.00 ) " x="4.00px" y="39.00px" style="stroke:none;clip-path:url(#67_text_clipper);font-family:Microsoft Sans Serif;font-size:8.25pt;opacity:1;">
+      <tspan dy="8.25pt" id="69">KeyDown</tspan>
+    </text>
+  </g>
+  <defs id="clips_hatches_and_gradients">
+    <clipPath id="51_text_clipper">
+      <rect x="84.00" y="39.00" width="62.93" height="13.83" id="52" />
+    </clipPath>
+    <clipPath id="67_text_clipper">
+      <rect x="4.00" y="39.00" width="52.15" height="13.83" id="68" />
+    </clipPath>
+  </defs>
+</svg>

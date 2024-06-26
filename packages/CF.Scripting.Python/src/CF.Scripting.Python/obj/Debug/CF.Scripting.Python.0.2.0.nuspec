@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>CF.Scripting.Python</id>
+    <version>0.2.0</version>
+    <title>CF.Scripting.Python</title>
+    <authors>CF.Scripting.Python</authors>
+    <description>A package for the Bonsai visual programming language.</description>
+    <copyright>Copyright ©  2024</copyright>
+    <tags>Bonsai Rx CF.Scripting.Python</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.7.2">
+        <dependency id="Bonsai.Core" version="2.8.0" exclude="Build,Analyzers" />
+        <dependency id="OpenCV.Net" version="3.4.2" exclude="Build,Analyzers" />
+        <dependency id="pythonnet" version="3.0.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\hgmar\Documents\Code\Bonsai\cf.bonsai\packages\CF.Scripting.Python\src\CF.Scripting.Python\bin\Debug\net472\CF.Scripting.Python.dll" target="lib\net472\CF.Scripting.Python.dll" />
+  </files>
+</package>
