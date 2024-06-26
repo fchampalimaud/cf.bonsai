@@ -91,31 +91,19 @@
         <Text><![CDATA[]]></Text>
       </Expression>
       <Expression xsi:type="GroupWorkflow">
-        <Name>LED Pulse Control</Name>
+        <Name>LED PWM Control</Name>
         <Workflow>
           <Nodes>
             <Expression xsi:type="beh:CreateMessage">
               <harp:MessageType>Write</harp:MessageType>
-              <harp:Payload xsi:type="beh:CreateOutputPulseEnablePayload">
-                <beh:OutputPulseEnable>Led1</beh:OutputPulseEnable>
+              <harp:Payload xsi:type="beh:CreatePwmDutyCycleDO1Payload">
+                <beh:PwmDutyCycleDO1>50</beh:PwmDutyCycleDO1>
               </harp:Payload>
             </Expression>
             <Expression xsi:type="beh:CreateMessage">
               <harp:MessageType>Write</harp:MessageType>
-              <harp:Payload xsi:type="beh:CreateLed1MaxCurrentPayload">
-                <beh:Led1MaxCurrent>5</beh:Led1MaxCurrent>
-              </harp:Payload>
-            </Expression>
-            <Expression xsi:type="beh:CreateMessage">
-              <harp:MessageType>Write</harp:MessageType>
-              <harp:Payload xsi:type="beh:CreateLed1CurrentPayload">
-                <beh:Led1Current>2</beh:Led1Current>
-              </harp:Payload>
-            </Expression>
-            <Expression xsi:type="beh:CreateMessage">
-              <harp:MessageType>Write</harp:MessageType>
-              <harp:Payload xsi:type="beh:CreatePulseLed1Payload">
-                <beh:PulseLed1>500</beh:PulseLed1>
+              <harp:Payload xsi:type="beh:CreatePwmFrequencyDO1Payload">
+                <beh:PwmFrequencyDO1>2</beh:PwmFrequencyDO1>
               </harp:Payload>
             </Expression>
             <Expression xsi:type="Combinator">
@@ -126,8 +114,20 @@
             </Expression>
             <Expression xsi:type="beh:CreateMessage">
               <harp:MessageType>Write</harp:MessageType>
-              <harp:Payload xsi:type="beh:CreateOutputSetPayload">
-                <beh:OutputSet>Led1</beh:OutputSet>
+              <harp:Payload xsi:type="beh:CreatePwmStartPayload">
+                <beh:PwmStart>PwmDO1</beh:PwmStart>
+              </harp:Payload>
+            </Expression>
+            <Expression xsi:type="Combinator">
+              <Combinator xsi:type="wie:KeyDown">
+                <wie:Filter>S</wie:Filter>
+                <wie:SuppressRepetitions>true</wie:SuppressRepetitions>
+              </Combinator>
+            </Expression>
+            <Expression xsi:type="beh:CreateMessage">
+              <harp:MessageType>Write</harp:MessageType>
+              <harp:Payload xsi:type="beh:CreatePwmStopPayload">
+                <beh:PwmStop>PwmDO1</beh:PwmStop>
               </harp:Payload>
             </Expression>
             <Expression xsi:type="Combinator">
@@ -138,10 +138,10 @@
           <Edges>
             <Edge From="0" To="6" Label="Source1" />
             <Edge From="1" To="6" Label="Source2" />
-            <Edge From="2" To="6" Label="Source3" />
-            <Edge From="3" To="6" Label="Source4" />
+            <Edge From="2" To="3" Label="Source1" />
+            <Edge From="3" To="6" Label="Source3" />
             <Edge From="4" To="5" Label="Source1" />
-            <Edge From="5" To="6" Label="Source5" />
+            <Edge From="5" To="6" Label="Source4" />
             <Edge From="6" To="7" Label="Source1" />
           </Edges>
         </Workflow>
@@ -197,19 +197,31 @@
         <Text><![CDATA[]]></Text>
       </Expression>
       <Expression xsi:type="GroupWorkflow">
-        <Name>LED PWM Control</Name>
+        <Name>LED Pulse Control</Name>
         <Workflow>
           <Nodes>
             <Expression xsi:type="beh:CreateMessage">
               <harp:MessageType>Write</harp:MessageType>
-              <harp:Payload xsi:type="beh:CreatePwmDutyCycleDO1Payload">
-                <beh:PwmDutyCycleDO1>50</beh:PwmDutyCycleDO1>
+              <harp:Payload xsi:type="beh:CreateOutputPulseEnablePayload">
+                <beh:OutputPulseEnable>Led1</beh:OutputPulseEnable>
               </harp:Payload>
             </Expression>
             <Expression xsi:type="beh:CreateMessage">
               <harp:MessageType>Write</harp:MessageType>
-              <harp:Payload xsi:type="beh:CreatePwmFrequencyDO1Payload">
-                <beh:PwmFrequencyDO1>2</beh:PwmFrequencyDO1>
+              <harp:Payload xsi:type="beh:CreateLed1MaxCurrentPayload">
+                <beh:Led1MaxCurrent>5</beh:Led1MaxCurrent>
+              </harp:Payload>
+            </Expression>
+            <Expression xsi:type="beh:CreateMessage">
+              <harp:MessageType>Write</harp:MessageType>
+              <harp:Payload xsi:type="beh:CreateLed1CurrentPayload">
+                <beh:Led1Current>2</beh:Led1Current>
+              </harp:Payload>
+            </Expression>
+            <Expression xsi:type="beh:CreateMessage">
+              <harp:MessageType>Write</harp:MessageType>
+              <harp:Payload xsi:type="beh:CreatePulseLed1Payload">
+                <beh:PulseLed1>500</beh:PulseLed1>
               </harp:Payload>
             </Expression>
             <Expression xsi:type="Combinator">
@@ -220,20 +232,8 @@
             </Expression>
             <Expression xsi:type="beh:CreateMessage">
               <harp:MessageType>Write</harp:MessageType>
-              <harp:Payload xsi:type="beh:CreatePwmStartPayload">
-                <beh:PwmStart>PwmDO1</beh:PwmStart>
-              </harp:Payload>
-            </Expression>
-            <Expression xsi:type="Combinator">
-              <Combinator xsi:type="wie:KeyDown">
-                <wie:Filter>S</wie:Filter>
-                <wie:SuppressRepetitions>true</wie:SuppressRepetitions>
-              </Combinator>
-            </Expression>
-            <Expression xsi:type="beh:CreateMessage">
-              <harp:MessageType>Write</harp:MessageType>
-              <harp:Payload xsi:type="beh:CreatePwmStopPayload">
-                <beh:PwmStop>PwmDO1</beh:PwmStop>
+              <harp:Payload xsi:type="beh:CreateOutputSetPayload">
+                <beh:OutputSet>Led1</beh:OutputSet>
               </harp:Payload>
             </Expression>
             <Expression xsi:type="Combinator">
@@ -244,10 +244,10 @@
           <Edges>
             <Edge From="0" To="6" Label="Source1" />
             <Edge From="1" To="6" Label="Source2" />
-            <Edge From="2" To="3" Label="Source1" />
-            <Edge From="3" To="6" Label="Source3" />
+            <Edge From="2" To="6" Label="Source3" />
+            <Edge From="3" To="6" Label="Source4" />
             <Edge From="4" To="5" Label="Source1" />
-            <Edge From="5" To="6" Label="Source4" />
+            <Edge From="5" To="6" Label="Source5" />
             <Edge From="6" To="7" Label="Source1" />
           </Edges>
         </Workflow>
