@@ -48,7 +48,10 @@ namespace CF.Scripting.Python
             {
                 var disposable = SubjectManager.ReserveSubject();
                 var subscription = disposable.Subject.SubscribeSafe(observer);
+
                 var runtime = new RuntimeManager(PythonHome, ScriptPath, disposable.Subject);
+                Console.WriteLine("RunTimeManager created");
+
                 return new CompositeDisposable
                 {
                     subscription,

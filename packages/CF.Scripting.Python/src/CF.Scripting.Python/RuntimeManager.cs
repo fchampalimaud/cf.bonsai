@@ -23,6 +23,7 @@ namespace CF.Scripting.Python
 
         internal RuntimeManager(string pythonHome, string scriptPath, IObserver<RuntimeManager> observer)
         {
+            Console.WriteLine("RunTimeManager start");
             runtimeScheduler = new EventLoopScheduler();
             runtimeObserver = observer;
             Schedule(() =>
@@ -35,6 +36,7 @@ namespace CF.Scripting.Python
                 }
                 observer.OnNext(this);
             });
+            Console.WriteLine("RunTimeManager end");
         }
 
         internal PyModule MainModule { get; private set; }
@@ -80,6 +82,8 @@ namespace CF.Scripting.Python
 
         internal static DynamicModule CreateModule(string name = "", string scriptPath = "")
         {
+            Console.WriteLine("Create Module");
+
             using (Py.GIL())
             {
                 var module = new DynamicModule(name);
@@ -114,26 +118,43 @@ namespace CF.Scripting.Python
 
         static void Initialize(string path)
         {
+            Console.WriteLine("RunTimeManager initialize");
             if (!PythonEngine.IsInitialized)
             {
+                Console.WriteLine("RunTimeManager initializing");
                 if (string.IsNullOrEmpty(path))
                 {
                     path = Environment.GetEnvironmentVariable("VIRTUAL_ENV", EnvironmentVariableTarget.Process);
                     if (string.IsNullOrEmpty(path)) path = Environment.CurrentDirectory;
                 }
 
+                Console.WriteLine("RunTimeManager path");
                 path = Path.GetFullPath(path);
+                Console.WriteLine(path);
+
                 var pythonHome = EnvironmentHelper.GetPythonHome(path);
-                Runtime.PythonDLL = EnvironmentHelper.GetPythonDLL(pythonHome);
+                Console.WriteLine("Python home");
+                Console.WriteLine(EnvironmentHelper.GetPythonDLL(pythonHome));
+                Runtime.PythonDLL = "python37.dll"; // 
+                Console.WriteLine("Python .dll");
+                Console.WriteLine(Runtime.PythonDLL);
                 EnvironmentHelper.SetRuntimePath(pythonHome);
                 PythonEngine.PythonHome = pythonHome;
+                Console.WriteLine("Python 1");
+
                 if (pythonHome != path)
                 {
+                    Console.WriteLine("Python 2");
                     var version = PythonEngine.Version;
                     PythonEngine.PythonPath = EnvironmentHelper.GetPythonPath(pythonHome, path);
+                    Console.WriteLine("Python 3");
+                    Console.WriteLine(PythonEngine.PythonPath);
                 }
+                Console.WriteLine("before PythonEngine.initialize");
                 PythonEngine.Initialize();
+                Console.WriteLine("after PythonEngine.initialize");
             }
+            Console.WriteLine("RunTimeManager initialized!");
         }
 
         /// <summary>
