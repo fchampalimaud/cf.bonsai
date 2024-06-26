@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WorkflowBuilder Version="2.7.3"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xmlns:py="clr-namespace:Bonsai.Scripting.Python;assembly=Bonsai.Scripting.Python"
+                 xmlns:rx="clr-namespace:Bonsai.Reactive;assembly=Bonsai.Core"
+                 xmlns:scr="clr-namespace:Bonsai.Scripting.Expressions;assembly=Bonsai.Scripting.Expressions"
+                 xmlns="https://bonsai-rx.org/2018/workflow">
+  <Workflow>
+    <Nodes>
+      <Expression xsi:type="Combinator">
+        <Combinator xsi:type="py:CreateRuntime">
+          <py:PythonHome>C:\Users\HugoMarques\anaconda3\envs\PyTorch</py:PythonHome>
+          <py:ScriptPath>C:\Users\HugoMarques\Documents\Code\LBP\lbp.oml\EmptyEnvironment.py</py:ScriptPath>
+        </Combinator>
+      </Expression>
+      <Expression xsi:type="Disable">
+        <Builder xsi:type="Combinator">
+          <Combinator xsi:type="py:CreateModule">
+            <py:Name>MyModule</py:Name>
+            <py:ScriptPath>Code\LBP\lbp.oml\EmptyEnvironment.py</py:ScriptPath>
+          </Combinator>
+        </Builder>
+      </Expression>
+      <Expression xsi:type="Combinator">
+        <Combinator xsi:type="rx:Timer">
+          <rx:DueTime>PT0S</rx:DueTime>
+          <rx:Period>PT1S</rx:Period>
+        </Combinator>
+      </Expression>
+      <Expression xsi:type="Combinator">
+        <Combinator xsi:type="py:Get">
+          <py:VariableName>b</py:VariableName>
+        </Combinator>
+      </Expression>
+      <Expression xsi:type="scr:ExpressionTransform">
+        <scr:Expression>it.toString()</scr:Expression>
+      </Expression>
+      <Expression xsi:type="Parse">
+        <Pattern>%f</Pattern>
+        <Separator>,</Separator>
+      </Expression>
+      <Expression xsi:type="scr:ExpressionTransform">
+        <scr:Expression>it[0]</scr:Expression>
+      </Expression>
+      <Expression xsi:type="Multiply">
+        <Operand xsi:type="FloatProperty">
+          <Value>2</Value>
+        </Operand>
+      </Expression>
+      <Expression xsi:type="scr:ExpressionTransform">
+        <scr:Expression>it.toString()</scr:Expression>
+      </Expression>
+      <Expression xsi:type="Combinator">
+        <Combinator xsi:type="py:Set">
+          <py:VariableName>b</py:VariableName>
+        </Combinator>
+      </Expression>
+      <Expression xsi:type="Combinator">
+        <Combinator xsi:type="py:Eval">
+          <py:Expression>fun</py:Expression>
+        </Combinator>
+      </Expression>
+      <Expression xsi:type="scr:ExpressionTransform">
+        <scr:Expression>it.toString()</scr:Expression>
+      </Expression>
+      <Expression xsi:type="Combinator">
+        <Combinator xsi:type="FloatProperty">
+          <Value>0</Value>
+        </Combinator>
+      </Expression>
+    </Nodes>
+    <Edges>
+      <Edge From="2" To="3" Label="Source1" />
+      <Edge From="3" To="4" Label="Source1" />
+      <Edge From="3" To="10" Label="Source1" />
+      <Edge From="4" To="5" Label="Source1" />
+      <Edge From="5" To="6" Label="Source1" />
+      <Edge From="6" To="7" Label="Source1" />
+      <Edge From="7" To="8" Label="Source1" />
+      <Edge From="8" To="9" Label="Source1" />
+      <Edge From="10" To="11" Label="Source1" />
+    </Edges>
+  </Workflow>
+</WorkflowBuilder>

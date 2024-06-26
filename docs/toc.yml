@@ -6,7 +6,7 @@
       href: articles/about_harp.md
 - name: Examples
   items:
-    - name: Starter
+    - name: Harp
       href: articles/examples_starter.md
     - name: Neuro Tasks
       href: articles/examples_neuro.md

@@ -10,8 +10,8 @@
         "workingDirectory": "./docs",
         "patterns": [
           "template/**/*",
-          "api/**/*",
           "articles/**/*",
+          "workflows/**/*",
           "*.md"
         ],
         "extensions": "md,yml,css,partial",

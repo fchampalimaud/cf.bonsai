@@ -4,14 +4,46 @@
       href: about_bonsai.md
     - name: Harp
       href: about_harp.md
-- name: Examples
+- name: Starter Examples
   items:
-    - name: Starter
-      href: examples_starter.md
-    - name: Neuro Tasks
+    - name: Harp
+      items:
+        - name: Behavior.Camera Trigger
+          href: harp/behavior/camera_trigger.md
+        - name: Behavior.GeneratePWM
+          href: harp/behavior/generate_PWM.md
+    - name: Vision
+      items:
+        - name: RegionTrackingRGB
+          href: vision/region_tracking_rgb.md
+        - name: RegionTrackingHSV
+          href: vision/region_tracking_hsv.md
+        - name: CameraCalibration
+          href: vision/camera_calibration.md
+        - name: ColumnwiseOperations
+          href: vision/columnwise_operations.md
+        - name: VideoAnnotation
+          href: vision/video_annotation.md
+        - name: MP4Writer
+          href: vision/mp4_writer.md
+    - name: Osc
+      items:
+        - name: UDPSendAndReceive
+          href: osc/udp_server_and_client.md
+    - name: BonVision
+      items:
+        - name: MovingCircle
+          href: bonvision/moving_circle.md
+    - name: IO
+      items:
+        - name: ProcessFileList
+          href: io/process_file_list.md
+- name: Examples
+  href: ../workflows/toc.yml
+- name: Neuro Tasks
+  items:
+    - name: Neuro 
       href: examples_neuro.md
-    - name: Harp Devices
-      href: examples_harp.md
 - name: Packages
   items:
     - name: Quickstart
