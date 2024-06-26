@@ -19,6 +19,7 @@ This example shows how to save a MP4 video using [FFMPEG](https://website-name.c
   Options that might need to be adapted for your situation are:
   - the size (width and height) of the input images (-s)
   - the frame rate (-r)
+  - the input pixel format (-pix_fmt)
   - the name of the output video (last parameter)
   - in case the encoding is rather slow, you might want to append the option '-preset ultrafast' to speed it up.
 

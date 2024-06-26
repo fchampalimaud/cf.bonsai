@@ -9,7 +9,7 @@
     - name: Harp
       items:
         - name: Behavior.Camera Trigger
-          href: harp/behavior/camera_trigger.md
+          href: ../workflows/examples.starter/Harp/Harp.Behavior/CameraTrigger/CameraTrigger.md
         - name: Behavior.GeneratePWM
           href: harp/behavior/generate_PWM.md
     - name: Vision

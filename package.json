@@ -2,26 +2,27 @@
     "name": "cf-bonsai-docs",
     "version": "0.1.1",
     "scripts": {
-      "docfx": "npm-watch build_serve",
-      "build_serve": "dotnet docfx build ./docs/docfx.json --serve"
+        "docfx": "npm-watch build_serve",
+        "build_serve": "dotnet docfx build ./docs/docfx.json --serve"
     },
     "watch": {
-      "build_serve": {
-        "workingDirectory": "./docs",
-        "patterns": [
-          "template/**/*",
-          "articles/**/*",
-          "workflows/**/*",
-          "*.md"
-        ],
-        "extensions": "md,yml,css,partial",
-        "quiet": true,
-        "legacyWatch": true,
-        "delay": 500,
-        "runOnChangeOnly": false
-      }
+        "build_serve": {
+            "workingDirectory": "./docs",
+            "patterns": [
+                "template/**/*",
+                "articles/**/*",
+                "workflows/**/*",
+                "*.md"
+            ],
+            "extensions": "md,yml,css,partial",
+            "quiet": true,
+            "legacyWatch": true,
+            "delay": 500,
+            "runOnChangeOnly": false
+        }
     },
     "devDependencies": {
-      "npm-watch": "^0.11.0"
+        "nodemon": "^3.1.4",
+        "npm-watch": "^0.11.0"
     }
-  }
+}
