@@ -16,8 +16,8 @@
           href: ../workflows/examples.starter/Harp/Behavior/DigitalOutput/DigitalOutput.md
         - name: Digital Output Pulse
           href: ../workflows/examples.starter/Harp/Behavior/DigitalOutputPulse/DigitalOutputPulse.md
-        - name: LEDs
-          href: ../workflows/examples.starter/Harp/Behavior/LEDs/LEDs.md
+        - name: LED
+          href: ../workflows/examples.starter/Harp/Behavior/LED/LED.md
         - name: PWM
           href: ../workflows/examples.starter/Harp/Behavior/PWM/PWM.md
         - name: Camera Trigger
@@ -26,8 +26,8 @@
           href: ../workflows/examples.starter/Harp/Behavior/ServoMotor/ServoMotor.md
         - name: Quadrature Encoder
           href: ../workflows/examples.starter/Harp/Behavior/QuadratureEncoder/QuadratureEncoder.md
-        - name: Logging
-          href: ../workflows/examples.starter/Harp/Behavior/Logging/Logging.md
+        - name: Log Selected
+          href: ../workflows/examples.starter/Harp/Behavior/LogSelected/LogSelected.md
     - name: Vision
       items:
         - name: RegionTrackingRGB

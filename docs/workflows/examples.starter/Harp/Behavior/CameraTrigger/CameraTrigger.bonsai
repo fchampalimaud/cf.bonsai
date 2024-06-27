@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <WorkflowBuilder Version="2.8.2"
                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                 xmlns:beh="clr-namespace:Harp.Behavior;assembly=Harp.Behavior"
-                 xmlns:harp="clr-namespace:Bonsai.Harp;assembly=Bonsai.Harp"
-                 xmlns:wie="clr-namespace:Bonsai.Windows.Input;assembly=Bonsai.Windows.Input"
                  xmlns:rx="clr-namespace:Bonsai.Reactive;assembly=Bonsai.Core"
+                 xmlns:harp="clr-namespace:Bonsai.Harp;assembly=Bonsai.Harp"
+                 xmlns:beh="clr-namespace:Harp.Behavior;assembly=Harp.Behavior"
+                 xmlns:wie="clr-namespace:Bonsai.Windows.Input;assembly=Bonsai.Windows.Input"
                  xmlns="https://bonsai-rx.org/2018/workflow">
   <Workflow>
     <Nodes>
@@ -12,8 +12,8 @@
         <Name>1</Name>
         <Text><![CDATA[]]></Text>
       </Expression>
-      <Expression xsi:type="SubscribeSubject">
-        <Name>Harp Behavior Commands</Name>
+      <Expression xsi:type="rx:BehaviorSubject" TypeArguments="harp:HarpMessage">
+        <rx:Name>Harp Behavior Commands</rx:Name>
       </Expression>
       <Expression xsi:type="Combinator">
         <Combinator xsi:type="beh:Device">
@@ -71,7 +71,7 @@
       <Expression xsi:type="Combinator">
         <Combinator xsi:type="rx:Merge" />
       </Expression>
-      <Expression xsi:type="rx:BehaviorSubject">
+      <Expression xsi:type="MulticastSubject">
         <Name>Harp Behavior Commands</Name>
       </Expression>
     </Nodes>

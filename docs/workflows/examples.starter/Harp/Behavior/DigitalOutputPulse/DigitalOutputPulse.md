@@ -1,31 +1,31 @@
-# Harp.Behavior: Digital Outputs
+# Harp.Behavior: Digital Output Pulse
 
 ## Summary
-This example demonstrates how control the ON/OFF state of two LEDs using the digital outputs from the [Harp Behavior](https://harp-tech.org/api/Harp.Behavior.html) board (see hardware schematics below). 
+This example demonstrates how to trigger a digital pulse, with a fixed duration, on an LED using the digital output from the [Harp Behavior](https://harp-tech.org/api/Harp.Behavior.html) board (see hardware schematics below). 
+
 
 ## Workflow
-
 :::workflow
-![Example](~/workflows/examples.starter/Harp/Behavior/DigitalOutputs/DigitalOutputs.bonsai)
+![Example](~/workflows/examples.starter/Harp/Behavior/DigitalOutputPulse/DigitalOutputPulse.bonsai)
 :::
 
 
-
 ## Details
-1. Creates a subject node to send commands to the Behavior board. To create the subject node, right-click on the Behavior node -> Create Source -> Behavior Subject, and name it accordingly. 
-    1. Filters event messages associated with the state of digital inputs. 
-    2. Demultiplexes the decimal values associated with the state of the digital ports into an array of bits, each indicating the state of a specific port.
-    3. Converts the bit array from Mat to byte[].
-    4. Gets the fourth element of the byte array, which corresponds to the digital input port 3 (DI3).
-2. Enables the Behavior board to send out events associated with DI3.
+1. Establishes the commands to be sent to the Behavior board. To create the subbject node, right-click on the Behavior node -> Create Source -> Behavior Subject, and name it accordingly. 
+2. Enables triggering pulses in port DO0.
+3. Sets the pulse duration to 1000ms.
+4. Triggers the pulse whenever 'A' is pressed.
 
 
 ## Schematics
-The [Harp Behavior](https://harp-tech.org/api/Harp.Behavior.html) board has four digital input channels: DIPort0, DIPort1, DIPort2, and DI3. In this example, the board receives a digital input signal from a switch connected to DI3.
+The [Harp Behavior](https://harp-tech.org/api/Harp.Behavior.html) board can trigger pulses in seven digital output ports: DO0, DO1, DO2, DO3, DOPort0, DOPort1, DOPort2, and the LED current ports: Led0, Led1. In this example, the delivers a digital pulse to an LED connected to DO0. A resistor of 200Ohm is used to drop the current passing through the LED and prevent it from burning.
 
-![Schematics](./DigitalInput.png){ width=65% }
+![Schematics](./DigitalOutputPulse.png){ width=65% }
 
 ## Follow-up
+
+
+
 
 
 
