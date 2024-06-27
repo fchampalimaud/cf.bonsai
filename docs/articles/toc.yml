@@ -8,10 +8,26 @@
   items:
     - name: Harp
       items:
-        - name: Behavior.Camera Trigger
-          href: ../workflows/examples.starter/Harp/Harp.Behavior/CameraTrigger/CameraTrigger.md
-        - name: Behavior.GeneratePWM
-          href: harp/behavior/generate_PWM.md
+        - name: Analog Input
+          href: ../workflows/examples.starter/Harp/Behavior/AnalogInput/AnalogInput.md
+        - name: Digital Input
+          href: ../workflows/examples.starter/Harp/Behavior/DigitalInput/DigitalInput.md
+        - name: Digital Output
+          href: ../workflows/examples.starter/Harp/Behavior/DigitalOutput/DigitalOutput.md
+        - name: Digital Output Pulse
+          href: ../workflows/examples.starter/Harp/Behavior/DigitalOutputPulse/DigitalOutputPulse.md
+        - name: LEDs
+          href: ../workflows/examples.starter/Harp/Behavior/LEDs/LEDs.md
+        - name: PWM
+          href: ../workflows/examples.starter/Harp/Behavior/PWM/PWM.md
+        - name: Camera Trigger
+          href: ../workflows/examples.starter/Harp/Behavior/CameraTrigger/CameraTrigger.md
+        - name: Servo Motor
+          href: ../workflows/examples.starter/Harp/Behavior/ServoMotor/ServoMotor.md
+        - name: Quadrature Encoder
+          href: ../workflows/examples.starter/Harp/Behavior/QuadratureEncoder/QuadratureEncoder.md
+        - name: Logging
+          href: ../workflows/examples.starter/Harp/Behavior/Logging/Logging.md
     - name: Vision
       items:
         - name: RegionTrackingRGB
