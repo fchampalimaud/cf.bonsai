@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reactive.Linq;
+using OpenCV.Net;
 
 
 namespace CF.Utils
@@ -91,6 +92,26 @@ namespace CF.Utils
         }
 
 
+        public IObservable<double[]> Process(IObservable<Mat> source)
+        {
+            return source.Select(value =>
+            {
+
+                double[] output = new double[value.Rows * value.Cols];
+
+                int count = 0;
+                for (int i = 0; i < value.Rows; i++)
+                {
+                    for (int j = 0; j < value.Cols; j++)
+                    {
+                        output[count] = value[i, j].Val0;
+                        count++;
+                    }
+                }
+                return output;
+
+            });
+        }
 
     }
 }
