@@ -4,16 +4,19 @@
       href: articles/about_bonsai.md
     - name: Harp
       href: articles/about_harp.md
-- name: Examples
+- name: Harp/Bonsai Examples
   items:
-    - name: Harp
+    - name: Behavior Board
       href: articles/examples_starter.md
+- name: Bonsai Examples
+  items:
     - name: Neuro Tasks
       href: articles/examples_neuro.md
     - name: Harp Devices
       href: articles/examples_harp.md
 - name: Packages
   items:
-    - name: Quickstart
+    - name: CF.Utils
       href: articles/about_packages.md
-
+- name: Contribute
+  href: articles/about_packages.md

@@ -1,12 +1,14 @@
+- name: Welcome
+  href: welcome.md
 - name: Getting Started
   items:
-    - name: Bonsai 
-      href: about_bonsai.md
-    - name: Harp
-      href: about_harp.md
-- name: Starter Examples
+    - name: Install Bonsai 
+      href: install_bonsai.md
+    - name: Install Harp
+      href: install_harp.md
+- name: Bonsai/Harp Examples
   items:
-    - name: Harp
+    - name: Behavior Board
       items:
         - name: Analog Input
           href: ../workflows/examples.starter/Harp/Behavior/AnalogInput/AnalogInput.md
@@ -28,6 +30,8 @@
           href: ../workflows/examples.starter/Harp/Behavior/QuadratureEncoder/QuadratureEncoder.md
         - name: Log Selected
           href: ../workflows/examples.starter/Harp/Behavior/LogSelected/LogSelected.md
+- name: Bonsai Examples
+  items:
     - name: Vision
       items:
         - name: RegionTrackingRGB
@@ -54,14 +58,17 @@
       items:
         - name: ProcessFileList
           href: io/process_file_list.md
-- name: Examples
-  href: ../workflows/toc.yml
-- name: Neuro Tasks
+
+#- name: Task Examples
+#  href: ../workflows/toc.yml
+- name: Neuroscience Tasks
   items:
-    - name: Neuro 
+    - name: Trial-based Skeleton 
       href: examples_neuro.md
 - name: Packages
   items:
-    - name: Quickstart
+    - name: FC.Utils
       href: about_packages.md
+- name: Contribute
+  href: about_packages.md
 

@@ -6,22 +6,3 @@ This page is intended to provide documentation and examples of [Bonsai](https://
 > [!NOTE]
 > We strongly encorage the community to contribute to this github page. 
 
-
-## Neuro
-
-Example Workflow
-
-:::workflow
-![TrialBasedSession](~/workflows/TrialBasedSession.bonsai)
-:::
-
-## Neuro
-Test
-
-Example Workflow
-
-:::workflow
-![TrialBasedSession3](~/workflows/testing2/TrialBasedSession3.bonsai)
-:::
-
-
