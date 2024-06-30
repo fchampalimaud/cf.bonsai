@@ -1,10 +1,10 @@
 ## Welcome
 
-Wecome to CF.Bonsai, a website from the [Champalimaud Foundation](https://www.fchampalimaud.org/) that contains annotated examples of recurring neuroscience tasks programmed in [Bonsai](https://bonsai-rx.org/). Many of these examples make use of the [Harp](https://harp-tech.org/articles/about.html). protocol/hardware to interface with a variety of peripheral devices commonly used.
+Wecome to CF.Bonsai, a website from the [Champalimaud Foundation](https://www.fchampalimaud.org/) that contains annotated examples of recurring neuroscience tasks programmed in [Bonsai](https://bonsai-rx.org/). Many of these examples make use of the [Harp](https://harp-tech.org/articles/about.html) hardware protocol to interface with a variety of peripheral devices.
 
 
 ## Getting started
-Start by installing the necessary Bonsai and Harp software from the Getting Started header in the left panel. Then, find your example of choice, copy the desired workflow to your Bonsai program, and run it. Every example is accompanied by a set of annotations that interpret the most relevant parts of the code. If the example involves hardware (as those of harp) additional electrical diagrams are provided with the necessary connections between the components. 
+Start by installing the necessary Bonsai and Harp software from the Getting Started menu on the left panel. Then, find your example of choice, and follow the instructions to run it. Every example can be copy directly to Bonsai, and it is accompanied by a set of annotations that interpret the most relevant parts of the code. If the example involves hardware (as those of harp) additional electrical diagrams are provided with the necessary connections between the components. 
 
 ## Bonsai
 

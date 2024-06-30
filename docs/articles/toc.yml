@@ -6,30 +6,30 @@
       href: install_bonsai.md
     - name: Install Harp
       href: install_harp.md
-- name: Bonsai/Harp Examples
+- name: Bonsai/HarpExamples
   items:
-    - name: Behavior Board
+    - name: BehaviorBoard
       items:
         - name: Analog Input
-          href: ../workflows/examples.starter/Harp/Behavior/AnalogInput/AnalogInput.md
+          href: ../workflows/HarpExamples/BehaviorBoard/AnalogInput/AnalogInput.md
         - name: Digital Input
-          href: ../workflows/examples.starter/Harp/Behavior/DigitalInput/DigitalInput.md
+          href: ../workflows/HarpExamples/BehaviorBoard/DigitalInput/DigitalInput.md
         - name: Digital Output
-          href: ../workflows/examples.starter/Harp/Behavior/DigitalOutput/DigitalOutput.md
+          href: ../workflows/HarpExamples/BehaviorBoard/DigitalOutput/DigitalOutput.md
         - name: Digital Output Pulse
-          href: ../workflows/examples.starter/Harp/Behavior/DigitalOutputPulse/DigitalOutputPulse.md
+          href: ../workflows/HarpExamples/BehaviorBoard/DigitalOutputPulse/DigitalOutputPulse.md
         - name: LED
-          href: ../workflows/examples.starter/Harp/Behavior/LED/LED.md
+          href: ../workflows/HarpExamples/BehaviorBoard/LED/LED.md
         - name: PWM
-          href: ../workflows/examples.starter/Harp/Behavior/PWM/PWM.md
+          href: ../workflows/HarpExamples/BehaviorBoard/PWM/PWM.md
         - name: Camera Trigger
-          href: ../workflows/examples.starter/Harp/Behavior/CameraTrigger/CameraTrigger.md
+          href: ../workflows/HarpExamples/BehaviorBoard/CameraTrigger/CameraTrigger.md
         - name: Servo Motor
-          href: ../workflows/examples.starter/Harp/Behavior/ServoMotor/ServoMotor.md
+          href: ../workflows/HarpExamples/BehaviorBoard/ServoMotor/ServoMotor.md
         - name: Quadrature Encoder
-          href: ../workflows/examples.starter/Harp/Behavior/QuadratureEncoder/QuadratureEncoder.md
+          href: ../workflows/HarpExamples/BehaviorBoard/QuadratureEncoder/QuadratureEncoder.md
         - name: Log Selected
-          href: ../workflows/examples.starter/Harp/Behavior/LogSelected/LogSelected.md
+          href: ../workflows/HarpExamples/BehaviorBoard/LogSelected/LogSelected.md
 - name: Bonsai Examples
   items:
     - name: Vision
@@ -59,7 +59,7 @@
         - name: ProcessFileList
           href: io/process_file_list.md
 
-#- name: Task Examples
+#- name: TaskExamples
 #  href: ../workflows/toc.yml
 - name: Neuroscience Tasks
   items:

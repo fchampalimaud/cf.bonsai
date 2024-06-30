@@ -1,14 +1,12 @@
 ## Bonsai Installation
 
 1. Download and install the latest version of the [Bonsai installer](https://bonsai-rx.org/docs/articles/installation.html).
-
 2. Install the Starter package:
     1. Open your Bonsai application
     2. Go to Manage Packages
-    3. In Package sources select 'Bonsai'
+    3. In Package Sources select 'Bonsai'
     4. Search for the Starter package using the browser
     5. Install the package
-
 3. Install any other packages required by the specific examples you want to run.
 
 

@@ -3,7 +3,6 @@
 Before you can use Harp devices in Bonsai you need to install the following packages:
 
 1. Install HARP drivers and software [here](https://github.com/harp-tech/device.behavior/blob/main/README.md) 
-
 2. Install the HARP package for Bonsai.
     1. Open your Bonsai application
     2. Go to Manage Packages
