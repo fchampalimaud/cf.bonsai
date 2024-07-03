@@ -10,14 +10,16 @@ This example demonstrates how to log the events that control the ON/OFF state of
 :::
 
 
-
 ## Details
-1. Establishes the commands to be sent to the Behavior board. To create the subbject node, right-click on the Behavior node -> Create Source -> Behavior Subject, and name it accordingly. 
+1. Establishes the commands to be sent to the Behavior board. The PortName property in the Behavior node needs to be set to the COM device on the computer. To create the subbject node, right-click on the Behavior node -> Create Source -> Behavior Subject, and name it accordingly. 
     1. Filters all the messages from the Behavior board that set digital output ports to ON.
     2. Filters all the messages from the Behavior board that set digital output ports to OFF.
 2. Turns the LED ON when 'A' is pressed.
 3. Turns the LED OFF when 'S' is pressed
 
+## Requirements
+This example requires the folowing Bonsai packages:
+- Harp - Behavior (from nuget.org)
 
 ## Schematics
 All the messages to and from the [Harp Behavior](https://harp-tech.org/api/Harp.Behavior.html) can be logged. In this example, only data relative setting and clearing of digital output ports is logged. 

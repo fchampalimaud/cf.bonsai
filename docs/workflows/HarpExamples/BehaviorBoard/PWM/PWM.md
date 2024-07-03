@@ -6,12 +6,12 @@ This example demonstrates how to control a pwm signal to drive the brightness of
 
 ## Workflow
 :::workflow
-![Example](~/workflows/HarpExamples/BehaviorBoard/LED/LED.bonsai)
+![Example](~/workflows/HarpExamples/BehaviorBoard/PWM/PWM.bonsai)
 :::
 
 
 ## Details
-1. Establishes the commands to be sent to the Behavior board. To create the subbject node, right-click on the Behavior node -> Create Source -> Behavior Subject, and name it accordingly. 
+1. Establishes the commands to be sent to the Behavior board. The PortName property in the Behavior node needs to be set to the COM device on the computer. To create the subbject node, right-click on the Behavior node -> Create Source -> Behavior Subject, and name it accordingly. 
 2. Sets the frequency of the PWM signal to 100Hz.
 3. Turns the LED ON when 'A' i pressed.
 4. Turns the LED OFF when 'S' is pressed
@@ -21,9 +21,12 @@ This example demonstrates how to control a pwm signal to drive the brightness of
     3. Sends the new duty cycle signal to the Behavior board.
     4. Creates a new Harp command with the new duty cycle value.
     
+## Requirements
+This example requires the folowing Bonsai packages:
+- Harp - Behavior (from nuget.org)
 
 ## Schematics
-The [Harp Behavior](https://harp-tech.org/api/Harp.Behavior.html) board can control four PWM sources in ports: DO0, DO1, DO2 and DO3. In this example, the board controls controls the brightness of an LED connected to DO0. A resistor of 200Ohm is used to drop the current passing through the LED and prevent it from burning.
+The [Harp Behavior](https://harp-tech.org/api/Harp.Behavior.html) board can control four PWM sources in ports: DO0, DO1, DO2 and DO3. The maximum tension used is 5V. In this example, the board controls controls the brightness of an LED connected to DO0. A resistor of 200Ohm is used to drop the current passing through the LED and prevent it from burning.
 
 ![Schematics](./PWM.png){ width=65% }
 

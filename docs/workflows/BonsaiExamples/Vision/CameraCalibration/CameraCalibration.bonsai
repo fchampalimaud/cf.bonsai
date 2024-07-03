@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WorkflowBuilder Version="2.8.1"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xmlns:cv="clr-namespace:Bonsai.Vision;assembly=Bonsai.Vision"
+                 xmlns:rx="clr-namespace:Bonsai.Reactive;assembly=Bonsai.Core"
+                 xmlns:wie="clr-namespace:Bonsai.Windows.Input;assembly=Bonsai.Windows.Input"
+                 xmlns="https://bonsai-rx.org/2018/workflow">
+  <Workflow>
+    <Nodes>
+      <Expression xsi:type="Combinator">
+        <Combinator xsi:type="cv:CameraCapture">
+          <cv:Index>0</cv:Index>
+          <cv:CaptureProperties />
+        </Combinator>
+      </Expression>
+      <Expression xsi:type="Combinator">
+        <Combinator xsi:type="cv:Grayscale" />
+      </Expression>
+      <Expression xsi:type="rx:BehaviorSubject">
+        <Name>Camera Frames</Name>
+      </Expression>
+      <Expression xsi:type="Combinator">
+        <Combinator xsi:type="wie:KeyDown">
+          <wie:Filter>C</wie:Filter>
+          <wie:SuppressRepetitions>false</wie:SuppressRepetitions>
+        </Combinator>
+      </Expression>
+      <Expression xsi:type="SubscribeSubject">
+        <Name>Camera Frames</Name>
+      </Expression>
+      <Expression xsi:type="Combinator">
+        <Combinator xsi:type="rx:WithLatestFrom" />
+      </Expression>
+      <Expression xsi:type="MemberSelector">
+        <Selector>Item2</Selector>
+      </Expression>
+      <Expression xsi:type="Combinator">
+        <Combinator xsi:type="cv:FindChessboardCorners">
+          <cv:PatternSize>
+            <cv:Width>9</cv:Width>
+            <cv:Height>6</cv:Height>
+          </cv:PatternSize>
+          <cv:CalibrationFlags>AdaptiveThreshold NormalizeImage FastCheck</cv:CalibrationFlags>
+        </Combinator>
+      </Expression>
+      <Expression xsi:type="Combinator">
+        <Combinator xsi:type="cv:CalibrateCameraChessboard">
+          <cv:PatternSize>
+            <cv:Width>9</cv:Width>
+            <cv:Height>6</cv:Height>
+          </cv:PatternSize>
+          <cv:CalibrationFlags>FixPrincipalPoint</cv:CalibrationFlags>
+        </Combinator>
+      </Expression>
+      <Expression xsi:type="rx:BehaviorSubject">
+        <Name>CalibrationParams</Name>
+      </Expression>
+      <Expression xsi:type="Combinator">
+        <Combinator xsi:type="wie:KeyDown">
+          <wie:Filter>S</wie:Filter>
+          <wie:SuppressRepetitions>false</wie:SuppressRepetitions>
+        </Combinator>
+      </Expression>
+      <Expression xsi:type="SubscribeSubject">
+        <Name>Camera Frames</Name>
+      </Expression>
+      <Expression xsi:type="Combinator">
+        <Combinator xsi:type="rx:WithLatestFrom" />
+      </Expression>
+      <Expression xsi:type="MemberSelector">
+        <Selector>Item2</Selector>
+      </Expression>
+      <Expression xsi:type="SubscribeSubject">
+        <Name>CalibrationParams</Name>
+      </Expression>
+      <Expression xsi:type="MemberSelector">
+        <Selector>Intrinsics.FocalLength</Selector>
+      </Expression>
+      <Expression xsi:type="PropertyMapping">
+        <PropertyMappings>
+          <Property Name="FocalLength" />
+        </PropertyMappings>
+      </Expression>
+      <Expression xsi:type="MemberSelector">
+        <Selector>Intrinsics.ImageSize</Selector>
+      </Expression>
+      <Expression xsi:type="PropertyMapping">
+        <PropertyMappings>
+          <Property Name="ImageSize" />
+        </PropertyMappings>
+      </Expression>
+      <Expression xsi:type="MemberSelector">
+        <Selector>Intrinsics.PrincipalPoint</Selector>
+      </Expression>
+      <Expression xsi:type="PropertyMapping">
+        <PropertyMappings>
+          <Property Name="PrincipalPoint" />
+        </PropertyMappings>
+      </Expression>
+      <Expression xsi:type="MemberSelector">
+        <Selector>Intrinsics.RadialDistortion</Selector>
+      </Expression>
+      <Expression xsi:type="PropertyMapping">
+        <PropertyMappings>
+          <Property Name="RadialDistortion" />
+        </PropertyMappings>
+      </Expression>
+      <Expression xsi:type="MemberSelector">
+        <Selector>Intrinsics.TangentialDistortion</Selector>
+      </Expression>
+      <Expression xsi:type="PropertyMapping">
+        <PropertyMappings>
+          <Property Name="TangentialDistortion" />
+        </PropertyMappings>
+      </Expression>
+      <Expression xsi:type="Combinator">
+        <Combinator xsi:type="cv:Undistort">
+          <cv:ImageSize>
+            <cv:Width>400</cv:Width>
+            <cv:Height>300</cv:Height>
+          </cv:ImageSize>
+          <cv:Alpha>0.5</cv:Alpha>
+          <cv:FocalLength>
+            <cv:X>717.27685546875</cv:X>
+            <cv:Y>712.41229248046875</cv:Y>
+          </cv:FocalLength>
+          <cv:PrincipalPoint>
+            <cv:X>319.5</cv:X>
+            <cv:Y>239.5</cv:Y>
+          </cv:PrincipalPoint>
+          <cv:RadialDistortion>
+            <cv:X>-0.17569597065448761</cv:X>
+            <cv:Y>3.5611371994018555</cv:Y>
+            <cv:Z>-12.135881423950195</cv:Z>
+          </cv:RadialDistortion>
+          <cv:TangentialDistortion>
+            <cv:X>0.0089565124362707138</cv:X>
+            <cv:Y>-0.0057702483609318733</cv:Y>
+          </cv:TangentialDistortion>
+        </Combinator>
+      </Expression>
+    </Nodes>
+    <Edges>
+      <Edge From="0" To="1" Label="Source1" />
+      <Edge From="1" To="2" Label="Source1" />
+      <Edge From="3" To="5" Label="Source1" />
+      <Edge From="4" To="5" Label="Source2" />
+      <Edge From="5" To="6" Label="Source1" />
+      <Edge From="6" To="7" Label="Source1" />
+      <Edge From="7" To="8" Label="Source1" />
+      <Edge From="8" To="9" Label="Source1" />
+      <Edge From="10" To="12" Label="Source1" />
+      <Edge From="11" To="12" Label="Source2" />
+      <Edge From="12" To="13" Label="Source1" />
+      <Edge From="13" To="25" Label="Source1" />
+      <Edge From="14" To="15" Label="Source1" />
+      <Edge From="14" To="17" Label="Source1" />
+      <Edge From="14" To="19" Label="Source1" />
+      <Edge From="14" To="21" Label="Source1" />
+      <Edge From="14" To="23" Label="Source1" />
+      <Edge From="15" To="16" Label="Source1" />
+      <Edge From="16" To="25" Label="Source2" />
+      <Edge From="17" To="18" Label="Source1" />
+      <Edge From="18" To="25" Label="Source3" />
+      <Edge From="19" To="20" Label="Source1" />
+      <Edge From="20" To="25" Label="Source4" />
+      <Edge From="21" To="22" Label="Source1" />
+      <Edge From="22" To="25" Label="Source5" />
+      <Edge From="23" To="24" Label="Source1" />
+      <Edge From="24" To="25" Label="Source6" />
+    </Edges>
+  </Workflow>
+</WorkflowBuilder>

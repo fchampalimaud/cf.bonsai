@@ -11,7 +11,7 @@ This example demonstrates how to control the britness of an LED using the curren
 
 
 ## Details
-1. Establishes the commands to be sent to the Behavior board. To create the subbject node, right-click on the Behavior node -> Create Source -> Behavior Subject, and name it accordingly. 
+1. Establishes the commands to be sent to the Behavior board. The PortName property in the Behavior node needs to be set to the COM device on the computer. To create the subbject node, right-click on the Behavior node -> Create Source -> Behavior Subject, and name it accordingly.
 2. Sets the maximum current to be sent to the LED as a precaution.
 3. Sets the actual current to be sent to the LED.
 4. Turns the LED ON when 'A' i pressed.
@@ -19,8 +19,7 @@ This example demonstrates how to control the britness of an LED using the curren
 
 ## Requirements
 This example requires the folowing Bonsai packages:
-- Bonsai - Harp Library
-- Harp - Behavior
+- Harp - Behavior (from nuget.org)
 
 
 ## Schematics
