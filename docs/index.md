@@ -1,3 +1,3 @@
 ---
-redirect_url: /articles/welcome.html  
+redirect_url: ~/articles/welcome.html  
 ---
