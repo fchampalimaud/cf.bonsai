@@ -1,8 +1,3 @@
 # About Packages
 
-## Getting started
-
-|Placeholder|
-
-## Documentation
-
+Under construction...

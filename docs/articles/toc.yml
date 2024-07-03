@@ -6,9 +6,9 @@
       href: install_bonsai.md
     - name: Install Harp
       href: install_harp.md
-- name: Bonsai/HarpExamples
+- name: Bonsai/Harp Examples
   items:
-    - name: BehaviorBoard
+    - name: Behavior Board
       items:
         - name: Analog Input
           href: ../workflows/HarpExamples/BehaviorBoard/AnalogInput/AnalogInput.md
@@ -24,8 +24,8 @@
           href: ../workflows/HarpExamples/BehaviorBoard/PWM/PWM.md
         - name: Camera Trigger
           href: ../workflows/HarpExamples/BehaviorBoard/CameraTrigger/CameraTrigger.md
-        - name: Servo Motor
-          href: ../workflows/HarpExamples/BehaviorBoard/ServoMotor/ServoMotor.md
+        - name: Servo Motor Toggle
+          href: ../workflows/HarpExamples/BehaviorBoard/ServoMotorToggle/ServoMotorToggle.md
         - name: Quadrature Encoder
           href: ../workflows/HarpExamples/BehaviorBoard/QuadratureEncoder/QuadratureEncoder.md
         - name: Log Selected
@@ -34,37 +34,35 @@
   items:
     - name: Vision
       items:
-        - name: RegionTrackingRGB
-          href: vision/region_tracking_rgb.md
-        - name: RegionTrackingHSV
-          href: vision/region_tracking_hsv.md
-        - name: CameraCalibration
-          href: vision/camera_calibration.md
-        - name: ColumnwiseOperations
-          href: vision/columnwise_operations.md
-        - name: VideoAnnotation
-          href: vision/video_annotation.md
-        - name: MP4Writer
-          href: vision/mp4_writer.md
+        - name: Region Tracking RGB
+          href: ../workflows/BonsaiExamples/Vision/RegionTrackingRGB/RegionTrackingRGB.md
+        - name: Region Tracking HSV
+          href: ../workflows/BonsaiExamples/Vision/RegionTrackingHSV/RegionTrackingHSV.md
+        - name: Columnwise Operations
+          href: ../workflows/BonsaiExamples/Vision/ColumnwiseOperations/ColumnwiseOperations.md
+        - name: Video Annotation
+          href: ../workflows/BonsaiExamples/Vision/VideoAnnotation/VideoAnnotation.md
+        - name: MP4 Writer
+          href: ../workflows/BonsaiExamples/Vision/MP4Writer/MP4Writer.md
     - name: Osc
       items:
-        - name: UDPSendAndReceive
-          href: osc/udp_server_and_client.md
+        - name: UDP Send And Receive
+          href: ../workflows/BonsaiExamples/Osc/UDPSendAndReceive/UDPSendAndReceive.md
     - name: BonVision
       items:
-        - name: MovingCircle
-          href: bonvision/moving_circle.md
+        - name: Moving Circle
+          href: ../workflows/BonsaiExamples/BonVision/MovingCircle/MovingCircle.md
     - name: IO
       items:
-        - name: ProcessFileList
-          href: io/process_file_list.md
+        - name: Process File List
+          href: ../workflows/BonsaiExamples/IO/ProcessFileList/ProcessFileList.md
 
 #- name: TaskExamples
 #  href: ../workflows/toc.yml
 - name: Neuroscience Tasks
   items:
-    - name: Trial-based Skeleton 
-      href: examples_neuro.md
+    - name: Trial-Based Skeleton 
+      href: ../workflows/NeuroExamples/TrialBasedSkeleton/TrialBasedSkeleton.md
 - name: Packages
   items:
     - name: FC.Utils
