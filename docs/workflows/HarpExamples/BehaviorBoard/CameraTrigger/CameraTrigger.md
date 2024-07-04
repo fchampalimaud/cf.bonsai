@@ -13,10 +13,11 @@ This example demonstrates how to trigger frames from a camera using the [Harp Be
 
 
 ## Details
-1. Establishes the commands to be sent to the Behavior board. The PortName property in the Behavior node needs to be set to the COM device on the computer. To create the subbject node, right-click on the Behavior node -> Create Source -> Behavior Subject, and name it accordingly. 
+1. Establishes the commands to be sent to the Behavior board and publishes all the events from the device. The PortName property in the Behavior node needs to be set to the COM device on the computer. To create the subbject node, right-click on the Behavior node -> Create Source -> Behavior Subject, and name it accordingly. 
 2. Sets the acquisition frequency of the camera.
 3. Enables the camera triggers when 'A' is pressed. 
 4. Disables the camera triggers when 'S' is pressed.
+5. Ensures that command messages are sent only when the device is ready.
 
 ## Requirements
 This example requires the folowing Bonsai packages:
@@ -29,6 +30,5 @@ The [Harp Behavior](https://harp-tech.org/api/Harp.Behavior.html) board can trig
 ![Schematics](./CameraTrigger.png){ width=65% }
 
 
-## Follow-up
 
 

@@ -34,7 +34,6 @@ The [Harp Behavior](https://harp-tech.org/api/Harp.Behavior.html) board can cont
 ![Schematics](./ServoMotorControl.png){ width=65% }
 
 
-## Follow-up
 
 
 

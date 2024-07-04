@@ -11,9 +11,10 @@ This example demonstrates how to control the ON/OFF state of an LED using the di
 
 
 ## Details
-1. Establishes the commands to be sent to the Behavior board. The PortName property in the Behavior node needs to be set to the COM device on the computer. To create the subbject node, right-click on the Behavior node -> Create Source -> Behavior Subject, and name it accordingly. 
+1. Establishes the commands to be sent to the Behavior board and publishes all the events from the device. The PortName property in the Behavior node needs to be set to the COM device on the computer. To create the subbject node, right-click on the Behavior node -> Create Source -> Behavior Subject, and name it accordingly. 
 2. Turns the LED ON when 'A' is pressed.
 3. Turns the LED OFF when 'S' is pressed
+4. Ensures that command messages are sent only when the device is ready.
 
 ## Requirements
 This example requires the folowing Bonsai packages:

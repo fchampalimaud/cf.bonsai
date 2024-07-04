@@ -23,7 +23,7 @@
           <harp:VisualIndicators>On</harp:VisualIndicators>
           <harp:Heartbeat>Disabled</harp:Heartbeat>
           <harp:IgnoreErrors>false</harp:IgnoreErrors>
-          <harp:PortName>COM51</harp:PortName>
+          <harp:PortName>asas</harp:PortName>
         </Combinator>
       </Expression>
       <Expression xsi:type="rx:PublishSubject">
@@ -33,20 +33,51 @@
         <Name>2</Name>
         <Text><![CDATA[]]></Text>
       </Expression>
+      <Expression xsi:type="beh:CreateMessage">
+        <harp:MessageType>Write</harp:MessageType>
+        <harp:Payload xsi:type="beh:CreatePwmDutyCycleDO0Payload">
+          <beh:PwmDutyCycleDO0>50</beh:PwmDutyCycleDO0>
+        </harp:Payload>
+      </Expression>
+      <Expression xsi:type="Annotation">
+        <Name>3</Name>
+        <Text><![CDATA[]]></Text>
+      </Expression>
+      <Expression xsi:type="beh:CreateMessage">
+        <harp:MessageType>Write</harp:MessageType>
+        <harp:Payload xsi:type="beh:CreatePwmStartPayload">
+          <beh:PwmStart>PwmDO0</beh:PwmStart>
+        </harp:Payload>
+      </Expression>
+      <Expression xsi:type="Annotation">
+        <Name>4</Name>
+        <Text><![CDATA[]]></Text>
+      </Expression>
       <Expression xsi:type="Combinator">
         <Combinator xsi:type="wie:KeyDown">
           <wie:Filter>A</wie:Filter>
           <wie:SuppressRepetitions>true</wie:SuppressRepetitions>
         </Combinator>
       </Expression>
+      <Expression xsi:type="Combinator">
+        <Combinator xsi:type="IntProperty">
+          <Value>1</Value>
+        </Combinator>
+      </Expression>
+      <Expression xsi:type="InputMapping">
+        <PropertyMappings>
+          <Property Name="PwmFrequencyDO0" Selector="it" />
+        </PropertyMappings>
+        <Selector>it</Selector>
+      </Expression>
       <Expression xsi:type="beh:CreateMessage">
         <harp:MessageType>Write</harp:MessageType>
-        <harp:Payload xsi:type="beh:CreateOutputSetPayload">
-          <beh:OutputSet>DO0</beh:OutputSet>
+        <harp:Payload xsi:type="beh:CreatePwmFrequencyDO0Payload">
+          <beh:PwmFrequencyDO0>1</beh:PwmFrequencyDO0>
         </harp:Payload>
       </Expression>
       <Expression xsi:type="Annotation">
-        <Name>3</Name>
+        <Name>5</Name>
         <Text><![CDATA[]]></Text>
       </Expression>
       <Expression xsi:type="Combinator">
@@ -55,10 +86,21 @@
           <wie:SuppressRepetitions>true</wie:SuppressRepetitions>
         </Combinator>
       </Expression>
+      <Expression xsi:type="Combinator">
+        <Combinator xsi:type="IntProperty">
+          <Value>5</Value>
+        </Combinator>
+      </Expression>
+      <Expression xsi:type="InputMapping">
+        <PropertyMappings>
+          <Property Name="PwmFrequencyDO0" Selector="it" />
+        </PropertyMappings>
+        <Selector>it</Selector>
+      </Expression>
       <Expression xsi:type="beh:CreateMessage">
         <harp:MessageType>Write</harp:MessageType>
-        <harp:Payload xsi:type="beh:CreateOutputClearPayload">
-          <beh:OutputClear>DO0</beh:OutputClear>
+        <harp:Payload xsi:type="beh:CreatePwmFrequencyDO0Payload">
+          <beh:PwmFrequencyDO0>5</beh:PwmFrequencyDO0>
         </harp:Payload>
       </Expression>
       <Expression xsi:type="Combinator">
@@ -68,7 +110,7 @@
         <Name>Device Commands</Name>
       </Expression>
       <Expression xsi:type="Annotation">
-        <Name>4</Name>
+        <Name>6</Name>
         <Text><![CDATA[]]></Text>
       </Expression>
       <Expression xsi:type="SubscribeSubject">
@@ -83,15 +125,23 @@
       <Edge From="1" To="2" Label="Source1" />
       <Edge From="2" To="3" Label="Source1" />
       <Edge From="4" To="5" Label="Source1" />
-      <Edge From="5" To="6" Label="Source1" />
-      <Edge From="6" To="10" Label="Source1" />
-      <Edge From="7" To="8" Label="Source1" />
+      <Edge From="5" To="18" Label="Source1" />
+      <Edge From="6" To="7" Label="Source1" />
+      <Edge From="7" To="18" Label="Source2" />
       <Edge From="8" To="9" Label="Source1" />
-      <Edge From="9" To="10" Label="Source2" />
+      <Edge From="9" To="10" Label="Source1" />
       <Edge From="10" To="11" Label="Source1" />
-      <Edge From="11" To="14" Label="Source1" />
-      <Edge From="12" To="13" Label="Source1" />
-      <Edge From="13" To="14" Label="Source2" />
+      <Edge From="11" To="12" Label="Source1" />
+      <Edge From="12" To="18" Label="Source3" />
+      <Edge From="13" To="14" Label="Source1" />
+      <Edge From="14" To="15" Label="Source1" />
+      <Edge From="15" To="16" Label="Source1" />
+      <Edge From="16" To="17" Label="Source1" />
+      <Edge From="17" To="18" Label="Source4" />
+      <Edge From="18" To="19" Label="Source1" />
+      <Edge From="19" To="22" Label="Source1" />
+      <Edge From="20" To="21" Label="Source1" />
+      <Edge From="21" To="22" Label="Source2" />
     </Edges>
   </Workflow>
 </WorkflowBuilder>

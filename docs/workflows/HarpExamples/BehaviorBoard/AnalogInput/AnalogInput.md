@@ -27,4 +27,3 @@ The [Harp Behavior](https://harp-tech.org/api/Harp.Behavior.html) board has two 
 
 
 
-## Follow-up

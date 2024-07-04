@@ -22,6 +22,4 @@ This example requires the folowing Bonsai packages:
 - Harp - Behavior (from nuget.org)
 
 
-## Follow-up
-
 

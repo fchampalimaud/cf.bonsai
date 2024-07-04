@@ -18,10 +18,10 @@
           href: ../workflows/HarpExamples/BehaviorBoard/DigitalOutput/DigitalOutput.md
         - name: Digital Output Pulse
           href: ../workflows/HarpExamples/BehaviorBoard/DigitalOutputPulse/DigitalOutputPulse.md
-        - name: LED
-          href: ../workflows/HarpExamples/BehaviorBoard/LED/LED.md
-        - name: PWM
-          href: ../workflows/HarpExamples/BehaviorBoard/PWM/PWM.md
+        - name: LED Toggle
+          href: ../workflows/HarpExamples/BehaviorBoard/LEDToggle/LEDToggle.md
+        - name: PWM Toggle
+          href: ../workflows/HarpExamples/BehaviorBoard/PWMToggle/PWMToggle.md
         - name: Camera Trigger
           href: ../workflows/HarpExamples/BehaviorBoard/CameraTrigger/CameraTrigger.md
         - name: Servo Motor Toggle
@@ -67,6 +67,4 @@
   items:
     - name: FC.Utils
       href: about_packages.md
-- name: Contribute
-  href: about_packages.md
 
