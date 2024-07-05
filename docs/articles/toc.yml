@@ -56,15 +56,12 @@
       items:
         - name: Process File List
           href: ../workflows/BonsaiExamples/IO/ProcessFileList/ProcessFileList.md
-
-#- name: TaskExamples
-#  href: ../workflows/toc.yml
 - name: Neuroscience Tasks
   items:
     - name: Trial-Based Skeleton 
       href: ../workflows/NeuroExamples/TrialBasedSkeleton/TrialBasedSkeleton.md
-- name: Packages
-  items:
-    - name: FC.Utils
-      href: about_packages.md
+# - name: Packages
+#   items:
+#     - name: FC.Utils
+#       href: about_packages.md
 
