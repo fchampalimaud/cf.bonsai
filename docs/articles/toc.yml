@@ -56,6 +56,10 @@
       items:
         - name: Process File List
           href: ../workflows/BonsaiExamples/IO/ProcessFileList/ProcessFileList.md
+    - name: Other
+      items:
+        - name: Array Manipulation
+          href: ../workflows\BonsaiExamples/Other/ArrayManipulation/ArrayManipulation.md
 - name: Neuroscience Tasks
   items:
     - name: Trial-Based Skeleton 

@@ -1,7 +1,7 @@
 # Other: Array Manipulation
 
 ## Summary
-This example demonstrates how to create and array, add elements to it and remove elements from it. 
+This example demonstrates how to create an array, add elements to it and remove elements from it. 
 
 
 ## Workflow
@@ -28,5 +28,5 @@ This example demonstrates how to create and array, add elements to it and remove
 
 
 ## Notes
-The key elements of this workflow are the Concat and ToArray nodes from the Reactive package. Concat produces a flat sequence of values with the individual elements of an array, while ToArray composes an array out of a flat sequence of values (insofar as that sequence terminates). 
+The key elements of this workflow are the Concat and ToArray nodes from the Reactive package. Concat produces a flat sequence of values with the individual elements of an array, while ToArray composes an array out of a flat sequence of values (insofar as that sequence terminates). Mastering these two nodes is key to understanding this example.
 
