@@ -44,6 +44,10 @@
           href: ../workflows/BonsaiExamples/Vision/VideoAnnotation/VideoAnnotation.md
         - name: MP4 Writer
           href: ../workflows/BonsaiExamples/Vision/MP4Writer/MP4Writer.md
+    - name: Audio
+      items:
+        - name: Play Tone
+          href: ../workflows/BonsaiExamples/Audio/PlayTone/PlayTone.md
     - name: Osc
       items:
         - name: UDP Send And Receive
@@ -56,6 +60,8 @@
       items:
         - name: Process File List
           href: ../workflows/BonsaiExamples/IO/ProcessFileList/ProcessFileList.md
+        - name: Parse CSV File
+          href: ../workflows/BonsaiExamples/IO/ParseCSVFile/ParseCSVFile.md
     - name: Other
       items:
         - name: Array Manipulation

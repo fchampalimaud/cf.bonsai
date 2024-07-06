@@ -22,9 +22,8 @@ This example demonstrates how to create an array, add elements to it and remove 
 3. Removes the last element from MyArray whenever 'S' is pressed.
     1. Creates a new array without the last element.
     2. Updates MyArray with the new int array createdy.
-4. Outputs the current values of the array at 200ms intervals
-    1. Enables the visualization of the current content of MyArray
-
+4. Outputs the current values of the array at 200ms intervals.
+    1. Enables the visualization of the current content of MyArray. Enable TimeSeriesVisualizer in this node to see the result of inteacting with the array.
 
 
 ## Notes
