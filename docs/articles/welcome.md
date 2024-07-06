@@ -11,7 +11,7 @@ Start by installing the necessary Bonsai and Harp software from the Getting Star
 
 ## Contributions
 
-You can place suggestions for new examples, or report any issues concerning the existing examples [here](https://github.com/fchampalimaud/cf.bonsai/issues). If you want to contribute with your own examples please follow the guidelines described in the [fc.bonsai](https://github.com/fchampalimaud/cf.bonsai) repository. For issues concerning Bonsai, please use the official [channels](https://bonsai-rx.org/community/).
+You can place suggestions for new examples, or report any issues concerning the existing examples [here](https://github.com/fchampalimaud/cf.bonsai/issues). If you want to contribute with your own examples please follow the guidelines described in the [cf.bonsai](https://github.com/fchampalimaud/cf.bonsai) repository. For issues concerning Bonsai, please use the official [channels](https://bonsai-rx.org/community/).
 
 
 ## Bonsai
