@@ -6,9 +6,9 @@
       href: install_bonsai.md
     - name: Install Harp
       href: install_harp.md
-- name: Bonsai/Harp Examples
+- name: Bonsai/Harp Examples (10)
   items:
-    - name: Behavior Board
+    - name: Behavior Board (10)
       items:
         - name: Analog Input
           href: ../workflows/HarpExamples/BehaviorBoard/AnalogInput/AnalogInput.md
@@ -30,9 +30,9 @@
           href: ../workflows/HarpExamples/BehaviorBoard/QuadratureEncoder/QuadratureEncoder.md
         - name: Log Selected
           href: ../workflows/HarpExamples/BehaviorBoard/LogSelected/LogSelected.md
-- name: Bonsai Examples
+- name: Bonsai Examples (11)
   items:
-    - name: Vision
+    - name: Vision (5)
       items:
         - name: Region Tracking RGB
           href: ../workflows/BonsaiExamples/Vision/RegionTrackingRGB/RegionTrackingRGB.md
@@ -44,29 +44,29 @@
           href: ../workflows/BonsaiExamples/Vision/VideoAnnotation/VideoAnnotation.md
         - name: MP4 Writer
           href: ../workflows/BonsaiExamples/Vision/MP4Writer/MP4Writer.md
-    - name: Audio
+    - name: Audio (1)
       items:
         - name: Play Tone
           href: ../workflows/BonsaiExamples/Audio/PlayTone/PlayTone.md
-    - name: Osc
+    - name: Osc (1)
       items:
         - name: UDP Send And Receive
           href: ../workflows/BonsaiExamples/Osc/UDPSendAndReceive/UDPSendAndReceive.md
-    - name: BonVision
+    - name: BonVision (1)
       items:
         - name: Moving Circle
           href: ../workflows/BonsaiExamples/BonVision/MovingCircle/MovingCircle.md
-    - name: IO
+    - name: IO (2)
       items:
         - name: Process File List
           href: ../workflows/BonsaiExamples/IO/ProcessFileList/ProcessFileList.md
         - name: Parse CSV File
           href: ../workflows/BonsaiExamples/IO/ParseCSVFile/ParseCSVFile.md
-    - name: Other
+    - name: Other (1)
       items:
         - name: Array Manipulation
           href: ../workflows\BonsaiExamples/Other/ArrayManipulation/ArrayManipulation.md
-- name: Neuroscience Tasks
+- name: Neuroscience Tasks (1)
   items:
     - name: Trial-Based Skeleton 
       href: ../workflows/NeuroExamples/TrialBasedSkeleton/TrialBasedSkeleton.md
