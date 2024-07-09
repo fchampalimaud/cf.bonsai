@@ -30,7 +30,7 @@
           href: ../workflows/HarpExamples/BehaviorBoard/QuadratureEncoder/QuadratureEncoder.md
         - name: Log Selected
           href: ../workflows/HarpExamples/BehaviorBoard/LogSelected/LogSelected.md
-- name: Bonsai Examples (11)
+- name: Bonsai Examples (12)
   items:
     - name: Vision (5)
       items:
@@ -62,6 +62,10 @@
           href: ../workflows/BonsaiExamples/IO/ProcessFileList/ProcessFileList.md
         - name: Parse CSV File
           href: ../workflows/BonsaiExamples/IO/ParseCSVFile/ParseCSVFile.md
+    - name: Scripting.Expressions (2)
+      items:
+        - name: Basic Type Conversions
+          href: ../workflows/BonsaiExamples/Scripting.Expressions/BasicTypeConversions/BasicTypeConversions.md
     - name: Other (1)
       items:
         - name: Array Manipulation
