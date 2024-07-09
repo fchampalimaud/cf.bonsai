@@ -1,4 +1,4 @@
-# Osc: Udp Server and Client
+# Udp Server and Client
 
 ## Workflow
 

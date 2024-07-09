@@ -1,4 +1,4 @@
-# Harp.Behavior: Servo Motor
+# Servo Motor Control
 
 
 ## Summary

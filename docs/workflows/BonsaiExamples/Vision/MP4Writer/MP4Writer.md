@@ -1,4 +1,4 @@
-# Vision: MP4 Writer
+# MP4 Writer
 
 :::workflow
 ![Example](~/workflows/BonsaiExamples/Vision/MP4Writer/MP4Writer.bonsai)

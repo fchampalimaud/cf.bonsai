@@ -1,4 +1,4 @@
-# Vision: Region Tracking HSV
+# Region Tracking HSV
 
 ## Workflow
 

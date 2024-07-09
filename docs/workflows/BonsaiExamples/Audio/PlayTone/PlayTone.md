@@ -1,4 +1,4 @@
-# Audio: Play Tone
+# Play Tone
 
 ## Summary
 This example demonstrates how to play a tone with fixed frequency and duration whenever a key is pressed.

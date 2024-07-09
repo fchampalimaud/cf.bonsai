@@ -1,4 +1,4 @@
-# Vision: Columnwise Operations
+# Columnwise Operations
 
 ## Workflow
 

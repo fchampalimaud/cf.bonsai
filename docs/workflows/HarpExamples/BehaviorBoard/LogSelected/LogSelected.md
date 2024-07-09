@@ -1,4 +1,4 @@
-# Harp.Behavior: Log Selected
+# Log Selected
 
 ## Summary
 This example demonstrates how to log the events that control the ON/OFF state of an LED using the [Harp Behavior](https://harp-tech.org/api/Harp.Behavior.html) board (see hardware schematics below). 

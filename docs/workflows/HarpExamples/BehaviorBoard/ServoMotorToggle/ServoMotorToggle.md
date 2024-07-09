@@ -1,4 +1,4 @@
-# Harp.Behavior: Servo Motor Toggle
+# Servo Motor Toggle
 
 
 ## Summary

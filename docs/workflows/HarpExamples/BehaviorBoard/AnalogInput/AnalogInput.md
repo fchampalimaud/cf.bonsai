@@ -1,4 +1,4 @@
-# Harp.Behavior: Analog Input
+# Analog Input
 
 ## Summary
 This example demonstrates how to get the analog input values from a potentiometer using the [Harp Behavior](https://harp-tech.org/api/Harp.Behavior.html) board (see hardware schematics below).

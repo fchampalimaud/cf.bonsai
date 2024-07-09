@@ -1,4 +1,4 @@
-# Vision: Video Annotation
+# Video Annotation
 
 :::workflow
 ![Example](~/workflows/BonsaiExamples/Vision/VideoAnnotation/VideoAnnotation.bonsai)

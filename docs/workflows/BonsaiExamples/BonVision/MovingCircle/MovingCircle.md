@@ -1,4 +1,4 @@
-# Shaders: Moving Circle
+# Moving Circle
 
 ## Workflow
 

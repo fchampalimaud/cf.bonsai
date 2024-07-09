@@ -1,4 +1,4 @@
-# IO: Process file list
+# Process file list
 
 ## Workflow
 

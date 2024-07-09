@@ -1,9 +1,9 @@
-# Scripting.Expressions: Convert Basic Types
+# Basic Type Conversions
 
 ## Workflow
 
 :::workflow
-![Example](~/workflows//BonsaiExamples/Scripting.Expressions/BasicTypeConversions/BasicTypeConversions.bonsai)
+![Example](~/workflows//BonsaiExamples/DataTypes/BasicTypeConversions/BasicTypeConversions.bonsai)
 :::
 
 
@@ -19,4 +19,6 @@ This example demostrates how to convert across the different numeric data types 
 6. Converts the int into a time value (in ms) using the method TimeSpan.FromMilliseconds() method
 
 The *it* argument passed to each method inside the ExpressionTransform nodes represents the actual input value of the node.
+
+Verify the output type of each node (by right clicking on the node) and use the TextVisualizeR to best inspect the output of each node. 
 

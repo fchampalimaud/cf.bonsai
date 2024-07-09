@@ -1,4 +1,4 @@
-# Harp.Behavior: Digital Output
+# Digital Output
 
 ## Summary
 This example demonstrates how to control the ON/OFF state of an LED using the digital output from the [Harp Behavior](https://harp-tech.org/api/Harp.Behavior.html) board (see hardware schematics below). 

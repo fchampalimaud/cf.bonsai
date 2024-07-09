@@ -30,7 +30,7 @@
           href: ../workflows/HarpExamples/BehaviorBoard/QuadratureEncoder/QuadratureEncoder.md
         - name: Log Selected
           href: ../workflows/HarpExamples/BehaviorBoard/LogSelected/LogSelected.md
-- name: Bonsai Examples (12)
+- name: Bonsai Examples (15)
   items:
     - name: Vision (5)
       items:
@@ -62,14 +62,20 @@
           href: ../workflows/BonsaiExamples/IO/ProcessFileList/ProcessFileList.md
         - name: Parse CSV File
           href: ../workflows/BonsaiExamples/IO/ParseCSVFile/ParseCSVFile.md
-    - name: Scripting.Expressions (2)
+    - name: Numeric.Distributions (2)
+      items:
+        - name: Sample Model Distribution
+          href: ../workflows/BonsaiExamples/Numeric.Distributions\SampleNormalDistribution\SampleNormalDistribution.md
+        - name: Sample Discrete Uniform Distribution
+          href: ../workflows/BonsaiExamples/Numeric.Distributions\SampleDiscreteUniformDistribution\SampleDiscreteUniformDistribution.md
+    - name: Data Types (3)
       items:
         - name: Basic Type Conversions
-          href: ../workflows/BonsaiExamples/Scripting.Expressions/BasicTypeConversions/BasicTypeConversions.md
-    - name: Other (1)
-      items:
+          href: ../workflows/BonsaiExamples/DataTypes/BasicTypeConversions/BasicTypeConversions.md
+        - name: Create Float Array
+          href: ../workflows\BonsaiExamples/DataTypes/CreateFloatArray/CreateFloatArray.md
         - name: Array Manipulation
-          href: ../workflows\BonsaiExamples/Other/ArrayManipulation/ArrayManipulation.md
+          href: ../workflows\BonsaiExamples/DataTypes/ArrayManipulation/ArrayManipulation.md
 - name: Neuroscience Tasks (1)
   items:
     - name: Trial-Based Skeleton 

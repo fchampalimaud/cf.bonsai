@@ -1,4 +1,4 @@
-# Harp.Behavior: PWM
+# PWM Toggle
 
 ## Summary
 This example demonstrates how to control a pwm signal to drive the brightness of an LED using the [Harp Behavior](https://harp-tech.org/api/Harp.Behavior.html) board (see hardware schematics below). 

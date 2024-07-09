@@ -1,4 +1,4 @@
-# Harp.Behavior: Camera Trigger
+# Camera Trigger
 
 
 ## Summary

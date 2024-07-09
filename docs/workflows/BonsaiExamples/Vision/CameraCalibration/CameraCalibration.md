@@ -1,4 +1,4 @@
-# Vision: Camera Calibration
+# Camera Calibration
 
 ## Workflow
 

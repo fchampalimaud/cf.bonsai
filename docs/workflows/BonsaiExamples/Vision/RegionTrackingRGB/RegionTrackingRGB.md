@@ -1,4 +1,4 @@
-# Vision: Region Tracking RGB
+# Region Tracking RGB
 
 ## Workflow
 

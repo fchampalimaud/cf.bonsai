@@ -1,4 +1,4 @@
-# Other: Array Manipulation
+# Array Manipulation
 
 ## Summary
 This example demonstrates how to create an array, add elements to it and remove elements from it. 
@@ -6,7 +6,7 @@ This example demonstrates how to create an array, add elements to it and remove 
 
 ## Workflow
 :::workflow
-![Example](~/workflows/BonsaiExamples/Other/ArrayManipulation/ArrayManipulation.bonsai)
+![Example](~/workflows/BonsaiExamples/DataTypes/ArrayManipulation/ArrayManipulation.bonsai)
 :::
 
 

@@ -1,4 +1,4 @@
-# Harp.Behavior: LED
+# LED Toggle
 
 ## Summary
 This example demonstrates how to control the britness of an LED using the current driven ports in the [Harp Behavior](https://harp-tech.org/api/Harp.Behavior.html) board (see hardware schematics below). 
