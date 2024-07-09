@@ -1,13 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <WorkflowBuilder Version="2.8.1"
                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xmlns:rx="clr-namespace:Bonsai.Reactive;assembly=Bonsai.Core"
                  xmlns:gl="clr-namespace:Bonsai.Shaders;assembly=Bonsai.Shaders"
                  xmlns:res="clr-namespace:Bonsai.Resources;assembly=Bonsai.System"
-                 xmlns:rx="clr-namespace:Bonsai.Reactive;assembly=Bonsai.Core"
                  xmlns:gli="clr-namespace:Bonsai.Shaders.Input;assembly=Bonsai.Shaders"
+                 xmlns:p1="clr-namespace:BonVision.Collections;assembly=BonVision"
                  xmlns="https://bonsai-rx.org/2018/workflow">
   <Workflow>
     <Nodes>
+      <Expression xsi:type="Combinator">
+        <Combinator xsi:type="FloatProperty">
+          <Value>0</Value>
+        </Combinator>
+      </Expression>
+      <Expression xsi:type="rx:BehaviorSubject">
+        <Name>Angle</Name>
+      </Expression>
       <Expression xsi:type="Annotation">
         <Name>1</Name>
         <Text><![CDATA[]]></Text>
@@ -71,60 +80,85 @@
       <Expression xsi:type="SubscribeSubject">
         <Name>DrawScene</Name>
       </Expression>
-      <Expression xsi:type="Annotation">
-        <Name>4</Name>
-        <Text><![CDATA[]]></Text>
-      </Expression>
-      <Expression xsi:type="Combinator">
-        <Combinator xsi:type="gli:MouseMove" />
-      </Expression>
-      <Expression xsi:type="Combinator">
-        <Combinator xsi:type="gli:NormalizedDeviceCoordinates" />
-      </Expression>
-      <Expression xsi:type="MemberSelector">
-        <Selector>X</Selector>
+      <Expression xsi:type="SubscribeSubject">
+        <Name>Angle</Name>
       </Expression>
       <Expression xsi:type="PropertyMapping">
         <PropertyMappings>
-          <Property Name="LocationX" />
+          <Property Name="Angle" />
         </PropertyMappings>
       </Expression>
-      <Expression xsi:type="MemberSelector">
-        <Selector>Y</Selector>
-      </Expression>
-      <Expression xsi:type="PropertyMapping">
-        <PropertyMappings>
-          <Property Name="LocationY" />
-        </PropertyMappings>
-      </Expression>
-      <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawCircle.bonsai">
-        <Diameter>0.2</Diameter>
-        <LocationX>0.9885417</LocationX>
-        <LocationY>0.997006</LocationY>
+      <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawGratings.bonsai">
+        <LocationX>0</LocationX>
+        <LocationY>0</LocationY>
         <Layer>0</Layer>
-        <ColorR>1</ColorR>
-        <ColorG>0</ColorG>
-        <ColorB>0</ColorB>
-        <ColorA>1</ColorA>
+        <ExtentX>1</ExtentX>
+        <ExtentY>1</ExtentY>
+        <SpatialFrequency>10</SpatialFrequency>
+        <TemporalFrequency>1</TemporalFrequency>
+        <Phase>0</Phase>
+        <Angle>0</Angle>
+        <SquareWave>false</SquareWave>
+        <Contrast>1</Contrast>
+        <DutyCycle xsi:nil="true" />
+        <Radius>1</Radius>
+        <Aperture>0</Aperture>
+        <Opacity>1</Opacity>
+      </Expression>
+      <Expression xsi:type="Combinator">
+        <Combinator xsi:type="gli:KeyDown">
+          <gli:Key>A</gli:Key>
+          <gli:Modifiers xsi:nil="true" />
+        </Combinator>
+      </Expression>
+      <Expression xsi:type="Combinator">
+        <Combinator xsi:type="FloatProperty">
+          <Value>1.57</Value>
+        </Combinator>
+      </Expression>
+      <Expression xsi:type="MulticastSubject">
+        <Name>Angle</Name>
+      </Expression>
+      <Expression xsi:type="Combinator">
+        <Combinator xsi:type="gli:KeyDown">
+          <gli:Key>S</gli:Key>
+          <gli:Modifiers xsi:nil="true" />
+        </Combinator>
+      </Expression>
+      <Expression xsi:type="Combinator">
+        <Combinator xsi:type="FloatProperty">
+          <Value>0</Value>
+        </Combinator>
+      </Expression>
+      <Expression xsi:type="MulticastSubject">
+        <Name>Angle</Name>
+      </Expression>
+      <Expression xsi:type="SubscribeSubject">
+        <Name>DrawScene</Name>
+      </Expression>
+      <Expression xsi:type="Combinator">
+        <Combinator xsi:type="p1:GratingsSpecification">
+          <p1:Trials />
+        </Combinator>
       </Expression>
     </Nodes>
     <Edges>
       <Edge From="0" To="1" Label="Source1" />
-      <Edge From="1" To="2" Label="Source1" />
       <Edge From="2" To="3" Label="Source1" />
+      <Edge From="3" To="4" Label="Source1" />
       <Edge From="4" To="5" Label="Source1" />
-      <Edge From="5" To="6" Label="Source1" />
       <Edge From="6" To="7" Label="Source1" />
+      <Edge From="7" To="8" Label="Source1" />
       <Edge From="8" To="9" Label="Source1" />
-      <Edge From="9" To="17" Label="Source1" />
       <Edge From="10" To="11" Label="Source1" />
-      <Edge From="11" To="12" Label="Source1" />
+      <Edge From="11" To="14" Label="Source1" />
       <Edge From="12" To="13" Label="Source1" />
-      <Edge From="12" To="15" Label="Source1" />
-      <Edge From="13" To="14" Label="Source1" />
-      <Edge From="14" To="17" Label="Source2" />
+      <Edge From="13" To="14" Label="Source2" />
       <Edge From="15" To="16" Label="Source1" />
-      <Edge From="16" To="17" Label="Source3" />
+      <Edge From="16" To="17" Label="Source1" />
+      <Edge From="18" To="19" Label="Source1" />
+      <Edge From="19" To="20" Label="Source1" />
+      <Edge From="21" To="22" Label="Source1" />
     </Edges>
   </Workflow>
 </WorkflowBuilder>
