@@ -24,7 +24,7 @@ This example requires the folowing Bonsai packages:
 - Harp - Behavior (from nuget.org)
 
 ## Schematics
-The [Harp Behavior](https://harp-tech.org/api/Harp.Behavior.html) board can read the position value of one quadrature encoder connected to Port2. 
+The [Harp Behavior](https://harp-tech.org/api/Harp.Behavior.html) board can read the position value of one quadrature encoder connected to Port2. The encoder in the schematics is the [ENC1J-D28-L00128L](https://www.digikey.be/en/products/detail/bourns-inc/ENC1J-D28-L00128L/1089391).
 
 ![Schematics](./QuadratureEncoder.png){ width=65% }
 
