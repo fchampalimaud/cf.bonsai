@@ -1,9 +1,11 @@
 node_modules
 obj
 bin
+out
 *.layout
 .vs
 ~$*
+
 
 # ignore all .svg files in the workflow directory and subfolders
 docs/workflows/**/*.svg
