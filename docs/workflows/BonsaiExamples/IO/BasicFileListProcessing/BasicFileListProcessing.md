@@ -1,9 +1,9 @@
-# Process file list
+# Basic file list processing
 
 ## Workflow
 
 :::workflow
-![Example](~/workflows//BonsaiExamples/IO/ProcessFileList/ProcessFileList.bonsai)
+![Example](~/workflows//BonsaiExamples/IO/BasicFileListProcessing/BasicFileListProcessing.bonsai)
 :::
 
 ## Summary
@@ -17,4 +17,5 @@ This example demostrates how to read data from a list of files, process each fil
 *Before running the code you need to download [file1.txt](https://github.com/fchampalimaud/cf.bonsai/blob/main/docs/workflows/BonsaiExamples/IO/ProcessFileList/file1.txt) and [file2.txt](https://github.com/fchampalimaud/cf.bonsai/blob/main/docs/workflows/BonsaiExamples/IO/ProcessFileList/file1.txt) to a directory, and modify the Path propery in the GetFiles node accordingly. 
 
 
-
+## Follow up
+A more elaborated example for processing a list of files can be found [here](/workflows/BonsaiExamples/IO/RefinedFileListProcessing/RefinedFileListProcessing.html)

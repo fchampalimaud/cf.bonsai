@@ -30,7 +30,7 @@
           href: ../workflows/HarpExamples/BehaviorBoard/QuadratureEncoder/QuadratureEncoder.md
         - name: Log Selected
           href: ../workflows/HarpExamples/BehaviorBoard/LogSelected/LogSelected.md
-- name: Bonsai Examples (15)
+- name: Bonsai Examples (16)
   items:
     - name: Vision (5)
       items:
@@ -56,12 +56,14 @@
       items:
         - name: Moving Circle
           href: ../workflows/BonsaiExamples/BonVision/MovingCircle/MovingCircle.md
-    - name: IO (2)
+    - name: IO (3)
       items:
-        - name: Process File List
-          href: ../workflows/BonsaiExamples/IO/ProcessFileList/ProcessFileList.md
         - name: Parse CSV File
           href: ../workflows/BonsaiExamples/IO/ParseCSVFile/ParseCSVFile.md
+        - name: Basic File List Processing
+          href: ../workflows/BonsaiExamples/IO/BasicFileListProcessing/BasicFileListProcessing.md
+        - name: Elaborate File List Processing
+          href: ../workflows/BonsaiExamples/IO/ElaborateFileListProcessing/ElaborateFileListProcessing.md
     - name: Numeric.Distributions (2)
       items:
         - name: Sample Model Distribution
@@ -80,6 +82,7 @@
   items:
     - name: Trial-Based Skeleton 
       href: ../workflows/NeuroExamples/TrialBasedSkeleton/TrialBasedSkeleton.md
+
 # - name: Packages
 #   items:
 #     - name: FC.Utils
