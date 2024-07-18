@@ -20,7 +20,7 @@ This example demonstrates how to toggle a servo motor between two positions usin
 5. Sets the maximum position of the servo motor when 'S' is pressed.*
 6. Ensures that command messages are sent only when the device is ready.   
 
-*The angular position of servo motors is typically defined by the pulse width time of a pwm signal. This value typically ranges from 1000us (minimum) and 2000us (maximum).
+*The angular position of servo motors is typically defined by the pulse width time of a PWM signal. This value typically ranges from 1000us (minimum) and 2000us (maximum).
 
 ## Requirements
 This example requires the folowing Bonsai packages:
@@ -28,7 +28,7 @@ This example requires the folowing Bonsai packages:
 
 
 ## Schematics
-The [Harp Behavior](https://harp-tech.org/api/Harp.Behavior.html) board can control two servo motors in ports DO2 and DO3. The maximum tension used is 5V. In this example, the board controls controls the position of a servo motor connected to DO2. 
+The [Harp Behavior](https://harp-tech.org/api/Harp.Behavior.html) board can control two servo motors in ports DO2 and DO3. The DOs output volage is 5V. In this example, the board controls controls the position of a servo motor connected to DO2. 
 
 ![Schematics](./ServoMotorToggle.png){ width=65% }
 

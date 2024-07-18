@@ -26,7 +26,7 @@ This example requires the folowing Bonsai packages:
 
 
 ## Schematics
-The [Harp Behavior](https://harp-tech.org/api/Harp.Behavior.html) board has four digital input channels: DIPort0, DIPort1, DIPort2, and DI3. The maximum tension used is 5V. In this example, the board receives a digital input signal from a switch connected to DI3.
+The [Harp Behavior](https://harp-tech.org/api/Harp.Behavior.html) board has four digital input channels: DIPort0, DIPort1, DIPort2, and DI3. The maximum tolerable voltage at these ports is 5V. In this example, the board receives a digital input signal from a switch connected to DI3.
 
 ![Schematics](./DigitalInput.png){ width=65% }
 

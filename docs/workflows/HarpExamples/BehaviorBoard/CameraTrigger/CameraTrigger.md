@@ -25,7 +25,7 @@ This example requires the folowing Bonsai packages:
 
 
 ## Schematics
-The [Harp Behavior](https://harp-tech.org/api/Harp.Behavior.html) board can trigger two cameras using specific PWM signals in ports DO0 and DO1. The maximum tension used is 5V. In this example, the board triggers frames from a PointGrey camera connected to DO0. 
+The [Harp Behavior](https://harp-tech.org/api/Harp.Behavior.html) board can trigger two cameras using specific PWM signals in ports DO0 and DO1. The DOs output voltage is 5V. In this example, the board triggers frames from a PointGrey camera connected to DO0. 
 
 ![Schematics](./CameraTrigger.png){ width=65% }
 
