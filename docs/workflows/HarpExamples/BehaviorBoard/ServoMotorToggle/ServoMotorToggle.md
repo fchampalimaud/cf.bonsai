@@ -28,7 +28,7 @@ This example requires the folowing Bonsai packages:
 
 
 ## Schematics
-The [Harp Behavior](https://harp-tech.org/api/Harp.Behavior.html) board can control two servo motors in ports DO2 and DO3. The DOs output volage is 5V. In this example, the board controls controls the position of a servo motor connected to DO2. 
+The [Harp Behavior](https://harp-tech.org/api/Harp.Behavior.html) board can control two servo motors in ports DO2 and DO3. The DOs output voltage is 5V. In this example, the board controls controls the position of a servo motor connected to DO2. 
 
 ![Schematics](./ServoMotorToggle.png){ width=65% }
 
