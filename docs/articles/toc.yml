@@ -6,14 +6,16 @@
       href: install_bonsai.md
     - name: Install Harp
       href: install_harp.md
-- name: Bonsai/Harp Examples (13)
+- name: Bonsai/Harp Examples (14)
   items:
-    - name: Behavior Board (10)
+    - name: Behavior Board (11)
       items:
         - name: Analog Input
           href: ../workflows/HarpExamples/BehaviorBoard/AnalogInput/AnalogInput.md
         - name: Digital Input
           href: ../workflows/HarpExamples/BehaviorBoard/DigitalInput/DigitalInput.md
+        - name: DIO Input
+          href: ../workflows/HarpExamples/BehaviorBoard/DIOInput/DIOInput.md
         - name: Digital Output
           href: ../workflows/HarpExamples/BehaviorBoard/DigitalOutput/DigitalOutput.md
         - name: Digital Output Pulse
@@ -38,7 +40,7 @@
           href: ../workflows/HarpExamples/SyringePump/ToggleMultipleSteps/ToggleMultipleSteps.md
         - name: Toggle Micro Steps
           href: ../workflows/HarpExamples/SyringePump/ToggleMicroSteps/ToggleMicroSteps.md
-- name: Bonsai Examples (16)
+- name: Bonsai Examples (17)
   items:
     - name: Vision (5)
       items:
@@ -86,6 +88,10 @@
           href: ../workflows\BonsaiExamples/DataTypes/CreateFloatArray/CreateFloatArray.md
         - name: Array Manipulation
           href: ../workflows\BonsaiExamples/DataTypes/ArrayManipulation/ArrayManipulation.md
+    - name: DAQmx (1)
+      items:
+        - name: AI/AO Synchronization (1)
+          href: ../workflows/BonsaiExamples/DAQmx/AIAOSynchronization/AIAOSynchronization.md
 - name: Neuroscience Tasks (1)
   items:
     - name: Trial-Based Skeleton 
