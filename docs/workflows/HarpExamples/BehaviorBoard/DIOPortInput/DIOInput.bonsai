@@ -26,14 +26,16 @@
         <Text><![CDATA[]]></Text>
       </Expression>
       <Expression xsi:type="beh:Parse">
-        <harp:Register xsi:type="beh:AnalogData" />
+        <harp:Register xsi:type="beh:PortDIOStateEvent" />
       </Expression>
       <Expression xsi:type="Annotation">
         <Name>3</Name>
         <Text><![CDATA[]]></Text>
       </Expression>
-      <Expression xsi:type="MemberSelector">
-        <Selector>AnalogInput0</Selector>
+      <Expression xsi:type="BitwiseAnd">
+        <Operand xsi:type="WorkflowProperty" TypeArguments="beh:PortDigitalIOS">
+          <Value>DIO0</Value>
+        </Operand>
       </Expression>
     </Nodes>
     <Edges>
