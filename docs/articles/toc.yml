@@ -6,7 +6,7 @@
       href: install_bonsai.md
     - name: Install Harp
       href: install_harp.md
-- name: Bonsai/Harp Examples (14)
+- name: Bonsai/Harp Examples (12)
   items:
     - name: Behavior Board (11)
       items:
@@ -32,14 +32,10 @@
           href: ../workflows/HarpExamples/BehaviorBoard/QuadratureEncoder/QuadratureEncoder.md
         - name: Log Selected
           href: ../workflows/HarpExamples/BehaviorBoard/LogSelected/LogSelected.md
-    - name: Syringe Pump (3)
+    - name: Syringe Pump (1)
       items:
-        - name: Toggle Single Steps
-          href: ../workflows/HarpExamples/SyringePump/ToggleSingleSteps/ToggleSingleSteps.md
         - name: Toggle Multiple Steps
           href: ../workflows/HarpExamples/SyringePump/ToggleMultipleSteps/ToggleMultipleSteps.md
-        - name: Toggle Micro Steps
-          href: ../workflows/HarpExamples/SyringePump/ToggleMicroSteps/ToggleMicroSteps.md
 - name: Bonsai Examples (17)
   items:
     - name: Vision (5)
