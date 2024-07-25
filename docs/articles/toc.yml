@@ -36,7 +36,7 @@
       items:
         - name: Toggle Multiple Steps
           href: ../workflows/HarpExamples/SyringePump/ToggleMultipleSteps/ToggleMultipleSteps.md
-- name: Bonsai Examples (17)
+- name: Bonsai Examples (18)
   items:
     - name: Vision (5)
       items:
@@ -84,9 +84,11 @@
           href: ../workflows\BonsaiExamples/DataTypes/CreateFloatArray/CreateFloatArray.md
         - name: Array Manipulation
           href: ../workflows\BonsaiExamples/DataTypes/ArrayManipulation/ArrayManipulation.md
-    - name: DAQmx (1)
+    - name: DAQmx (2)
       items:
-        - name: AI/AO Synchronization (1)
+        - name: Digital Inputs Non-Buffered
+          href: ../workflows/BonsaiExamples/DAQmx/DigitalInputsNonBuffered/DigitalInputsNonBuffered.md
+        - name: AI/AO Synchronization 
           href: ../workflows/BonsaiExamples/DAQmx/AIAOSynchronization/AIAOSynchronization.md
 - name: Neuroscience Tasks (1)
   items:
