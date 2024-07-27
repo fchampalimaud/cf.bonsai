@@ -1,13 +1,12 @@
 # Columnwise Operations
 
-## Workflow
+## Summary
+This example demonstrates how to project information of a matrix (in this case an image) into a single row vector using the max function. 
 
+## Workflow
 :::workflow
 ![Example](~/workflows/BonsaiExamples/Vision/ColumnwiseOperations/ColumnwiseOperations.bonsai)
 :::
-
-## Summary
-This example demonstrates how to project information of a matrix (in this case an image) into a single row vector using the max function. 
 
 ## Details
 1. Convert the image to gray scale.

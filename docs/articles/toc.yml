@@ -6,7 +6,7 @@
       href: install_bonsai.md
     - name: Install Harp
       href: install_harp.md
-- name: Bonsai/Harp Examples (12)
+- name: Bonsai/Harp Examples (14)
   items:
     - name: Behavior Board (11)
       items:
@@ -32,13 +32,17 @@
           href: ../workflows/HarpExamples/BehaviorBoard/QuadratureEncoder/QuadratureEncoder.md
         - name: Log Selected
           href: ../workflows/HarpExamples/BehaviorBoard/LogSelected/LogSelected.md
-    - name: Syringe Pump (1)
+    - name: Syringe Pump (3)
       items:
+        - name: Toggle Single Steps
+          href: ../workflows/HarpExamples/SyringePump/ToggleSingleSteps/ToggleSingleSteps.md
+        - name: Toggle Multiple Steps
+          href: ../workflows/HarpExamples/SyringePump/ToggleMicroSteps/ToggleMicroSteps.md
         - name: Toggle Multiple Steps
           href: ../workflows/HarpExamples/SyringePump/ToggleMultipleSteps/ToggleMultipleSteps.md
-- name: Bonsai Examples (19)
+- name: Bonsai Examples (21)
   items:
-    - name: Vision (6)
+    - name: Vision (8)
       items:
         - name: Region Tracking RGB
           href: ../workflows/BonsaiExamples/Vision/RegionTrackingRGB/RegionTrackingRGB.md
@@ -50,6 +54,10 @@
           href: ../workflows/BonsaiExamples/Vision/VideoAnnotation/VideoAnnotation.md
         - name: MP4 Writer
           href: ../workflows/BonsaiExamples/Vision/MP4Writer/MP4Writer.md
+        - name: Dynamic Cropping
+          href: ../workflows/BonsaiExamples/Vision/DynamicCropping/DynamicCropping.md          
+        - name: Create Image With Circles
+          href: ../workflows/BonsaiExamples/Vision/CreateImageWithCircles/CreateImageWithCircles.md          
         - name: Compose Image Line-by-Line
           href: ../workflows/BonsaiExamples/Vision/ComposeImageLineByLine/ComposeImageLineByLine.md          
     - name: Audio (1)

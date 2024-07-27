@@ -1,12 +1,13 @@
-# MP4 Writer
 
-:::workflow
-![Example](~/workflows/BonsaiExamples/Vision/MP4Writer/MP4Writer.bonsai)
-:::
+# MP4 Writer
 
 ## Summary
 This example shows how to save a MP4 video using [FFMPEG](https://website-name.com)
 
+## Workflow
+:::workflow
+![Example](~/workflows/BonsaiExamples/Vision/MP4Writer/MP4Writer.bonsai)
+:::
 
 ## Details
 0. Before running workflow download and unzip [ffmpeg](https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/ffmpeg-master-latest-win64-gpl-shared.zip) to a folder in your computer. 

@@ -1,11 +1,12 @@
 # Video Annotation
 
+## Summary
+This example demonstrates how to add a circular marker to a camera image and save the resuting annotated video. 
+
+## Workflow
 :::workflow
 ![Example](~/workflows/BonsaiExamples/Vision/VideoAnnotation/VideoAnnotation.bonsai)
 :::
-
-## Summary
-This example demonstrates how to add a circular marker to a camera image and save the resuting annotated video. 
 
 ## Details
 1. Create distribution to sample values for the X position of the circle.

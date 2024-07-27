@@ -1,13 +1,13 @@
 # Region Tracking RGB
 
-## Workflow
+## Summary
+This example demonstrates how setup a simple tracker based on thresholding the RGB channels.
 
+## Workflow
 :::workflow
 ![Example](~/workflows/BonsaiExamples/Vision/RegionTrackingRGB/RegionTrackingRGB.bonsai)
 :::
 
-## Summary
-This example demonstrates how setup a simple tracker based on thresholding the RGB channels.
 
 ## Details
 1. Threshold each of the input channels between a lower and an upper bound. Modify those bounds such that your particular object can be separated from the background. 
