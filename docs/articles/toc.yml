@@ -86,7 +86,7 @@
           href: ../workflows\BonsaiExamples/DataTypes/ArrayManipulation/ArrayManipulation.md
     - name: DAQmx (2)
       items:
-        - name: Digital Inputs Non-Buffered
+        - name: Digital Inputs (Non-Buffered)
           href: ../workflows/BonsaiExamples/DAQmx/DigitalInputsNonBuffered/DigitalInputsNonBuffered.md
         - name: AI/AO Synchronization 
           href: ../workflows/BonsaiExamples/DAQmx/AIAOSynchronization/AIAOSynchronization.md
