@@ -10,14 +10,18 @@ This example demonstrates how to set dynamically the values of a compound proper
 :::
 
 ## Details
-1. Initializes the behavior subjects necessary to run the example. It receives the *Width* and *Height* of the image as properties and it creates two subjects: *Black Line*, which consists of an image of a single black line, and *Temporary Image* which is initialized with the black line. In addition, it creates a random generator from which the pixel values will be sampled from.
-2. Creates an image with random values whenever 'S' is pressed.
-    1. Initializes the *Temporary Image* subject to a single black line.
-    2. Emits a value for every line that will need to be generated
-    3. Generates a new line with random values for each value emited in 2.2.
-    4. Appends the current line to the *Temporary Image*.
-    5. Checks if all lines have been generated.
-    6. When all lines have been generated, it crops the image to remove the black line.
-    7. Creates a subject with the finished image.
 
-
+1. Creates an image black image with three white circles whenever 'S' is pressed.
+    1. Creates a black canvas.
+    2. Adds three white circles.
+    3. Creates an image with the filled image.
+    4. Creates a *BehaviorSubject*, *MyImage*, with the three-circle image.
+2.  Crops every image created according to a given region of interest. The coordinates of the cropping region can be set dynamically by changing the *Int* nodes from 2.1 to 2.4. 
+    1. Defines the X coordinate of the cropping region.
+    2. Defines the Y coordinate of the cropping region.
+    3. Defines the width of the cropping region.
+    4. Defines the height of the cropping region.
+    5. Defines the most up-to-date set of coordinate values of the cropping region.
+    6. Pairs every image with the current cropping region.
+    7. Propagates the current image and sets the RegionOfInterest property of the *Crop* node.
+    8. Crops the current image according to the coordinates defined.

@@ -6,7 +6,7 @@
       href: install_bonsai.md
     - name: Install Harp
       href: install_harp.md
-- name: Bonsai/Harp Examples (14)
+- name: Bonsai/Harp Examples (12)
   items:
     - name: Behavior Board (11)
       items:
@@ -32,15 +32,27 @@
           href: ../workflows/HarpExamples/BehaviorBoard/QuadratureEncoder/QuadratureEncoder.md
         - name: Log Selected
           href: ../workflows/HarpExamples/BehaviorBoard/LogSelected/LogSelected.md
-    - name: Syringe Pump (3)
+    - name: Syringe Pump (1)
       items:
-        - name: Toggle Single Steps
-          href: ../workflows/HarpExamples/SyringePump/ToggleSingleSteps/ToggleSingleSteps.md
-        - name: Toggle Multiple Steps
-          href: ../workflows/HarpExamples/SyringePump/ToggleMicroSteps/ToggleMicroSteps.md
+#        - name: Toggle Single Steps
+#          href: ../workflows/HarpExamples/SyringePump/ToggleSingleSteps/ToggleSingleSteps.md
+#        - name: Toggle Multiple Steps
+#          href: ../workflows/HarpExamples/SyringePump/ToggleMicroSteps/ToggleMicroSteps.md
         - name: Toggle Multiple Steps
           href: ../workflows/HarpExamples/SyringePump/ToggleMultipleSteps/ToggleMultipleSteps.md
-- name: Bonsai Examples (21)
+- name: Reactive Examples (5)
+  items:
+    - name: Take
+      href: ../workflows/ReactiveExamples/Take/Take.md
+    - name: Take Until
+      href: ../workflows/ReactiveExamples/TakeUntil/TakeUntil.md
+    - name: Skip
+      href: ../workflows/ReactiveExamples/Skip/Skip.md
+    - name: Skip Until
+      href: ../workflows/ReactiveExamples/SkipUntil/SkipUntil.md
+    - name: With Latest From
+      href: ../workflows/ReactiveExamples/WithLatestFrom/WithLatestFrom.md
+- name: Bonsai Examples (19)
   items:
     - name: Vision (8)
       items:
@@ -94,12 +106,12 @@
           href: ../workflows\BonsaiExamples/DataTypes/CreateFloatArray/CreateFloatArray.md
         - name: Array Manipulation
           href: ../workflows\BonsaiExamples/DataTypes/ArrayManipulation/ArrayManipulation.md
-    - name: DAQmx (2)
-      items:
-        - name: Digital Inputs (Non-Buffered)
-          href: ../workflows/BonsaiExamples/DAQmx/DigitalInputsNonBuffered/DigitalInputsNonBuffered.md
-        - name: AI/AO Synchronization 
-          href: ../workflows/BonsaiExamples/DAQmx/AIAOSynchronization/AIAOSynchronization.md
+#    - name: DAQmx (2)
+#      items:
+#        - name: Digital Inputs (Non-Buffered)
+#          href: ../workflows/BonsaiExamples/DAQmx/DigitalInputsNonBuffered/DigitalInputsNonBuffered.md
+#        - name: AI/AO Synchronization 
+#          href: ../workflows/BonsaiExamples/DAQmx/AIAOSynchronization/AIAOSynchronization.md
 - name: Neuroscience Tasks (1)
   items:
     - name: Trial-Based Skeleton 
