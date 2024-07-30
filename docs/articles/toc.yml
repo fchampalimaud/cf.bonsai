@@ -40,7 +40,7 @@
 #          href: ../workflows/HarpExamples/SyringePump/ToggleMicroSteps/ToggleMicroSteps.md
         - name: Toggle Multiple Steps
           href: ../workflows/HarpExamples/SyringePump/ToggleMultipleSteps/ToggleMultipleSteps.md
-- name: Reactive Examples (5)
+- name: Reactive Examples (8)
   items:
     - name: Take
       href: ../workflows/ReactiveExamples/Take/Take.md
@@ -50,8 +50,15 @@
       href: ../workflows/ReactiveExamples/Skip/Skip.md
     - name: Skip Until
       href: ../workflows/ReactiveExamples/SkipUntil/SkipUntil.md
+    - name: Delay
+      href: ../workflows/ReactiveExamples/Delay/Delay.md
     - name: With Latest From
       href: ../workflows/ReactiveExamples/WithLatestFrom/WithLatestFrom.md
+    - name: Merge
+      href: ../workflows/ReactiveExamples/Merge/Merge.md
+    - name: Zip
+      href: ../workflows/ReactiveExamples/Zip/Zip.md
+
 - name: Bonsai Examples (19)
   items:
     - name: Vision (8)
