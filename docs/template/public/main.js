@@ -8,9 +8,9 @@ export default {
 
 const observer = new MutationObserver(() => {
     if (document.documentElement.getAttribute("data-bs-theme") == "dark") {
-      document.getElementById("logo").src = "/images/logo_white.svg"
+      document.getElementById("logo").src = "/docs/images/logo_white.svg"
     } else {
-      document.getElementById("logo").src = "/images/logo.svg"
+      document.getElementById("logo").src = "/docs/images/logo.svg"
     }
   });
   
