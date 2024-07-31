@@ -1,0 +1,302 @@
+{
+  "articles/about_packages.html": {
+    "href": "articles/about_packages.html",
+    "title": "About Packages | CF.Bonsai",
+    "keywords": "About Packages Under construction..."
+  },
+  "articles/harp_old_text.html": {
+    "href": "articles/harp_old_text.html",
+    "title": "| CF.Bonsai",
+    "keywords": "Harp is a standard for asynchronous real-time data acquisition and experimental control in neuroscience. It includes specifications for a lightweight and versatile binary communication protocol, a set of common registers for microcontroller firmware, and a clock synchronization protocol. The Harp ecosystem currently includes devices to configure, control, and collect data from a wide range of peripheral devices such as cameras, LEDs, nosepokes, and motors. Combining Harp devices is an easy way to extend experimental setup functionality with integrated timestamp synchronisation across devices. Harp is being developed as a cross-institutional collaboration to develop an ecosystem of high-performance devices that make it easy for scientists to synchronize and extend the functionality of their setups."
+  },
+  "articles/install_bonsai.html": {
+    "href": "articles/install_bonsai.html",
+    "title": "| CF.Bonsai",
+    "keywords": "Bonsai Installation Before you can use the examples on this web site you need to install the following: Download and install the latest version of the Bonsai installer. Install the Starter package: Open your Bonsai application Go to Manage Packages In Package Sources select 'Bonsai' Search for the Starter package using the browser Install the package Install any other packages required by the specific examples you want to run. Documentation Further information can be found here: Documentation. Bonsai discussion forum Bonsai Language Guide"
+  },
+  "articles/install_harp.html": {
+    "href": "articles/install_harp.html",
+    "title": "| CF.Bonsai",
+    "keywords": "Harp Installation Before you can use Harp devices in Bonsai you need to install the following: Install Harp USB drivers from here Install the generic Harp packages for Bonsai: Open your Bonsai application Go to Manage Packages In Package Sources select Bonsai Packages Search for Harp Install Harp Library and Harp Design Library Install the specific Harp device packages for Bonsai: In Package Sources select nuget.org Search for your desired device (eg 'Harp Behavior') Install the package Documentation Further information can be found here: Harp-Tech. Harp Protocol CF Harp Devices Using the Bonsai.Harp packages Python data interface Q&A, community, forum"
+  },
+  "articles/welcome.html": {
+    "href": "articles/welcome.html",
+    "title": "| CF.Bonsai",
+    "keywords": "Welcome Wecome to CF.Bonsai, a website from the Champalimaud Foundation that contains annotated examples of recurring neuroscience tasks programmed in Bonsai. Many of these examples make use of the Harp hardware protocol to interface with a variety of peripheral devices. Getting started Start by installing the necessary Bonsai and Harp software from the Getting Started menu on the left panel. Then, find your example of choice, and follow the instructions to run it. Every example can be copied directly to Bonsai, and includes a set of annotations that explain the most significant parts of the code. If the example involves hardware (as those of Harp) additional electrical diagrams are provided with the necessary connections between the components. Contributions You can place suggestions for new examples, or report any issues concerning the existing examples here. If you want to contribute with your own examples please follow the guidelines described in the cf.bonsai repository. For issues concerning Bonsai, please use the official channels. Bonsai Bonsai is an open-source visual language for reactive programming. It is lightweight and easy to use with a variety of packages and modules for interfacing with hardware and for real-time processing and manipulation of data streams. More information about Harp can be found at bonsai-rx.org. Harp Harp is an open-source standard for asynchronous real-time data acquisition and experimental control in neuroscience. The Harp ecosystem currently includes devices to configure, control, and collect data from a wide range of peripheral devices such as cameras, LEDs, nosepokes, and motors. More information about Harp can be found at harp-tech.org."
+  },
+  "docfx-tools/README.html": {
+    "href": "docfx-tools/README.html",
+    "title": "docfx-tools | CF.Bonsai",
+    "keywords": "docfx-tools A docfx template for package documentation, patching the modern template to provide stylesheets and scripts for rendering custom workflow containers with copy functionality. How to use To include this template in a docfx website, first clone this repository as a submodule: git submodule add https://github.com/bonsai-rx/docfx-tools bonsai Then modify docfx.json to include the template immediately after the modern template: \"template\": [ \"default\", \"modern\", \"bonsai/template\", \"template\" ], Finally, import and call the modules inside your website template/public folder. main.css @import \"workflow.css\"; main.js import WorkflowContainer from \"./workflow.js\" export default { start: () => { WorkflowContainer.init(); } } Powershell Scripts This repository also provides helper scripts to automate several content generation steps for package documentation websites. Exporting workflow images Exporting SVG images for all example workflows can be automated by placing all .bonsai files in a workflows folder and calling the below script pointing to the bin directory to include. A bonsai environment is assumed to be available in the .bonsai folder in the repository root. .\\modules\\Export-Image.ps1 \"..\\src\\PackageName\\bin\\Release\\net472\""
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "",
+    "keywords": ""
+  },
+  "workflows/BonsaiExamples/Audio/PlayTone/PlayTone.html": {
+    "href": "workflows/BonsaiExamples/Audio/PlayTone/PlayTone.html",
+    "title": "Play Tone | CF.Bonsai",
+    "keywords": "Play Tone Summary This example demonstrates how to play a tone with fixed frequency and duration whenever a key is pressed. Workflow Details Plays a tone whenever 'A' is pressed. Generates a sinusoidal wave form with 44100 samples with amplitude of 10000 and frequency of 1000Hz. Given that the sampling rate is set to 44100Hz, the wave generated will allow the tone to last for 1s. Plays the tone. Follow up The example shows how to modify the frequency and durations to obtain different tones on-the-fly."
+  },
+  "workflows/BonsaiExamples/Audio/SoundCalibration/SoundCalibration.html": {
+    "href": "workflows/BonsaiExamples/Audio/SoundCalibration/SoundCalibration.html",
+    "title": "Play Tone | CF.Bonsai",
+    "keywords": "Play Tone Summary This example demonstrates how to play a tone with fixed frequency and duration whenever a key is pressed. Workflow Details Plays a tone whenever 'A' is pressed. Generates a sinusoidal wave form with 44100 samples with amplitude of 10000 and frequency of 1000Hz. Given that the sampling rate is set to 44100Hz, the wave generated will allow the tone to last for 1s. Plays the tone. Follow up The example shows how to modify the frequency and durations to obtain different tones on-the-fly."
+  },
+  "workflows/BonsaiExamples/BonVision/MovingCircle/MovingCircle.html": {
+    "href": "workflows/BonsaiExamples/BonVision/MovingCircle/MovingCircle.html",
+    "title": "Moving Circle | CF.Bonsai",
+    "keywords": "Moving Circle Workflow Summary This example demonstrates how to draw a circle in Shaders and update its position according to mouse movements. Details Creates and initializes a simple shaders window with the standard resources necessary to draw the circle. Creates an orthographic view with the normalized window coordinates, and sets up a behavior subject 'DrawScene' to be used whenever an update is to occur. Draws a circle in the current scene. Modifies the position of the circle according to the position of mouse. The position of the mouse in the screen is normalized to the shader window coordinates to facilitate the interaction. Move the mouse over the Shaders window to observe the result. Follow-up"
+  },
+  "workflows/BonsaiExamples/BonVision/MovingGratings/MovingGratings.html": {
+    "href": "workflows/BonsaiExamples/BonVision/MovingGratings/MovingGratings.html",
+    "title": "Moving Gratings | CF.Bonsai",
+    "keywords": "Moving Gratings Workflow Summary Construction Details Construction Follow-up"
+  },
+  "workflows/BonsaiExamples/DAQmx/AIAOSynchronization/AIAOSynchronization.html": {
+    "href": "workflows/BonsaiExamples/DAQmx/AIAOSynchronization/AIAOSynchronization.html",
+    "title": "AI/AO Synchronization | CF.Bonsai",
+    "keywords": "AI/AO Synchronization Summary This example demonstrates how to send analog outputs and receive analog inputs from a National Instruments board in a synchronized way. Workflow Details Reads analog inputs from a NIDAQ board. The ports to be read are defined in the Channels property. In this example we are using analog input 0 (ai0). The node is set to collect analog inputs at 100000Hz divided in buffers of 10000 samples. The SignalSource property, which defines the clock signal, is set to be the same as that used for the analog output ports (see 2.3). Generates a sawtooth function of with amplitude of 0.7 and frequency of 1Hz (in a buffer with size 10000), converts it into a step function and sends it to the analog output 0 (ao0). Creates the step function by rounding the input float values (which are in the range [0,0.7]) to integer values of 0 or 1. Converts the signal back to floats and amplifies them by a factor of 3. This the final voltage values set in the analog output (2.3) Sends a buffer with a step signal to the analog output port 0 (ao0) every 100ms, generating a total of 10 steps cycles per second. Testing The synchronization of the two signals can easily be tested by connecting the analog output to a LED and the analog input to a light-sensitive photodiode. If the result is correct, the two waves should be phase-locked to each other as shown below.* *Note though that you could potentially observe a constant phase-shift between them; this is because at the moment the DAQmx package does not allow yet for using the same trigger to initiate the analog input and output ports."
+  },
+  "workflows/BonsaiExamples/DAQmx/DigitalInputsNonBuffered/DigitalInputsNonBuffered.html": {
+    "href": "workflows/BonsaiExamples/DAQmx/DigitalInputsNonBuffered/DigitalInputsNonBuffered.html",
+    "title": "Digital Inputs (Non-Buffered) | CF.Bonsai",
+    "keywords": "Digital Inputs (Non-Buffered) Summary This example demonstrates how to read two digital inputs from a National Instruments board in a non-buffered way (ie. sample-by-sample). Workflow Details Sets the period at which samples will be read from the NI board (50ms in this example). Reads two digial inputs from a NIdaq board. The ports to be read are defined in the Channels property. In this example we are using digital ports [your-dev]/port0/line0 and [your-dev]/port0/line1. Parses the Mat data from the DigitalInput node to obtain only values pertaining line0 (above) and line1 (below). Converts the Scalar data in 3 into double. The Scalar.Val0 is a byte where all bits are zero except the bit that has the same index as the line number; that bit contains the actual value of the digital port. Converts the double value in 4 to boolean. Note: This example used a NI USB-6008 board."
+  },
+  "workflows/BonsaiExamples/DataTypes/ArrayManipulation/ArrayManipulation.html": {
+    "href": "workflows/BonsaiExamples/DataTypes/ArrayManipulation/ArrayManipulation.html",
+    "title": "Array Manipulation | CF.Bonsai",
+    "keywords": "Array Manipulation Summary This example demonstrates how to create an array, add elements to it and remove elements from it. Workflow Details Create an int array with one element Receives a single int value and terminates the sequence. Closing the sequence is essential to create the array (see 1.2). Creates an array with the single int value received. Initializes the subject MyArray with the int array created. Adds a new int value to the array whenever 'A' is pressed. Gets the current number of 'A' key presses. Creates a new int array with the elements in MyArray added by the current number of key presses. Updates My array with the new array created. Removes the last element from MyArray whenever 'S' is pressed. Creates a new array without the last element. Updates MyArray with the new int array createdy. Outputs the current values of the array at 200ms intervals. Enables the visualization of the current content of MyArray. Enable TimeSeriesVisualizer in this node to see the result of inteacting with the array. Notes The key elements of this workflow are the Concat and ToArray nodes from the Reactive package. Concat produces a flat sequence of values with the individual elements of an array, while ToArray composes an array out of a flat sequence of values (insofar as that sequence terminates). Mastering these two nodes is key to understanding this example."
+  },
+  "workflows/BonsaiExamples/DataTypes/BasicTypeConversions/BasicTypeConversions.html": {
+    "href": "workflows/BonsaiExamples/DataTypes/BasicTypeConversions/BasicTypeConversions.html",
+    "title": "Basic Type Conversions | CF.Bonsai",
+    "keywords": "Basic Type Conversions Workflow Summary This example demostrates how to convert across the different numeric data types using direct CSharp expressions in the ExpressionTransform node. Details Generates an int value Converts the int into a float value using the method Convert.ToSingle() method Converts the float into a double value using the method Convert.ToDouble() method Converts the double into a string using the method Convert.ToString() method Converts the string back to an int value using the method Convert.ToIt32() method Converts the int into a time value (in ms) using the method TimeSpan.FromMilliseconds() method The it argument passed to each method inside the ExpressionTransform nodes represents the actual input value of the node. Verify the output type of each node (by right clicking on the node) and use the TextVisualizeR to best inspect the output of each node."
+  },
+  "workflows/BonsaiExamples/DataTypes/CreateFloatArray/CreateFloatArray.html": {
+    "href": "workflows/BonsaiExamples/DataTypes/CreateFloatArray/CreateFloatArray.html",
+    "title": "Create Float Array | CF.Bonsai",
+    "keywords": "Create Float Array Workflow Summary Const Details Const Follow-up"
+  },
+  "workflows/BonsaiExamples/IO/BasicFileListProcessing/BasicFileListProcessing.html": {
+    "href": "workflows/BonsaiExamples/IO/BasicFileListProcessing/BasicFileListProcessing.html",
+    "title": "Basic file list processing | CF.Bonsai",
+    "keywords": "Basic file list processing Workflow Summary This example demostrates how to read data from a list of files, process each file individually and create new files with the output. Details Gets a list of filenames from a given directory as string array.* Generates one event per each element in the string array. Processes each file individually. In this example, we read the number stored in each file, multiply it by two, and create a new file with the result with the string '_new' added to it. *Before running the code you need to download file1.txt and file2.txt to a directory, and modify the Path propery in the GetFiles node accordingly. Follow up A more elaborated example for processing a list of files can be found here"
+  },
+  "workflows/BonsaiExamples/IO/ElaborateFileListProcessing/ElaborateFileListProcessing.html": {
+    "href": "workflows/BonsaiExamples/IO/ElaborateFileListProcessing/ElaborateFileListProcessing.html",
+    "title": "Elaborate file list processing | CF.Bonsai",
+    "keywords": "Elaborate file list processing Summary This example demonstrates how to serially process a list of files in a given directory (and including subdirectories), and generate output files accordingly. Workflow Details Obtains a list of files from an input directory and initializes the necessary subjects to run the workflow. The input directory, the file search pattern, and the output directory can be set as properties of the group node. Processes each file sequentially. Selects the current file to be processed from the list of files. Prepares the output path and file stem that is used to create generate the subsequent output files. Processes the current file. Here, two output files are created for each input; one with the sum and the other with the multiplication of all the elements in the input file. Prepares the processing of the next file by updating the file index that will be used in the next iteration. Creates a delay in the processing of each file to allow the user to visualize the different processing stages (see 3 and 4). This node is used for visualization purposes only and it can safely be removed. Terminates the current iteration Subscribes the Current File subject to visualize the current file being processed. Subscribes the Status subject for visualization. The Status gets updated at every stage of the processing cycle. *Before running the code you need to download this folder, and modify the Input path property in the Init File Processing node in 1."
+  },
+  "workflows/BonsaiExamples/IO/ParseCSVFile/ParseCSVFile.html": {
+    "href": "workflows/BonsaiExamples/IO/ParseCSVFile/ParseCSVFile.html",
+    "title": "Parse CSV File | CF.Bonsai",
+    "keywords": "Parse CSV File Workflow Summary BLA Details BLA Notes BLA"
+  },
+  "workflows/BonsaiExamples/Numeric.Distributions/SampleDiscreteUniformDistribution/SampleDiscreteUniformDistribution.html": {
+    "href": "workflows/BonsaiExamples/Numeric.Distributions/SampleDiscreteUniformDistribution/SampleDiscreteUniformDistribution.html",
+    "title": "Sample Discrete Uniform Distribution | CF.Bonsai",
+    "keywords": "Sample Discrete Uniform Distribution Workflow Summary This example demostrates how to randomly sample from a discrete uniform distribution. Details Creates BehaviorSubject (MyDistribution) with a discrete uniform distribution with values ranging from 0 to 10. Samples randomly from MyDistribution when 'A' is pressed. Visualize the output of Sample node using the TimeSeriesVisualized and while maintaining 'A' pressed. If you want to repeat the same randomly sampled values everytime Bonsai is started set the Seed property to a value in the CreateRandom node. Important Note: If you want to sample more than once from a given distribution do not connect the Sample directly to the output of the CreateDiscreteUniform node. This will recreate the distribution everytime you take sample, which will result in undesired results."
+  },
+  "workflows/BonsaiExamples/Numeric.Distributions/SampleNormalDistribution/SampleNormalDistribution.html": {
+    "href": "workflows/BonsaiExamples/Numeric.Distributions/SampleNormalDistribution/SampleNormalDistribution.html",
+    "title": "Sample Nomrmal Distribution | CF.Bonsai",
+    "keywords": "Sample Nomrmal Distribution Workflow Summary This example demostrates how to randomly sample from a continuous normal distribution. Details Creates BehaviorSubject (MyDistribution) with a normal distribution with mean of 0 and standard deviation of 1. Samples randomly from MyDistribution when 'A' is pressed. Visualize the output of Sample node using the TimeSeriesVisualized and while maintaining 'A' pressed. If you want to repeat the same randomly sampled values everytime Bonsai is started set the Seed property to a value in the CreateRandom node. Important Note: If you want to sample more than once from a given distribution do not connect the Sample directly to the output of the CreateNormal node. This will recreate the distribution everytime you take sample, which will result in undesired results."
+  },
+  "workflows/BonsaiExamples/Osc/UDPSendAndReceive/UDPSendAndReceive.html": {
+    "href": "workflows/BonsaiExamples/Osc/UDPSendAndReceive/UDPSendAndReceive.html",
+    "title": "Udp Server and Client | CF.Bonsai",
+    "keywords": "Udp Server and Client Workflow Summary This example demostrates how to setup an Osc server and an Osc client, and how messages can be sent from one to the other. Details Creates a udp communication channel. In this example, this channel will be listening in port 2323, the messages sent by localhost port 0. Creates a second udp communication channel. In this example, this channel will use port 0, to send messages to localhost port 2323. Generates and sends an Osc message with the x and y position of the mouse whevever the mouse moves. Emits events whenever a message is received with the x and y coordinates of the mouse. Follow-up In this example the communcation is done via the localhost (i.e. it uses the same machine both for sending and receiving messages). However, the code can be run in different machines (as far as the machines are in the same LAN network), where the mouse movements executed in one can be sent to the other. To do, this you only need to change the localhost in UdpReceive and UdpSend by the IP addresses of both each machine."
+  },
+  "workflows/BonsaiExamples/Video Processing/MP4Converter.html": {
+    "href": "workflows/BonsaiExamples/Video Processing/MP4Converter.html",
+    "title": "MP4 Converter | CF.Bonsai",
+    "keywords": "MP4 Converter Under construction..."
+  },
+  "workflows/BonsaiExamples/Vision/CameraCalibration/CameraCalibration.html": {
+    "href": "workflows/BonsaiExamples/Vision/CameraCalibration/CameraCalibration.html",
+    "title": "Camera Calibration | CF.Bonsai",
+    "keywords": "Camera Calibration Workflow Testing text"
+  },
+  "workflows/BonsaiExamples/Vision/ColumnwiseOperations/ColumnwiseOperations.html": {
+    "href": "workflows/BonsaiExamples/Vision/ColumnwiseOperations/ColumnwiseOperations.html",
+    "title": "Columnwise Operations | CF.Bonsai",
+    "keywords": "Columnwise Operations Summary This example demonstrates how to project information of a matrix (in this case an image) into a single row vector using the max function. Workflow Details Convert the image to gray scale. Project the max values of each column to a single row vector. Follow-up In addition the Max function one can use the Min, Sum, or Mean values. Row-wise operations can also be used by setting the Axis property in the Reduce node to 1."
+  },
+  "workflows/BonsaiExamples/Vision/ComposeImageLineByLine/ComposeImageLineByLine.html": {
+    "href": "workflows/BonsaiExamples/Vision/ComposeImageLineByLine/ComposeImageLineByLine.html",
+    "title": "Compose Image Line-by-Line | CF.Bonsai",
+    "keywords": "Compose Image Line-by-Line Workflow Summary This example demonstrates how to compose full images by appending single lines. This could be useful, for instance, in the implementation of scanning microscopes. Details Initializes the behavior subjects necessary to run the example. It receives the Width and Height of the image as properties and it creates two subjects: Black Line, which consists of an image of a single black line, and Temporary Image which is initialized with the black line. In addition, it creates a random generator from which the pixel values will be sampled from. Creates an image with random values whenever 'S' is pressed. Initializes the Temporary Image subject to a single black line. Emits a value for every line that will need to be generated Generates a new line with random values for each value emited in 2.2. Appends the current line to the Temporary Image. Checks if all lines have been generated. When all lines have been generated, it crops the image to remove the black line. Creates a subject with the finished image."
+  },
+  "workflows/BonsaiExamples/Vision/CreateImageWithCircles/CreateImageWithCircles.html": {
+    "href": "workflows/BonsaiExamples/Vision/CreateImageWithCircles/CreateImageWithCircles.html",
+    "title": "Create Image with Circles | CF.Bonsai",
+    "keywords": "Create Image with Circles Summary This example demonstrates how to compose an image with circles in it. Workflow Details Creates a new image with three circles everytime 'S' is pressed Creates a black canvas sized 100x100 Adds a white circle centered at (50,50) with a 40-pixel radius to the canvas Adds a white circle centered at (50,50) with a 20-pixel radius to the canvas Adds a white circle centered at (50,50) with a 10-pixel radius to the canvas Generates the three-circle image"
+  },
+  "workflows/BonsaiExamples/Vision/DynamicCropping/DynamicCropping.html": {
+    "href": "workflows/BonsaiExamples/Vision/DynamicCropping/DynamicCropping.html",
+    "title": "Dynamic Cropping | CF.Bonsai",
+    "keywords": "Dynamic Cropping Summary This example demonstrates how to set dynamically the values of a compound property of a node, in this case the RegionOfInterest of the Crop node. Workflow Details Creates an image black image with three white circles whenever 'S' is pressed. Creates a black canvas. Adds three white circles. Creates an image with the filled image. Creates a BehaviorSubject, MyImage, with the three-circle image. Crops every image created according to a given region of interest. The coordinates of the cropping region can be set dynamically by changing the Int nodes from 2.1 to 2.4. Defines the X coordinate of the cropping region. Defines the Y coordinate of the cropping region. Defines the width of the cropping region. Defines the height of the cropping region. Defines the most up-to-date set of coordinate values of the cropping region. Pairs every image with the current cropping region. Propagates the current image and sets the RegionOfInterest property of the Crop node. Crops the current image according to the coordinates defined."
+  },
+  "workflows/BonsaiExamples/Vision/MP4Writer/MP4Writer.html": {
+    "href": "workflows/BonsaiExamples/Vision/MP4Writer/MP4Writer.html",
+    "title": "MP4 Writer | CF.Bonsai",
+    "keywords": "MP4 Writer Summary This example shows how to save a MP4 video using FFMPEG Workflow Details Before running workflow download and unzip ffmpeg to a folder in your computer. Write the frames from a camera into ImageWriter, but in the path, instead of a file, you will add a pipe: \\\\.\\pipe\\video. Every frame that is written in the pipe is going to be sent the process in 2. Start a process where the filename points to the ffmpeg executable [ffmpeg]\\bin\\ffmpeg.exe and the arguments are those of ffmpeg. Here we are using: -y -f rawvideo -vcodec rawvideo -s 640x480 -r 30 -pix_fmt gray -i \\\\.\\pipe\\video -c:v libx264 -b:v 5212K -maxrate 5212K -bufsize 5M \"myvideo.mp4\" Options that might need to be adapted for your situation are: the size (width and height) of the input images (-s) the frame rate (-r) the input pixel format (-pix_fmt) the name of the output video (last parameter) in case the encoding is rather slow, you might want to append the option '-preset ultrafast' to speed it up. Follow-up For additional information on the encoding options provided by ffmpeg consult the documentation."
+  },
+  "workflows/BonsaiExamples/Vision/MP4Writer/README.html": {
+    "href": "workflows/BonsaiExamples/Vision/MP4Writer/README.html",
+    "title": "| CF.Bonsai",
+    "keywords": "Get ffpmeg from: https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/ffmpeg-master-latest-win64-gpl.zip"
+  },
+  "workflows/BonsaiExamples/Vision/RegionTrackingHSV/RegionTrackingHSV.html": {
+    "href": "workflows/BonsaiExamples/Vision/RegionTrackingHSV/RegionTrackingHSV.html",
+    "title": "Region Tracking HSV | CF.Bonsai",
+    "keywords": "Region Tracking HSV Summary This example demonstrates how to setup a simple tracker based on thresholding the HSV channels. Workflow Details Convert the image to HSV space (hue, saturation, value). This space is advantageous because it allows the user to separate colors, using only the hue channel, independently of the overall image brightness. Threshold each of the HSV channels between a lower and an upper bound. Modify those bounds such that your particular object can be separated from the background. In the thresholded image, find regions of contiguous pixels. You can set a minimum and/or a maximum number of acceptable contiguous pixels. For each region identified, calculate a number of properties, such as position of the centoid, orientation, etc. From the list of selected regions, select the largest region and show the x and y position of the centroid. Follow-up See also RegionTrakingRGB [ADD LINK] example."
+  },
+  "workflows/BonsaiExamples/Vision/RegionTrackingRGB/RegionTrackingRGB.html": {
+    "href": "workflows/BonsaiExamples/Vision/RegionTrackingRGB/RegionTrackingRGB.html",
+    "title": "Region Tracking RGB | CF.Bonsai",
+    "keywords": "Region Tracking RGB Summary This example demonstrates how setup a simple tracker based on thresholding the RGB channels. Workflow Details Threshold each of the input channels between a lower and an upper bound. Modify those bounds such that your particular object can be separated from the background. In the thresholded image, find regions of contiguous pixels. You can set a minimum and/or a maximum number of acceptable contiguous pixels. For each region identified, calculate a number of properties, such as position of the centoid, orientation, etc. From the list of selected regions, select the largest region and show the x and y position of the centroid. Follow-up See also RegionTrakingHSV [ADD LINK] example."
+  },
+  "workflows/BonsaiExamples/Vision/VideoAnnotation/VideoAnnotation.html": {
+    "href": "workflows/BonsaiExamples/Vision/VideoAnnotation/VideoAnnotation.html",
+    "title": "Video Annotation | CF.Bonsai",
+    "keywords": "Video Annotation Summary This example demonstrates how to add a circular marker to a camera image and save the resuting annotated video. Workflow Details Create distribution to sample values for the X position of the circle. Create distribution to sample values for the Y position of the circle. Create a new circle position everytime a key is pressed. Capture camera images to a behavior subject. Every frame acquired will create a new canvas with the current frame and the marker. The results is saved in a video (annotated_video.avi). Set the canvas size to the frame size. Add current frame image to the canvas. Set the x,y position of the circle and add it to the canvas. Follow-up For more other annotation possibilities type 'Vision.Drawing' in the Bonsai toolbox."
+  },
+  "workflows/HarpExamples/BehaviorBoard/AnalogInput/AnalogInput.html": {
+    "href": "workflows/HarpExamples/BehaviorBoard/AnalogInput/AnalogInput.html",
+    "title": "Analog Input | CF.Bonsai",
+    "keywords": "Analog Input Summary This example demonstrates how to read analog input values from a potentiometer using the Harp Behavior board (see hardware schematics below). Workflow Details Creates a connection with the Behavior board. The PortName property in the Behavior node needs to be set to the COM device on the computer. Filters the messages from the Behavior board that pertain analog inputs. Selects the AnalogInput0 (AD0) from the list of possible analog inputs (see the output of the Parse node in 2). Requirements This example requires the folowing Bonsai packages: Harp - Behavior (from nuget.org) Schematics The Harp Behavior board has two analog input channels: AD0 and AD1. The maximum voltage allowed is 5V. In this example, the board receives an analog input signal from a potentiometer connected to AD0."
+  },
+  "workflows/HarpExamples/BehaviorBoard/CameraTrigger/CameraTrigger.html": {
+    "href": "workflows/HarpExamples/BehaviorBoard/CameraTrigger/CameraTrigger.html",
+    "title": "Camera Trigger | CF.Bonsai",
+    "keywords": "Camera Trigger Summary This example demonstrates how to trigger frames from a camera using the Harp Behavior board (see hardware schematics below). Workflow Details Establishes the commands to be sent to the Behavior board and publishes all the events from the device. The PortName property in the Behavior node needs to be set to the COM device on the computer. To create the subbject node, right-click on the Behavior node -> Create Source -> Behavior Subject, and name it accordingly. Sets the acquisition frequency of the camera. Enables the camera triggers when 'A' is pressed. Disables the camera triggers when 'S' is pressed. Ensures that command messages are sent only when the device is ready. Requirements This example requires the folowing Bonsai packages: Harp - Behavior (from nuget.org) Schematics The Harp Behavior board can trigger two cameras using specific PWM signals in ports DO0 and DO1. The DOs output voltage is 5V. In this example, the board triggers frames from a PointGrey camera connected to DO0."
+  },
+  "workflows/HarpExamples/BehaviorBoard/DIOInput/DIOInput.html": {
+    "href": "workflows/HarpExamples/BehaviorBoard/DIOInput/DIOInput.html",
+    "title": "Analog Input | CF.Bonsai",
+    "keywords": "Analog Input Summary This example demonstrates how to read digital input values from the DIO Port0 using the Harp Behavior board (see hardware schematics below). Workflow Details Creates a connection with the Behavior board. The PortName property in the Behavior node needs to be set to the COM device on the computer. Filters the messages from the Behavior board that pertain DIO port inputs. Selects the DIO0 from the list of possible DIO inputs (see the output of the Parse node in 2). Requirements This example requires the folowing Bonsai packages: Harp - Behavior (from nuget.org) Schematics The Harp Behavior board has seven digital input channels: DIPort0, DIOPort0, DIPort1, DIOPort1, DIPort2, DIOPort2, and DI3. The maximum tolerable voltage at these ports is 5V. In this example, the board receives a digital input signal from a switch connected to DIOPort0."
+  },
+  "workflows/HarpExamples/BehaviorBoard/DigitalInput/DigitalInput.html": {
+    "href": "workflows/HarpExamples/BehaviorBoard/DigitalInput/DigitalInput.html",
+    "title": "Digital Input | CF.Bonsai",
+    "keywords": "Digital Input Summary This example demonstrates how to get the digital input values from a switch using the Harp Behavior board (see hardware schematics below). Workflow Details Creates a subject node to send commands to the Behavior board and publishes all the events from the device. The PortName property in the Behavior node needs to be set to the COM device on the computer. To create the subject node, right-click on the Behavior node -> Create Source -> Behavior Subject, and name it accordingly. Filters event messages associated with the state of digital inputs. Demultiplexes the decimal values associated with the state of the digital ports into an array of bits, each indicating the state of a specific port. Converts the bit array from Mat to byte[]. Gets the fourth element of the byte array (as an integer value), which corresponds to the digital input port 3 (DI3). Enables the Behavior board to send out events associated with DI3. Ensures that command messages are sent only when the device is ready. Requirements This example requires the folowing Bonsai packages: Harp - Behavior (from nuget.org) Schematics The Harp Behavior board has four digital input channels: DIPort0, DIPort1, DIPort2, and DI3. The maximum tolerable voltage at these ports is 5V. In this example, the board receives a digital input signal from a switch connected to DI3."
+  },
+  "workflows/HarpExamples/BehaviorBoard/DigitalOutput/DigitalOutput.html": {
+    "href": "workflows/HarpExamples/BehaviorBoard/DigitalOutput/DigitalOutput.html",
+    "title": "Digital Output | CF.Bonsai",
+    "keywords": "Digital Output Summary This example demonstrates how to control the ON/OFF state of an LED using the digital output from the Harp Behavior board (see hardware schematics below). Workflow Details Establishes the commands to be sent to the Behavior board and publishes all the events from the device. The PortName property in the Behavior node needs to be set to the COM device on the computer. To create the subbject node, right-click on the Behavior node -> Create Source -> Behavior Subject, and name it accordingly. Turns the LED ON when 'A' is pressed. Turns the LED OFF when 'S' is pressed Ensures that command messages are sent only when the device is ready. Requirements This example requires the folowing Bonsai packages: Harp - Behavior (from nuget.org) Schematics The Harp Behavior board can control four digital output ports: DO0, DO1, DO2, and DO3. The DOs output voltage is 5V. In this example, the board controls the ON/OFF state of an LED connected to DO0. A resistor of 200Ohm is used to drop the current passing through the LED and prevent it from burning. Follow-up"
+  },
+  "workflows/HarpExamples/BehaviorBoard/DigitalOutputPulse/DigitalOutputPulse.html": {
+    "href": "workflows/HarpExamples/BehaviorBoard/DigitalOutputPulse/DigitalOutputPulse.html",
+    "title": "Digital Output Pulse | CF.Bonsai",
+    "keywords": "Digital Output Pulse Summary This example demonstrates how to trigger a digital pulse, with a fixed duration, on an LED using the digital output from the Harp Behavior board (see hardware schematics below). Workflow Details Establishes the commands to be sent to the Behavior board and publishes all the events from the device. The PortName property in the Behavior node needs to be set to the COM device on the computer. To create the subbject node, right-click on the Behavior node -> Create Source -> Behavior Subject, and name it accordingly. Enables triggering pulses in port DO0. Sets the pulse duration to 1000ms. Triggers the pulse whenever 'A' is pressed. Ensures that command messages are sent only when the device is ready. Requirements This example requires the folowing Bonsai packages: Harp - Behavior (from nuget.org) Schematics The Harp Behavior board can trigger pulses in seven digital output ports: DO0, DO1, DO2, DO3, DOPort0, DOPort1, DOPort2, and the LED current ports: Led0, Led1. The output voltage of these ports is 5V. In this example, the delivers a digital pulse to an LED connected to DO0. A resistor of 200Ohm is used to drop the current passing through the LED and prevent it from burning."
+  },
+  "workflows/HarpExamples/BehaviorBoard/LEDToggle/LEDToggle.html": {
+    "href": "workflows/HarpExamples/BehaviorBoard/LEDToggle/LEDToggle.html",
+    "title": "LED Toggle | CF.Bonsai",
+    "keywords": "LED Toggle Summary This example demonstrates how to control the britness of an LED using the current driven ports in the Harp Behavior board (see hardware schematics below). Workflow Details Establishes the commands to be sent to the Behavior board and publishes all the events from the device. The PortName property in the Behavior node needs to be set to the COM device on the computer. To create the subbject node, right-click on the Behavior node -> Create Source -> Behavior Subject, and name it accordingly. Sets the maximum current to be sent to the LED as a precaution. Sets the actual current to be sent to the LED. Turns the LED ON when 'A' i pressed. Turns the LED OFF when 'S' is pressed. Ensures that command messages are sent only when the device is ready. Requirements This example requires the folowing Bonsai packages: Harp - Behavior (from nuget.org) Schematics The Harp Behavior board has two current sources: Led0 and Led1. In this example, the board controls controls the brightness of an LED connected to Led0."
+  },
+  "workflows/HarpExamples/BehaviorBoard/LogAll/LogAll.html": {
+    "href": "workflows/HarpExamples/BehaviorBoard/LogAll/LogAll.html",
+    "title": "Log All | CF.Bonsai",
+    "keywords": "Log All Summary Const Workflow Details Const Requirements This example requires the folowing Bonsai packages: Harp - Behavior (from nuget.org)"
+  },
+  "workflows/HarpExamples/BehaviorBoard/LogSelected/LogSelected.html": {
+    "href": "workflows/HarpExamples/BehaviorBoard/LogSelected/LogSelected.html",
+    "title": "Log Selected | CF.Bonsai",
+    "keywords": "Log Selected Summary This example demonstrates how to log the events that control the ON/OFF state of an LED using the Harp Behavior board (see hardware schematics below). Workflow Details Establishes the commands to be sent to the Behavior board and publishes all the events from the device. The PortName property in the Behavior node needs to be set to the COM device on the computer. To create the subbject node, right-click on the Behavior node -> Create Source -> Behavior Subject, and name it accordingly. Filters all the messages from the Behavior board that set digital output ports to ON. Filters all the messages from the Behavior board that set digital output ports to OFF. Turns the LED ON when 'A' is pressed. Turns the LED OFF when 'S' is pressed. Ensures that command messages are sent only when the device is ready. Requirements This example requires the folowing Bonsai packages: Harp - Behavior (from nuget.org) Schematics All the messages to and from the Harp Behavior can be logged. In this example, only data relative setting and clearing of digital output ports is logged."
+  },
+  "workflows/HarpExamples/BehaviorBoard/PWMToggle/PWMToggle.html": {
+    "href": "workflows/HarpExamples/BehaviorBoard/PWMToggle/PWMToggle.html",
+    "title": "PWM Toggle | CF.Bonsai",
+    "keywords": "PWM Toggle Summary This example demonstrates how to control a PWM signal to drive the brightness of an LED using the Harp Behavior board (see hardware schematics below). Workflow Details Establishes the commands to be sent to the Behavior board. The PortName property in the Behavior node needs to be set to the COM device on the computer. To create the subbject node, right-click on the Behavior node -> Create Source -> Behavior Subject, and name it accordingly. Sets the duty cycle of the PWM signal to 50%. Initiates the PWM signal. Sets the PWM frequency to 1Hz when 'A' is pressed. Sets the PWM frequency to 5Hz when 'A' is pressed. Ensures that command messages are sent only when the device is ready. Requirements This example requires the folowing Bonsai packages: Harp - Behavior (from nuget.org) Schematics The Harp Behavior board can control four PWM sources in ports: DO0, DO1, DO2 and DO3. The DOs output voltage is 5V. In this example, the board controls controls the brightness of an LED connected to DO0. A resistor of 200Ohm is used to drop the current passing through the LED and prevent it from burning."
+  },
+  "workflows/HarpExamples/BehaviorBoard/QuadratureEncoder/QuadratureEncoder.html": {
+    "href": "workflows/HarpExamples/BehaviorBoard/QuadratureEncoder/QuadratureEncoder.html",
+    "title": "Quadrature Encoder | CF.Bonsai",
+    "keywords": "Quadrature Encoder Summary This example demonstrates how obtain the position values of a quadrature encoder using the Harp Behavior board (see hardware schematics below). Workflow Details Establishes the commands to be sent to the Behavior board and publishes all the events from the device. The PortName property in the Behavior node needs to be set to the COM device on the computer. To create the subbject node, right-click on the Behavior node -> Create Source -> Behavior Subject, and name it accordingly. Filters the messages from the Behavior board that pertain analog inputs. Selects the Encoder from the list of possible analog outputs (see the output of the Parse node in 1.2). Resets the quadrature encoder counts such that the encoder starts at zero. Enables the quadrature encoder. Ensures that command messages are sent only when the device is ready. Requirements This example requires the folowing Bonsai packages: Harp - Behavior (from nuget.org) Schematics The Harp Behavior board can read the position value of one quadrature encoder connected to Port2. The encoder in the schematics is the ENC1J-D28-L00128L."
+  },
+  "workflows/HarpExamples/BehaviorBoard/README.html": {
+    "href": "workflows/HarpExamples/BehaviorBoard/README.html",
+    "title": "CF.Bonsai Harp Behavior Examples | CF.Bonsai",
+    "keywords": "CF.Bonsai Harp Behavior Examples Summary This folder provides a set of examples to deal with the different features of the HARP Behavior board. HARP Installation Before you can use HARP devices in Bonsai you need to install a few packages: Install HARP drivers and software here Install the HARP package for Bonsai. Go to Manage Packages In Package sources select nuget.org Search for 'HARP Behavior' Install the package"
+  },
+  "workflows/HarpExamples/BehaviorBoard/ServoMotorControl/ServoMotorControl.html": {
+    "href": "workflows/HarpExamples/BehaviorBoard/ServoMotorControl/ServoMotorControl.html",
+    "title": "Servo Motor Control | CF.Bonsai",
+    "keywords": "Servo Motor Control Summary This example demonstrates how to control a servo motor using the Harp Behavior board (see hardware schematics below). Workflow Details Establishes the commands to be sent to the Behavior board. To create the subbject node, right-click on the Behavior node -> Create Source -> Behavior Subject, and name it accordingly. Sets the period of the servo motor's pwm in microseconds. Normal servos use a period of 20.000us. Enables the servo motor when 'A' is pressed. Disables the servo motor when 'S' is pressed. Sets the desired angle of the servo motor. Converts the angle into a pwm pulse width, which typically ranges between a minimum value of 1000us and a maximum value of 2000us. Converts the pulse width into an integer value. Sets the pulse width property of the servo motor and emits a new event forward. Creates a new Harp message with the new pulse width. Requirements This example requires the folowing Bonsai packages: Harp - Behavior Schematics The Harp Behavior board can control two servo motors in ports DO2 and DO3. The DOs output voltage is 5V. In this example, the board controls controls the position of a servo motor connected to DO2."
+  },
+  "workflows/HarpExamples/BehaviorBoard/ServoMotorToggle/ServoMotorToggle.html": {
+    "href": "workflows/HarpExamples/BehaviorBoard/ServoMotorToggle/ServoMotorToggle.html",
+    "title": "Servo Motor Toggle | CF.Bonsai",
+    "keywords": "Servo Motor Toggle Summary This example demonstrates how to toggle a servo motor between two positions using Harp Behavior board (see hardware schematics below). Workflow Details Establishes the commands to be sent to the Behavior board and publishes all the events from the device. To create the subbject node, right-click on the Behavior node -> Create Source -> Behavior Subject, and name it accordingly. Sets the period of the servo motor's pwm in microseconds. Normal servos use a period of 20000us. Enables the servo motor. Sets the minimum position of the servo motor when 'A' is pressed.* Sets the maximum position of the servo motor when 'S' is pressed.* Ensures that command messages are sent only when the device is ready. *The angular position of servo motors is typically defined by the pulse width time of a PWM signal. This value typically ranges from 1000us (minimum) and 2000us (maximum). Requirements This example requires the folowing Bonsai packages: Harp - Behavior Schematics The Harp Behavior board can control two servo motors in ports DO2 and DO3. The DOs output voltage is 5V. In this example, the board controls controls the position of a servo motor connected to DO2."
+  },
+  "workflows/HarpExamples/SyringePump/ToggleMicroSteps/ToggleMicroSteps.html": {
+    "href": "workflows/HarpExamples/SyringePump/ToggleMicroSteps/ToggleMicroSteps.html",
+    "title": "Toggle micro steps | CF.Bonsai",
+    "keywords": "Toggle micro steps Summary This example demonstrates how to get the analog input values from a potentiometer using the Harp Behavior board (see hardware schematics below). Workflow Details Requirements This example requires: An up-to-date version of the SyringePump firmware. This example used the fw0.6-harp1.6. To upload the new firmware double click on the SyringePump Device node in Bonsai and follow the instructions. The installation of the Bonsai package Harp - SyringePump (from nuget.org) It might also be useful to download the gui download the SyringePump GUI. This used version app1.0.1."
+  },
+  "workflows/HarpExamples/SyringePump/ToggleMultipleSteps/ToggleMultipleSteps.html": {
+    "href": "workflows/HarpExamples/SyringePump/ToggleMultipleSteps/ToggleMultipleSteps.html",
+    "title": "Toggle multiple steps | CF.Bonsai",
+    "keywords": "Toggle multiple steps Summary This example demonstrates how to get the analog input values from a potentiometer using the Harp Behavior board (see hardware schematics below). Workflow Details Requirements This example requires: An up-to-date version of the SyringePump firmware. This example used the fw0.6-harp1.6. To upload the new firmware double click on the SyringePump Device node in Bonsai and follow the instructions. The installation of the Bonsai package Harp - SyringePump (from nuget.org) It might also be useful to download the gui download the SyringePump GUI. This used version app1.0.1."
+  },
+  "workflows/HarpExamples/SyringePump/ToggleSingleSteps/ToggleSingleSteps.html": {
+    "href": "workflows/HarpExamples/SyringePump/ToggleSingleSteps/ToggleSingleSteps.html",
+    "title": "Toggle single steps | CF.Bonsai",
+    "keywords": "Toggle single steps Summary This example demonstrates how to get the analog input values from a potentiometer using the Harp Behavior board (see hardware schematics below). Workflow Details Requirements This example requires: An up-to-date version of the SyringePump firmware. This example used the fw0.6-harp1.6. To upload the new firmware double click on the SyringePump Device node in Bonsai and follow the instructions. The installation of the Bonsai package Harp - SyringePump (from nuget.org) It might also be useful to download the gui download the SyringePump GUI. This used version app1.0.1."
+  },
+  "workflows/NeuroExamples/SaveExperimentalParameters/testing.html": {
+    "href": "workflows/NeuroExamples/SaveExperimentalParameters/testing.html",
+    "title": "Bananas! | CF.Bonsai",
+    "keywords": "Bananas! here we have a banana banana: yellow banana: green banana: brown banana: red banana: purple And this concludes the banana test."
+  },
+  "workflows/NeuroExamples/TrialBasedSkeleton/TrialBasedSkeleton.html": {
+    "href": "workflows/NeuroExamples/TrialBasedSkeleton/TrialBasedSkeleton.html",
+    "title": "Trial-Based Sesssion | CF.Bonsai",
+    "keywords": "Trial-Based Sesssion Under construction..."
+  },
+  "workflows/ReactiveExamples/Delay/Delay.html": {
+    "href": "workflows/ReactiveExamples/Delay/Delay.html",
+    "title": "Delay | CF.Bonsai",
+    "keywords": "Delay Summary This example demonstrates how to delay the propagation of an event using the Delay operator. Here, the notification of a key press is delayed by one second. Workflow Details Generates an event whenever a key is pressed. Delays the propagation of the key pressed by one second Visualization Compare the outputs of the KeyDown and Delay nodes using ObjectTextVisualizer enlarged, such that multiple events can be observed in each."
+  },
+  "workflows/ReactiveExamples/Merge/Merge.html": {
+    "href": "workflows/ReactiveExamples/Merge/Merge.html",
+    "title": "Merge | CF.Bonsai",
+    "keywords": "Merge Summary This example demonstrates how to merge events from two independent streams using the Merge operator. In this case, presses in either 'A' or 'S' keys are propagated. Workflow Details Generates an event whenver 'A' is pressed. Generates an event whenver 'S' is pressed. Propagates all the input events in the order they are received. Note: The Merge node requires all its input streams to produce the same datatype. Visualization Visualize the output of the Merge node using ObjectTextVisualized enlarged, such that multiple events can be observed."
+  },
+  "workflows/ReactiveExamples/Skip/Skip.html": {
+    "href": "workflows/ReactiveExamples/Skip/Skip.html",
+    "title": "Skip | CF.Bonsai",
+    "keywords": "Skip Summary This example demonstrates how to control the beginning of a stream using the Skip operator. Here, values are propagated only after 5 events have been received. Workflow Details Generates an event every second. Prevents the propagation of the first 5 events, and starts propagating after. Visualization Compare the output of the Timer node with that of the Skip node. Use ObjectTextVisualizer enlarged, such that multiple events can be observed."
+  },
+  "workflows/ReactiveExamples/SkipUntil/SkipUntil.html": {
+    "href": "workflows/ReactiveExamples/SkipUntil/SkipUntil.html",
+    "title": "Skip Until | CF.Bonsai",
+    "keywords": "Skip Until Summary This example demonstrates how to control the beginning of a stream using the SkipUntil operator. Here, values are propagated only after a key has been pressed. Workflow Details Generates an event every second. Holds the propagation of events until 'S' is pressed; it starts propagating after. Visualization Compare the output of the Timer node with that of the SkipUnitl node. Use ObjectTextVisualizer enlarged, such that multiple events can be observed."
+  },
+  "workflows/ReactiveExamples/Take/Take.html": {
+    "href": "workflows/ReactiveExamples/Take/Take.html",
+    "title": "Take | CF.Bonsai",
+    "keywords": "Take Summary This example demonstrates how to control the end of a stream using the Take operator. Here, the workflow terminates after 5 events generated by a Timer. Workflow Details Generates an event every second. Propagates the first 5 event, and emits an OnCompleted message that terminates the preceeding wokflow. Terminates the main workflow when OnCompleted message is received. Visualization Visualize the output of the Take node using ObjectTextVisualizer enlarged, such that multiple events can be observed."
+  },
+  "workflows/ReactiveExamples/TakeUntil/TakeUntil.html": {
+    "href": "workflows/ReactiveExamples/TakeUntil/TakeUntil.html",
+    "title": "Take Until | CF.Bonsai",
+    "keywords": "Take Until Summary This example demonstrates how to control the end of a stream using the TakeUntil operator. Here, the workflow terminates after a a key has been pressed. Workflow Details Generates an event every second. Propagates the events generated by the Timer until the key 'S' is pressed; when this happens, it emits an OnComplete message that terminates the preceeding wokflow. Terminates the main workflow when OnComplete message is received. Visualization Visualize the output of the TakeUntil node using ObjectTextVisualized enlarged, such that multiple events can be observed."
+  },
+  "workflows/ReactiveExamples/WithLatestFrom/WithLatestFrom.html": {
+    "href": "workflows/ReactiveExamples/WithLatestFrom/WithLatestFrom.html",
+    "title": "With Latest From | CF.Bonsai",
+    "keywords": "With Latest From Summary This example demonstrates how to sample the latest values of a Timer sequence whenever a key is pressed. Workflow Details Generates an event whenever a key is pressed. Generates the next element of a counter every second. Pairs every key pressed with the current value of the Timer. Propagates Timer values that have been paired with the key presses in 3. Visualization Compare the output of the Timer node with that of the Item2 node. Use ObjectTextVisualizer enlarged, such that multiple events can be observed."
+  },
+  "workflows/ReactiveExamples/Zip/Zip.html": {
+    "href": "workflows/ReactiveExamples/Zip/Zip.html",
+    "title": "Zip | CF.Bonsai",
+    "keywords": "Zip Summary This example demonstrates how to combine two streams using the Zip operator. This operator pairs events from multiple streams whenever they have all produced a value. Here, we pair the last two keypresses. Workflow Details Generates an event whenver a key is pressed. Skips the first key pressed. Creates a pair of values, a Tupple, with the current and the last keys pressed. Note: Because the Zip node pairs events only when all streams have emited a new value, the first event generated directly from the KeyDown in the first stream will be held until an event is produced by the Skip node in the second stream. This will happen only when a second key is pressed. Once this happens an event is propagated on the Skip node, and pair can then be formed with the previous key press on the first stream (the one being held), and the current key pressed on the second stream. Visualization Visualize the output of the KeyPress, Skip and Zip nodes using ObjectTextVisualized enlarged, such that multiple events can be observed in each."
+  }
+}
