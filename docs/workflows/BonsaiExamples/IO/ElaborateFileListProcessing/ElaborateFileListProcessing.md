@@ -1,7 +1,7 @@
 # Elaborate file list processing
 
 ## Summary
-This example demonstrates how to process a list of files in a given directory (and including subdirectories), and generate output files accordingly.
+This example demonstrates how to serially process a list of files in a given directory (and including subdirectories), and generate output files accordingly.
 
 
 ## Workflow
