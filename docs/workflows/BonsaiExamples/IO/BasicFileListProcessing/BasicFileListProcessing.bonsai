@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<WorkflowBuilder Version="2.8.1"
+<WorkflowBuilder Version="2.8.2"
                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:io="clr-namespace:Bonsai.IO;assembly=Bonsai.System"
                  xmlns:rx="clr-namespace:Bonsai.Reactive;assembly=Bonsai.Core"
@@ -12,7 +12,7 @@
       </Expression>
       <Expression xsi:type="Combinator">
         <Combinator xsi:type="io:GetFiles">
-          <io:Path>.</io:Path>
+          <io:Path>C:\Users\HugoMarques\Downloads\MyDirectory</io:Path>
           <io:SearchPattern>*.txt</io:SearchPattern>
           <io:SearchOption>TopDirectoryOnly</io:SearchOption>
         </Combinator>
@@ -47,7 +47,7 @@
               </PropertyMappings>
             </Expression>
             <Expression xsi:type="io:CsvReader">
-              <io:FileName>.\test2.txt</io:FileName>
+              <io:FileName>C:\Users\HugoMarques\Downloads\MyDirectory\test2.txt</io:FileName>
               <io:ScanPattern>%i</io:ScanPattern>
               <io:SkipRows>0</io:SkipRows>
             </Expression>
@@ -56,8 +56,20 @@
                 <Value>2</Value>
               </Operand>
             </Expression>
+            <Expression xsi:type="Annotation">
+              <Name>Get Output Filename</Name>
+              <Text><![CDATA[Appends the input  directory to the new filename to construct the new filename]]></Text>
+            </Expression>
             <Expression xsi:type="SubscribeSubject">
               <Name>File</Name>
+            </Expression>
+            <Expression xsi:type="Combinator">
+              <Combinator xsi:type="io:GetDirectoryName" />
+            </Expression>
+            <Expression xsi:type="Add">
+              <Operand xsi:type="StringProperty">
+                <Value>\</Value>
+              </Operand>
             </Expression>
             <Expression xsi:type="Combinator">
               <Combinator xsi:type="io:GetFileNameWithoutExtension" />
@@ -67,13 +79,17 @@
                 <Value>_new.csv</Value>
               </Operand>
             </Expression>
+            <Expression xsi:type="Combinator">
+              <Combinator xsi:type="rx:Zip" />
+            </Expression>
+            <Expression xsi:type="Add" />
             <Expression xsi:type="PropertyMapping">
               <PropertyMappings>
                 <Property Name="FileName" />
               </PropertyMappings>
             </Expression>
             <Expression xsi:type="io:CsvWriter">
-              <io:FileName>test2_new.csv</io:FileName>
+              <io:FileName>C:\Users\HugoMarques\Downloads\MyDirectory\test2_new.csv</io:FileName>
               <io:Append>false</io:Append>
               <io:Overwrite>true</io:Overwrite>
               <io:Suffix>None</io:Suffix>
@@ -86,12 +102,18 @@
             <Edge From="2" To="3" Label="Source1" />
             <Edge From="3" To="4" Label="Source1" />
             <Edge From="4" To="5" Label="Source1" />
-            <Edge From="5" To="10" Label="Source1" />
+            <Edge From="5" To="15" Label="Source1" />
             <Edge From="6" To="7" Label="Source1" />
             <Edge From="7" To="8" Label="Source1" />
+            <Edge From="7" To="10" Label="Source1" />
             <Edge From="8" To="9" Label="Source1" />
-            <Edge From="9" To="10" Label="Source2" />
+            <Edge From="9" To="12" Label="Source1" />
             <Edge From="10" To="11" Label="Source1" />
+            <Edge From="11" To="12" Label="Source2" />
+            <Edge From="12" To="13" Label="Source1" />
+            <Edge From="13" To="14" Label="Source1" />
+            <Edge From="14" To="15" Label="Source2" />
+            <Edge From="15" To="16" Label="Source1" />
           </Edges>
         </Workflow>
       </Expression>
