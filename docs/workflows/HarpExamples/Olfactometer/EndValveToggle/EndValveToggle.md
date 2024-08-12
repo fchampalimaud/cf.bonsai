@@ -30,7 +30,7 @@ This example demonstrates how to configure the Harp Olfactometer to toggle the E
 
 ## Requirements
 
-This example requires the folowing Bonsai packages:
+This example requires the following Bonsai package:
 - Harp.Olfactometer (from nuget.org) - make sure to select 'Include prerelease'
 
 
@@ -38,9 +38,9 @@ This example requires the folowing Bonsai packages:
 
 The [Harp Olfactometer](https://github.com/harp-tech/device.olfactometer) supports up to 4 odor channels and 1 carrier line. When using an End valve, Channel 3 is used as an auxiliary carrier line. 
 
-In this example Channel 0 (odor line) is configured with a 80 ml/min flow rate, Channel 3 (auxiliary carrier) with 800 ml/min and Channel 4 (carrier line) with 720 ml/min. The sum of Channel 0 and Channel 4 flows should match the value of Channel 3 in order to maintain the same flow rate at the ouput, whether odor is being presented or not. 
+In this example Channel 0 (odor line) is configured with a 80 ml/min flow rate, Channel 3 (auxiliary carrier) with 800 ml/min and Channel 4 (carrier line) with 720 ml/min. The sum of Channel 0 and Channel 4 flows should match the value of Channel 3 in order to maintain the same flow rate at the output, whether odor is being presented or not. 
 
-After 'A' key press the odor channel flow is enabled, goes though the correspondent vial, mixes with the auxililay carrier line and is exhausted in the end valve during a time period before the End valve is toggled in order to stabilize the mixture. During this time, clean air is being delivered to the animal through the End valve. Afther that, the End valve toggles during 500 ms and the odorized air is delivered to the animal while the clean air is exhausted. Finally after the End valve toggling time, the Channel 0 and Channel 3 are disabled. 
+After 'A' key press the odor channel flow is enabled, goes through the correspondent vial, mixes with the auxililay carrier line and is exhausted in the end valve during a time period before the End valve is toggled in order to stabilize the mixture. During this time, clean air is being delivered to the animal through the End valve. After that, the End valve toggles during 500 ms and the odorized air is delivered to the animal while the clean air is exhausted. Finally after the End valve toggling time, the Channel 0 and Channel 3 are disabled. 
 
 ![Schematics](./EndValveToggle.png){ width=80% }
 
