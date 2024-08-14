@@ -1,4 +1,4 @@
-# Columnwise Operations
+# Column-wise Operations
 
 ## Summary
 This example demonstrates how to project information of a matrix (in this case an image) into a single row vector using the max function. 

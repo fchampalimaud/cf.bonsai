@@ -1,14 +1,13 @@
 # Basic Type Conversions
 
+## Summary
+This example demonstrates how to convert across the different numeric data types using direct CSharp expressions in the ExpressionTransform node.
+
 ## Workflow
 
 :::workflow
 ![Example](~/workflows//BonsaiExamples/DataTypes/BasicTypeConversions/BasicTypeConversions.bonsai)
 :::
-
-
-## Summary
-This example demostrates how to convert across the different numeric data types using direct CSharp expressions in the ExpressionTransform node.
 
 ## Details
 1. Generates an int value
@@ -20,5 +19,4 @@ This example demostrates how to convert across the different numeric data types 
 
 The *it* argument passed to each method inside the ExpressionTransform nodes represents the actual input value of the node.
 
-Verify the output type of each node (by right clicking on the node) and use the TextVisualizeR to best inspect the output of each node. 
-
+Verify the output type of each node (by right-clicking on the node) and use the TextVisualizer to best inspect the output of each node. 

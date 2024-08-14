@@ -3,12 +3,10 @@
 ## Summary
 This example demonstrates how to play a tone with fixed frequency and duration whenever a key is pressed.
 
-
 ## Workflow
 :::workflow
 ![Example](~/workflows/BonsaiExamples/Audio/PlayTone/PlayTone.bonsai)
 :::
-
 
 ## Details
 1. Plays a tone whenever 'A' is pressed.
@@ -16,6 +14,4 @@ This example demonstrates how to play a tone with fixed frequency and duration w
     2. Plays the tone.
 
 ## Follow up
-The  example shows how to modify the frequency and durations to obtain different tones on-the-fly.
-
-
+The example shows how to modify the frequency and durations to obtain different tones on-the-fly.

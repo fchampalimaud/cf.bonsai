@@ -11,7 +11,7 @@ This example demonstrates how to set dynamically the values of a compound proper
 
 ## Details
 
-1. Creates an image black image with three white circles whenever 'S' is pressed.
+1. Creates a black image with three white circles whenever 'S' is pressed.
     1. Creates a black canvas.
     2. Adds three white circles.
     3. Creates an image with the filled image.
