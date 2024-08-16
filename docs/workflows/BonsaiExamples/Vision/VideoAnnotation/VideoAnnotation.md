@@ -1,7 +1,7 @@
 # Video Annotation
 
 ## Summary
-This example demonstrates how to add a circular marker to a camera image and save the resuting annotated video. 
+This example demonstrates how to add a circular marker to a camera image and save the resulting annotated video. 
 
 ## Workflow
 :::workflow

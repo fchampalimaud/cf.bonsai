@@ -1,6 +1,6 @@
 ## Bonsai Installation
 
-Before you can use the examples on this web site you need to install the following:
+Before you can use the examples on this website you need to install the following:
 
 1. Download and install the latest version of the [Bonsai installer](https://bonsai-rx.org/docs/articles/installation.html).
 2. Install the Starter package:

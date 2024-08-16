@@ -1,14 +1,12 @@
-# Elaborate file list processing
+# Elaborate File List Processing
 
 ## Summary
-This example demonstrates how to serially process a list of files in a given directory (and including subdirectories), and generate output files accordingly.
-
+This example demonstrates how to serially process a list of files in a given directory (including subdirectories) and generate output files accordingly.
 
 ## Workflow
 :::workflow
 ![Example](~/workflows/BonsaiExamples/IO/ElaborateFileListProcessing/ElaborateFileListProcessing.bonsai)
 :::
-
 
 ## Details
 1. Obtains a list of files from an input directory and initializes the necessary subjects to run the workflow. The input directory, the file search pattern, and the output directory can be set as properties of the group node.
@@ -24,6 +22,3 @@ This example demonstrates how to serially process a list of files in a given dir
 
 
 *Before running the code you need to download this [folder](https://drive.google.com/drive/folders/1mqcMzhN2vP5cOGFi4CCXcgHYZ6bmlk9m?usp=sharing), and modify the *Input path* property in the *Init File Processing* node in 1. 
-
-
-
