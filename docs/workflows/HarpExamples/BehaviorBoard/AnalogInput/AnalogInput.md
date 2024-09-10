@@ -18,7 +18,7 @@ This example demonstrates how to read analog input values from a potentiometer u
 
 
 ## Requirements
-This example requires the folowing Bonsai packages:
+This example requires the following Bonsai packages:
 - Harp - Behavior (from nuget.org)
 
 
