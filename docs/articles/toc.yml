@@ -52,7 +52,7 @@
 #          href: ../workflows/HarpExamples/SyringePump/ToggleMicroSteps/ToggleMicroSteps.md
         - name: Toggle Multiple Steps
           href: ../workflows/HarpExamples/SyringePump/ToggleMultipleSteps/ToggleMultipleSteps.md    
-- name: Reactive Examples (8)
+- name: Reactive Examples (11)
   items:
     - name: Take
       href: ../workflows/ReactiveExamples/Take/Take.md
@@ -70,10 +70,16 @@
       href: ../workflows/ReactiveExamples/Merge/Merge.md
     - name: Zip
       href: ../workflows/ReactiveExamples/Zip/Zip.md
+    - name: Element Index
+      href: ../workflows/ReactiveExamples/ElementIndex/ElementIndex.md
+    - name: Time Inteval
+      href: ../workflows/ReactiveExamples/TimeInterval/TimeInterval.md
+    - name: Count
+      href: ../workflows/ReactiveExamples/Count/Count.md
 
-- name: Bonsai Examples (20)
+- name: Bonsai Examples (21)
   items:
-    - name: Vision (9)
+    - name: Vision (10)
       items:
         - name: Region Tracking RGB
           href: ../workflows/BonsaiExamples/Vision/RegionTrackingRGB/RegionTrackingRGB.md
@@ -87,8 +93,10 @@
           href: ../workflows/BonsaiExamples/Vision/MP4Writer/MP4Writer.md
         - name: Dynamic Cropping
           href: ../workflows/BonsaiExamples/Vision/DynamicCropping/DynamicCropping.md          
-        - name: Cropped Vision Average
+        - name: Cropped Region Average
           href: ../workflows/BonsaiExamples/Vision/CroppedRegionAverage/CroppedRegionAverage.md          
+        - name: Image Difference Average
+          href: ../workflows/BonsaiExamples/Vision/ImageDifferenceAverage/ImageDifferenceAverage.md          
         - name: Create Image With Circles
           href: ../workflows/BonsaiExamples/Vision/CreateImageWithCircles/CreateImageWithCircles.md          
         - name: Compose Image Line-by-Line
