@@ -1,4 +1,4 @@
-# Group N Events Into Array
+# Create Int Array
 
 ## Summary
 This example demostrates how to create an array with N elements whenever a key is pressed.
