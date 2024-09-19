@@ -77,9 +77,9 @@
     - name: Count
       href: ../workflows/ReactiveExamples/Count/Count.md
 
-- name: Bonsai Examples (21)
+- name: Bonsai Examples (23)
   items:
-    - name: Vision (10)
+    - name: Vision (11)
       items:
         - name: Region Tracking RGB
           href: ../workflows/BonsaiExamples/Vision/RegionTrackingRGB/RegionTrackingRGB.md
@@ -97,6 +97,8 @@
           href: ../workflows/BonsaiExamples/Vision/CroppedRegionAverage/CroppedRegionAverage.md          
         - name: Image Difference Average
           href: ../workflows/BonsaiExamples/Vision/ImageDifferenceAverage/ImageDifferenceAverage.md          
+        - name: Single Pixel Value
+          href: ../workflows/BonsaiExamples/Vision/SinglePixelValue/SinglePixelValue.md          
         - name: Create Image With Circles
           href: ../workflows/BonsaiExamples/Vision/CreateImageWithCircles/CreateImageWithCircles.md          
         - name: Compose Image Line-by-Line
@@ -129,12 +131,14 @@
           href: ../workflows/BonsaiExamples/Numeric.Distributions\SampleNormalDistribution\SampleNormalDistribution.md
         - name: Sample Discrete Uniform Distribution
           href: ../workflows/BonsaiExamples/Numeric.Distributions\SampleDiscreteUniformDistribution\SampleDiscreteUniformDistribution.md
-    - name: Data Types (3)
+    - name: Data Types (4)
       items:
         - name: Basic Type Conversions
           href: ../workflows/BonsaiExamples/DataTypes/BasicTypeConversions/BasicTypeConversions.md
         - name: Create Float Array
-          href: ../workflows\BonsaiExamples/DataTypes/CreateFloatArray/CreateFloatArray.md
+          href: ../workflows\BonsaiExamples/DataTypes/CreateIntArray/CreateIntArray.md
+        - name: Group N Events Into Array
+          href: ../workflows\BonsaiExamples/DataTypes/GroupNEventsIntoArray/GroupNEventsIntoArray.md
         - name: Array Manipulation
           href: ../workflows\BonsaiExamples/DataTypes/ArrayManipulation/ArrayManipulation.md
 #    - name: DAQmx (2)
