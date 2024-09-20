@@ -81,8 +81,8 @@
                   </Expression>
                   <Expression xsi:type="Combinator">
                     <Combinator xsi:type="cv:CreatePoint2f">
-                      <cv:X>54.46215</cv:X>
-                      <cv:Y>138.8709</cv:Y>
+                      <cv:X>56.9296722</cv:X>
+                      <cv:Y>80.44339</cv:Y>
                     </Combinator>
                   </Expression>
                   <Expression xsi:type="WorkflowOutput" />
@@ -183,15 +183,15 @@
       <Expression xsi:type="Combinator">
         <Combinator xsi:type="drw:Circle">
           <drw:Center>
-            <drw:X>54</drw:X>
-            <drw:Y>139</drw:Y>
+            <drw:X>57</drw:X>
+            <drw:Y>80</drw:Y>
           </drw:Center>
           <drw:Radius>15</drw:Radius>
           <drw:Color>
-            <drw:Val0>0</drw:Val0>
-            <drw:Val1>0</drw:Val1>
-            <drw:Val2>255</drw:Val2>
-            <drw:Val3>255</drw:Val3>
+            <drw:Val0>201.66549733917486</drw:Val0>
+            <drw:Val1>40.906608868812491</drw:Val1>
+            <drw:Val2>266.073738115874</drw:Val2>
+            <drw:Val3>219.61590052564438</drw:Val3>
           </drw:Color>
           <drw:Thickness>1</drw:Thickness>
           <drw:LineType>Connected8</drw:LineType>
