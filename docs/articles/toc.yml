@@ -6,7 +6,11 @@
       href: install_bonsai.md
     - name: Install Harp
       href: install_harp.md
+<<<<<<< HEAD
 - name: Bonsai/Harp Examples (15)
+=======
+- name: Bonsai/Harp Examples (14)
+>>>>>>> origin
   items:
     - name: Behavior Board (13)
       items:
@@ -40,10 +44,12 @@
       items:
         - name: Play Sound
           href: ../workflows/HarpExamples/SoundCard/PlaySound/PlaySound.md      
-    - name: Olfactometer (1)
+    - name: Olfactometer (2)
       items:
         - name: End Valve Toggle
-          href: ../workflows/HarpExamples/Olfactometer/EndValveToggle/EndValveToggle.md      
+          href: ../workflows/HarpExamples/Olfactometer/EndValveToggle/EndValveToggle.md
+        - name: Odor Valve Toggle
+          href: ../workflows/HarpExamples/Olfactometer/OdorValveToggle/OdorValveToggle.md         
     - name: Syringe Pump (1)
       items:
 #        - name: Toggle Single Steps
