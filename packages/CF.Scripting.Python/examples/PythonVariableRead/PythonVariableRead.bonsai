@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<WorkflowBuilder Version="2.8.1"
+<WorkflowBuilder Version="2.8.2"
                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:p1="clr-namespace:CF.Scripting.Python;assembly=CF.Scripting.Python"
                  xmlns:wie="clr-namespace:Bonsai.Windows.Input;assembly=Bonsai.Windows.Input"
@@ -18,8 +18,9 @@
       </Expression>
       <Expression xsi:type="Combinator">
         <Combinator xsi:type="p1:CreateRuntime">
-          <p1:PythonHome>C:\Users\hgmar\AppData\Local\conda\conda\envs\LBP-PyTorch</p1:PythonHome>
+          <p1:PythonHome>C:\Users\HugoMarques\anaconda3\envs\PyTorch</p1:PythonHome>
           <p1:ScriptPath>SimplePythonModule.py</p1:ScriptPath>
+          <p1:PythonDLL>python37.dll</p1:PythonDLL>
         </Combinator>
       </Expression>
       <Expression xsi:type="Combinator">

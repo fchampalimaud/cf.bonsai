@@ -33,6 +33,12 @@ namespace CF.Scripting.Python
         [Editor("Bonsai.Design.OpenFileNameEditor, Bonsai.Design", DesignTypes.UITypeEditor)]
         public string ScriptPath { get; set; }
 
+
+        [FileNameFilter("DLL Files (*.dll)|*.dll|All Files|*.*")]
+        [Description("The path to the Python DLL.")]
+        [Editor("Bonsai.Design.OpenFileNameEditor, Bonsai.Design", DesignTypes.UITypeEditor)]
+        public string PythonDLL { get; set; }
+
         /// <summary>
         /// Creates an observable sequence that initializes a Python runtime object which
         /// can be used to import modules, evaluate expressions, and pass data to and
@@ -49,7 +55,7 @@ namespace CF.Scripting.Python
                 var disposable = SubjectManager.ReserveSubject();
                 var subscription = disposable.Subject.SubscribeSafe(observer);
 
-                var runtime = new RuntimeManager(PythonHome, ScriptPath, disposable.Subject);
+                var runtime = new RuntimeManager(PythonHome, ScriptPath, PythonDLL, disposable.Subject);
                 Console.WriteLine("RunTimeManager created");
 
                 return new CompositeDisposable

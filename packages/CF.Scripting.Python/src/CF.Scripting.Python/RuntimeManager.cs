@@ -21,14 +21,14 @@ namespace CF.Scripting.Python
         readonly IObserver<RuntimeManager> runtimeObserver;
         IntPtr threadState;
 
-        internal RuntimeManager(string pythonHome, string scriptPath, IObserver<RuntimeManager> observer)
+        internal RuntimeManager(string pythonHome, string scriptPath, string pythonDLL, IObserver<RuntimeManager> observer)
         {
             Console.WriteLine("RunTimeManager start");
             runtimeScheduler = new EventLoopScheduler();
             runtimeObserver = observer;
             Schedule(() =>
             {
-                Initialize(pythonHome);
+                Initialize(pythonHome, pythonDLL);
                 threadState = PythonEngine.BeginAllowThreads();
                 using (Py.GIL())
                 {
@@ -116,7 +116,7 @@ namespace CF.Scripting.Python
             });
         }
 
-        static void Initialize(string path)
+        static void Initialize(string path, string pythonDLL)
         {
             Console.WriteLine("RunTimeManager initialize");
             if (!PythonEngine.IsInitialized)
@@ -135,7 +135,8 @@ namespace CF.Scripting.Python
                 var pythonHome = EnvironmentHelper.GetPythonHome(path);
                 Console.WriteLine("Python home");
                 Console.WriteLine(EnvironmentHelper.GetPythonDLL(pythonHome));
-                Runtime.PythonDLL = "python37.dll"; // 
+                //Runtime.PythonDLL = "python37.dll"; // 
+                Runtime.PythonDLL = pythonDLL;
                 Console.WriteLine("Python .dll");
                 Console.WriteLine(Runtime.PythonDLL);
                 EnvironmentHelper.SetRuntimePath(pythonHome);

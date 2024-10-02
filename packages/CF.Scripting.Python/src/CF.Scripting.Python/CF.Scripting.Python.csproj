@@ -14,7 +14,7 @@
     <PackageTags>Bonsai Rx CF.Scripting.Python</PackageTags>
     <TargetFramework>net472</TargetFramework>
     <Features>strict</Features>
-    <Version>0.3.0</Version>
+    <Version>0.4.0</Version>
     <LangVersion>8.0</LangVersion>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <Platforms>AnyCPU;x64;x86</Platforms>
