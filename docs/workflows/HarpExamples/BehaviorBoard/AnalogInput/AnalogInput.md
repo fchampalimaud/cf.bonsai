@@ -25,6 +25,6 @@ This example requires the following Bonsai packages:
 ## Schematics
 The [Harp Behavior](https://harp-tech.org/api/Harp.Behavior.html) board has two analog input channels: AD0 and AD1. The maximum voltage allowed is 5V. In this example, the board receives an analog input signal from a potentiometer connected to AD0.
 
-![Schematics](./AnalogInput.png){ width=65% }
+![Schematics](./AnalogInputSch.svg){ width=65% }
 
 
