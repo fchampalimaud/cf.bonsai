@@ -9,8 +9,11 @@ This example demonstrates how to read data from a list of files, process each fi
 ![Example](~/workflows//BonsaiExamples/IO/BasicFileListProcessing/BasicFileListProcessing.bonsai)
 :::
 
+## Summary
+This example demostrates how to read data from a list of files in a given directory, process each file individually to create a new set of corresponding output files. The output files will be placed in the same directory as the input files.
+
 ## Details
-1. Gets a list of filenames from a given directory as string array.*
+1. Gets a list of filenames, with *\*.txt* extension, from a given directory as string array.\*
 2. Generates one event per each element in the string array.
 3. Processes each file individually. In this example, we read the number stored in each file, multiply it by two, and create a new file with the result with the string '_new' added to it.
 

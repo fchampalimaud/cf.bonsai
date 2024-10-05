@@ -6,9 +6,13 @@
       href: install_bonsai.md
     - name: Install Harp
       href: install_harp.md
+<<<<<<< HEAD
+- name: Bonsai/Harp Examples (15)
+=======
 - name: Bonsai/Harp Examples (14)
+>>>>>>> origin
   items:
-    - name: Behavior Board (11)
+    - name: Behavior Board (13)
       items:
         - name: Analog Input
           href: ../workflows/HarpExamples/BehaviorBoard/AnalogInput/AnalogInput.md
@@ -32,6 +36,14 @@
           href: ../workflows/HarpExamples/BehaviorBoard/QuadratureEncoder/QuadratureEncoder.md
         - name: Log Selected
           href: ../workflows/HarpExamples/BehaviorBoard/LogSelected/LogSelected.md
+        - name: Nose Poke Detection
+          href: ../workflows/HarpExamples/BehaviorBoard/NosePokeDetection/NosePokeDetection.md
+        - name: Nose Poke LED Toggle
+          href: ../workflows/HarpExamples/BehaviorBoard/NosePokeLEDToggle/NosePokeLEDToggle.md
+    - name: Sound Card (1)
+      items:
+        - name: Play Sound
+          href: ../workflows/HarpExamples/SoundCard/PlaySound/PlaySound.md      
     - name: Olfactometer (2)
       items:
         - name: End Valve Toggle
@@ -46,7 +58,7 @@
 #          href: ../workflows/HarpExamples/SyringePump/ToggleMicroSteps/ToggleMicroSteps.md
         - name: Toggle Multiple Steps
           href: ../workflows/HarpExamples/SyringePump/ToggleMultipleSteps/ToggleMultipleSteps.md    
-- name: Reactive Examples (8)
+- name: Reactive Examples (11)
   items:
     - name: Take
       href: ../workflows/ReactiveExamples/Take/Take.md
@@ -64,10 +76,16 @@
       href: ../workflows/ReactiveExamples/Merge/Merge.md
     - name: Zip
       href: ../workflows/ReactiveExamples/Zip/Zip.md
+    - name: Element Index
+      href: ../workflows/ReactiveExamples/ElementIndex/ElementIndex.md
+    - name: Time Inteval
+      href: ../workflows/ReactiveExamples/TimeInterval/TimeInterval.md
+    - name: Count
+      href: ../workflows/ReactiveExamples/Count/Count.md
 
-- name: Bonsai Examples (19)
+- name: Bonsai Examples (24)
   items:
-    - name: Vision (8)
+    - name: Vision (12)
       items:
         - name: Region Tracking RGB
           href: ../workflows/BonsaiExamples/Vision/RegionTrackingRGB/RegionTrackingRGB.md
@@ -81,8 +99,16 @@
           href: ../workflows/BonsaiExamples/Vision/MP4Writer/MP4Writer.md
         - name: Dynamic Cropping
           href: ../workflows/BonsaiExamples/Vision/DynamicCropping/DynamicCropping.md          
+        - name: Cropped Region Average
+          href: ../workflows/BonsaiExamples/Vision/CroppedRegionAverage/CroppedRegionAverage.md          
+        - name: Image Difference Average
+          href: ../workflows/BonsaiExamples/Vision/ImageDifferenceAverage/ImageDifferenceAverage.md          
+        - name: Single Pixel Value
+          href: ../workflows/BonsaiExamples/Vision/SinglePixelValue/SinglePixelValue.md          
         - name: Create Image With Circles
           href: ../workflows/BonsaiExamples/Vision/CreateImageWithCircles/CreateImageWithCircles.md          
+        - name: Annotate Array of Points
+          href: ../workflows/BonsaiExamples/Vision/AnnotateArrayOfPoints/AnnotateArrayOfPoints.md          
         - name: Compose Image Line-by-Line
           href: ../workflows/BonsaiExamples/Vision/ComposeImageLineByLine/ComposeImageLineByLine.md          
     - name: Audio (1)
@@ -93,10 +119,12 @@
       items:
         - name: UDP Send And Receive
           href: ../workflows/BonsaiExamples/Osc/UDPSendAndReceive/UDPSendAndReceive.md
-    - name: BonVision (1)
+    - name: BonVision (2)
       items:
         - name: Moving Circle
           href: ../workflows/BonsaiExamples/BonVision/MovingCircle/MovingCircle.md
+        - name: Moving Gratings
+          href: ../workflows/BonsaiExamples/BonVision/MovingGratings/MovingGratings.md
     - name: IO (3)
       items:
         - name: Parse CSV File
@@ -111,12 +139,14 @@
           href: ../workflows/BonsaiExamples/Numeric.Distributions\SampleNormalDistribution\SampleNormalDistribution.md
         - name: Sample Discrete Uniform Distribution
           href: ../workflows/BonsaiExamples/Numeric.Distributions\SampleDiscreteUniformDistribution\SampleDiscreteUniformDistribution.md
-    - name: Data Types (3)
+    - name: Data Types (4)
       items:
         - name: Basic Type Conversions
           href: ../workflows/BonsaiExamples/DataTypes/BasicTypeConversions/BasicTypeConversions.md
         - name: Create Float Array
-          href: ../workflows\BonsaiExamples/DataTypes/CreateFloatArray/CreateFloatArray.md
+          href: ../workflows\BonsaiExamples/DataTypes/CreateIntArray/CreateIntArray.md
+        - name: Group N Events Into Array
+          href: ../workflows\BonsaiExamples/DataTypes/GroupNEventsIntoArray/GroupNEventsIntoArray.md
         - name: Array Manipulation
           href: ../workflows\BonsaiExamples/DataTypes/ArrayManipulation/ArrayManipulation.md
 #    - name: DAQmx (2)
