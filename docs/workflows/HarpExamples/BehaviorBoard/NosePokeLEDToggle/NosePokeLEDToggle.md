@@ -21,4 +21,4 @@ This example requires the following Bonsai packages:
 ## Schematics
 The [Harp Behavior](https://harp-tech.org/api/Harp.Behavior.html) board can control LEDs for three nose pokes: DOPort0, DOPort1 and DOPort2. In this example, the board controls the LED in port DOPort0.
 
-![Schematics](./NosePokeLEDToggle.png){ width=65% }
+TODO: Add schematics
