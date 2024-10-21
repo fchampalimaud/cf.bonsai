@@ -6,11 +6,7 @@
       href: install_bonsai.md
     - name: Install Harp
       href: install_harp.md
-<<<<<<< HEAD
 - name: Bonsai/Harp Examples (15)
-=======
-- name: Bonsai/Harp Examples (14)
->>>>>>> origin
   items:
     - name: Behavior Board (13)
       items:
