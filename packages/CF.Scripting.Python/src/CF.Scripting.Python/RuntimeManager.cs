@@ -133,11 +133,11 @@ namespace CF.Scripting.Python
                 Console.WriteLine(path);
 
                 var pythonHome = EnvironmentHelper.GetPythonHome(path);
-                Console.WriteLine("Python home");
+                Console.WriteLine("Python home:");
                 Console.WriteLine(EnvironmentHelper.GetPythonDLL(pythonHome));
                 //Runtime.PythonDLL = "python37.dll"; // 
                 Runtime.PythonDLL = pythonDLL;
-                Console.WriteLine("Python .dll");
+                Console.WriteLine("Python.dll:");
                 Console.WriteLine(Runtime.PythonDLL);
                 EnvironmentHelper.SetRuntimePath(pythonHome);
                 PythonEngine.PythonHome = pythonHome;
