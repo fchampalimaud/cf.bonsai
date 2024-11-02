@@ -23,4 +23,4 @@ This example requires the following Bonsai packages:
 ## Schematics
 The [Harp Behavior](https://harp-tech.org/api/Harp.Behavior.html) board can control four PWM sources in ports: DO0, DO1, DO2 and DO3. The DOs output voltage is 5V. In this example, the board controls the brightness of a LED connected to DO0. A resistor of 200Ohm is used to drop the current passing through the LED and prevent it from burning.
 
-![Schematics](./PWMToggle.png){ width=65% }
+![Schematics](./PWMToggleSch.svg){ width=65% }
