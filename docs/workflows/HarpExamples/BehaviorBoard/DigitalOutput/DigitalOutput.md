@@ -19,7 +19,7 @@ This example requires the following Bonsai packages:
 - Harp - Behavior (from nuget.org)
 
 ## Schematics
-The [Harp Behavior](https://harp-tech.org/api/Harp.Behavior.html) board can control four digital output ports: DO0, DO1, DO2, and DO3. The DOs output voltage is 5V. In this example, the board controls the ON/OFF state of an LED connected to DO0. A resistor of 200Ohm is used to drop the current passing through the LED and prevent it from burning.
+The [Harp Behavior](https://harp-tech.org/api/Harp.Behavior.html) board can control four digital output ports: DO0, DO1, DO2, and DO3. The DOs output voltage is 5V. In this example, the board controls the ON/OFF state of an LED connected to DO0. A resistor of 200 $\Omega$ is used to drop the current passing through the LED and prevent it from burning.
 
 ![Schematics](./DigitalOutputSch.svg){ width=65% }
 
