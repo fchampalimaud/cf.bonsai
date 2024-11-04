@@ -1,5 +1,5 @@
-import pandas as pd
-import matplotlib.pyplot as plt
+#import pandas as pd
+#import matplotlib.pyplot as plt
 import numpy as np
 import math
 
@@ -15,21 +15,23 @@ class SimpleModel(nn.Module):
 
     def __init__(self):
         super(SimpleModel, self).__init__()
+        print('[Python] Creating network model')
         self.linear = nn.Linear(1, 1, bias=False)  # One input and one output
         
     def set_loss_and_optimizer(self, criterion, optimizer):      
-        print('xxx')
         self.criterion = criterion
-        print('yyy')
         self.optimizer = optimizer
-        print('zzz')
         
     def forward(self, x):
-        self.outputs = self.linear(x)
+        print('Input: ', x)
+        x0 = torch.tensor([x])
+        self.outputs = self.linear(x0)
+        return self.outputs.item()
        
     
     def backward(self, y):
-         self.loss = self.criterion(self.outputs, y)
+         y0 = torch.tensor([y])
+         self.loss = self.criterion(self.outputs, y0)
          self.total_loss += self.loss.item()       
          self.optimizer.zero_grad()
          self.loss.backward()
@@ -62,6 +64,7 @@ optimizer = optim.SGD(model.parameters(), lr=0.05)
 model.set_loss_and_optimizer(criterion, optimizer)
 
 
+print('Running python code')
 
 
 
