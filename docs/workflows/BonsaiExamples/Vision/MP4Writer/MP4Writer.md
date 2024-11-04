@@ -10,7 +10,7 @@ This example shows how to save a MP4 video using [FFMPEG](https://website-name.c
 :::
 
 ## Details
-0. Before running the workflow, download and unzip [ffmpeg](https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/ffmpeg-master-latest-win64-gpl-shared.zip) to a folder in your computer. 
+0. Before running the workflow, download and unzip the ffmpeg glp-local file from [ffmpeg](https://github.com/BtbN/FFmpeg-Builds/releases) to a folder in your computer. 
 
 1. Write the frames from a camera into ImageWriter, but in the path, instead of a file, you will add a pipe: \\\\.\pipe\video. Every frame that is written in the pipe is going to be sent the process in 2.
 
@@ -20,9 +20,14 @@ This example shows how to save a MP4 video using [FFMPEG](https://website-name.c
 Options that might need to be adapted for your situation are:
 - the size (width and height) of the input images (-s)
 - the frame rate (-r)
-- the input pixel format (-pix_fmt)
+- the input pixel format (-pix_fmt). Set to bgr24 for coloured images.
 - the name of the output video (last parameter)
 - in case the encoding is rather slow, you might want to append the option '-preset ultrafast' to speed it up.
+
+Other options that might be useful are:
+- to remove audio (-an)
+- set to an alternative codec (-vcodec mpeg4). Good for colored images.
+- set the quality of the encoding (-qscale 0), with 0 being the best quality.
 
 ## Follow-up
 For additional information on the encoding options provided by ffmpeg consult the [documentation](https://ffmpeg.org/ffmpeg.html). 
