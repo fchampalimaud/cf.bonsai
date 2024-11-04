@@ -1,4 +1,4 @@
-# Analog Input
+# DIO Input
 
 ## Summary
 This example demonstrates how to read digital input values from the DIO Port0 using the [Harp Behavior](https://harp-tech.org/api/Harp.Behavior.html) board (see hardware schematics below).
@@ -22,4 +22,4 @@ This example requires the following Bonsai packages:
 The [Harp Behavior](https://harp-tech.org/api/Harp.Behavior.html) board has seven digital input channels:  DIPort0, DIOPort0, DIPort1, DIOPort1, DIPort2, DIOPort2, and DI3. The maximum tolerable voltage at these ports is 5V. In this example, the board receives a digital input signal from a switch connected to DIOPort0. Since the DIOs inputs have a pullup resistor - signal is high when nothing is connected - when switched is pressed, the input signal goes low.
 
 
-![Schematics](./DIOInput.png){ width=65% }
+![Schematics](./DIOInputSch.svg){ width=65% }
