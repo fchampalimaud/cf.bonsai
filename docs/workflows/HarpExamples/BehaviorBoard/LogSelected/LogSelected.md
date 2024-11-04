@@ -23,4 +23,4 @@ This example requires the following Bonsai packages:
 ## Schematics
 All the messages to and from the [Harp Behavior](https://harp-tech.org/api/Harp.Behavior.html) can be logged. In this example, only data relative setting and clearing of digital output ports is logged. 
 
-![Schematics](./LogSelected.png){ width=65% }
+![Schematics](./LogSelectedSch.svg){ width=65% }

@@ -26,6 +26,8 @@
           href: ../workflows/HarpExamples/BehaviorBoard/PWMToggle/PWMToggle.md
         - name: Camera Trigger
           href: ../workflows/HarpExamples/BehaviorBoard/CameraTrigger/CameraTrigger.md
+        - name: Servo Motor Control
+          href: ../workflows/HarpExamples/BehaviorBoard/ServoMotorControl/ServoMotorControl.md
         - name: Servo Motor Toggle
           href: ../workflows/HarpExamples/BehaviorBoard/ServoMotorToggle/ServoMotorToggle.md
         - name: Quadrature Encoder

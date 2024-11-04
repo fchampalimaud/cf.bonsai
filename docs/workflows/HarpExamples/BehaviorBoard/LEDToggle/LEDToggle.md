@@ -23,4 +23,4 @@ This example requires the following Bonsai packages:
 ## Schematics
 The [Harp Behavior](https://harp-tech.org/api/Harp.Behavior.html) board has two current sources: Led0 and Led1. In this example, the board controls controls the brightness of an LED connected to Led0.
 
-![Schematics](./LEDToggle.png){ width=65% }
+![Schematics](./LEDToggleSch.svg){ width=65% }
