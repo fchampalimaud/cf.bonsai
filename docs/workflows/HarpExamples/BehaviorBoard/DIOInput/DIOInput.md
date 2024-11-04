@@ -1,4 +1,4 @@
-# Analog Input
+# DIO Input
 
 ## Summary
 This example demonstrates how to read digital input values from the DIO Port0 using the [Harp Behavior](https://harp-tech.org/api/Harp.Behavior.html) board (see hardware schematics below).
