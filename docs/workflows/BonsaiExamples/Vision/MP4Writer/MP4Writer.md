@@ -2,7 +2,7 @@
 # MP4 Writer
 
 ## Summary
-This example shows how to save a MP4 video using [FFMPEG](https://website-name.com)
+This example shows how to convert a MP4 video using *FFMPEG*.
 
 ## Workflow
 :::workflow
@@ -10,7 +10,7 @@ This example shows how to save a MP4 video using [FFMPEG](https://website-name.c
 :::
 
 ## Details
-0. Before running the workflow, download and unzip the ffmpeg glp-local file from [ffmpeg](https://github.com/BtbN/FFmpeg-Builds/releases) to a folder in your computer. 
+0. Before running the workflow, download and unzip the ffmpeg glp-local file from [ffmpeg](https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/ffmpeg-master-latest-win64-gpl-shared.zip) to a folder in your computer. 
 
 1. Write the frames from a camera into ImageWriter, but in the path, instead of a file, you will add a pipe: \\\\.\pipe\video. Every frame that is written in the pipe is going to be sent the process in 2.
 
