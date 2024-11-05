@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<WorkflowBuilder Version="2.8.2"
+<WorkflowBuilder Version="2.8.5"
                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:num="clr-namespace:Bonsai.Numerics;assembly=Bonsai.Numerics"
                  xmlns:p1="clr-namespace:Bonsai.Numerics.Distributions;assembly=Bonsai.Numerics"
@@ -100,8 +100,8 @@
                   </Expression>
                   <Expression xsi:type="Combinator">
                     <Combinator xsi:type="cv:CreatePoint2f">
-                      <cv:X>247.231018</cv:X>
-                      <cv:Y>32.31131</cv:Y>
+                      <cv:X>242.8345</cv:X>
+                      <cv:Y>293.595551</cv:Y>
                     </Combinator>
                   </Expression>
                   <Expression xsi:type="WorkflowOutput" />
@@ -182,8 +182,8 @@
       <Expression xsi:type="Combinator">
         <Combinator xsi:type="drw:Circle">
           <drw:Center>
-            <drw:X>247</drw:X>
-            <drw:Y>32</drw:Y>
+            <drw:X>243</drw:X>
+            <drw:Y>294</drw:Y>
           </drw:Center>
           <drw:Radius>15</drw:Radius>
           <drw:Color>
@@ -208,13 +208,6 @@
         <Name>3.6</Name>
         <Text><![CDATA[]]></Text>
       </Expression>
-      <Expression xsi:type="Combinator">
-        <Combinator xsi:type="drw:DrawCanvas" />
-      </Expression>
-      <Expression xsi:type="Annotation">
-        <Name>3.7</Name>
-        <Text><![CDATA[]]></Text>
-      </Expression>
       <Expression xsi:type="SubscribeSubject">
         <Name>Point Array</Name>
       </Expression>
@@ -232,11 +225,21 @@
         </Combinator>
       </Expression>
       <Expression xsi:type="Annotation">
-        <Name>3.8</Name>
+        <Name>3.7</Name>
         <Text><![CDATA[]]></Text>
       </Expression>
       <Expression xsi:type="Combinator">
         <Combinator xsi:type="rx:Repeat" />
+      </Expression>
+      <Expression xsi:type="Annotation">
+        <Name>4</Name>
+        <Text><![CDATA[]]></Text>
+      </Expression>
+      <Expression xsi:type="SubscribeSubject">
+        <Name>Current Canvas</Name>
+      </Expression>
+      <Expression xsi:type="Combinator">
+        <Combinator xsi:type="drw:DrawCanvas" />
       </Expression>
     </Nodes>
     <Edges>
@@ -260,15 +263,15 @@
       <Edge From="19" To="20" Label="Source3" />
       <Edge From="20" To="22" Label="Source1" />
       <Edge From="21" To="22" Label="Source2" />
-      <Edge From="22" To="24" Label="Source1" />
-      <Edge From="23" To="24" Label="Source2" />
-      <Edge From="24" To="29" Label="Source1" />
+      <Edge From="22" To="27" Label="Source1" />
+      <Edge From="23" To="24" Label="Source1" />
+      <Edge From="24" To="25" Label="Source1" />
       <Edge From="25" To="26" Label="Source1" />
-      <Edge From="26" To="27" Label="Source1" />
-      <Edge From="27" To="28" Label="Source1" />
+      <Edge From="26" To="27" Label="Source2" />
+      <Edge From="27" To="29" Label="Source1" />
       <Edge From="28" To="29" Label="Source2" />
-      <Edge From="29" To="31" Label="Source1" />
-      <Edge From="30" To="31" Label="Source2" />
+      <Edge From="30" To="31" Label="Source1" />
+      <Edge From="31" To="32" Label="Source1" />
     </Edges>
   </Workflow>
 </WorkflowBuilder>

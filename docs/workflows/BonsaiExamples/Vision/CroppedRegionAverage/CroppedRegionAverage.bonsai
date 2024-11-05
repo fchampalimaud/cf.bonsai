@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<WorkflowBuilder Version="2.8.2"
+<WorkflowBuilder Version="2.8.5"
                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:cv="clr-namespace:Bonsai.Vision;assembly=Bonsai.Vision"
                  xmlns:dsp="clr-namespace:Bonsai.Dsp;assembly=Bonsai.Dsp"
@@ -12,6 +12,7 @@
       </Expression>
       <Expression xsi:type="Combinator">
         <Combinator xsi:type="cv:FileCapture">
+          <cv:FileName>hexbug.avi</cv:FileName>
           <cv:PlaybackRate>0</cv:PlaybackRate>
           <cv:StartPosition>0</cv:StartPosition>
           <cv:PositionUnits>Frames</cv:PositionUnits>
@@ -26,10 +27,10 @@
       <Expression xsi:type="Combinator">
         <Combinator xsi:type="cv:Crop">
           <cv:RegionOfInterest>
-            <cv:X>0</cv:X>
-            <cv:Y>0</cv:Y>
-            <cv:Width>0</cv:Width>
-            <cv:Height>0</cv:Height>
+            <cv:X>244</cv:X>
+            <cv:Y>195</cv:Y>
+            <cv:Width>137</cv:Width>
+            <cv:Height>153</cv:Height>
           </cv:RegionOfInterest>
         </Combinator>
       </Expression>
