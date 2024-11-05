@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hgmar\\Documents\\Code\\MyRepositories\\cf.bonsai\\packages\\CF.Scripting.Python\\src\\CF.Scripting.Python\\CF.Scripting.Python.csproj": {}
+    "C:\\Users\\HugoMarques\\Documents\\Code\\MyReps\\cf.bonsai\\packages\\CF.Scripting.Python\\src\\CF.Scripting.Python\\CF.Scripting.Python.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hgmar\\Documents\\Code\\MyRepositories\\cf.bonsai\\packages\\CF.Scripting.Python\\src\\CF.Scripting.Python\\CF.Scripting.Python.csproj": {
+    "C:\\Users\\HugoMarques\\Documents\\Code\\MyReps\\cf.bonsai\\packages\\CF.Scripting.Python\\src\\CF.Scripting.Python\\CF.Scripting.Python.csproj": {
       "version": "0.4.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hgmar\\Documents\\Code\\MyRepositories\\cf.bonsai\\packages\\CF.Scripting.Python\\src\\CF.Scripting.Python\\CF.Scripting.Python.csproj",
+        "projectUniqueName": "C:\\Users\\HugoMarques\\Documents\\Code\\MyReps\\cf.bonsai\\packages\\CF.Scripting.Python\\src\\CF.Scripting.Python\\CF.Scripting.Python.csproj",
         "projectName": "CF.Scripting.Python",
-        "projectPath": "C:\\Users\\hgmar\\Documents\\Code\\MyRepositories\\cf.bonsai\\packages\\CF.Scripting.Python\\src\\CF.Scripting.Python\\CF.Scripting.Python.csproj",
-        "packagesPath": "C:\\Users\\hgmar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hgmar\\Documents\\Code\\MyRepositories\\cf.bonsai\\packages\\CF.Scripting.Python\\src\\CF.Scripting.Python\\obj\\",
+        "projectPath": "C:\\Users\\HugoMarques\\Documents\\Code\\MyReps\\cf.bonsai\\packages\\CF.Scripting.Python\\src\\CF.Scripting.Python\\CF.Scripting.Python.csproj",
+        "packagesPath": "C:\\Users\\HugoMarques\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HugoMarques\\Documents\\Code\\MyReps\\cf.bonsai\\packages\\CF.Scripting.Python\\src\\CF.Scripting.Python\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\hgmar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HugoMarques\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,10 +22,11 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Users\\hgmar\\AppData\\Local\\Bonsai\\Gallery": {},
-          "C:\\Users\\hgmar\\Code\\Bonsai\\ArduinoPackage - Under FirmataName\\bin\\Debug\\net462": {},
-          "C:\\Users\\hgmar\\Documents\\Code\\Bonsai\\MyNugets": {},
-          "C:\\Users\\hgmar\\Dropbox (Carey Lab)\\Hugo\\Projects\\LittleBrainProject\\Bonsai\\LBP Package\\LittleBrainProject\\LittleBrainProject\\bin\\Debug\\BonsaiLittleBrainPackage.dll": {},
+          "C:\\Users\\HugoMarques\\AppData\\Local\\Bonsai\\Gallery": {},
+          "C:\\Users\\HugoMarques\\Documents\\Bonsai Packages": {},
+          "C:\\Users\\HugoMarques\\Documents\\Code\\Bonsai\\MyPackages\\MsgPack\\MsgPack\\bin\\Release": {},
+          "C:\\Users\\HugoMarques\\Documents\\Code\\Bonsai\\cf.bonsai\\packages\\CF.Scripting.Python\\nuget": {},
+          "C:\\Users\\HugoMarques\\Documents\\Code\\LBP\\lbp.functions\\bonsai\\package\\LBP.Functions\\LBP.Functions\\bin\\Release": {},
           "https://api.nuget.org/v3/index.json": {},
           "https://www.myget.org/F/bonsai-community/api/v3/index.json": {},
           "https://www.myget.org/F/bonsai/api/v3/index.json": {}
@@ -59,7 +60,7 @@
               "version": "[3.0.1, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
         }
       }
     }

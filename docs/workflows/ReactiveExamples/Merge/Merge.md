@@ -14,7 +14,7 @@ This example demonstrates how to merge events from two independent streams using
 2. Generates an event whenever 'S' is pressed.
 3. Propagates all the input events in the order they are received.
 
-Note: The *Merge* node requires all its input streams to produce the same datatype.
+Note: The *Merge* node requires all its input streams to emit events of the same datatype.
 
 ## Visualization
 Visualize the output of the *Merge* node using ObjectTextVisualized enlarged, such that multiple events can be observed. 

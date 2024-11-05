@@ -11,6 +11,6 @@ This example demonstrates how to get the index of each event generated in a stre
 
 ## Details
 1. Generates an event every 100ms.
-2. Computs the index of the current event.
-3. Outputs the index of the current event. To obtain this node, write-click over the ElementIndex node select Ouptut -> Index.
+2. Computes the index of the current event.
+3. Outputs the index of the current event. To obtain this node, right-click over the *ElementIndex* node and select Ouptut -> Index.
 

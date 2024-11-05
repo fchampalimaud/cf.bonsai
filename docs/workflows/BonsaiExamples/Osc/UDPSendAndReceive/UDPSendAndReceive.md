@@ -16,6 +16,6 @@ This example demonstrates how to setup an Osc server and an Osc client, and how 
 4. Emits events whenever a message is received with the x and y coordinates of the mouse.
 
 ## Follow-up
-In this example the communication is done via the localhost (i.e. it uses the same machine both for sending and receiving messages). However, the code can be run in different machines (as far as the machines are in the same LAN network), where the mouse movements executed in one can be sent to the other. To do this, you only need to change the localhost in UdpReceive and UdpSend by the IP addresses of both each machine.
+In this example the communication is done via the localhost (i.e. it uses the same machine both for sending and receiving messages). However, the code can be run in different machines (as far as the machines are in the same LAN network), where the mouse movements executed in one can be sent to the other. To do this, you only need to change the localhost in UdpReceive and UdpSend by the IP respective addresses of each machine.
 
 

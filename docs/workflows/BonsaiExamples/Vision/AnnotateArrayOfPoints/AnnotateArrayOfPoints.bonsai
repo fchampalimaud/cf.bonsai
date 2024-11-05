@@ -5,8 +5,8 @@
                  xmlns:p1="clr-namespace:Bonsai.Numerics.Distributions;assembly=Bonsai.Numerics"
                  xmlns:rx="clr-namespace:Bonsai.Reactive;assembly=Bonsai.Core"
                  xmlns:wie="clr-namespace:Bonsai.Windows.Input;assembly=Bonsai.Windows.Input"
-                 xmlns:cv="clr-namespace:Bonsai.Vision;assembly=Bonsai.Vision"
                  xmlns:drw="clr-namespace:Bonsai.Vision.Drawing;assembly=Bonsai.Vision"
+                 xmlns:cv="clr-namespace:Bonsai.Vision;assembly=Bonsai.Vision"
                  xmlns="https://bonsai-rx.org/2018/workflow">
   <Workflow>
     <Nodes>
@@ -37,6 +37,25 @@
           <wie:Filter>A</wie:Filter>
           <wie:SuppressRepetitions>false</wie:SuppressRepetitions>
         </Combinator>
+      </Expression>
+      <Expression xsi:type="Combinator">
+        <Combinator xsi:type="drw:CreateCanvas">
+          <drw:Size>
+            <drw:Width>300</drw:Width>
+            <drw:Height>300</drw:Height>
+          </drw:Size>
+          <drw:Depth>U8</drw:Depth>
+          <drw:Channels>3</drw:Channels>
+          <drw:Color>
+            <drw:Val0>0</drw:Val0>
+            <drw:Val1>0</drw:Val1>
+            <drw:Val2>0</drw:Val2>
+            <drw:Val3>0</drw:Val3>
+          </drw:Color>
+        </Combinator>
+      </Expression>
+      <Expression xsi:type="rx:PublishSubject">
+        <Name>Current Canvas</Name>
       </Expression>
       <Expression xsi:type="rx:SelectMany">
         <Name>Create Point Array</Name>
@@ -81,8 +100,8 @@
                   </Expression>
                   <Expression xsi:type="Combinator">
                     <Combinator xsi:type="cv:CreatePoint2f">
-                      <cv:X>56.9296722</cv:X>
-                      <cv:Y>80.44339</cv:Y>
+                      <cv:X>247.231018</cv:X>
+                      <cv:Y>32.31131</cv:Y>
                     </Combinator>
                   </Expression>
                   <Expression xsi:type="WorkflowOutput" />
@@ -119,27 +138,8 @@
           </Edges>
         </Workflow>
       </Expression>
-      <Expression xsi:type="rx:BehaviorSubject">
+      <Expression xsi:type="rx:PublishSubject">
         <Name>Point Array</Name>
-      </Expression>
-      <Expression xsi:type="Combinator">
-        <Combinator xsi:type="drw:CreateCanvas">
-          <drw:Size>
-            <drw:Width>300</drw:Width>
-            <drw:Height>300</drw:Height>
-          </drw:Size>
-          <drw:Depth>U8</drw:Depth>
-          <drw:Channels>3</drw:Channels>
-          <drw:Color>
-            <drw:Val0>0</drw:Val0>
-            <drw:Val1>0</drw:Val1>
-            <drw:Val2>0</drw:Val2>
-            <drw:Val3>0</drw:Val3>
-          </drw:Color>
-        </Combinator>
-      </Expression>
-      <Expression xsi:type="rx:BehaviorSubject">
-        <Name>Current Canvas</Name>
       </Expression>
       <Expression xsi:type="Annotation">
         <Name>3</Name>
@@ -165,26 +165,25 @@
       <Expression xsi:type="Combinator">
         <Combinator xsi:type="rx:Zip" />
       </Expression>
-      <Expression xsi:type="MemberSelector">
-        <Selector>Item2</Selector>
-      </Expression>
-      <Expression xsi:type="MemberSelector">
-        <Selector>Item1</Selector>
-      </Expression>
-      <Expression xsi:type="PropertyMapping">
-        <PropertyMappings>
-          <Property Name="Center" />
-        </PropertyMappings>
-      </Expression>
       <Expression xsi:type="Annotation">
         <Name>3.3</Name>
+        <Text><![CDATA[]]></Text>
+      </Expression>
+      <Expression xsi:type="InputMapping">
+        <PropertyMappings>
+          <Property Name="Center" Selector="Item1" />
+        </PropertyMappings>
+        <Selector>Item2</Selector>
+      </Expression>
+      <Expression xsi:type="Annotation">
+        <Name>3.4</Name>
         <Text><![CDATA[]]></Text>
       </Expression>
       <Expression xsi:type="Combinator">
         <Combinator xsi:type="drw:Circle">
           <drw:Center>
-            <drw:X>57</drw:X>
-            <drw:Y>80</drw:Y>
+            <drw:X>247</drw:X>
+            <drw:Y>32</drw:Y>
           </drw:Center>
           <drw:Radius>15</drw:Radius>
           <drw:Color>
@@ -199,36 +198,11 @@
         </Combinator>
       </Expression>
       <Expression xsi:type="Annotation">
-        <Name>3.4</Name>
+        <Name>3.5</Name>
         <Text><![CDATA[]]></Text>
       </Expression>
       <Expression xsi:type="MulticastSubject">
         <Name>Current Canvas</Name>
-      </Expression>
-      <Expression xsi:type="SubscribeSubject">
-        <Name>Point Array</Name>
-      </Expression>
-      <Expression xsi:type="MemberSelector">
-        <Selector>Length</Selector>
-      </Expression>
-      <Expression xsi:type="Subtract">
-        <Operand xsi:type="IntProperty">
-          <Value>1</Value>
-        </Operand>
-      </Expression>
-      <Expression xsi:type="PropertyMapping">
-        <PropertyMappings>
-          <Property Name="Count" />
-        </PropertyMappings>
-      </Expression>
-      <Expression xsi:type="Annotation">
-        <Name>3.5</Name>
-        <Text><![CDATA[]]></Text>
-      </Expression>
-      <Expression xsi:type="Combinator">
-        <Combinator xsi:type="rx:Skip">
-          <rx:Count>9</rx:Count>
-        </Combinator>
       </Expression>
       <Expression xsi:type="Annotation">
         <Name>3.6</Name>
@@ -236,6 +210,33 @@
       </Expression>
       <Expression xsi:type="Combinator">
         <Combinator xsi:type="drw:DrawCanvas" />
+      </Expression>
+      <Expression xsi:type="Annotation">
+        <Name>3.7</Name>
+        <Text><![CDATA[]]></Text>
+      </Expression>
+      <Expression xsi:type="SubscribeSubject">
+        <Name>Point Array</Name>
+      </Expression>
+      <Expression xsi:type="MemberSelector">
+        <Selector>Length</Selector>
+      </Expression>
+      <Expression xsi:type="PropertyMapping">
+        <PropertyMappings>
+          <Property Name="Count" />
+        </PropertyMappings>
+      </Expression>
+      <Expression xsi:type="Combinator">
+        <Combinator xsi:type="rx:Take">
+          <rx:Count>10</rx:Count>
+        </Combinator>
+      </Expression>
+      <Expression xsi:type="Annotation">
+        <Name>3.8</Name>
+        <Text><![CDATA[]]></Text>
+      </Expression>
+      <Expression xsi:type="Combinator">
+        <Combinator xsi:type="rx:Repeat" />
       </Expression>
     </Nodes>
     <Edges>
@@ -253,20 +254,19 @@
       <Edge From="13" To="16" Label="Source1" />
       <Edge From="14" To="16" Label="Source2" />
       <Edge From="15" To="16" Label="Source3" />
-      <Edge From="16" To="17" Label="Source1" />
       <Edge From="16" To="18" Label="Source1" />
-      <Edge From="17" To="21" Label="Source1" />
-      <Edge From="18" To="19" Label="Source1" />
-      <Edge From="19" To="21" Label="Source2" />
-      <Edge From="20" To="21" Label="Source3" />
-      <Edge From="21" To="23" Label="Source1" />
-      <Edge From="22" To="23" Label="Source2" />
-      <Edge From="23" To="29" Label="Source1" />
-      <Edge From="24" To="25" Label="Source1" />
+      <Edge From="17" To="18" Label="Source2" />
+      <Edge From="18" To="20" Label="Source1" />
+      <Edge From="19" To="20" Label="Source3" />
+      <Edge From="20" To="22" Label="Source1" />
+      <Edge From="21" To="22" Label="Source2" />
+      <Edge From="22" To="24" Label="Source1" />
+      <Edge From="23" To="24" Label="Source2" />
+      <Edge From="24" To="29" Label="Source1" />
       <Edge From="25" To="26" Label="Source1" />
       <Edge From="26" To="27" Label="Source1" />
-      <Edge From="27" To="29" Label="Source2" />
-      <Edge From="28" To="29" Label="Source3" />
+      <Edge From="27" To="28" Label="Source1" />
+      <Edge From="28" To="29" Label="Source2" />
       <Edge From="29" To="31" Label="Source1" />
       <Edge From="30" To="31" Label="Source2" />
     </Edges>
