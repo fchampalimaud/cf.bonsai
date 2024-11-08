@@ -17,4 +17,6 @@ This example demonstrates how to draw a circle in Shaders and update its positio
 
 Move the mouse over the Shaders window to observe the result.
 
+## Follow up
+For more information on BonVision visit the [website](https://bonvision.github.io/).
 

@@ -5,7 +5,7 @@ This example demonstrates how to serially process a list of files in a given dir
 
 ## Workflow
 :::workflow
-![Example](~/workflows/BonsaiExamples/IO/ElaborateFileListProcessing/ElaborateFileListProcessing.bonsai)
+![Example](~/workflows/BonsaiExamples/IO/SerialFileListProcessing/SerialFileListProcessing.bonsai)
 :::
 
 ## Details

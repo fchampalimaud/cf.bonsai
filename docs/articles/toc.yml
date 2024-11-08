@@ -6,9 +6,9 @@
       href: install_bonsai.md
     - name: Install Harp
       href: install_harp.md
-- name: Bonsai/Harp Examples (18)
+- name: Bonsai/Harp Examples (16)
   items:
-    - name: Behavior Board (13)
+    - name: Behavior Board (12)
       items:
         - name: Analog Input
           href: ../workflows/HarpExamples/BehaviorBoard/AnalogInput/AnalogInput.md
@@ -34,16 +34,16 @@
           href: ../workflows/HarpExamples/BehaviorBoard/QuadratureEncoder/QuadratureEncoder.md
         - name: Log Selected
           href: ../workflows/HarpExamples/BehaviorBoard/LogSelected/LogSelected.md
-        - name: Nose Poke Detection
-          href: ../workflows/HarpExamples/BehaviorBoard/NosePokeDetection/NosePokeDetection.md
-        - name: Nose Poke LED Toggle
-          href: ../workflows/HarpExamples/BehaviorBoard/NosePokeLEDToggle/NosePokeLEDToggle.md
-    - name: Sound Card (2)
-      items:
-        - name: Play Sound
-          href: ../workflows/HarpExamples/SoundCard/PlaySound/PlaySound.md      
-        - name: Sound Hardware Trigger
-          href: ../workflows/HarpExamples/SoundCard/SoundHardwareTrigger/SoundHardwareTrigger.md      
+        # - name: Nose Poke Detection
+        #   href: ../workflows/HarpExamples/BehaviorBoard/NosePokeDetection/NosePokeDetection.md
+#        - name: Nose Poke LED Toggle
+#          href: ../workflows/HarpExamples/BehaviorBoard/NosePokeLEDToggle/NosePokeLEDToggle.md
+#    - name: Sound Card (2)
+#      items:
+#        - name: Play Sound
+#          href: ../workflows/HarpExamples/SoundCard/PlaySound/PlaySound.md      
+#        - name: Sound Hardware Trigger
+#          href: ../workflows/HarpExamples/SoundCard/SoundHardwareTrigger/SoundHardwareTrigger.md      
     - name: Olfactometer (2)
       items:
         - name: End Valve Toggle
@@ -83,9 +83,9 @@
     - name: Count
       href: ../workflows/ReactiveExamples/Count/Count.md
 
-- name: Bonsai Examples (24)
+- name: Bonsai Examples (25)
   items:
-    - name: Vision (12)
+    - name: Vision (11)
       items:
         - name: Region Tracking RGB
           href: ../workflows/BonsaiExamples/Vision/RegionTrackingRGB/RegionTrackingRGB.md
@@ -95,8 +95,8 @@
           href: ../workflows/BonsaiExamples/Vision/ColumnwiseOperations/ColumnwiseOperations.md
         - name: Video Annotation
           href: ../workflows/BonsaiExamples/Vision/VideoAnnotation/VideoAnnotation.md
-        - name: MP4 Writer
-          href: ../workflows/BonsaiExamples/Vision/MP4Writer/MP4Writer.md
+        #- name: MP4 Writer
+        #  href: ../workflows/BonsaiExamples/Vision/MP4Writer/MP4Writer.md
         - name: Dynamic Cropping
           href: ../workflows/BonsaiExamples/Vision/DynamicCropping/DynamicCropping.md          
         - name: Cropped Region Average
@@ -125,40 +125,50 @@
           href: ../workflows/BonsaiExamples/BonVision/MovingCircle/MovingCircle.md
         - name: Moving Gratings
           href: ../workflows/BonsaiExamples/BonVision/MovingGratings/MovingGratings.md
-    - name: IO (3)
+    - name: IO (1)
       items:
-        - name: Parse CSV File
-          href: ../workflows/BonsaiExamples/IO/ParseCSVFile/ParseCSVFile.md
+#        - name: Parse CSV File
+#          href: ../workflows/BonsaiExamples/IO/ParseCSVFile/ParseCSVFile.md
         - name: Basic File List Processing
           href: ../workflows/BonsaiExamples/IO/BasicFileListProcessing/BasicFileListProcessing.md
-        - name: Elaborate File List Processing
-          href: ../workflows/BonsaiExamples/IO/ElaborateFileListProcessing/ElaborateFileListProcessing.md
+#        - name: Serial File List Processing
+#          href: ../workflows/BonsaiExamples/IO/ElaborateFileListProcessing/ElaborateFileListProcessing.md
     - name: Numeric.Distributions (2)
       items:
         - name: Sample Model Distribution
           href: ../workflows/BonsaiExamples/Numeric.Distributions\SampleNormalDistribution\SampleNormalDistribution.md
         - name: Sample Discrete Uniform Distribution
           href: ../workflows/BonsaiExamples/Numeric.Distributions\SampleDiscreteUniformDistribution\SampleDiscreteUniformDistribution.md
-    - name: Data Types (4)
+    - name: Data Types (5)
       items:
         - name: Basic Type Conversions
           href: ../workflows/BonsaiExamples/DataTypes/BasicTypeConversions/BasicTypeConversions.md
-        - name: Create Float Array
+        - name: Create Int Array
           href: ../workflows\BonsaiExamples/DataTypes/CreateIntArray/CreateIntArray.md
         - name: Group N Events Into Array
           href: ../workflows\BonsaiExamples/DataTypes/GroupNEventsIntoArray/GroupNEventsIntoArray.md
         - name: Array Manipulation
           href: ../workflows\BonsaiExamples/DataTypes/ArrayManipulation/ArrayManipulation.md
+        - name: Streams to Mat
+          href: ../workflows\BonsaiExamples/DataTypes/StreamsToMat/StreamsToMat.md
+
 #    - name: DAQmx (2)
 #      items:
 #        - name: Digital Inputs (Non-Buffered)
 #          href: ../workflows/BonsaiExamples/DAQmx/DigitalInputsNonBuffered/DigitalInputsNonBuffered.md
 #        - name: AI/AO Synchronization 
 #          href: ../workflows/BonsaiExamples/DAQmx/AIAOSynchronization/AIAOSynchronization.md
-- name: Neuroscience Tasks (1)
-  items:
-    - name: Trial-Based Skeleton 
-      href: ../workflows/NeuroExamples/TrialBasedSkeleton/TrialBasedSkeleton.md
+    - name: GUI (2)
+      items:
+        - name: ImageThresholdSlider
+          href: ../workflows/BonsaiExamples/GUI/ImageThresholdSlider/ImageThresholdSlider.md
+        - name: StartCameraSubPanel
+          href: ../workflows\BonsaiExamples/GUI/ImageThresholdSlider/ImageThresholdSlider.md
+
+# - name: Neuroscience Tasks (1)
+#   items:
+#     - name: Trial-Based Skeleton 
+#       href: ../workflows/NeuroExamples/TrialBasedSkeleton/TrialBasedSkeleton.md
 
 # - name: Packages
 #   items:

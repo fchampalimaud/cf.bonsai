@@ -30,6 +30,7 @@
         <Text><![CDATA[]]></Text>
       </Expression>
       <Expression xsi:type="rx:SelectMany">
+        <Name>CreateArray</Name>
         <Workflow>
           <Nodes>
             <Expression xsi:type="WorkflowInput">
