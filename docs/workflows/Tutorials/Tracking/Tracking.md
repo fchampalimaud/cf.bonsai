@@ -7,7 +7,7 @@ Tracking consists of identifying the position of one or several objects in time.
 
 2. __Tracking__. This process consists of getting the actual coordinates of the objects of interest in the image. Typically this involves estimating the centroid, but other types of information, such as orientation, or size, can also usually be obtained.
 
-Here, we will learn different basic strategies to segment and track a single object of interest in a video. We will use [Bonsai](https://bonsai-rx.org/) to demonstrate how each strategy can be implemented. You can use these two videos as examples: [a grayscale video of a fly](https://drive.google.com/file/d/1M8dtoLliKqJpS3_Tjf7XHfsDRF5mmy9R/view?usp=sharing) and a [coloured HexBug in an arena](https://drive.google.com/file/d/1Gh412SmoWV34jlrJfs4ZEvCMX7h-BHVj/view?usp=sharing). If you are interested in multi-object tracking, you can experiment with [a grayscale video of 5 flies](https://drive.google.com/file/d/1uANrBaYXDhzKrTZaV4JeurG0xV-d611i/view?usp=sharing).
+Here, we will learn different basic strategies to segment and track a single object of interest in a video. We will use [Bonsai](https://bonsai-rx.org/) to demonstrate how each strategy can be implemented. You can use these two videos as examples: [a grayscale video of a fly](https://drive.google.com/file/d/1M8dtoLliKqJpS3_Tjf7XHfsDRF5mmy9R/view?usp=sharing) and a [coloured HexBug in an arena](https://drive.google.com/file/d/1KxWtuynrbufZ0Y_JSZOkE_J3EQ1sRFHA/view?usp=sharing). If you are interested in multi-object tracking, you can experiment with [a grayscale video of 5 flies](https://drive.google.com/file/d/1uANrBaYXDhzKrTZaV4JeurG0xV-d611i/view?usp=sharing).
 
 
 ## Segmentation: Thresholding
@@ -76,7 +76,7 @@ Once the object have been segmented from the background, we perform a stereotype
 1. __Identify countours__: Identify sets of thresholded pixels that are adjacent to each other. Here we can accept and reject countours based on their minimum and/or maximum area.
 2. __Calculate contour properties__: Compute basic properties of the contours identified such as centroid, area, or orientation.
 3. __Select object contour__: Select among all the available contours the one that belongs to our object of interest. Commonly this will be the largest contour of all.
-
+4. __Extract the centroid__: Select the centroid for visualization among the possible outputs of the selected countour.
 
 
 

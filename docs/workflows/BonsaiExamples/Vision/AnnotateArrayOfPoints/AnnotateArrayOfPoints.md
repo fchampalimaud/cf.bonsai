@@ -10,7 +10,7 @@ This example demonstrates how to annotate an array of points using circles.
 
 ## Details
 1. Creates distribution to sample values for the position of each circle in the array.
-2. Creates an array of points, and initializes an empty canvas whenever 'A' is pressed.
+2. Creates an array of points whenever 'A' is pressed and initializes an empty canvas.
 3. Draws a circle centered in each point of the array.
     1. Creates an event for each point in the array.
     2. Associates each event with the current canvas (starting with the empty canvas for the first point in the array).
