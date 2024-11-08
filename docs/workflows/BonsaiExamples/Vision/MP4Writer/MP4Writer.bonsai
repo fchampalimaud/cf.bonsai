@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<WorkflowBuilder Version="2.8.2"
+<WorkflowBuilder Version="2.8.5"
                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:cv="clr-namespace:Bonsai.Vision;assembly=Bonsai.Vision"
                  xmlns:io="clr-namespace:Bonsai.IO;assembly=Bonsai.System"
@@ -12,9 +12,13 @@
         <Text><![CDATA[]]></Text>
       </Expression>
       <Expression xsi:type="Combinator">
-        <Combinator xsi:type="cv:CameraCapture">
-          <cv:Index>0</cv:Index>
-          <cv:CaptureProperties />
+        <Combinator xsi:type="cv:FileCapture">
+          <cv:FileName>1fly.avi</cv:FileName>
+          <cv:PlaybackRate>0</cv:PlaybackRate>
+          <cv:StartPosition>0</cv:StartPosition>
+          <cv:PositionUnits>Frames</cv:PositionUnits>
+          <cv:Loop>false</cv:Loop>
+          <cv:Playing>true</cv:Playing>
         </Combinator>
       </Expression>
       <Expression xsi:type="Combinator">
@@ -33,8 +37,8 @@
       </Expression>
       <Expression xsi:type="Combinator">
         <Combinator xsi:type="io:StartProcess">
-          <io:FileName>C:\Users\HugoMarques\Downloads\ffmpeg-master-latest-win64-gpl-shared\bin\ffmpeg.exe</io:FileName>
-          <io:Arguments>-y -f rawvideo -vcodec rawvideo  -s 640x480 -r 30 -pix_fmt gray -i \\.\pipe\video -c:v libx264 -b:v 5212K -maxrate 5212K -bufsize 5M "myvideo.mp4"</io:Arguments>
+          <io:FileName>C:\Users\hgmar\Downloads\ffmpeg-master-latest-win64-gpl-shared\bin\ffmpeg.exe</io:FileName>
+          <io:Arguments>-y -f rawvideo -vcodec rawvideo  -s 862x878 -r 60 -pix_fmt gray -i \\.\pipe\video -c:v libx264 -b:v 5212K -maxrate 5212K -bufsize 5M "myvideo.mp4"</io:Arguments>
         </Combinator>
       </Expression>
       <Expression xsi:type="Combinator">

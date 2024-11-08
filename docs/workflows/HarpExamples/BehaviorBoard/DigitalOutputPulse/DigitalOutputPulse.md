@@ -1,7 +1,7 @@
 # Digital Output Pulse
 
 ## Summary
-This example demonstrates how to trigger a digital pulse, with a fixed duration, on an LED using the digital output from the [Harp Behavior](https://harp-tech.org/api/Harp.Behavior.html) board (see hardware schematics below). 
+This example demonstrates how to trigger a digital pulse, with a fixed duration, on a LED using the digital output from the [Harp Behavior](https://harp-tech.org/api/Harp.Behavior.html) board (see hardware schematics below). 
 
 ## Workflow
 :::workflow
@@ -20,6 +20,6 @@ This example requires the following Bonsai packages:
 - Harp - Behavior (from nuget.org)
 
 ## Schematics
-The [Harp Behavior](https://harp-tech.org/api/Harp.Behavior.html) board can trigger pulses in seven digital output ports: DO0, DO1, DO2, DO3, DOPort0, DOPort1, DOPort2, and the LED current ports: Led0, Led1. The output voltage of these ports is 5V. In this example, the delivers a digital pulse to an LED connected to DO0. A resistor of 200Ohm is used to drop the current passing through the LED and prevent it from burning.
+The [Harp Behavior](https://harp-tech.org/api/Harp.Behavior.html) board can trigger pulses in seven digital output ports: DO0, DO1, DO2, DO3, DOPort0, DOPort1, DOPort2, and the LED current ports: Led0, Led1. The output voltage of these ports is 5V. In this example, the delivers a digital pulse to an LED connected to DO0. A resistor of $200\mathsf{\Omega}$ is used to drop the current passing through the LED and prevent it from burning.
 
 ![Schematics](./DigitalOutputPulseSch.svg){ width=65% }

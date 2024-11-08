@@ -6,6 +6,8 @@ out
 *.layout
 .vs
 ~$*
+.avi
+.mp4
 
 
 # ignore all .svg files in the workflow directory and subfolders

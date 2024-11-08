@@ -9,8 +9,8 @@ This example demonstrates how to project information of a matrix (in this case a
 :::
 
 ## Details
-1. Convert the image to gray scale.
+1. Convert the image to grayscale.
 2. Project the max values of each column to a single row vector.
 
 ## Follow-up
-In addition the Max function one can use the Min, Sum, or Mean values. Row-wise operations can also be used by setting the Axis property in the Reduce node to 1. 
+In addition to the Max function one can use the Min, Sum, or Mean values. Row-wise operations can also be used by setting the Axis property in the *Reduce* node to 1. 
