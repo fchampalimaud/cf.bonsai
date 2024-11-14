@@ -1,7 +1,7 @@
 # Play Sound
 
 ## Summary
-This example demonstrates how to play a .wav file using the [Harp SoundCard](https://harp-tech.org/api/Harp.SoundCard.html) board (see hardware schematics below). 
+This example demonstrates how to play a .wav file using the [Harp SoundCard](https://harp-tech.org/api/Harp.SoundCard.html) board from an external trigger given by the [Harp Behavior](https://harp-tech.org/api/Harp.Behavior.html) (see hardware schematics below). 
 
 ## Workflow
 :::workflow
@@ -21,10 +21,10 @@ The Harp SoundCard board allows the user to upload wav files using its graphical
 
 
 ## Requirements
-Install Harp SoundCard (https://harp-tech.org/api/Harp.SoundCard.html)
-
 This example requires the following Bonsai packages:
 - Harp - SoundCard (from nuget.org)
+
+Additionally, install the [Harp SoundCard](https://github.com/harp-tech/device.soundcard) GUI in order to upload sounds to the SoundCard.
 
 ## Schematics
 The [Harp Sound Card](https://harp-tech.org/api/Harp.SoundCard.html) 
