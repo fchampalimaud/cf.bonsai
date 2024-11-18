@@ -38,12 +38,12 @@
         #   href: ../workflows/HarpExamples/BehaviorBoard/NosePokeDetection/NosePokeDetection.md
 #        - name: Nose Poke LED Toggle
 #          href: ../workflows/HarpExamples/BehaviorBoard/NosePokeLEDToggle/NosePokeLEDToggle.md
-#    - name: Sound Card (2)
-#      items:
-#        - name: Play Sound
-#          href: ../workflows/HarpExamples/SoundCard/PlaySound/PlaySound.md      
-#        - name: Sound Hardware Trigger
-#          href: ../workflows/HarpExamples/SoundCard/SoundHardwareTrigger/SoundHardwareTrigger.md      
+    - name: Sound Card (1)
+      items:
+        - name: Play Sound
+          href: ../workflows/HarpExamples/SoundCard/PlaySound/PlaySound.md      
+      #  - name: Sound Hardware Trigger
+      #    href: ../workflows/HarpExamples/SoundCard/SoundHardwareTrigger/SoundHardwareTrigger.md      
     - name: Olfactometer (2)
       items:
         - name: End Valve Toggle
@@ -54,7 +54,7 @@
       items:
 #        - name: Toggle Single Steps
 #          href: ../workflows/HarpExamples/SyringePump/ToggleSingleSteps/ToggleSingleSteps.md
-#        - name: Toggle Multiple Steps
+#        - name: Toggle Micro Steps
 #          href: ../workflows/HarpExamples/SyringePump/ToggleMicroSteps/ToggleMicroSteps.md
         - name: Toggle Multiple Steps
           href: ../workflows/HarpExamples/SyringePump/ToggleMultipleSteps/ToggleMultipleSteps.md    

@@ -18,8 +18,6 @@ The Harp SoundCard board allows the user to upload wav files using its graphical
 \* The example file loaded in index 4 can be found here
 \*\* The example file loaded in index 5 can be found here
 
-
-
 ## Requirements
 This example requires the following Bonsai packages:
 - Harp - SoundCard (from nuget.org)

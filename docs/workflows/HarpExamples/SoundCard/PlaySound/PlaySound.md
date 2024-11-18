@@ -25,7 +25,9 @@ This example requires the following Bonsai packages:
 Additionally, install the [Harp SoundCard](https://github.com/harp-tech/device.soundcard) GUI in order to upload sounds to the SoundCard.
 
 ## Schematics
-_TODO_
+The [Harp SoundCard](https://harp-tech.org/api/Harp.SoundCard.html) board has 2 RCA ports (one for the left channel and the other for the right one) which allow the device to connect to a [Harp Audio Amplifier](https://github.com/harp-tech/peripheral.audioamp) on each side which, in turn, connect to a speaker.
+
+![Schematics](./PlaySoundSch.svg){ width=65% }
 
 ## Uploading sounds to the Harp SoundCard
 1. Install the [Harp SoundCard](https://github.com/harp-tech/device.soundcard) GUI.
