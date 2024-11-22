@@ -1,7 +1,9 @@
 ﻿# Reward Delivery
 
 ## Summary
-This example demonstrates how to give a reward with a feeder. For this example, it is assumed that the feeder is using the wheel that has 40 equally spaced reward positions. The feeder uses the same board as the [Harp SyringePump](https://harp-tech.org/api/Harp.SyringePump.html).
+This example demonstrates how to give a reward with a feeder. An example of an automatic feeder can be found [here](https://www.cf-hw.org/open-source-tools/tools/fish-feeder).
+The feeders use the same board as the [Harp SyringePump](https://harp-tech.org/api/Harp.SyringePump.html).
+For this example, it is assumed that the feeder is using a disk with 40 equally spaced reward positions. 
 
 ## Workflow
 :::workflow
@@ -14,7 +16,7 @@ This example demonstrates how to give a reward with a feeder. For this example, 
 3. Sets the SyringePump protocol direction to `Forward`.
 4. Sets the number of steps of the SyringePump protocol. The number of steps changes according to 9. and 10. to compensate for the fact that the board doesn't accept non-integer number of steps.
 5. Sets the step period to 10 ms (default value).
-6. Sets the step mode to quarter-step. Feel free to try other step modes, but remember to change the number of steps accordingly if you intend to keep the same amount of "movement" (**CHANGE THIS EXPRESSION**).
+6. Sets the step mode to quarter-step. Feel free to try other step modes, but remember to change the number of steps accordingly if you intend to keep the same amount of rotation degrees.
 7. Ensures that command messages are sent only when the device is ready.
 8. Gives a reward when `A` is pressed.
     1. Enables the motor.
