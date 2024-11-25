@@ -58,6 +58,10 @@
 #          href: ../workflows/HarpExamples/SyringePump/ToggleMicroSteps/ToggleMicroSteps.md
         - name: Toggle Multiple Steps
           href: ../workflows/HarpExamples/SyringePump/ToggleMultipleSteps/ToggleMultipleSteps.md    
+    - name: Feeder (1)
+      items:
+        - name: Reward Delivery
+          href: ../workflows/HarpExamples/Feeder/RewardDelivery/RewardDelivery.md 
 - name: Reactive Examples (11)
   items:
     - name: Take
