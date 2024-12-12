@@ -41,7 +41,7 @@
         <Text><![CDATA[]]></Text>
       </Expression>
       <Expression xsi:type="rx:SelectMany">
-        <Name>SaveVideos</Name>
+        <Name />
         <Workflow>
           <Nodes>
             <Expression xsi:type="WorkflowInput">
