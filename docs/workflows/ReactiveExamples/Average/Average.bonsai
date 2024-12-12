@@ -29,7 +29,7 @@
         <Text><![CDATA[]]></Text>
       </Expression>
       <Expression xsi:type="Combinator">
-        <Combinator xsi:type="rx:Count" />
+        <Combinator xsi:type="rx:Average" />
       </Expression>
       <Expression xsi:type="Annotation">
         <Name>4</Name>

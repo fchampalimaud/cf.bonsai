@@ -1,7 +1,7 @@
 # Replay Subject
 
 ## Summary
-This example demonstrates how to get all the data from a stream that is already running, including values that were emited before we subscribed to the stream.
+This example demonstrates how to get all the data from a stream that is already running, including values that were emited before we subscribed to the stream, using the [*ReplaySubject*](https://bonsai-rx.org/docs/api/Bonsai.Reactive.ReplaySubject.html) node.
 
 ## Workflow
 
@@ -17,3 +17,5 @@ This example demonstrates how to get all the data from a stream that is already 
 ## Visualization
 Vizualize the node outputs using the *ObjectTextVizualizer* with an expanded window for each node to be able to better compare their contents.
 
+## Follow up
+You can compare this with other *Subject* types: [*PublishSubject*](../PublishSubject/PublishSubject.html) and [*BehaviorSubject*](../BehaviorSubject/BehaviorSubject.html).

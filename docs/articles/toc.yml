@@ -62,7 +62,7 @@
       items:
         - name: Reward Delivery
           href: ../workflows/HarpExamples/Feeder/RewardDelivery/RewardDelivery.md 
-- name: Reactive Examples (11)
+- name: Reactive Examples (19)
   items:
     - name: Take
       href: ../workflows/ReactiveExamples/Take/Take.md
@@ -86,6 +86,22 @@
       href: ../workflows/ReactiveExamples/TimeInterval/TimeInterval.md
     - name: Count
       href: ../workflows/ReactiveExamples/Count/Count.md
+    - name: Sum
+      href: ../workflows/ReactiveExamples/Sum/Sum.md
+    - name: Average
+      href: ../workflows/ReactiveExamples/Average/Average.md
+    - name: Min
+      href: ../workflows/ReactiveExamples/Min/Min.md
+    - name: Max
+      href: ../workflows/ReactiveExamples/Max/Max.md
+    - name: PublishSubject
+      href: ../workflows/ReactiveExamples/PublishSubject/PublishSubject.md
+    - name: BehaviorSubject
+      href: ../workflows/ReactiveExamples/BehaviorSubject/BehaviorSubject.md
+    - name: ReplaySubject
+      href: ../workflows/ReactiveExamples/ReplaySubject/ReplaySubject.md
+    - name: Window Trigger
+      href: ../workflows/ReactiveExamples/WindowTrigger/WindowTrigger.md
 
 - name: Bonsai Examples (26)
   items:
