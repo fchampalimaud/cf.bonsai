@@ -1,0 +1,169 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title> | CF.Bonsai </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content=" | CF.Bonsai ">
+      
+      
+      <link rel="icon" href="../../../images/logo.svg">
+      <link rel="stylesheet" href="../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../public/main.css">
+      <meta name="docfx:navrel" content="">
+      <meta name="docfx:tocrel" content="../../../articles/toc.html">
+      
+      <meta name="docfx:rel" content="../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/fchampalimaud/cf.bonsai/blob/main/docs/workflows/Tutorials/Tracking/Tracking.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../index.html">
+            <img id="logo" class="svg" src="../../../images/logo_white.svg" alt="CF.Bonsai">
+            CF.Bonsai
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+
+<h2 id="tracking-an-object">Tracking an object</h2>
+<p>Tracking consists of identifying the position of one or several objects in time. In this tutorial we will divide this process in two stages:</p>
+<ol>
+<li><p><strong>Segmentation</strong>. A pre-processing stage where we identify the pixels that belong to the object(s).  This typically involves setting a mask where the pixels of interest are set to 1, while the others are set to 0.</p>
+</li>
+<li><p><strong>Tracking</strong>. This process consists of getting the actual coordinates of the objects of interest in the image. Typically this involves estimating the centroid, but other types of information, such as orientation, or size, can also usually be obtained.</p>
+</li>
+</ol>
+<p>Here, we will learn different basic strategies to segment and track a single object of interest in a video. We will use <a href="https://bonsai-rx.org/">Bonsai</a> to demonstrate how each strategy can be implemented. You can use these two videos as examples: <a href="https://drive.google.com/file/d/1M8dtoLliKqJpS3_Tjf7XHfsDRF5mmy9R/view?usp=sharing">a grayscale video of a fly</a> and a <a href="https://drive.google.com/file/d/1KxWtuynrbufZ0Y_JSZOkE_J3EQ1sRFHA/view?usp=sharing">coloured HexBug in an arena</a>. If you are interested in multi-object tracking, you can experiment with <a href="https://drive.google.com/file/d/1uANrBaYXDhzKrTZaV4JeurG0xV-d611i/view?usp=sharing">a grayscale video of 5 flies</a>.</p>
+<h2 id="segmentation-thresholding">Segmentation: Thresholding</h2>
+<p>The first, and possibly the simplest, method for achieving segmentation is simple thresholding. Here, we use a color-based threshold performed in three different color spaces:</p>
+<div class="workflow"><p><img src="SegmentationThreshold.bonsai" alt="Example"></p>
+</div>
+<ol>
+<li><p><strong>BGR (Blue Green and Red)</strong> - We define for each color channel a range of acceptable values; pixels inside the ranges in all the colors are accepted (value 1), and pixels outside of that range are rejected (value 0).</p>
+</li>
+<li><p><strong>HSV (Hue, Saturation and Value)</strong> - The pixels are first converted to HSV and only thresholded after. Unlike the BGR color-space, the HSV encodes color in a single dimension - the Hue.</p>
+</li>
+<li><p><strong>Grayscale</strong>. The pixels are first converted to Grayscale and the subsequent thresholding requires only setting the lower and upper bounds of ilumination (ie. a single dimension)</p>
+</li>
+</ol>
+<p><strong><em>Notes:</em></strong></p>
+<p>The Grayscale thresholding is the simplest method since one only has to segment in one dimension. If the contrast between your object and the background is strong enough this is usually a well suited method. It is also the only thresholding option to segment images from black and white cameras.</p>
+<p>If you need to rely on color for the segmentation then the HSV tends to be the method of choice. Since the color is well preserved in the <em>Hue</em> dimension across different light conditions, this color space is much more robust to changes in light intensity.</p>
+<h2 id="segmentation-background-subtraction">Segmentation: Background subtraction</h2>
+<div class="workflow"><p><img src="SegmentationBackgroundSubtraction.bonsai" alt="Example"></p>
+</div>
+<p>Another set of methods widely used for segmentation is background subtraction, where we first estimate the background, and then subtract it to every frame of our video. Background segmentation is typically used with grayscale images. There are a number of ways to estimate the background; here we will look at three alternatives:</p>
+<ol>
+<li><p><strong>First frame</strong> - Takes the first frame from the video as background and subtracts it to all the other frames. This method implies that the background is taken without the object of interest present in the image.</p>
+</li>
+<li><p><strong>Pixel extrema</strong> - Takes a block of frames, typically big enough to allow the object of interest to have moved, and it collects the brightest (or the darkest) intensity for each pixel during this interval. The background is then formed by the set of lowest or highest values for each pixel (see <a href="https://www.nature.com/articles/s41598-021-85896-x">Guilbeault et al, 2021</a>). A variant of this algorithm is to take, for each pixel, the median (or other percentile value) intensity across a portion of entire video.</p>
+</li>
+<li><p><strong>Adaptive background</strong> - Takes an moving average of the last N last frames and uses it as the background image. This image is then subtracted and thresholded.</p>
+</li>
+</ol>
+<p><strong><em>Notes</em></strong></p>
+<p>The first method is rather rudimentary and relies heavily on the first frame being a good representative of the actual pixel values of the background across the entire video. Small changes in light intensity can destroy . It has the disadvantage of requiring image data with and without the object of interest.</p>
+<p>The second method computes the background wihout requiring an explicit background image. It is quite robust and in practice very useful. Nonetheless, it still relies on a relatively stable illumination across the entire video. More fundamentally, it also relies heavily on the object to appear relatively homogeneous; if the object is composed of dark and light areas then the background estimation can become compromised. You can see this by testing the second method on the Hexbug video.</p>
+<p>The third method, because of its adaptive nature, is usefull when the illumination conditions (or the actual background) are not static across the video. However, it is often difficult to set parameters that are robust across all the frames in a very dynamic video. Also, it tends to capture parts of the background close to the object as a part of the object itself. It also fails to identify the object when it is static. Try it yourself and test it with the Hexbug video.</p>
+<h2 id="segmentation-temporal-subtraction">Segmentation: Temporal subtraction</h2>
+<div class="workflow"><p><img src="SegmentationTemporalSubtraction.bonsai" alt="Example"></p>
+</div>
+<p>For the sake of completness, we can also simply subtract consecutive frames. If all that is chaning in the video is the position of the object of interest, we can assume that any meanigfull changes in pixel intensities occur where (and when) the object is moving. Like the third method above, this method fails to identify the object when it is not moving. In addition, due to the nature of the method, it tends to capture the contours of the object, rather than the full object.</p>
+<h2 id="tracking">Tracking</h2>
+<div class="workflow"><p><img src="Tracking.bonsai" alt="Example"></p>
+</div>
+<p>Once the object have been segmented from the background, we perform a stereotyped number of operations to extract the location of its centroid:</p>
+<ol>
+<li><strong>Identify countours</strong>: Identify sets of thresholded pixels that are adjacent to each other. Here we can accept and reject countours based on their minimum and/or maximum area.</li>
+<li><strong>Calculate contour properties</strong>: Compute basic properties of the contours identified such as centroid, area, or orientation.</li>
+<li><strong>Select object contour</strong>: Select among all the available contours the one that belongs to our object of interest. Commonly this will be the largest contour of all.</li>
+<li><strong>Extract the centroid</strong>: Select the centroid for visualization among the possible outputs of the selected countour.</li>
+</ol>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/fchampalimaud/cf.bonsai/blob/main/docs/workflows/Tutorials/Tracking/Tracking.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>&copy; 2024 Champalimaud Foundation and Contributors</span> -<span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
