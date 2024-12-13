@@ -1,4 +1,4 @@
-# To List 
+# ToList 
 
 ## Summary
 This example demonstrates how to pack the elements of a stream into a list, once the stream terminates using [*ToList*](https://bonsai-rx.org/docs/api/Bonsai.Reactive.ToList.html)

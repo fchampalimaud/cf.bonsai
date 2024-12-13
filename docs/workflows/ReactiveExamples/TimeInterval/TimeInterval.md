@@ -1,4 +1,4 @@
-# Time Interval
+# TimeInterval
 
 ## Summary
 This example demonstrates how to get the time interval between two consecutive events in a stream using the *TimeInterval* node.

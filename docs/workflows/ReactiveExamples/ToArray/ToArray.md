@@ -1,4 +1,4 @@
-# To Array 
+# ToArray 
 
 ## Summary
 This example demonstrates how to pack the elements of a stream into an array, once the stream terminates using [*ToArray*](https://bonsai-rx.org/docs/api/Bonsai.Reactive.ToArray.html)

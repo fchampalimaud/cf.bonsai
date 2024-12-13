@@ -1,4 +1,4 @@
-# Behavior Subject
+# BehaviorSubject
 
 ## Summary
 This example demonstrates how to get data from a stream that is already running using the [*BehaviorSubject*](https://bonsai-rx.org/docs/api/Bonsai.Reactive.BehaviorSubject.html) node. The subscribed subject only receives the last event generated before the subscriptions as well as all of those generated subsequently.

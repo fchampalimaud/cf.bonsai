@@ -1,4 +1,4 @@
-# Publish Subject
+# PublishSubject
 
 ## Summary
 This example demonstrates how to get data from a stream that is already running using the [*PublishSubject*](https://bonsai-rx.org/docs/api/Bonsai.Reactive.PublishSubject.html) node. The subscribed subject only receives events that are generated after subscription.

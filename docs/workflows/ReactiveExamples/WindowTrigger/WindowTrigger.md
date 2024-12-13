@@ -1,4 +1,4 @@
-# Window Trigger
+# WindowTrigger
 
 ## Summary
 This example demonstrates how to create a new video, with a fixed number of frames, whenever a key is pressed, using the [*WindowTrigger*](https://bonsai-rx.org/docs/api/Bonsai.Reactive.WindowTrigger.html) operator.

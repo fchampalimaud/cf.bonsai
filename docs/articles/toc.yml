@@ -66,23 +66,23 @@
   items:
     - name: Take
       href: ../workflows/ReactiveExamples/Take/Take.md
-    - name: Take Until
+    - name: TakeUntil
       href: ../workflows/ReactiveExamples/TakeUntil/TakeUntil.md
     - name: Skip
       href: ../workflows/ReactiveExamples/Skip/Skip.md
-    - name: Skip Until
+    - name: SkipUntil
       href: ../workflows/ReactiveExamples/SkipUntil/SkipUntil.md
     - name: Delay
       href: ../workflows/ReactiveExamples/Delay/Delay.md
-    - name: With Latest From
+    - name: WithLatestFrom
       href: ../workflows/ReactiveExamples/WithLatestFrom/WithLatestFrom.md
     - name: Merge
       href: ../workflows/ReactiveExamples/Merge/Merge.md
     - name: Zip
       href: ../workflows/ReactiveExamples/Zip/Zip.md
-    - name: Element Index
+    - name: ElementIndex
       href: ../workflows/ReactiveExamples/ElementIndex/ElementIndex.md
-    - name: Time Inteval
+    - name: TimeInteval
       href: ../workflows/ReactiveExamples/TimeInterval/TimeInterval.md
     - name: Count
       href: ../workflows/ReactiveExamples/Count/Count.md
@@ -106,10 +106,12 @@
       href: ../workflows/ReactiveExamples/BehaviorSubject/BehaviorSubject.md
     - name: ReplaySubject
       href: ../workflows/ReactiveExamples/ReplaySubject/ReplaySubject.md
-    - name: Window Trigger
+    - name: WindowTrigger
       href: ../workflows/ReactiveExamples/WindowTrigger/WindowTrigger.md
-    - name: Select Many
+    - name: SelectMany
       href: ../workflows/ReactiveExamples/SelectMany/SelectMany.md
+    - name: CreateObservable
+      href: ../workflows/ReactiveExamples/CreateObservable/CreateObservable.md
 
 - name: Bonsai Examples (26)
   items:
