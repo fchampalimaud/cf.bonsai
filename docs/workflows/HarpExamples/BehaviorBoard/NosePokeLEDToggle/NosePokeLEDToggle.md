@@ -1,7 +1,7 @@
 # Nose Poke LED Toggle
 
 ## Summary
-This example demonstrates how to control the brightness of a LED using the current driven ports in the [Harp Behavior](https://harp-tech.org/api/Harp.Behavior.html) board (see hardware schematics below). 
+This example demonstrates how to toggle the built-in LED from the [Mice Poke](https://github.com/harp-tech/peripheral.micepoke) peripheral for the [Harp Behavior](https://harp-tech.org/api/Harp.Behavior.html) board (see hardware schematics below). 
 
 ## Workflow
 :::workflow
