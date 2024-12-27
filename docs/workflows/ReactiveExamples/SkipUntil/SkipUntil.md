@@ -1,4 +1,4 @@
-# Skip Until 
+# SkipUntil 
 
 ## Summary
 This example demonstrates how to control the beginning of a stream using the *SkipUntil* operator. Here, values are propagated only after a key has been pressed.

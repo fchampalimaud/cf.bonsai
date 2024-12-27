@@ -12,6 +12,7 @@ import torch.optim as optim
 class SimpleModel(nn.Module):
      
     total_loss = 0
+    outputs = 0
 
     def __init__(self):
         super(SimpleModel, self).__init__()

@@ -60,34 +60,64 @@
           href: ../workflows/HarpExamples/SyringePump/ToggleMultipleSteps/ToggleMultipleSteps.md    
         - name: Create and Execute Protocol
           href: ../workflows/HarpExamples/SyringePump/CreateAndExecuteProtocol/CreateAndExecuteProtocol.md    
-- name: Reactive Examples (11)
+    - name: Feeder (1)
+      items:
+        - name: Reward Delivery
+          href: ../workflows/HarpExamples/Feeder/RewardDelivery/RewardDelivery.md 
+- name: Reactive Examples (24)
   items:
     - name: Take
       href: ../workflows/ReactiveExamples/Take/Take.md
-    - name: Take Until
+    - name: TakeUntil
       href: ../workflows/ReactiveExamples/TakeUntil/TakeUntil.md
     - name: Skip
       href: ../workflows/ReactiveExamples/Skip/Skip.md
-    - name: Skip Until
+    - name: SkipUntil
       href: ../workflows/ReactiveExamples/SkipUntil/SkipUntil.md
     - name: Delay
       href: ../workflows/ReactiveExamples/Delay/Delay.md
-    - name: With Latest From
+    - name: WithLatestFrom
       href: ../workflows/ReactiveExamples/WithLatestFrom/WithLatestFrom.md
     - name: Merge
       href: ../workflows/ReactiveExamples/Merge/Merge.md
     - name: Zip
       href: ../workflows/ReactiveExamples/Zip/Zip.md
-    - name: Element Index
+    - name: ElementIndex
       href: ../workflows/ReactiveExamples/ElementIndex/ElementIndex.md
-    - name: Time Inteval
+    - name: TimeInteval
       href: ../workflows/ReactiveExamples/TimeInterval/TimeInterval.md
     - name: Count
       href: ../workflows/ReactiveExamples/Count/Count.md
+    - name: Sum
+      href: ../workflows/ReactiveExamples/Sum/Sum.md
+    - name: Average
+      href: ../workflows/ReactiveExamples/Average/Average.md
+    - name: Min
+      href: ../workflows/ReactiveExamples/Min/Min.md
+    - name: Max
+      href: ../workflows/ReactiveExamples/Max/Max.md
+    - name: Concat
+      href: ../workflows/ReactiveExamples/Concat/Concat.md
+    - name: ToArray
+      href: ../workflows/ReactiveExamples/ToArray/ToArray.md
+    - name: ToList
+      href: ../workflows/ReactiveExamples/ToList/ToList.md
+    - name: PublishSubject
+      href: ../workflows/ReactiveExamples/PublishSubject/PublishSubject.md
+    - name: BehaviorSubject
+      href: ../workflows/ReactiveExamples/BehaviorSubject/BehaviorSubject.md
+    - name: ReplaySubject
+      href: ../workflows/ReactiveExamples/ReplaySubject/ReplaySubject.md
+    - name: WindowTrigger
+      href: ../workflows/ReactiveExamples/WindowTrigger/WindowTrigger.md
+    - name: SelectMany
+      href: ../workflows/ReactiveExamples/SelectMany/SelectMany.md
+    - name: CreateObservable
+      href: ../workflows/ReactiveExamples/CreateObservable/CreateObservable.md
 
 - name: Bonsai Examples (26)
   items:
-    - name: Vision (11)
+    - name: Vision (12)
       items:
         - name: Region Tracking RGB
           href: ../workflows/BonsaiExamples/Vision/RegionTrackingRGB/RegionTrackingRGB.md
@@ -113,6 +143,8 @@
           href: ../workflows/BonsaiExamples/Vision/AnnotateArrayOfPoints/AnnotateArrayOfPoints.md          
         - name: Compose Image Line-by-Line
           href: ../workflows/BonsaiExamples/Vision/ComposeImageLineByLine/ComposeImageLineByLine.md          
+        - name: Trigger Past Frames
+          href: ../workflows/BonsaiExamples/Vision/TriggerPastFrames/TriggerPastFrames.md          
     - name: Audio (1)
       items:
         - name: Play Tone
