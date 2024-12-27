@@ -6,7 +6,7 @@
       href: install_bonsai.md
     - name: Install Harp
       href: install_harp.md
-- name: Bonsai/Harp Examples (16)
+- name: Bonsai/Harp Examples (17)
   items:
     - name: Behavior Board (12)
       items:
@@ -50,7 +50,7 @@
           href: ../workflows/HarpExamples/Olfactometer/EndValveToggle/EndValveToggle.md
         - name: Odor Valve Toggle
           href: ../workflows/HarpExamples/Olfactometer/OdorValveToggle/OdorValveToggle.md         
-    - name: Syringe Pump (1)
+    - name: Syringe Pump (2)
       items:
 #        - name: Toggle Single Steps
 #          href: ../workflows/HarpExamples/SyringePump/ToggleSingleSteps/ToggleSingleSteps.md
@@ -58,6 +58,8 @@
 #          href: ../workflows/HarpExamples/SyringePump/ToggleMicroSteps/ToggleMicroSteps.md
         - name: Toggle Multiple Steps
           href: ../workflows/HarpExamples/SyringePump/ToggleMultipleSteps/ToggleMultipleSteps.md    
+        - name: Create and Execute Protocol
+          href: ../workflows/HarpExamples/SyringePump/CreateAndExecuteProtocol/CreateAndExecuteProtocol.md    
 - name: Reactive Examples (11)
   items:
     - name: Take
@@ -83,7 +85,7 @@
     - name: Count
       href: ../workflows/ReactiveExamples/Count/Count.md
 
-- name: Bonsai Examples (25)
+- name: Bonsai Examples (26)
   items:
     - name: Vision (11)
       items:
@@ -151,19 +153,20 @@
           href: ../workflows\BonsaiExamples/DataTypes/ArrayManipulation/ArrayManipulation.md
         - name: Streams to Mat
           href: ../workflows\BonsaiExamples/DataTypes/StreamsToMat/StreamsToMat.md
-
 #    - name: DAQmx (2)
 #      items:
 #        - name: Digital Inputs (Non-Buffered)
 #          href: ../workflows/BonsaiExamples/DAQmx/DigitalInputsNonBuffered/DigitalInputsNonBuffered.md
 #        - name: AI/AO Synchronization 
 #          href: ../workflows/BonsaiExamples/DAQmx/AIAOSynchronization/AIAOSynchronization.md
-    - name: GUI (2)
+    - name: GUI (3)
       items:
         - name: ImageThresholdSlider
           href: ../workflows/BonsaiExamples/GUI/ImageThresholdSlider/ImageThresholdSlider.md
         - name: StartCameraSubPanel
-          href: ../workflows\BonsaiExamples/GUI/ImageThresholdSlider/ImageThresholdSlider.md
+          href: ../workflows\BonsaiExamples/GUI/StartCameraSubPanel/StartCameraSubPanel.md
+        - name: LineGraph
+          href: ../workflows\BonsaiExamples/GUI/LineGraph/LineGraph.md
 
 # - name: Neuroscience Tasks (1)
 #   items:
