@@ -6,7 +6,7 @@
       href: install_bonsai.md
     - name: Install Harp
       href: install_harp.md
-- name: Bonsai/Harp Examples (17)
+- name: Bonsai/Harp Examples (18)
   items:
     - name: Behavior Board (12)
       items:
@@ -60,6 +60,8 @@
           href: ../workflows/HarpExamples/SyringePump/ToggleMultipleSteps/ToggleMultipleSteps.md    
         - name: Create and Execute Protocol
           href: ../workflows/HarpExamples/SyringePump/CreateAndExecuteProtocol/CreateAndExecuteProtocol.md    
+        # - name: Calibration Protocol
+        #   href: ../workflows/HarpExamples/SyringePump/CalibrationProtocol/CalibrationProtocol.md    
     - name: Feeder (1)
       items:
         - name: Reward Delivery
