@@ -10,16 +10,17 @@ This example demonstrates how to create and execute a reward delivery protocol u
 
 ## Details
 1. Establishes the commands to be sent to the Harp SyringePump and publishes all the events from the device. The PortName property in the SyringePump node needs to be set to the COM device on the computer. To create the subject node, right-click on the SyringePump node -> Create Source -> Behavior Subject, and name it accordingly.
-2. Sets the protocol direction.
-3. Sets the number of steps of the protocol.
-4. Sets the period of each step of the protocol.
-5. Sets the microstep used in the protocol (full step, half step,...). Smaller microsteps usually mean smoother motor movements.
-6. Ensures that command messages are sent only when the device is ready.
-7. Executes the protocol defined in steps 2-5 when `A` is pressed.
+2. Defines the protocol to be used.
+    1. Sets the protocol direction.
+    2. Sets the number of steps of the protocol.
+    3. Sets the period of each step of the protocol.
+    4. Sets the microstep used in the protocol (full step, half step,...). Smaller microsteps usually mean smoother motor movements.
+    5. Ensures that command messages are sent only when the device is ready.
+3. Executes the protocol defined in steps 2-5 when `A` is pressed.
     1. Enables the motor so that the protocol can be executed.
     2. This is where the protocol is actually executed.
     3. Delays the data stream so that the motor isn't disabled before the protocol finishes. Beware that for the defined protocol the 1-second delay is enough, but it might not be enough for other protocols. This delay must be adapted according to the protocol used.
-    4. Disables the motor so that the board/motor (??) doesn't heat up when it's not being used.
+    4. Disables the motor so that the controller doesn't heat up when it's not being used.
 
 ## Requirements
 This example requires:

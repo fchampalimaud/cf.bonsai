@@ -46,7 +46,7 @@ where $V$ is the volume of water and $m$ is the corresponding mass.
 2. Executes the protocol defined in step 1.
     1. Enables the motor so that the protocol can be executed.
     2. This is where the protocol is actually executed $n$ times so that the calibration is done accurately. Set the Count (number of repetitions) and DelayTime properties adequately before starting the workflow. Read the [Protocol SelectMany](#protocol-selectmany) section to see how it's implemented.
-    3. Disables the motor so that the board/motor (??) doesn't heat up when it's not being used.
+    3. Disables the motor so that the controller doesn't heat up when it's not being used.
 
 #### Protocol SelectMany
 :::workflow

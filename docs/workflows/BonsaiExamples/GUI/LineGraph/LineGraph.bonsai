@@ -1,9 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <WorkflowBuilder Version="2.8.1"
                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                 xmlns:num="clr-namespace:Bonsai.Numerics;assembly=Bonsai.Numerics"
-                 xmlns:p1="clr-namespace:Bonsai.Numerics.Distributions;assembly=Bonsai.Numerics"
                  xmlns:rx="clr-namespace:Bonsai.Reactive;assembly=Bonsai.Core"
+                 xmlns:num="clr-namespace:Bonsai.Numerics;assembly=Bonsai.Numerics"
                  xmlns:cv="clr-namespace:Bonsai.Vision;assembly=Bonsai.Vision"
                  xmlns:zg="clr-namespace:Bonsai.Gui.ZedGraph;assembly=Bonsai.Gui.ZedGraph"
                  xmlns:viz="clr-namespace:Bonsai.Design.Visualizers;assembly=Bonsai.Design.Visualizers"
@@ -15,58 +14,22 @@
         <Text><![CDATA[]]></Text>
       </Expression>
       <Expression xsi:type="Combinator">
-        <Combinator xsi:type="num:CreateRandom">
-          <num:Seed xsi:nil="true" />
-        </Combinator>
-      </Expression>
-      <Expression xsi:type="Combinator">
-        <Combinator xsi:type="p1:CreateContinuousUniform">
-          <p1:Lower>0</p1:Lower>
-          <p1:Upper>1</p1:Upper>
-        </Combinator>
-      </Expression>
-      <Expression xsi:type="rx:BehaviorSubject">
-        <Name>Distribution</Name>
-      </Expression>
-      <Expression xsi:type="Combinator">
         <Combinator xsi:type="rx:Timer">
           <rx:DueTime>PT0S</rx:DueTime>
           <rx:Period>PT1S</rx:Period>
         </Combinator>
       </Expression>
-      <Expression xsi:type="SubscribeSubject">
-        <Name>Distribution</Name>
+      <Expression xsi:type="Combinator">
+        <Combinator xsi:type="num:Sin" />
       </Expression>
       <Expression xsi:type="Combinator">
-        <Combinator xsi:type="rx:WithLatestFrom" />
-      </Expression>
-      <Expression xsi:type="Annotation">
-        <Name>2</Name>
-        <Text><![CDATA[]]></Text>
-      </Expression>
-      <Expression xsi:type="MemberSelector">
-        <Selector>Item2</Selector>
-      </Expression>
-      <Expression xsi:type="Combinator">
-        <Combinator xsi:type="p1:SampleArray">
-          <p1:Count>2</p1:Count>
-        </Combinator>
-      </Expression>
-      <Expression xsi:type="Index">
-        <Operand xsi:type="IntProperty">
-          <Value>0</Value>
-        </Operand>
-      </Expression>
-      <Expression xsi:type="Index">
-        <Operand xsi:type="IntProperty">
-          <Value>1</Value>
-        </Operand>
+        <Combinator xsi:type="num:Cos" />
       </Expression>
       <Expression xsi:type="Combinator">
         <Combinator xsi:type="rx:Zip" />
       </Expression>
       <Expression xsi:type="Annotation">
-        <Name>3</Name>
+        <Name>2</Name>
         <Text><![CDATA[]]></Text>
       </Expression>
       <Expression xsi:type="InputMapping">
@@ -82,7 +45,7 @@
         </Combinator>
       </Expression>
       <Expression xsi:type="Annotation">
-        <Name>4</Name>
+        <Name>3</Name>
         <Text><![CDATA[]]></Text>
       </Expression>
       <Expression xsi:type="zg:LineGraphBuilder">
@@ -101,7 +64,7 @@
       </Expression>
       <Expression xsi:type="VisualizerMapping" />
       <Expression xsi:type="Annotation">
-        <Name>5</Name>
+        <Name>4</Name>
         <Text><![CDATA[]]></Text>
       </Expression>
       <Expression xsi:type="zg:GraphPanelBuilder">
@@ -116,7 +79,7 @@
       </Expression>
       <Expression xsi:type="VisualizerMapping" />
       <Expression xsi:type="Annotation">
-        <Name>6</Name>
+        <Name>5</Name>
         <Text><![CDATA[]]></Text>
       </Expression>
       <Expression xsi:type="viz:TableLayoutPanelBuilder">
@@ -131,30 +94,21 @@
     <Edges>
       <Edge From="0" To="1" Label="Source1" />
       <Edge From="1" To="2" Label="Source1" />
-      <Edge From="2" To="3" Label="Source1" />
+      <Edge From="1" To="3" Label="Source1" />
+      <Edge From="2" To="4" Label="Source1" />
+      <Edge From="3" To="4" Label="Source2" />
       <Edge From="4" To="6" Label="Source1" />
       <Edge From="5" To="6" Label="Source2" />
-      <Edge From="6" To="8" Label="Source1" />
-      <Edge From="7" To="8" Label="Source2" />
-      <Edge From="7" To="9" Label="Source2" />
-      <Edge From="8" To="9" Label="Source1" />
+      <Edge From="6" To="7" Label="Source1" />
+      <Edge From="7" To="9" Label="Source1" />
+      <Edge From="8" To="9" Label="Source2" />
       <Edge From="9" To="10" Label="Source1" />
-      <Edge From="9" To="11" Label="Source1" />
       <Edge From="10" To="12" Label="Source1" />
       <Edge From="11" To="12" Label="Source2" />
-      <Edge From="12" To="14" Label="Source1" />
-      <Edge From="13" To="14" Label="Source2" />
-      <Edge From="13" To="15" Label="Source2" />
-      <Edge From="14" To="15" Label="Source1" />
-      <Edge From="15" To="17" Label="Source1" />
-      <Edge From="16" To="17" Label="Source2" />
-      <Edge From="17" To="18" Label="Source1" />
-      <Edge From="18" To="20" Label="Source1" />
-      <Edge From="19" To="20" Label="Source2" />
-      <Edge From="20" To="21" Label="Source1" />
-      <Edge From="21" To="23" Label="Source1" />
-      <Edge From="22" To="23" Label="Source2" />
-      <Edge From="23" To="24" Label="Source1" />
+      <Edge From="12" To="13" Label="Source1" />
+      <Edge From="13" To="15" Label="Source1" />
+      <Edge From="14" To="15" Label="Source2" />
+      <Edge From="15" To="16" Label="Source1" />
     </Edges>
   </Workflow>
 </WorkflowBuilder>
