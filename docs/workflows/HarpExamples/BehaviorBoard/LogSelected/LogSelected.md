@@ -24,3 +24,6 @@ This example requires the following Bonsai packages:
 All the messages to and from the [Harp Behavior](https://harp-tech.org/api/Harp.Behavior.html) can be logged. In this example, only data relative setting and clearing of digital output ports is logged. 
 
 ![Schematics](./LogSelectedSch.svg){ width=65% }
+
+## CSV Conversion
+It's often desirable to convert the binary files that come out of the MessageWriter node into a human readable file. One way to do this is to convert them into CSV files through the [Harp Convert To CSV](https://github.com/harp-tech/csv_converter) GUI.
