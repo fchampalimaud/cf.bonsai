@@ -18,4 +18,4 @@ This example demonstrates how to get all the data from a stream that is already 
 Vizualize the node outputs using the *ObjectTextVizualizer* with an expanded window for each node to be able to better compare their contents.
 
 ## Follow up
-You can compare this with other *Subject* types: [*PublishSubject*](../PublishSubject/PublishSubject.html) and [*BehaviorSubject*](../BehaviorSubject/BehaviorSubject.html).
+You can compare this with other *Subject* types: [*PublishSubject*](../PublishSubject/PublishSubject.md) and [*BehaviorSubject*](../BehaviorSubject/BehaviorSubject.md).
