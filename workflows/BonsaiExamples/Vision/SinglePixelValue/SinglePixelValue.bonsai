@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WorkflowBuilder Version="2.8.2"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xmlns:wie="clr-namespace:Bonsai.Windows.Input;assembly=Bonsai.Windows.Input"
+                 xmlns:drw="clr-namespace:Bonsai.Vision.Drawing;assembly=Bonsai.Vision"
+                 xmlns:rx="clr-namespace:Bonsai.Reactive;assembly=Bonsai.Core"
+                 xmlns:scr="clr-namespace:Bonsai.Scripting.Expressions;assembly=Bonsai.Scripting.Expressions"
+                 xmlns="https://bonsai-rx.org/2018/workflow">
+  <Workflow>
+    <Nodes>
+      <Expression xsi:type="Annotation">
+        <Name>1</Name>
+        <Text><![CDATA[]]></Text>
+      </Expression>
+      <Expression xsi:type="Combinator">
+        <Combinator xsi:type="wie:KeyDown">
+          <wie:Filter>A</wie:Filter>
+          <wie:SuppressRepetitions>true</wie:SuppressRepetitions>
+        </Combinator>
+      </Expression>
+      <Expression xsi:type="Combinator">
+        <Combinator xsi:type="drw:CreateCanvas">
+          <drw:Size>
+            <drw:Width>100</drw:Width>
+            <drw:Height>100</drw:Height>
+          </drw:Size>
+          <drw:Depth>U8</drw:Depth>
+          <drw:Channels>1</drw:Channels>
+          <drw:Color>
+            <drw:Val0>0</drw:Val0>
+            <drw:Val1>0</drw:Val1>
+            <drw:Val2>0</drw:Val2>
+            <drw:Val3>0</drw:Val3>
+          </drw:Color>
+        </Combinator>
+      </Expression>
+      <Expression xsi:type="Combinator">
+        <Combinator xsi:type="drw:Circle">
+          <drw:Center>
+            <drw:X>50</drw:X>
+            <drw:Y>50</drw:Y>
+          </drw:Center>
+          <drw:Radius>1</drw:Radius>
+          <drw:Color>
+            <drw:Val0>255</drw:Val0>
+            <drw:Val1>255</drw:Val1>
+            <drw:Val2>255</drw:Val2>
+            <drw:Val3>255</drw:Val3>
+          </drw:Color>
+          <drw:Thickness>2</drw:Thickness>
+          <drw:LineType>Connected8</drw:LineType>
+          <drw:Shift>0</drw:Shift>
+        </Combinator>
+      </Expression>
+      <Expression xsi:type="Annotation">
+        <Name>2</Name>
+        <Text><![CDATA[]]></Text>
+      </Expression>
+      <Expression xsi:type="Combinator">
+        <Combinator xsi:type="wie:KeyDown">
+          <wie:Filter>S</wie:Filter>
+          <wie:SuppressRepetitions>true</wie:SuppressRepetitions>
+        </Combinator>
+      </Expression>
+      <Expression xsi:type="Combinator">
+        <Combinator xsi:type="drw:CreateCanvas">
+          <drw:Size>
+            <drw:Width>100</drw:Width>
+            <drw:Height>100</drw:Height>
+          </drw:Size>
+          <drw:Depth>U8</drw:Depth>
+          <drw:Channels>1</drw:Channels>
+          <drw:Color>
+            <drw:Val0>0</drw:Val0>
+            <drw:Val1>0</drw:Val1>
+            <drw:Val2>0</drw:Val2>
+            <drw:Val3>0</drw:Val3>
+          </drw:Color>
+        </Combinator>
+      </Expression>
+      <Expression xsi:type="Combinator">
+        <Combinator xsi:type="drw:Circle">
+          <drw:Center>
+            <drw:X>50</drw:X>
+            <drw:Y>50</drw:Y>
+          </drw:Center>
+          <drw:Radius>1</drw:Radius>
+          <drw:Color>
+            <drw:Val0>180</drw:Val0>
+            <drw:Val1>255</drw:Val1>
+            <drw:Val2>255</drw:Val2>
+            <drw:Val3>255</drw:Val3>
+          </drw:Color>
+          <drw:Thickness>2</drw:Thickness>
+          <drw:LineType>Connected8</drw:LineType>
+          <drw:Shift>0</drw:Shift>
+        </Combinator>
+      </Expression>
+      <Expression xsi:type="Annotation">
+        <Name>3</Name>
+        <Text><![CDATA[]]></Text>
+      </Expression>
+      <Expression xsi:type="Combinator">
+        <Combinator xsi:type="wie:KeyDown">
+          <wie:Filter>D</wie:Filter>
+          <wie:SuppressRepetitions>true</wie:SuppressRepetitions>
+        </Combinator>
+      </Expression>
+      <Expression xsi:type="Combinator">
+        <Combinator xsi:type="drw:CreateCanvas">
+          <drw:Size>
+            <drw:Width>100</drw:Width>
+            <drw:Height>100</drw:Height>
+          </drw:Size>
+          <drw:Depth>U8</drw:Depth>
+          <drw:Channels>1</drw:Channels>
+          <drw:Color>
+            <drw:Val0>0</drw:Val0>
+            <drw:Val1>0</drw:Val1>
+            <drw:Val2>0</drw:Val2>
+            <drw:Val3>0</drw:Val3>
+          </drw:Color>
+        </Combinator>
+      </Expression>
+      <Expression xsi:type="Combinator">
+        <Combinator xsi:type="drw:Circle">
+          <drw:Center>
+            <drw:X>50</drw:X>
+            <drw:Y>50</drw:Y>
+          </drw:Center>
+          <drw:Radius>1</drw:Radius>
+          <drw:Color>
+            <drw:Val0>90</drw:Val0>
+            <drw:Val1>255</drw:Val1>
+            <drw:Val2>255</drw:Val2>
+            <drw:Val3>255</drw:Val3>
+          </drw:Color>
+          <drw:Thickness>2</drw:Thickness>
+          <drw:LineType>Connected8</drw:LineType>
+          <drw:Shift>0</drw:Shift>
+        </Combinator>
+      </Expression>
+      <Expression xsi:type="Combinator">
+        <Combinator xsi:type="rx:Merge" />
+      </Expression>
+      <Expression xsi:type="Annotation">
+        <Name>4</Name>
+        <Text><![CDATA[]]></Text>
+      </Expression>
+      <Expression xsi:type="Combinator">
+        <Combinator xsi:type="drw:DrawCanvas" />
+      </Expression>
+      <Expression xsi:type="Annotation">
+        <Name>5</Name>
+        <Text><![CDATA[]]></Text>
+      </Expression>
+      <Expression xsi:type="scr:ExpressionTransform">
+        <scr:Expression>it[50,50]</scr:Expression>
+      </Expression>
+      <Expression xsi:type="Annotation">
+        <Name>6</Name>
+        <Text><![CDATA[]]></Text>
+      </Expression>
+      <Expression xsi:type="MemberSelector">
+        <Selector>Val0</Selector>
+      </Expression>
+    </Nodes>
+    <Edges>
+      <Edge From="0" To="1" Label="Source1" />
+      <Edge From="1" To="2" Label="Source1" />
+      <Edge From="2" To="3" Label="Source1" />
+      <Edge From="3" To="12" Label="Source1" />
+      <Edge From="4" To="5" Label="Source1" />
+      <Edge From="5" To="6" Label="Source1" />
+      <Edge From="6" To="7" Label="Source1" />
+      <Edge From="7" To="12" Label="Source2" />
+      <Edge From="8" To="9" Label="Source1" />
+      <Edge From="9" To="10" Label="Source1" />
+      <Edge From="10" To="11" Label="Source1" />
+      <Edge From="11" To="12" Label="Source3" />
+      <Edge From="12" To="14" Label="Source1" />
+      <Edge From="13" To="14" Label="Source2" />
+      <Edge From="14" To="16" Label="Source1" />
+      <Edge From="15" To="16" Label="Source2" />
+      <Edge From="16" To="18" Label="Source1" />
+      <Edge From="17" To="18" Label="Source2" />
+    </Edges>
+  </Workflow>
+</WorkflowBuilder>
