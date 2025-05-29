@@ -1,0 +1,152 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Create and Execute Protocol | CF.Bonsai </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Create and Execute Protocol | CF.Bonsai ">
+      
+      
+      <link rel="icon" href="../../../../images/logo.svg">
+      <link rel="stylesheet" href="../../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../../public/main.css">
+      <meta name="docfx:navrel" content="">
+      <meta name="docfx:tocrel" content="../../../../articles/toc.html">
+      
+      <meta name="docfx:rel" content="../../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/fchampalimaud/cf.bonsai/blob/main/docs/workflows/HarpExamples/SyringePump/CreateAndExecuteProtocol/CreateAndExecuteProtocol.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../../index.html">
+            <img id="logo" class="svg" src="../../../../images/logo_white.svg" alt="CF.Bonsai">
+            CF.Bonsai
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="create-and-execute-protocol">Create and Execute Protocol</h1>
+
+<h2 id="summary">Summary</h2>
+<p>This example demonstrates how to create and execute a reward delivery protocol using the <a href="https://harp-tech.org/api/Harp.SyringePump.html">Harp SyringePump</a> (see hardware schematics below).</p>
+<h2 id="workflow">Workflow</h2>
+<div class="workflow"><p><img src="CreateAndExecuteProtocol.bonsai" alt="Example"></p>
+</div>
+<h2 id="details">Details</h2>
+<ol>
+<li>Establishes the commands to be sent to the Harp SyringePump and publishes all the events from the device. The PortName property in the SyringePump node needs to be set to the COM device on the computer. To create the subject node, right-click on the SyringePump node -&gt; Create Source -&gt; Behavior Subject, and name it accordingly.</li>
+<li>Defines the protocol to be used.
+<ol>
+<li>Sets the protocol direction.</li>
+<li>Sets the number of steps of the protocol.</li>
+<li>Sets the period of each step of the protocol.</li>
+<li>Sets the microstep used in the protocol (full step, half step,...). Smaller microsteps usually mean smoother motor movements.</li>
+<li>Ensures that command messages are sent only when the device is ready.</li>
+</ol>
+</li>
+<li>Executes the protocol defined in steps 2-5 when <code>A</code> is pressed.
+<ol>
+<li>Enables the motor so that the protocol can be executed.</li>
+<li>This is where the protocol is actually executed.</li>
+<li>Delays the data stream so that the motor isn't disabled before the protocol finishes. Beware that for the defined protocol the 1-second delay is enough, but it might not be enough for other protocols. This delay must be adapted according to the protocol used.</li>
+<li>Disables the motor so that the controller doesn't heat up when it's not being used.</li>
+</ol>
+</li>
+</ol>
+<h2 id="requirements">Requirements</h2>
+<p>This example requires:</p>
+<ol>
+<li>An up-to-date version of the <a href="https://github.com/harp-tech/device.syringepump/releases">SyringePump firmware</a>. This example used the <em>fw0.6-harp1.6</em>. To upload the new firmware double-click on the <em>SyringePump Device</em> node in Bonsai and follow the instructions.</li>
+<li>The installation of the Bonsai package <em>Harp - SyringePump</em> (from nuget.org).</li>
+<li>It might also be useful to download the <a href="https://github.com/harp-tech/device.syringepump/releases">SyringePump GUI</a>.</li>
+</ol>
+<h2 id="schematics">Schematics</h2>
+<p>In this example, the <a href="https://harp-tech.org/api/Harp.SyringePump.html">Harp SyringePump</a> controls a stepper motor.</p>
+<p><img src="./CreateAndExecuteProtocolSch.svg" width="65%" alt="Schematics"></p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/fchampalimaud/cf.bonsai/blob/main/docs/workflows/HarpExamples/SyringePump/CreateAndExecuteProtocol/CreateAndExecuteProtocol.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>&copy; 2024 Champalimaud Foundation and Contributors</span> -<span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
