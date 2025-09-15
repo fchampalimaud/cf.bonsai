@@ -21,7 +21,7 @@ Vizualize the node outputs using the *ObjectTextVizualizer* with expanded window
 
 
 ## Follow up
-You can compare this with other *Subject* types: [*BehaviorSubject*](../BehaviorSubject/BehaviorSubject.html) and [*ReplaySubject*](../ReplaySubject/ReplaySubject.html).
+You can compare this with other *Subject* types: [*BehaviorSubject*](../BehaviorSubject/BehaviorSubject.md) and [*ReplaySubject*](../ReplaySubject/ReplaySubject.md).
 
 
 
