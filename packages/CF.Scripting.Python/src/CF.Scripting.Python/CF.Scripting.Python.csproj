@@ -3,7 +3,7 @@
 
   <PropertyGroup>
     <Title>CF.Scripting.Python</Title>
-    <Description>A package for the Bonsai visual programming language.</Description>
+    <Description>Package for adding python capabilities to Bonsai. It adds explicit conversion nodes to the original Bonsai.Scripting.Python implementation available in the Bonsai repository.</Description>
     <Authors></Authors>
     <Copyright>Copyright ©  2024</Copyright>
     <GeneratePackageOnBuild Condition="'$(Configuration)'=='Release'">true</GeneratePackageOnBuild>
@@ -12,12 +12,16 @@
     <PackageIcon></PackageIcon>
     <PackageOutputPath></PackageOutputPath>
     <PackageTags>Bonsai Rx CF.Scripting.Python</PackageTags>
+    <LangVersion>8.0</LangVersion>
+    <Platforms>AnyCPU;x64;x86</Platforms>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageTags>Bonsai Rx Python Scripting</PackageTags>
     <TargetFramework>net472</TargetFramework>
     <Features>strict</Features>
-    <Version>0.4.0</Version>
-    <LangVersion>8.0</LangVersion>
-    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
-    <Platforms>AnyCPU;x64;x86</Platforms>
+    <Version>0.6.0</Version>
+    
+  
   </PropertyGroup>
 
   <ItemGroup>
@@ -26,4 +30,9 @@
     <PackageReference Include="OpenCV.Net" Version="3.4.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include="LICENSE.txt" Pack="true" PackagePath="" />
+    <None Include="README.md" Pack="true" PackagePath="" />
+  </ItemGroup>
+  
 </Project>

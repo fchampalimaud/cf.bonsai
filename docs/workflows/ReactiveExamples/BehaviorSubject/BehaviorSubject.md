@@ -18,5 +18,5 @@ Vizualize the node outputs using the *ObjectTextVizualizer* with expanded window
 
 
 ## Follow up
-You can compare this with other *Subject* types:  [*PublishSubject*](../PublishSubject/PublishSubject.html) and [*ReplaySubject*](../ReplaySubject/ReplaySubject.html).
+You can compare this with other *Subject* types:  [*PublishSubject*](../PublishSubject/PublishSubject.md) and [*ReplaySubject*](../ReplaySubject/ReplaySubject.md).
 

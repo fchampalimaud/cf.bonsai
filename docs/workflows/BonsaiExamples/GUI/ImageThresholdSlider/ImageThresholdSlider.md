@@ -6,7 +6,7 @@ This example demonstrates how to combine different GUI elements into a single wi
 ## Workflow
 
 :::workflow
-![Example](~/workflows//BonsaiExamples/GUI/StartCameraSubPanel/StartCameraSubPanel.bonsai)
+![Example](~/workflows//BonsaiExamples/GUI/ImageThresholdSlider/ImageThresholdSlider.bonsai)
 :::
 
 ## Details
