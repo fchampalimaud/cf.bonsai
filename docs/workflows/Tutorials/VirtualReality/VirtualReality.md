@@ -12,9 +12,9 @@ In this tutorial, you’ll build a complete virtual reality (VR) system in Bonsa
 ## Getting started
 
 ### Setting up
-This tutorial provides Bonsai programs that you can copy and run directly in your Bonsai environment. Before running the examples, ensure that the necessary packages are installed. To quickly set up a working Bonsai environment, download the provided ZIP file, unzip it to a directory of your choice, and run **Setup.cmd**. This will download all required packages and create a local Bonsai executable, into which you can paste the workflows from this tutorial.
+This tutorial provides Bonsai programs that you can copy and run directly in your Bonsai environment. Before running the examples, ensure that the necessary packages are installed. To quickly set up a working Bonsai environment, download the this [*ZIP file*](~/workflows/Tutorials/VirtualReality/VirtualReality.zip), unzip it to a directory of your choice, and run **Setup.cmd**. This will download all required packages and create a local Bonsai executable. To run the examples here, you can simply run this executable, copy the example from this page, and paste it in Bonsai. Alternatively, you can run the local Bonsai executable, and load the examples provided in the ZIP file.
 
-The ZIP file also contains **Shaders** and **Arena** folders with the files used to create and render the 3D environment. These files will be explained in detail throughout the tutorial.
+The ZIP file also contains **Shaders** and **Arena** folders with the files used to create and render the 3D environment. These files will be explained in detail throughout the tutorial. 
 
 
 ### Shaders graphics library
@@ -35,7 +35,6 @@ In this tutorial, we will create a cylindrical VR projection spanning [-110º, 1
 
 
 ## Cubemap: First-person view of a 3D world
-# Somehow add annotations to the texture nodes 
 To set up a VR environment in Bonsai, we first need to populate the 3D scene with objects, typically by adding textured 3D meshes. In this tutorial, the scene consists of a square room with four walls and a ground floor (Fig.2 Left).
 
 <br>
@@ -62,7 +61,7 @@ The following workflow renders a single view of the Cubemap applied to our 3D sc
     2. Emits a notification to the **Draw** subject, with the current perspective of the cubemap to draw the virtual world according to that view (3).
     3. Renders the cubemap from its current perspective.
     4. Creates a **Viewpoint** to visualize a part of the cubemap. You can change this view point by modifying the rotation and translation positions of the windows' viewpoint.
-3. Draws the 3D world according to the perspective of the cubemap (or given the transform it entails in 1). Each branch, binds the wall and floor textures to five planes arranged in a cubic shape.
+3. Draws the 3D world according to the perspective of the cubemap (or given the transform it entails in 1). The frive branches draw (from top to bottom) the front, back, right, left and floor textures.
 
 This is the resulting image generated in the output window:
 
@@ -225,7 +224,7 @@ Here is the final code:
 
 0. Encapsulates the **Shaders** initialization, the **3D Scene** drawing and the **Navigation** workflows we described above.
 1. Renders each frame of to be sent to the display.
-    1. Sets the uniform variables **angleStart** and **angleEnd** and draws a different view of the Cubemap in each branch out of the **RenderCubemap**. 
+    1. Sets the uniform variables **angleStart** and **angleEnd**, and draws a different view of the Cubemap in each branch out of the **RenderCubemap**. 
     2. Binds the rendered cubemap to our **PanoramicShader**. This tells the GPU the code that it will need to run in the next draw call.
     3. Draws the **PanoramicShader** into our **PanoramicQuad**.
     4. Creates a view window to display the finished **PanoramicQuad**.
