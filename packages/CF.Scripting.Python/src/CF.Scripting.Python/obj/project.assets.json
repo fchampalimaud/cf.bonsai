@@ -398,7 +398,8 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\hgmar\\.nuget\\packages\\": {}
+    "C:\\Users\\hgmar\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "0.4.0",
@@ -409,8 +410,12 @@
       "packagesPath": "C:\\Users\\hgmar\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\hgmar\\Documents\\Code\\MyRepositories\\cf.bonsai\\packages\\CF.Scripting.Python\\src\\CF.Scripting.Python\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
         "C:\\Users\\hgmar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -419,9 +424,7 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Users\\hgmar\\AppData\\Local\\Bonsai\\Gallery": {},
-        "C:\\Users\\hgmar\\Code\\Bonsai\\ArduinoPackage - Under FirmataName\\bin\\Debug\\net462": {},
-        "C:\\Users\\hgmar\\Documents\\Code\\Bonsai\\MyNugets": {},
-        "C:\\Users\\hgmar\\Dropbox (Carey Lab)\\Hugo\\Projects\\LittleBrainProject\\Bonsai\\LBP Package\\LittleBrainProject\\LittleBrainProject\\bin\\Debug\\BonsaiLittleBrainPackage.dll": {},
+        "C:\\Users\\hgmar\\Documents\\Code\\MyRepositories\\cf.bonfly\\src\\CF.BonFly\\bin\\Release": {},
         "https://api.nuget.org/v3/index.json": {},
         "https://www.myget.org/F/bonsai-community/api/v3/index.json": {},
         "https://www.myget.org/F/bonsai/api/v3/index.json": {}
