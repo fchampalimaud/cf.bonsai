@@ -4,8 +4,10 @@ in vec2 uv;                  // Input from vertex shader: position of fragment o
 out vec4 fragColor;          // Output color
 
 uniform samplerCube cubeMap; // Cubemap texture (environment)
-uniform float fov = 220.0;   // Horizontal field of view
+//uniform float fov = 220.0;   // Horizontal field of view
 uniform float height = 1.0;  // Cylinder height (full height, replaces hardcoded 0.5)
+uniform float angleStart = -110; 
+uniform float angleEnd = 110; 
 
 void main()
 {
@@ -13,8 +15,9 @@ void main()
     float u = uv.x * 0.5 + 0.5;         // controls the horizontal angle
     float v = uv.y * 0.5 + 0.5;         // controls the vertical position along the cylinder
 
-    // Compute horizontal angle for cylindrical projection
-    float theta = (u - 0.5) * radians(fov);
+    // Map u coordinate to the slice's angular range
+    float thetaDeg = mix(angleStart, angleEnd, u);
+    float theta = radians(thetaDeg); // Convert angle to radians
 
     // Compute lateral XZ direction of the ray in world space with forward along -Z 
     vec3 dir = normalize(vec3(sin(theta), 0.0, -cos(theta)));

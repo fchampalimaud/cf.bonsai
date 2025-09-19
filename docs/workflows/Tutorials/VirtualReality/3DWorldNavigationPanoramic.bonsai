@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<WorkflowBuilder Version="2.9.0"
+<WorkflowBuilder Version="2.8.5"
                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:wie="clr-namespace:Bonsai.Windows.Input;assembly=Bonsai.Windows.Input"
                  xmlns:rx="clr-namespace:Bonsai.Reactive;assembly=Bonsai.Core"
@@ -104,9 +104,9 @@ Item1 * Math.Cos(Item2) as Z
             </Expression>
             <Expression xsi:type="Combinator">
               <Combinator xsi:type="gl:CreateVector3">
-                <gl:X>-0.717356145</gl:X>
+                <gl:X>0.198669344</gl:X>
                 <gl:Y>0</gl:Y>
-                <gl:Z>0.696706653</gl:Z>
+                <gl:Z>-0.9800666</gl:Z>
               </Combinator>
             </Expression>
             <Expression xsi:type="rx:Accumulate" />
@@ -524,9 +524,9 @@ Item1 * Math.Cos(Item2) as Z
             </Expression>
             <Expression xsi:type="IncludeWorkflow" Path="BonVision:Environment.CubemapView.bonsai">
               <Eye>
-                <X>1.34228706</X>
+                <X>0.198669344</X>
                 <Y>0</Y>
-                <Z>-4.07311535</Z>
+                <Z>-0.9800666</Z>
               </Eye>
               <NearClip>0.1</NearClip>
               <FarClip>1000</FarClip>
@@ -550,7 +550,7 @@ Item1 * Math.Cos(Item2) as Z
             <Expression xsi:type="Combinator">
               <Combinator xsi:type="gl:RotateY">
                 <gl:Order>Append</gl:Order>
-                <gl:Angle>-0.8000001</gl:Angle>
+                <gl:Angle>-0.3</gl:Angle>
               </Combinator>
             </Expression>
             <Expression xsi:type="Combinator">
@@ -604,7 +604,7 @@ Item1.Light as Light
         </Combinator>
       </Expression>
       <Expression xsi:type="Annotation">
-        <Name>2.4</Name>
+        <Name>2.5</Name>
         <Text><![CDATA[]]></Text>
       </Expression>
       <Expression xsi:type="Combinator">
@@ -616,7 +616,7 @@ Item1.Light as Light
         </Combinator>
       </Expression>
       <Expression xsi:type="Annotation">
-        <Name>2.5</Name>
+        <Name>2.6</Name>
         <Text><![CDATA[]]></Text>
       </Expression>
       <Expression xsi:type="Combinator">
@@ -626,7 +626,7 @@ Item1.Light as Light
         </Combinator>
       </Expression>
       <Expression xsi:type="Annotation">
-        <Name>2.6</Name>
+        <Name>2.7</Name>
         <Text><![CDATA[]]></Text>
       </Expression>
       <Expression xsi:type="IncludeWorkflow" Path="BonVision:Environment.ViewWindow.bonsai">

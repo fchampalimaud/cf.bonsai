@@ -152,8 +152,9 @@ in vec2 uv;                  // Input from vertex shader: position of fragment o
 out vec4 fragColor;          // Output color
 
 uniform samplerCube cubeMap; // Cubemap texture (environment)
-uniform float fov = 220.0;   // Horizontal field of view
 uniform float height = 1.0;  // Cylinder height (full height, replaces hardcoded 0.5)
+uniform float angleStart = -110; // Start angle for the field of view
+uniform float angleEnd = 110;    // End angle for the field of view
 
 void main()
 {
@@ -161,8 +162,9 @@ void main()
     float u = uv.x * 0.5 + 0.5;         // controls the horizontal angle
     float v = uv.y * 0.5 + 0.5;         // controls the vertical position along the cylinder
 
-    // Compute horizontal angle for cylindrical projection
-    float theta = (u - 0.5) * radians(fov);
+    // Map u coordinate to the slice's angular range
+    float thetaDeg = mix(angleStart, angleEnd, u);
+    float theta = radians(thetaDeg); // Convert angle to radians
 
     // Compute lateral XZ direction of the ray in world space with forward along -Z 
     vec3 dir = normalize(vec3(sin(theta), 0.0, -cos(theta)));
@@ -209,68 +211,13 @@ The resulting panoramic rendering of the 3D scene is shown in Fig.5.
 
 
 ## Slicing the panoramic view in three  adjustable parts
-# Use the same shader
 
-Often, a panoramic view needs to be divided into independent segments to match the physical layout of the display. In our setup, the projection requires three images—front and two mirrors—that must be produced in a way that, when projected to the canvas, gives the animal the impression of full immersion (see Fig.1). By splitting the panoramic image into three sections—left, front, and right—we can control each viewpoint independently and ensure that each portion aligns correctly with the cylindrical display surrounding the animal.
+Often, a panoramic view needs to be divided into independent segments to match the physical layout of the display. In our setup, the projection requires three images—front and two mirrors—that must be produced in a way that, when projected to the canvas, gives the animal the impression of full immersion (see Fig.1). By splitting the panoramic image into three sections—left, front, and right—we can control each viewpoint independently and ensure that each portion aligns correctly with the cylindrical display surrounding the animal. The angles used for each view are:
+- **Left view:** [-110º,-45º]
+- **Front view:** [-45º,45º]
+- **Right view:** [45º,110º] 
 
-To achieve this, we modify the fragment shader (the vertex shader remains unchanged) to introduce a new uniform variable, sliceIndex, which determines which section of the panorama it renders for each view:
-- **Left slice:** sliceIndex = 0 → [-110º, -45º]
-- **Front slice:** sliceIndex = 1 → [-45º, 45º]
-- **Right slice:** sliceIndex = 2 → [45º, 110º]
-
-
-```glsl
-#version 400
-
-in vec2 uv;               // UV coordinates passed from vertex shader
-out vec4 fragColor;       // Output color of the fragment
-
-uniform samplerCube cubeMap; // The cubemap texture containing the environment
-uniform int sliceIndex = 2;  // Determines which horizontal slice to render: 0=left, 1=front, 2=right
-uniform float maxY = 0.5;    // Maximum vertical half-height of the cylindrical mapping
-
-void main()
-{
-    // Define start and end angles of the horizontal slice in degrees
-    float sliceStart;
-    float sliceEnd;
-
-    // Assign angular range based on the selected slice
-    if(sliceIndex == 0) {          // left slice
-        sliceStart = -110.0;
-        sliceEnd   = -45.0;
-    } else if(sliceIndex == 1) {   // front slice
-        sliceStart = -45.0;
-        sliceEnd   = 45.0;
-    } else if(sliceIndex == 2) {   // right slice
-        sliceStart = 45.0;
-        sliceEnd   = 110.0;
-    } else {                        // fallback to front
-        sliceStart = -45.0;
-        sliceEnd   = 45.0;
-    }
-
-    // Normalize uv coordinates from [-1,1] to [0,1]
-    float u = uv.x * 0.5 + 0.5;
-    float v = uv.y * 0.5 + 0.5;
-
-    // Map u coordinate to the slice's angular range
-    float thetaDeg = mix(sliceStart, sliceEnd, u);
-    float theta = radians(thetaDeg); // Convert angle to radians
-
-    // Compute lateral direction vector in XZ plane with forward along -Z 
-    vec3 dir = normalize(vec3(sin(theta), 0.0, -cos(theta)));
-
-    // Map vertical coordinate v to Y axis within [-maxY, maxY]
-    float y = (v - 0.5) * 2.0 * maxY;
-    dir.y = clamp(y, -maxY, maxY);
-
-    // Sample the cubemap in the computed direction
-    fragColor = texture(cubeMap, dir);
-}
-```
-
-To incorporate the new shader in Bonsai, we need to modify the **PanoramicShader** in the **ShaderResources** node to and substitute the fragment shader to include the new *panoramic_sliced.frag* file. Here is the final code:
+Here is the final code:
 
 :::workflow
 ![Example](~/workflows/Tutorials/VirtualReality/3DWorldNavigationPanoramicSliced.bonsai)
@@ -278,7 +225,7 @@ To incorporate the new shader in Bonsai, we need to modify the **PanoramicShader
 
 0. Encapsulates the **Shaders** initialization, the **3D Scene** drawing and the **Navigation** workflows we described above.
 1. Renders each frame of to be sent to the display.
-    1. Sets the sliceIndex uniform variable and draws a different view of the Cubemap in each branch out of the **RenderCubemap**.
+    1. Sets the uniform variables **angleStart** and **angleEnd** and draws a different view of the Cubemap in each branch out of the **RenderCubemap**. 
     2. Binds the rendered cubemap to our **PanoramicShader**. This tells the GPU the code that it will need to run in the next draw call.
     3. Draws the **PanoramicShader** into our **PanoramicQuad**.
     4. Creates a view window to display the finished **PanoramicQuad**.

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<WorkflowBuilder Version="2.9.0"
+<WorkflowBuilder Version="2.8.5"
                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:gl="clr-namespace:Bonsai.Shaders;assembly=Bonsai.Shaders"
                  xmlns:res="clr-namespace:Bonsai.Resources;assembly=Bonsai.System"
@@ -139,7 +139,7 @@
                     <gl:BufferBindings />
                     <gl:FramebufferAttachments />
                     <gl:VertexShader>Shaders\panoramic.vert</gl:VertexShader>
-                    <gl:FragmentShader>Shaders\panoramic_sliced.frag</gl:FragmentShader>
+                    <gl:FragmentShader>Shaders\panoramic.frag</gl:FragmentShader>
                   </gl:ShaderConfiguration>
                 </gl:Shaders>
               </Combinator>
@@ -260,9 +260,9 @@ Item1 * Math.Cos(Item2) as Z
             </Expression>
             <Expression xsi:type="Combinator">
               <Combinator xsi:type="gl:CreateVector3">
-                <gl:X>-0</gl:X>
+                <gl:X>-1.49011612E-08</gl:X>
                 <gl:Y>0</gl:Y>
-                <gl:Z>-1</gl:Z>
+                <gl:Z>1</gl:Z>
               </Combinator>
             </Expression>
             <Expression xsi:type="rx:Accumulate" />
@@ -524,9 +524,9 @@ Item1 * Math.Cos(Item2) as Z
             </Expression>
             <Expression xsi:type="IncludeWorkflow" Path="BonVision:Environment.CubemapView.bonsai">
               <Eye>
-                <X>0</X>
+                <X>-2.38418579E-07</X>
                 <Y>0</Y>
-                <Z>-3</Z>
+                <Z>0</Z>
               </Eye>
               <NearClip>0.1</NearClip>
               <FarClip>1000</FarClip>
@@ -550,7 +550,7 @@ Item1 * Math.Cos(Item2) as Z
             <Expression xsi:type="Combinator">
               <Combinator xsi:type="gl:RotateY">
                 <gl:Order>Append</gl:Order>
-                <gl:Angle>-0.5</gl:Angle>
+                <gl:Angle>-0.100000016</gl:Angle>
               </Combinator>
             </Expression>
             <Expression xsi:type="Combinator">
@@ -596,18 +596,18 @@ Item1.Light as Light
         </Combinator>
       </Expression>
       <Expression xsi:type="rx:Sink">
-        <Name>UpdateSliceIndexUniform</Name>
+        <Name>LeftAngles</Name>
         <Workflow>
           <Nodes>
             <Expression xsi:type="WorkflowInput">
               <Name>Source1</Name>
             </Expression>
             <Expression xsi:type="ExternalizedMapping">
-              <Property Name="Value" DisplayName="SliceIndex" />
+              <Property Name="Value" DisplayName="angleStart" />
             </Expression>
             <Expression xsi:type="Combinator">
-              <Combinator xsi:type="IntProperty">
-                <Value>0</Value>
+              <Combinator xsi:type="FloatProperty">
+                <Value>-110</Value>
               </Combinator>
             </Expression>
             <Expression xsi:type="ExternalizedMapping">
@@ -615,7 +615,21 @@ Item1.Light as Light
             </Expression>
             <Expression xsi:type="Combinator">
               <Combinator xsi:type="gl:UpdateUniform">
-                <gl:UniformName>sliceIndex</gl:UniformName>
+                <gl:UniformName>angleStart</gl:UniformName>
+                <gl:ShaderName>PanoramicShader</gl:ShaderName>
+              </Combinator>
+            </Expression>
+            <Expression xsi:type="ExternalizedMapping">
+              <Property Name="Value" DisplayName="angleEnd" />
+            </Expression>
+            <Expression xsi:type="Combinator">
+              <Combinator xsi:type="FloatProperty">
+                <Value>-45</Value>
+              </Combinator>
+            </Expression>
+            <Expression xsi:type="Combinator">
+              <Combinator xsi:type="gl:UpdateUniform">
+                <gl:UniformName>angleEnd</gl:UniformName>
                 <gl:ShaderName>PanoramicShader</gl:ShaderName>
               </Combinator>
             </Expression>
@@ -626,7 +640,11 @@ Item1.Light as Light
             <Edge From="1" To="2" Label="Source2" />
             <Edge From="2" To="4" Label="Source1" />
             <Edge From="3" To="4" Label="Source2" />
-            <Edge From="4" To="5" Label="Source1" />
+            <Edge From="3" To="7" Label="Source2" />
+            <Edge From="4" To="6" Label="Source1" />
+            <Edge From="5" To="6" Label="Source2" />
+            <Edge From="6" To="7" Label="Source1" />
+            <Edge From="7" To="8" Label="Source1" />
           </Edges>
         </Workflow>
       </Expression>
@@ -714,18 +732,18 @@ Item1.Light as Light
         <Height>1</Height>
       </Expression>
       <Expression xsi:type="rx:Sink">
-        <Name>UpdateSliceIndexUniform</Name>
+        <Name>FrontAngles</Name>
         <Workflow>
           <Nodes>
             <Expression xsi:type="WorkflowInput">
               <Name>Source1</Name>
             </Expression>
             <Expression xsi:type="ExternalizedMapping">
-              <Property Name="Value" DisplayName="SliceIndex" />
+              <Property Name="Value" DisplayName="angleStart" />
             </Expression>
             <Expression xsi:type="Combinator">
-              <Combinator xsi:type="IntProperty">
-                <Value>1</Value>
+              <Combinator xsi:type="FloatProperty">
+                <Value>-45</Value>
               </Combinator>
             </Expression>
             <Expression xsi:type="ExternalizedMapping">
@@ -733,7 +751,21 @@ Item1.Light as Light
             </Expression>
             <Expression xsi:type="Combinator">
               <Combinator xsi:type="gl:UpdateUniform">
-                <gl:UniformName>sliceIndex</gl:UniformName>
+                <gl:UniformName>angleStart</gl:UniformName>
+                <gl:ShaderName>PanoramicShader</gl:ShaderName>
+              </Combinator>
+            </Expression>
+            <Expression xsi:type="ExternalizedMapping">
+              <Property Name="Value" DisplayName="angleEnd" />
+            </Expression>
+            <Expression xsi:type="Combinator">
+              <Combinator xsi:type="FloatProperty">
+                <Value>45</Value>
+              </Combinator>
+            </Expression>
+            <Expression xsi:type="Combinator">
+              <Combinator xsi:type="gl:UpdateUniform">
+                <gl:UniformName>angleEnd</gl:UniformName>
                 <gl:ShaderName>PanoramicShader</gl:ShaderName>
               </Combinator>
             </Expression>
@@ -744,7 +776,11 @@ Item1.Light as Light
             <Edge From="1" To="2" Label="Source2" />
             <Edge From="2" To="4" Label="Source1" />
             <Edge From="3" To="4" Label="Source2" />
-            <Edge From="4" To="5" Label="Source1" />
+            <Edge From="3" To="7" Label="Source2" />
+            <Edge From="4" To="6" Label="Source1" />
+            <Edge From="5" To="6" Label="Source2" />
+            <Edge From="6" To="7" Label="Source1" />
+            <Edge From="7" To="8" Label="Source1" />
           </Edges>
         </Workflow>
       </Expression>
@@ -836,18 +872,18 @@ Item1.Light as Light
         <Text><![CDATA[]]></Text>
       </Expression>
       <Expression xsi:type="rx:Sink">
-        <Name>UpdateSliceIndexUniform</Name>
+        <Name>RightAngles</Name>
         <Workflow>
           <Nodes>
             <Expression xsi:type="WorkflowInput">
               <Name>Source1</Name>
             </Expression>
             <Expression xsi:type="ExternalizedMapping">
-              <Property Name="Value" DisplayName="SliceIndex" />
+              <Property Name="Value" DisplayName="angleStart" />
             </Expression>
             <Expression xsi:type="Combinator">
-              <Combinator xsi:type="IntProperty">
-                <Value>2</Value>
+              <Combinator xsi:type="FloatProperty">
+                <Value>45</Value>
               </Combinator>
             </Expression>
             <Expression xsi:type="ExternalizedMapping">
@@ -855,7 +891,21 @@ Item1.Light as Light
             </Expression>
             <Expression xsi:type="Combinator">
               <Combinator xsi:type="gl:UpdateUniform">
-                <gl:UniformName>sliceIndex</gl:UniformName>
+                <gl:UniformName>angleStart</gl:UniformName>
+                <gl:ShaderName>PanoramicShader</gl:ShaderName>
+              </Combinator>
+            </Expression>
+            <Expression xsi:type="ExternalizedMapping">
+              <Property Name="Value" DisplayName="angleEnd" />
+            </Expression>
+            <Expression xsi:type="Combinator">
+              <Combinator xsi:type="FloatProperty">
+                <Value>110</Value>
+              </Combinator>
+            </Expression>
+            <Expression xsi:type="Combinator">
+              <Combinator xsi:type="gl:UpdateUniform">
+                <gl:UniformName>angleEnd</gl:UniformName>
                 <gl:ShaderName>PanoramicShader</gl:ShaderName>
               </Combinator>
             </Expression>
@@ -866,7 +916,11 @@ Item1.Light as Light
             <Edge From="1" To="2" Label="Source2" />
             <Edge From="2" To="4" Label="Source1" />
             <Edge From="3" To="4" Label="Source2" />
-            <Edge From="4" To="5" Label="Source1" />
+            <Edge From="3" To="7" Label="Source2" />
+            <Edge From="4" To="6" Label="Source1" />
+            <Edge From="5" To="6" Label="Source2" />
+            <Edge From="6" To="7" Label="Source1" />
+            <Edge From="7" To="8" Label="Source1" />
           </Edges>
         </Workflow>
       </Expression>
