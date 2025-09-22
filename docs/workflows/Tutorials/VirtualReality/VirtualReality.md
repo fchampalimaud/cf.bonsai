@@ -4,7 +4,7 @@
 In this tutorial, you’ll build a complete virtual reality (VR) system in Bonsai, allowing an agent—whether a fly, a fish, or a mouse—to freely explore a 3D environment. The scene is projected onto a 220º cylindrical display surrounding the agent, with two mirrors used to create an immersive panoramic view. Step by step, you’ll learn how to render the environment from the agent’s perspective and generate the images that  accurately replicate what the agent is supposed to see when displayed from a projector (Fig.1).
 <br>
 <figure style="text-align:center;">
-   <img width="35%" src="./projection_schematics.svg"> 
+   <img width="35%" src="./projection_schematics.png"> 
     <figcaption><em><strong>Fig.1:</strong> Schematics of the projected image into the cylindrical canvas surrounding the real agent with the aid of two mirrors.</em></figcaption>
 </figure>
 <br>
@@ -41,7 +41,7 @@ To set up a VR environment in Bonsai, we first need to populate the 3D scene wit
 <figure style="text-align:center;">
     <img width="20%" src="./flat_room.png" style="margin-right:40px;">
     <img width="30%" src="./panorama_cube_map.png" style="margin-right:40px;">
-    <img width="25%" src="./opengl_axis.svg">
+    <img width="25%" src="./opengl_axis.png">
     <figcaption><em><strong>Fig.2: Left</strong> Flattened view of the room with the five textures — four walls and ground — seen from above; <strong>Center</strong> Cubmap view (image adapted from: <a href="https://commons.wikimedia.org/w/index.php?curid=8378562" target="_blank"> SharkD </a>);  <strong>Right</strong> Opengl coordinate system. </em></figcaption>
 </figure>
 <br>

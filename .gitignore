@@ -8,7 +8,7 @@ out
 ~$*
 .avi
 .mp4
-
+.bonsai
 
 # ignore all .svg files in the workflow directory and subfolders
 docs/workflows/**/*.svg
