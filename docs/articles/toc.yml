@@ -212,9 +212,11 @@
 #     - name: FC.Utils
 #       href: about_packages.md
 
-- name: Tutorials (1)  
+- name: Tutorials (2)  
   items:
     - name: Tracking
       href: ../workflows/Tutorials/Tracking/Tracking.md
+    - name: VirtualReality
+      href: ../workflows/Tutorials/VirtualReality/VirtualReality.md
     # - name: Reactive Combinators
     #   href: ../workflows/Tutorials/Combinators/Combinators.md
