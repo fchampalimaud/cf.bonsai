@@ -12,7 +12,7 @@ In this tutorial, you’ll build a complete virtual reality (VR) system in Bonsa
 ## Getting started
 
 ### Setting up
-This tutorial provides Bonsai programs that you can copy and run directly in your Bonsai environment. Before running the examples, ensure that the necessary packages are installed. To quickly set up a working Bonsai environment, download the this [*ZIP file*](~/workflows/Tutorials/VirtualReality/VirtualReality.zip), unzip it to a directory of your choice, and run **Setup.cmd**. This will download all required packages and create a local Bonsai executable. To run the examples here, you can simply run this executable, copy the example from this page, and paste it in Bonsai. Alternatively, you can run the local Bonsai executable, and load the examples provided in the ZIP file.
+This tutorial provides Bonsai programs that you can copy and run directly in your Bonsai environment. Before running the examples, ensure that the necessary packages are installed. To quickly set up a working Bonsai environment, download the this [*ZIP file*](~/workflows/Tutorials/VirtualReality/VirtualReality.zip), unzip it to a directory of your choice, and run **setup.cmd**. This will download all required packages and create a local Bonsai executable. To run the examples here, you can simply run this executable, copy the example from this page, and paste it in Bonsai. Alternatively, you can run the local Bonsai executable, and load the examples provided in the ZIP file.
 
 The ZIP file also contains **Shaders** and **Arena** folders with the files used to create and render the 3D environment. These files will be explained in detail throughout the tutorial. 
 
@@ -231,7 +231,7 @@ Here is the final code:
     5. Creates an off-screen framebuffer (texture) that captures a rendered view instead of drawing directly to the window.
     6. Binds the rendered view to the **PanoramicShader**. This tells the GPU which texture to sample and which shader program to execute during the next draw call.
     7. Draws the **PanoramicShader** into our **PanoramicQuad**.
-    8. Creates a perspective mapping of the **PanoramicQuad**. This mapping lets us position the four vertices of the quad in display coordinates (by dragging the vertexes with the mouse), making it easy to align the projected image with mirrors and the cylindrical canvas. This is configured by setting the **Destination** property of the **PerspectiveMapping**.
+    8. Creates a perspective mapping of the **PanoramicQuad**. This mapping lets us position the four vertices of the quad in display coordinates (by dragging the vertexes with the mouse), making it easy to align the projected image with mirrors and the cylindrical canvas. This is achieved by setting the **Destination** property of the **PerspectiveMapping**. Simply click on the  **Destination** property textbox, then on the '*...*' symbol that appears on the right. This opens a window where you can draw a quadrilateral, or adjust the position of its vertices in case it is already exists.
     9. Draws the image from each view in the main window.
 
 

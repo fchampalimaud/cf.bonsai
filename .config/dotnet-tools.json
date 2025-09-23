@@ -1,18 +1,20 @@
 {
-    "version": 1,
-    "isRoot": true,
-    "tools": {
-      "docfx": {
-        "version": "2.76.0",
-        "commands": [
-          "docfx"
-        ]
-      },
-      "bonsai.sgen": {
-        "version": "0.3.0",
-        "commands": [
-          "bonsai.sgen"
-        ]
-      }
+  "version": 1,
+  "isRoot": true,
+  "tools": {
+    "docfx": {
+      "version": "2.76.0",
+      "commands": [
+        "docfx"
+      ],
+      "rollForward": false
+    },
+    "bonsai.sgen": {
+      "version": "0.6.1",
+      "commands": [
+        "bonsai.sgen"
+      ],
+      "rollForward": false
     }
   }
+}
