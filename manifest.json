@@ -1,0 +1,5052 @@
+{
+  "source_base_path": "D:/a/cf.bonsai/cf.bonsai/docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/about_packages.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/about_packages.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/harp_old_text.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/harp_old_text.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/install_bonsai.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/install_bonsai.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/install_harp.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/install_harp.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html"
+        },
+        ".json": {
+          "relative_path": "articles/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/welcome.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/welcome.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docfx-tools/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "docfx-tools/README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/SchematicFigures.pptx",
+      "output": {
+        "resource": {
+          "relative_path": "images/SchematicFigures.pptx"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/cf-logo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "images/cf-logo.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/logo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "images/logo.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/logo_white.svg",
+      "output": {
+        "resource": {
+          "relative_path": "images/logo_white.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Redirection",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/Audio/PlayTone/PlayTone.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/Audio/PlayTone/PlayTone.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/BonsaiExamples/Audio/PlayTone/PlayTone.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/BonsaiExamples/Audio/PlayTone/PlayTone.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/Audio/PlayTone/PlayTone.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/Audio/PlayTone/PlayTone.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/Audio/SoundCalibration/SoundCalibration.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/Audio/SoundCalibration/SoundCalibration.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/BonsaiExamples/Audio/SoundCalibration/SoundCalibration.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/BonsaiExamples/Audio/SoundCalibration/SoundCalibration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/Audio/SoundCalibration/SoundCalibration.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/Audio/SoundCalibration/SoundCalibration.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/BonVision/ImageDrawing/ImageDrawing.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/BonVision/ImageDrawing/ImageDrawing.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/BonVision/ImageDrawing/ImageDrawing.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/BonVision/ImageDrawing/ImageDrawing.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/BonVision/ImageDrawing/Triangle.png",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/BonVision/ImageDrawing/Triangle.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/BonVision/MovingCircle/MovingCircle.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/BonVision/MovingCircle/MovingCircle.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/BonsaiExamples/BonVision/MovingCircle/MovingCircle.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/BonsaiExamples/BonVision/MovingCircle/MovingCircle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/BonVision/MovingCircle/MovingCircle.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/BonVision/MovingCircle/MovingCircle.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/BonVision/MovingGratings/MovingGratings.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/BonVision/MovingGratings/MovingGratings.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/BonsaiExamples/BonVision/MovingGratings/MovingGratings.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/BonsaiExamples/BonVision/MovingGratings/MovingGratings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/BonVision/MovingGratings/MovingGratings.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/BonVision/MovingGratings/MovingGratings.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/DAQmx/AIAOSynchronization/AIAOSynchronization.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/DAQmx/AIAOSynchronization/AIAOSynchronization.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/BonsaiExamples/DAQmx/AIAOSynchronization/AIAOSynchronization.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/BonsaiExamples/DAQmx/AIAOSynchronization/AIAOSynchronization.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/DAQmx/AIAOSynchronization/AIAOSynchronization.png",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/DAQmx/AIAOSynchronization/AIAOSynchronization.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/DAQmx/AIAOSynchronization/AIAOSynchronization.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/DAQmx/AIAOSynchronization/AIAOSynchronization.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/DAQmx/DigitalInputsNonBuffered/DigitalInputsNonBuffered.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/DAQmx/DigitalInputsNonBuffered/DigitalInputsNonBuffered.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/BonsaiExamples/DAQmx/DigitalInputsNonBuffered/DigitalInputsNonBuffered.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/BonsaiExamples/DAQmx/DigitalInputsNonBuffered/DigitalInputsNonBuffered.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/DAQmx/DigitalInputsNonBuffered/DigitalInputsNonBuffered.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/DAQmx/DigitalInputsNonBuffered/DigitalInputsNonBuffered.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/DataTypes/ArrayManipulation/ArrayManipulation.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/DataTypes/ArrayManipulation/ArrayManipulation.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/BonsaiExamples/DataTypes/ArrayManipulation/ArrayManipulation.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/BonsaiExamples/DataTypes/ArrayManipulation/ArrayManipulation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/DataTypes/ArrayManipulation/ArrayManipulation.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/DataTypes/ArrayManipulation/ArrayManipulation.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/DataTypes/ArrayToString/Array2String.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/DataTypes/ArrayToString/Array2String.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/DataTypes/ArrayToString/Array2String.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/DataTypes/ArrayToString/Array2String.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/DataTypes/BasicTypeConversions/BasicTypeConversions.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/DataTypes/BasicTypeConversions/BasicTypeConversions.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/BonsaiExamples/DataTypes/BasicTypeConversions/BasicTypeConversions.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/BonsaiExamples/DataTypes/BasicTypeConversions/BasicTypeConversions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/DataTypes/BasicTypeConversions/BasicTypeConversions.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/DataTypes/BasicTypeConversions/BasicTypeConversions.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/DataTypes/CreateIntArray/CreateIntArray.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/DataTypes/CreateIntArray/CreateIntArray.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/BonsaiExamples/DataTypes/CreateIntArray/CreateIntArray.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/BonsaiExamples/DataTypes/CreateIntArray/CreateIntArray.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/DataTypes/CreateIntArray/CreateIntArray.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/DataTypes/CreateIntArray/CreateIntArray.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/DataTypes/GroupNEventsIntoArray/GroupNEventsIntoArray.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/DataTypes/GroupNEventsIntoArray/GroupNEventsIntoArray.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/BonsaiExamples/DataTypes/GroupNEventsIntoArray/GroupNEventsIntoArray.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/BonsaiExamples/DataTypes/GroupNEventsIntoArray/GroupNEventsIntoArray.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/DataTypes/GroupNEventsIntoArray/GroupNEventsIntoArray.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/DataTypes/GroupNEventsIntoArray/GroupNEventsIntoArray.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/DataTypes/MatToArray/Mat2Array.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/DataTypes/MatToArray/Mat2Array.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/DataTypes/MatToArray/Mat2Array.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/DataTypes/MatToArray/Mat2Array.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/DataTypes/StreamsToMat/StreamsToMat.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/DataTypes/StreamsToMat/StreamsToMat.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/BonsaiExamples/DataTypes/StreamsToMat/StreamsToMat.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/BonsaiExamples/DataTypes/StreamsToMat/StreamsToMat.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/DataTypes/StreamsToMat/StreamsToMat.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/DataTypes/StreamsToMat/StreamsToMat.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/GUI/ImageThresholdSlider/ImageThresholdSlider.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/GUI/ImageThresholdSlider/ImageThresholdSlider.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/BonsaiExamples/GUI/ImageThresholdSlider/ImageThresholdSlider.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/BonsaiExamples/GUI/ImageThresholdSlider/ImageThresholdSlider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/GUI/ImageThresholdSlider/ImageThresholdSlider.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/GUI/ImageThresholdSlider/ImageThresholdSlider.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/GUI/LineGraph/LineGraph.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/GUI/LineGraph/LineGraph.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/BonsaiExamples/GUI/LineGraph/LineGraph.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/BonsaiExamples/GUI/LineGraph/LineGraph.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/GUI/LineGraph/LineGraph.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/GUI/LineGraph/LineGraph.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/GUI/StartCameraSubPanel/StartCameraSubPanel.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/GUI/StartCameraSubPanel/StartCameraSubPanel.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/BonsaiExamples/GUI/StartCameraSubPanel/StartCameraSubPanel.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/BonsaiExamples/GUI/StartCameraSubPanel/StartCameraSubPanel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/GUI/StartCameraSubPanel/StartCameraSubPanel.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/GUI/StartCameraSubPanel/StartCameraSubPanel.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/IO/BasicFileListProcessing/BasicFileListProcessing.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/IO/BasicFileListProcessing/BasicFileListProcessing.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/BonsaiExamples/IO/BasicFileListProcessing/BasicFileListProcessing.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/BonsaiExamples/IO/BasicFileListProcessing/BasicFileListProcessing.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/IO/BasicFileListProcessing/BasicFileListProcessing.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/IO/BasicFileListProcessing/BasicFileListProcessing.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/IO/BasicFileListProcessing/test1.txt",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/IO/BasicFileListProcessing/test1.txt"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/IO/BasicFileListProcessing/test2.txt",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/IO/BasicFileListProcessing/test2.txt"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/IO/ParseCSVFile/ParseCSVFile.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/IO/ParseCSVFile/ParseCSVFile.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/BonsaiExamples/IO/ParseCSVFile/ParseCSVFile.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/BonsaiExamples/IO/ParseCSVFile/ParseCSVFile.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/IO/ParseCSVFile/ParseCSVFile.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/IO/ParseCSVFile/ParseCSVFile.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/IO/ParseCSVFile/tone_data.csv",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/IO/ParseCSVFile/tone_data.csv"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/IO/SerialFileListProcessing/SerialFileListProcessing.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/IO/SerialFileListProcessing/SerialFileListProcessing.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/BonsaiExamples/IO/SerialFileListProcessing/SerialFileListProcessing.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/BonsaiExamples/IO/SerialFileListProcessing/SerialFileListProcessing.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/IO/SerialFileListProcessing/SerialFileListProcessing.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/IO/SerialFileListProcessing/SerialFileListProcessing.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/IO/SerialFileListProcessing/data/animal 1/file1.txt",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/IO/SerialFileListProcessing/data/animal 1/file1.txt"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/IO/SerialFileListProcessing/data/animal 1/file2.txt",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/IO/SerialFileListProcessing/data/animal 1/file2.txt"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/IO/SerialFileListProcessing/data/animal 2/file1.txt",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/IO/SerialFileListProcessing/data/animal 2/file1.txt"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/Numeric.Distributions/SampleDiscreteUniformDistribution/SampleDiscreteUniformDistribution.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/Numeric.Distributions/SampleDiscreteUniformDistribution/SampleDiscreteUniformDistribution.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/BonsaiExamples/Numeric.Distributions/SampleDiscreteUniformDistribution/SampleDiscreteUniformDistribution.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/BonsaiExamples/Numeric.Distributions/SampleDiscreteUniformDistribution/SampleDiscreteUniformDistribution.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/Numeric.Distributions/SampleDiscreteUniformDistribution/SampleDiscreteUniformDistribution.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/Numeric.Distributions/SampleDiscreteUniformDistribution/SampleDiscreteUniformDistribution.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/Numeric.Distributions/SampleNormalDistribution/SampleNormalDistribution.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/Numeric.Distributions/SampleNormalDistribution/SampleNormalDistribution.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/BonsaiExamples/Numeric.Distributions/SampleNormalDistribution/SampleNormalDistribution.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/BonsaiExamples/Numeric.Distributions/SampleNormalDistribution/SampleNormalDistribution.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/Numeric.Distributions/SampleNormalDistribution/SampleNormalDistribution.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/Numeric.Distributions/SampleNormalDistribution/SampleNormalDistribution.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/Osc/UDPSendAndReceive/UDPSendAndReceive.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/Osc/UDPSendAndReceive/UDPSendAndReceive.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/BonsaiExamples/Osc/UDPSendAndReceive/UDPSendAndReceive.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/BonsaiExamples/Osc/UDPSendAndReceive/UDPSendAndReceive.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/Osc/UDPSendAndReceive/UDPSendAndReceive.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/Osc/UDPSendAndReceive/UDPSendAndReceive.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/Vision/AnnotateArrayOfPoints/AnnotateArrayOfPoints.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/Vision/AnnotateArrayOfPoints/AnnotateArrayOfPoints.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/BonsaiExamples/Vision/AnnotateArrayOfPoints/AnnotateArrayOfPoints.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/BonsaiExamples/Vision/AnnotateArrayOfPoints/AnnotateArrayOfPoints.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/Vision/AnnotateArrayOfPoints/AnnotateArrayOfPoints.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/Vision/AnnotateArrayOfPoints/AnnotateArrayOfPoints.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/Vision/CameraCalibration/CalibrationPattern.png",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/Vision/CameraCalibration/CalibrationPattern.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/Vision/CameraCalibration/CameraCalibration.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/Vision/CameraCalibration/CameraCalibration.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/BonsaiExamples/Vision/CameraCalibration/CameraCalibration.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/BonsaiExamples/Vision/CameraCalibration/CameraCalibration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/Vision/CameraCalibration/CameraCalibration.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/Vision/CameraCalibration/CameraCalibration.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/Vision/ColumnwiseOperations/ColumnwiseOperations.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/Vision/ColumnwiseOperations/ColumnwiseOperations.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/BonsaiExamples/Vision/ColumnwiseOperations/ColumnwiseOperations.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/BonsaiExamples/Vision/ColumnwiseOperations/ColumnwiseOperations.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/Vision/ColumnwiseOperations/ColumnwiseOperations.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/Vision/ColumnwiseOperations/ColumnwiseOperations.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/Vision/ComposeImageLineByLine/ComposeImageLineByLine.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/Vision/ComposeImageLineByLine/ComposeImageLineByLine.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/BonsaiExamples/Vision/ComposeImageLineByLine/ComposeImageLineByLine.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/BonsaiExamples/Vision/ComposeImageLineByLine/ComposeImageLineByLine.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/Vision/ComposeImageLineByLine/ComposeImageLineByLine.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/Vision/ComposeImageLineByLine/ComposeImageLineByLine.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/Vision/CreateImageWithCircles/CreateImageWithCircles.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/Vision/CreateImageWithCircles/CreateImageWithCircles.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/BonsaiExamples/Vision/CreateImageWithCircles/CreateImageWithCircles.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/BonsaiExamples/Vision/CreateImageWithCircles/CreateImageWithCircles.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/Vision/CreateImageWithCircles/CreateImageWithCircles.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/Vision/CreateImageWithCircles/CreateImageWithCircles.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/Vision/CroppedRegionAverage/CroppedRegionAverage.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/Vision/CroppedRegionAverage/CroppedRegionAverage.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/BonsaiExamples/Vision/CroppedRegionAverage/CroppedRegionAverage.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/BonsaiExamples/Vision/CroppedRegionAverage/CroppedRegionAverage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/Vision/CroppedRegionAverage/CroppedRegionAverage.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/Vision/CroppedRegionAverage/CroppedRegionAverage.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/Vision/CroppedRegionAverage/hexbug.avi",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/Vision/CroppedRegionAverage/hexbug.avi"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/Vision/DynamicCropping/DynamicCropping.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/Vision/DynamicCropping/DynamicCropping.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/BonsaiExamples/Vision/DynamicCropping/DynamicCropping.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/BonsaiExamples/Vision/DynamicCropping/DynamicCropping.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/Vision/DynamicCropping/DynamicCropping.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/Vision/DynamicCropping/DynamicCropping.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/Vision/ImageDifferenceAverage/1fly.avi",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/Vision/ImageDifferenceAverage/1fly.avi"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/Vision/ImageDifferenceAverage/5fly.avi",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/Vision/ImageDifferenceAverage/5fly.avi"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/Vision/ImageDifferenceAverage/ImageDifferenceAverage.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/Vision/ImageDifferenceAverage/ImageDifferenceAverage.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/BonsaiExamples/Vision/ImageDifferenceAverage/ImageDifferenceAverage.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/BonsaiExamples/Vision/ImageDifferenceAverage/ImageDifferenceAverage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/Vision/ImageDifferenceAverage/ImageDifferenceAverage.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/Vision/ImageDifferenceAverage/ImageDifferenceAverage.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/Vision/ImageDifferenceAverage/hexbug.avi",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/Vision/ImageDifferenceAverage/hexbug.avi"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/Vision/MP4Writer/MP4Writer.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/Vision/MP4Writer/MP4Writer.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/BonsaiExamples/Vision/MP4Writer/MP4Writer.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/BonsaiExamples/Vision/MP4Writer/MP4Writer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/Vision/MP4Writer/MP4Writer.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/Vision/MP4Writer/MP4Writer.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/BonsaiExamples/Vision/MP4Writer/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/BonsaiExamples/Vision/MP4Writer/README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/Vision/RegionTrackingHSV/RegionTrackingHSV.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/Vision/RegionTrackingHSV/RegionTrackingHSV.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/BonsaiExamples/Vision/RegionTrackingHSV/RegionTrackingHSV.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/BonsaiExamples/Vision/RegionTrackingHSV/RegionTrackingHSV.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/Vision/RegionTrackingHSV/RegionTrackingHSV.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/Vision/RegionTrackingHSV/RegionTrackingHSV.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/Vision/RegionTrackingHSV/hexbug.avi",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/Vision/RegionTrackingHSV/hexbug.avi"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/Vision/RegionTrackingRGB/RegionTrackingRGB.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/Vision/RegionTrackingRGB/RegionTrackingRGB.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/BonsaiExamples/Vision/RegionTrackingRGB/RegionTrackingRGB.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/BonsaiExamples/Vision/RegionTrackingRGB/RegionTrackingRGB.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/Vision/RegionTrackingRGB/RegionTrackingRGB.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/Vision/RegionTrackingRGB/RegionTrackingRGB.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/Vision/RegionTrackingRGB/hexbug.avi",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/Vision/RegionTrackingRGB/hexbug.avi"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/Vision/SinglePixelValue/SinglePixelValue.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/Vision/SinglePixelValue/SinglePixelValue.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/BonsaiExamples/Vision/SinglePixelValue/SinglePixelValue.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/BonsaiExamples/Vision/SinglePixelValue/SinglePixelValue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/Vision/SinglePixelValue/SinglePixelValue.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/Vision/SinglePixelValue/SinglePixelValue.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/Vision/TriggerPastFrames/TriggerPastFrames.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/Vision/TriggerPastFrames/TriggerPastFrames.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/BonsaiExamples/Vision/TriggerPastFrames/TriggerPastFrames.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/BonsaiExamples/Vision/TriggerPastFrames/TriggerPastFrames.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/Vision/TriggerPastFrames/TriggerPastFrames.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/Vision/TriggerPastFrames/TriggerPastFrames.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/Vision/VideoAnnotation/VideoAnnotation.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/Vision/VideoAnnotation/VideoAnnotation.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/BonsaiExamples/Vision/VideoAnnotation/VideoAnnotation.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/BonsaiExamples/Vision/VideoAnnotation/VideoAnnotation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/BonsaiExamples/Vision/VideoAnnotation/VideoAnnotation.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/BonsaiExamples/Vision/VideoAnnotation/VideoAnnotation.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/Demos/SFN2024 - BehaviorBox/CameraObjectTrackingDistance.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/Demos/SFN2024 - BehaviorBox/CameraObjectTrackingDistance.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/Demos/SFN2024 - BehaviorBox/CameraObjectTrackingDistance.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/Demos/SFN2024 - BehaviorBox/CameraObjectTrackingDistance.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/Demos/SFN2024 - BehaviorBox/CameraObjectTrackingOptogenetics.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/Demos/SFN2024 - BehaviorBox/CameraObjectTrackingOptogenetics.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/Demos/SFN2024 - BehaviorBox/CameraObjectTrackingOptogenetics.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/Demos/SFN2024 - BehaviorBox/CameraObjectTrackingOptogenetics.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/Demos/SFN2024 - BehaviorBox/CameraObjectTrackingOptogeneticsVisualizers.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/Demos/SFN2024 - BehaviorBox/CameraObjectTrackingOptogeneticsVisualizers.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/Demos/SFN2024 - BehaviorBox/CameraObjectTrackingOptogeneticsVisualizers.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/Demos/SFN2024 - BehaviorBox/CameraObjectTrackingOptogeneticsVisualizers.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/Demos/SFN2024 - BehaviorBox/NosePokeChoiceAccordingToGradient .bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/Demos/SFN2024 - BehaviorBox/NosePokeChoiceAccordingToGradient .bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/Demos/SFN2024 - BehaviorBox/NosePokeChoiceAccordingToGradient .svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/Demos/SFN2024 - BehaviorBox/NosePokeChoiceAccordingToGradient .svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/AnalogInput/AnalogInput.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/AnalogInput/AnalogInput.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/AnalogInput/AnalogInput.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/AnalogInput/AnalogInput.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/AnalogInput/AnalogInput.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/AnalogInput/AnalogInput.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/AnalogInput/AnalogInputSch.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/AnalogInput/AnalogInputSch.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/CameraTrigger/CameraTrigger.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/CameraTrigger/CameraTrigger.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/CameraTrigger/CameraTrigger.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/CameraTrigger/CameraTrigger.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/CameraTrigger/CameraTrigger.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/CameraTrigger/CameraTrigger.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/CameraTrigger/CameraTriggerSch.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/CameraTrigger/CameraTriggerSch.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/DIOInput/DIOInput.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/DIOInput/DIOInput.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/DIOInput/DIOInput.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/DIOInput/DIOInput.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/DIOInput/DIOInput.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/DIOInput/DIOInput.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/DIOInput/DIOInputSch.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/DIOInput/DIOInputSch.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/DigitalInput/DigitalInput.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/DigitalInput/DigitalInput.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/DigitalInput/DigitalInput.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/DigitalInput/DigitalInput.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/DigitalInput/DigitalInput.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/DigitalInput/DigitalInput.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/DigitalInput/DigitalInputSch.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/DigitalInput/DigitalInputSch.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/DigitalOutput/DigitalOutput.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/DigitalOutput/DigitalOutput.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/DigitalOutput/DigitalOutput.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/DigitalOutput/DigitalOutput.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/DigitalOutput/DigitalOutput.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/DigitalOutput/DigitalOutput.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/DigitalOutput/DigitalOutputSch.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/DigitalOutput/DigitalOutputSch.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/DigitalOutputPulse/DigitalOutputPulse.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/DigitalOutputPulse/DigitalOutputPulse.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/DigitalOutputPulse/DigitalOutputPulse.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/DigitalOutputPulse/DigitalOutputPulse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/DigitalOutputPulse/DigitalOutputPulse.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/DigitalOutputPulse/DigitalOutputPulse.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/DigitalOutputPulse/DigitalOutputPulseSch.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/DigitalOutputPulse/DigitalOutputPulseSch.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/LEDToggle/LEDToggle.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/LEDToggle/LEDToggle.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/LEDToggle/LEDToggle.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/LEDToggle/LEDToggle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/LEDToggle/LEDToggle.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/LEDToggle/LEDToggle.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/LEDToggle/LEDToggleSch.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/LEDToggle/LEDToggleSch.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/LogAll/LogAll.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/LogAll/LogAll.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/LogAll/LogAll.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/LogAll/LogAll.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/LogAll/LogAll.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/LogAll/LogAll.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/LogSelected/LogSelected.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/LogSelected/LogSelected.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/LogSelected/LogSelected.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/LogSelected/LogSelected.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/LogSelected/LogSelected.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/LogSelected/LogSelected.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/LogSelected/LogSelectedSch.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/LogSelected/LogSelectedSch.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/LogSelected/log_selected.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/LogSelected/log_selected.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/Logging.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/Logging.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/Logging.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/Logging.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/Untitled.ipynb",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/Untitled.ipynb"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_0.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_0.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_1.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_1.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_10.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_10.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_100.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_100.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_101.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_101.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_102.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_102.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_103.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_103.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_104.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_104.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_105.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_105.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_106.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_106.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_107.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_107.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_108.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_108.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_109.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_109.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_11.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_11.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_110.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_110.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_111.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_111.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_112.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_112.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_113.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_113.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_114.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_114.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_115.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_115.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_116.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_116.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_117.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_117.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_118.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_118.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_119.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_119.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_12.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_12.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_120.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_120.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_121.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_121.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_122.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_122.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_13.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_13.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_14.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_14.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_2.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_2.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_3.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_3.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_32.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_32.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_33.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_33.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_34.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_34.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_35.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_35.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_36.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_36.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_37.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_37.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_38.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_38.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_39.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_39.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_4.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_4.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_40.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_40.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_41.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_41.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_42.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_42.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_43.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_43.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_44.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_44.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_45.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_45.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_46.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_46.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_47.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_47.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_48.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_48.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_49.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_49.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_5.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_5.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_50.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_50.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_51.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_51.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_52.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_52.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_53.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_53.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_54.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_54.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_55.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_55.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_56.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_56.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_57.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_57.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_58.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_58.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_59.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_59.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_6.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_6.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_60.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_60.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_61.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_61.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_62.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_62.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_63.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_63.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_64.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_64.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_65.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_65.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_66.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_66.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_67.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_67.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_68.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_68.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_69.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_69.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_7.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_7.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_70.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_70.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_71.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_71.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_72.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_72.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_73.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_73.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_74.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_74.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_75.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_75.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_76.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_76.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_77.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_77.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_78.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_78.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_79.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_79.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_8.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_8.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_80.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_80.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_81.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_81.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_82.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_82.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_83.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_83.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_84.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_84.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_85.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_85.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_86.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_86.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_87.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_87.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_88.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_88.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_89.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_89.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_9.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_9.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_90.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_90.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_91.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_91.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_92.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_92.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_93.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_93.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_94.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_94.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_95.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_95.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_96.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_96.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_97.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_97.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_98.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_98.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_99.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_99.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_AnalogData.bin",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/Logging/logging_test_AnalogData.bin"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/NosePokeDetection/NosePokeDetection.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/NosePokeDetection/NosePokeDetection.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/NosePokeDetection/NosePokeDetection.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/NosePokeDetection/NosePokeDetection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/NosePokeDetection/NosePokeDetection.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/NosePokeDetection/NosePokeDetection.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/NosePokeLEDToggle/NosePokeLEDToggle.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/NosePokeLEDToggle/NosePokeLEDToggle.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/NosePokeLEDToggle/NosePokeLEDToggle.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/NosePokeLEDToggle/NosePokeLEDToggle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/NosePokeLEDToggle/NosePokeLEDToggle.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/NosePokeLEDToggle/NosePokeLEDToggle.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/PWMToggle/PWMToggle.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/PWMToggle/PWMToggle.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/PWMToggle/PWMToggle.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/PWMToggle/PWMToggle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/PWMToggle/PWMToggle.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/PWMToggle/PWMToggle.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/PWMToggle/PWMToggleSch.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/PWMToggle/PWMToggleSch.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/QuadratureEncoder/QuadratureEncoder.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/QuadratureEncoder/QuadratureEncoder.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/QuadratureEncoder/QuadratureEncoder.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/QuadratureEncoder/QuadratureEncoder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/QuadratureEncoder/QuadratureEncoder.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/QuadratureEncoder/QuadratureEncoder.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/QuadratureEncoder/QuadratureEncoderSch.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/QuadratureEncoder/QuadratureEncoderSch.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/ServoMotorControl/ServoMotorControl.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/ServoMotorControl/ServoMotorControl.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/ServoMotorControl/ServoMotorControl.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/ServoMotorControl/ServoMotorControl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/ServoMotorControl/ServoMotorControl.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/ServoMotorControl/ServoMotorControl.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/ServoMotorControl/ServoMotorControlSch.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/ServoMotorControl/ServoMotorControlSch.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/ServoMotorToggle/ServoMotorToggle.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/ServoMotorToggle/ServoMotorToggle.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/ServoMotorToggle/ServoMotorToggle.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/ServoMotorToggle/ServoMotorToggle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/ServoMotorToggle/ServoMotorToggle.png",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/ServoMotorToggle/ServoMotorToggle.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/ServoMotorToggle/ServoMotorToggle.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/ServoMotorToggle/ServoMotorToggle.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/BehaviorBoard/ServoMotorToggle/ServoMotorToggleSch.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/BehaviorBoard/ServoMotorToggle/ServoMotorToggleSch.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/Feeder/RewardDelivery/RewardDelivery.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/Feeder/RewardDelivery/RewardDelivery.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/HarpExamples/Feeder/RewardDelivery/RewardDelivery.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/HarpExamples/Feeder/RewardDelivery/RewardDelivery.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/Feeder/RewardDelivery/RewardDelivery.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/Feeder/RewardDelivery/RewardDelivery.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/Olfactometer/EndValveToggle/EndValveToggle.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/Olfactometer/EndValveToggle/EndValveToggle.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/HarpExamples/Olfactometer/EndValveToggle/EndValveToggle.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/HarpExamples/Olfactometer/EndValveToggle/EndValveToggle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/Olfactometer/EndValveToggle/EndValveToggle.png",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/Olfactometer/EndValveToggle/EndValveToggle.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/Olfactometer/EndValveToggle/EndValveToggle.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/Olfactometer/EndValveToggle/EndValveToggle.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/Olfactometer/OdorValveToggle/OdorValveToggle.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/Olfactometer/OdorValveToggle/OdorValveToggle.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/HarpExamples/Olfactometer/OdorValveToggle/OdorValveToggle.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/HarpExamples/Olfactometer/OdorValveToggle/OdorValveToggle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/Olfactometer/OdorValveToggle/OdorValveToggle.png",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/Olfactometer/OdorValveToggle/OdorValveToggle.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/Olfactometer/OdorValveToggle/OdorValveToggle.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/Olfactometer/OdorValveToggle/OdorValveToggle.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/SoundCard/PlayFrequency/PlayFrequency.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/SoundCard/PlayFrequency/PlayFrequency.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/HarpExamples/SoundCard/PlayFrequency/PlayFrequency.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/HarpExamples/SoundCard/PlayFrequency/PlayFrequency.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/SoundCard/PlayFrequency/PlayFrequency.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/SoundCard/PlayFrequency/PlayFrequency.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/SoundCard/PlaySound/PlaySound.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/SoundCard/PlaySound/PlaySound.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/HarpExamples/SoundCard/PlaySound/PlaySound.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/HarpExamples/SoundCard/PlaySound/PlaySound.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/SoundCard/PlaySound/PlaySound.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/SoundCard/PlaySound/PlaySound.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/SoundCard/SoundHardwareTrigger/SoundHardwareTrigger.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/SoundCard/SoundHardwareTrigger/SoundHardwareTrigger.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/HarpExamples/SoundCard/SoundHardwareTrigger/SoundHardwareTrigger.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/HarpExamples/SoundCard/SoundHardwareTrigger/SoundHardwareTrigger.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/SoundCard/SoundHardwareTrigger/SoundHardwareTrigger.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/SoundCard/SoundHardwareTrigger/SoundHardwareTrigger.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/SyringePump/CalibrationProtocol/CalibrationProtocol.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/SyringePump/CalibrationProtocol/CalibrationProtocol.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/HarpExamples/SyringePump/CalibrationProtocol/CalibrationProtocol.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/HarpExamples/SyringePump/CalibrationProtocol/CalibrationProtocol.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/SyringePump/CalibrationProtocol/CalibrationProtocol.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/SyringePump/CalibrationProtocol/CalibrationProtocol.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/SyringePump/CalibrationProtocol/ProtocolSelectMany.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/SyringePump/CalibrationProtocol/ProtocolSelectMany.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/SyringePump/CalibrationProtocol/ProtocolSelectMany.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/SyringePump/CalibrationProtocol/ProtocolSelectMany.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/SyringePump/CreateAndExecuteProtocol/CreateAndExecuteProtocol.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/SyringePump/CreateAndExecuteProtocol/CreateAndExecuteProtocol.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/HarpExamples/SyringePump/CreateAndExecuteProtocol/CreateAndExecuteProtocol.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/HarpExamples/SyringePump/CreateAndExecuteProtocol/CreateAndExecuteProtocol.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/SyringePump/CreateAndExecuteProtocol/CreateAndExecuteProtocol.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/SyringePump/CreateAndExecuteProtocol/CreateAndExecuteProtocol.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/SyringePump/ToggleMicroSteps/ToggleMicroSteps.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/SyringePump/ToggleMicroSteps/ToggleMicroSteps.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/HarpExamples/SyringePump/ToggleMicroSteps/ToggleMicroSteps.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/HarpExamples/SyringePump/ToggleMicroSteps/ToggleMicroSteps.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/SyringePump/ToggleMicroSteps/ToggleMicroSteps.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/SyringePump/ToggleMicroSteps/ToggleMicroSteps.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/SyringePump/ToggleMultipleSteps/ToggleMultipleSteps.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/SyringePump/ToggleMultipleSteps/ToggleMultipleSteps.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/HarpExamples/SyringePump/ToggleMultipleSteps/ToggleMultipleSteps.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/HarpExamples/SyringePump/ToggleMultipleSteps/ToggleMultipleSteps.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/SyringePump/ToggleMultipleSteps/ToggleMultipleSteps.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/SyringePump/ToggleMultipleSteps/ToggleMultipleSteps.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/SyringePump/ToggleSingleSteps/ToggleSingleSteps.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/SyringePump/ToggleSingleSteps/ToggleSingleSteps.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/HarpExamples/SyringePump/ToggleSingleSteps/ToggleSingleSteps.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/HarpExamples/SyringePump/ToggleSingleSteps/ToggleSingleSteps.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/HarpExamples/SyringePump/ToggleSingleSteps/ToggleSingleSteps.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/HarpExamples/SyringePump/ToggleSingleSteps/ToggleSingleSteps.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/NeuroExamples/SaveExperimentalParameters/SaveExperimentalParameters.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/NeuroExamples/SaveExperimentalParameters/SaveExperimentalParameters.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/NeuroExamples/SaveExperimentalParameters/SaveExperimentalParameters.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/NeuroExamples/SaveExperimentalParameters/SaveExperimentalParameters.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/NeuroExamples/SaveExperimentalParameters/testing.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/NeuroExamples/SaveExperimentalParameters/testing.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/NeuroExamples/TrialBasedSkeleton/TrialBasedSkeleton.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/NeuroExamples/TrialBasedSkeleton/TrialBasedSkeleton.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/NeuroExamples/TrialBasedSkeleton/TrialBasedSkeleton.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/NeuroExamples/TrialBasedSkeleton/TrialBasedSkeleton.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/NeuroExamples/TrialBasedSkeleton/TrialBasedSkeleton.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/NeuroExamples/TrialBasedSkeleton/TrialBasedSkeleton.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/ReactiveExamples/Average/Average.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/ReactiveExamples/Average/Average.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/ReactiveExamples/Average/Average.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/ReactiveExamples/Average/Average.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/ReactiveExamples/Average/Average.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/ReactiveExamples/Average/Average.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/ReactiveExamples/BehaviorSubject/BehaviorSubject.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/ReactiveExamples/BehaviorSubject/BehaviorSubject.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/ReactiveExamples/BehaviorSubject/BehaviorSubject.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/ReactiveExamples/BehaviorSubject/BehaviorSubject.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/ReactiveExamples/BehaviorSubject/BehaviorSubject.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/ReactiveExamples/BehaviorSubject/BehaviorSubject.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/ReactiveExamples/Concat/Concat.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/ReactiveExamples/Concat/Concat.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/ReactiveExamples/Concat/Concat.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/ReactiveExamples/Concat/Concat.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/ReactiveExamples/Concat/Concat.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/ReactiveExamples/Concat/Concat.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/ReactiveExamples/Count/Count.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/ReactiveExamples/Count/Count.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/ReactiveExamples/Count/Count.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/ReactiveExamples/Count/Count.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/ReactiveExamples/Count/Count.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/ReactiveExamples/Count/Count.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/ReactiveExamples/CreateObservable/CreateObservable.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/ReactiveExamples/CreateObservable/CreateObservable.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/ReactiveExamples/CreateObservable/CreateObservable.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/ReactiveExamples/CreateObservable/CreateObservable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/ReactiveExamples/CreateObservable/CreateObservable.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/ReactiveExamples/CreateObservable/CreateObservable.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/ReactiveExamples/CreateObservable/CreateObservableInnerWorkflow.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/ReactiveExamples/CreateObservable/CreateObservableInnerWorkflow.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/ReactiveExamples/CreateObservable/CreateObservableInnerWorkflow.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/ReactiveExamples/CreateObservable/CreateObservableInnerWorkflow.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/ReactiveExamples/Delay/Delay.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/ReactiveExamples/Delay/Delay.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/ReactiveExamples/Delay/Delay.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/ReactiveExamples/Delay/Delay.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/ReactiveExamples/Delay/Delay.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/ReactiveExamples/Delay/Delay.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/ReactiveExamples/ElementIndex/ElementIndex.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/ReactiveExamples/ElementIndex/ElementIndex.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/ReactiveExamples/ElementIndex/ElementIndex.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/ReactiveExamples/ElementIndex/ElementIndex.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/ReactiveExamples/ElementIndex/ElementIndex.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/ReactiveExamples/ElementIndex/ElementIndex.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/ReactiveExamples/Max/Max.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/ReactiveExamples/Max/Max.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/ReactiveExamples/Max/Max.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/ReactiveExamples/Max/Max.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/ReactiveExamples/Max/Max.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/ReactiveExamples/Max/Max.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/ReactiveExamples/Merge/Merge.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/ReactiveExamples/Merge/Merge.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/ReactiveExamples/Merge/Merge.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/ReactiveExamples/Merge/Merge.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/ReactiveExamples/Merge/Merge.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/ReactiveExamples/Merge/Merge.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/ReactiveExamples/Min/Min.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/ReactiveExamples/Min/Min.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/ReactiveExamples/Min/Min.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/ReactiveExamples/Min/Min.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/ReactiveExamples/Min/Min.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/ReactiveExamples/Min/Min.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/ReactiveExamples/PublishSubject/PublishSubject.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/ReactiveExamples/PublishSubject/PublishSubject.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/ReactiveExamples/PublishSubject/PublishSubject.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/ReactiveExamples/PublishSubject/PublishSubject.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/ReactiveExamples/PublishSubject/PublishSubject.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/ReactiveExamples/PublishSubject/PublishSubject.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/ReactiveExamples/ReplaySubject/ReplaySubject.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/ReactiveExamples/ReplaySubject/ReplaySubject.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/ReactiveExamples/ReplaySubject/ReplaySubject.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/ReactiveExamples/ReplaySubject/ReplaySubject.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/ReactiveExamples/ReplaySubject/ReplaySubject.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/ReactiveExamples/ReplaySubject/ReplaySubject.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/ReactiveExamples/SelectMany/SelectMany.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/ReactiveExamples/SelectMany/SelectMany.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/ReactiveExamples/SelectMany/SelectMany.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/ReactiveExamples/SelectMany/SelectMany.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/ReactiveExamples/SelectMany/SelectMany.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/ReactiveExamples/SelectMany/SelectMany.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/ReactiveExamples/Skip/Skip.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/ReactiveExamples/Skip/Skip.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/ReactiveExamples/Skip/Skip.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/ReactiveExamples/Skip/Skip.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/ReactiveExamples/Skip/Skip.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/ReactiveExamples/Skip/Skip.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/ReactiveExamples/SkipUntil/SkipUntil.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/ReactiveExamples/SkipUntil/SkipUntil.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/ReactiveExamples/SkipUntil/SkipUntil.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/ReactiveExamples/SkipUntil/SkipUntil.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/ReactiveExamples/SkipUntil/SkipUntil.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/ReactiveExamples/SkipUntil/SkipUntil.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/ReactiveExamples/Sum/Sum.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/ReactiveExamples/Sum/Sum.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/ReactiveExamples/Sum/Sum.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/ReactiveExamples/Sum/Sum.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/ReactiveExamples/Sum/Sum.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/ReactiveExamples/Sum/Sum.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/ReactiveExamples/Take/Take.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/ReactiveExamples/Take/Take.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/ReactiveExamples/Take/Take.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/ReactiveExamples/Take/Take.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/ReactiveExamples/Take/Take.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/ReactiveExamples/Take/Take.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/ReactiveExamples/TakeUntil/TakeUntil.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/ReactiveExamples/TakeUntil/TakeUntil.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/ReactiveExamples/TakeUntil/TakeUntil.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/ReactiveExamples/TakeUntil/TakeUntil.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/ReactiveExamples/TakeUntil/TakeUntil.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/ReactiveExamples/TakeUntil/TakeUntil.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/ReactiveExamples/TimeInterval/TimeInterval.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/ReactiveExamples/TimeInterval/TimeInterval.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/ReactiveExamples/TimeInterval/TimeInterval.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/ReactiveExamples/TimeInterval/TimeInterval.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/ReactiveExamples/TimeInterval/TimeInterval.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/ReactiveExamples/TimeInterval/TimeInterval.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/ReactiveExamples/ToArray/ToArray.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/ReactiveExamples/ToArray/ToArray.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/ReactiveExamples/ToArray/ToArray.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/ReactiveExamples/ToArray/ToArray.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/ReactiveExamples/ToArray/ToArray.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/ReactiveExamples/ToArray/ToArray.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/ReactiveExamples/ToList/ToList.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/ReactiveExamples/ToList/ToList.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/ReactiveExamples/ToList/ToList.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/ReactiveExamples/ToList/ToList.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/ReactiveExamples/ToList/ToList.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/ReactiveExamples/ToList/ToList.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/ReactiveExamples/WindowCount/WindowCount.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/ReactiveExamples/WindowCount/WindowCount.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/ReactiveExamples/WindowCount/WindowCount.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/ReactiveExamples/WindowCount/WindowCount.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/ReactiveExamples/WindowTrigger/WindowTrigger.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/ReactiveExamples/WindowTrigger/WindowTrigger.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/ReactiveExamples/WindowTrigger/WindowTrigger.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/ReactiveExamples/WindowTrigger/WindowTrigger.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/ReactiveExamples/WindowTrigger/WindowTrigger.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/ReactiveExamples/WindowTrigger/WindowTrigger.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/ReactiveExamples/WithLatestFrom/WithLatestFrom.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/ReactiveExamples/WithLatestFrom/WithLatestFrom.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/ReactiveExamples/WithLatestFrom/WithLatestFrom.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/ReactiveExamples/WithLatestFrom/WithLatestFrom.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/ReactiveExamples/WithLatestFrom/WithLatestFrom.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/ReactiveExamples/WithLatestFrom/WithLatestFrom.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/ReactiveExamples/Zip/Zip.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/ReactiveExamples/Zip/Zip.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/ReactiveExamples/Zip/Zip.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/ReactiveExamples/Zip/Zip.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/ReactiveExamples/Zip/Zip.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/ReactiveExamples/Zip/Zip.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/TrialBasedSession.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/TrialBasedSession.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/TrialBasedSession.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/TrialBasedSession.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/Tutorials/Combinators/Combinators.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/Tutorials/Combinators/Combinators.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/Tutorials/Combinators/CropVideos.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/Tutorials/Combinators/CropVideos.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/Tutorials/Combinators/CropVideos.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/Tutorials/Combinators/CropVideos.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/Tutorials/Subjects/CropVideos.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/Tutorials/Subjects/CropVideos.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/Tutorials/Subjects/CropVideos.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/Tutorials/Subjects/CropVideos.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/Tutorials/Subjects/Tracking.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/Tutorials/Subjects/Tracking.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/Tutorials/Tracking/CropVideos.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/Tutorials/Tracking/CropVideos.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/Tutorials/Tracking/CropVideos.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/Tutorials/Tracking/CropVideos.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/Tutorials/Tracking/SaveVideoMP4.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/Tutorials/Tracking/SaveVideoMP4.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/Tutorials/Tracking/SaveVideoMP4.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/Tutorials/Tracking/SaveVideoMP4.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/Tutorials/Tracking/SegmentationBackgroundSubtraction.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/Tutorials/Tracking/SegmentationBackgroundSubtraction.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/Tutorials/Tracking/SegmentationBackgroundSubtraction.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/Tutorials/Tracking/SegmentationBackgroundSubtraction.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/Tutorials/Tracking/SegmentationTemporalSubtraction.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/Tutorials/Tracking/SegmentationTemporalSubtraction.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/Tutorials/Tracking/SegmentationTemporalSubtraction.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/Tutorials/Tracking/SegmentationTemporalSubtraction.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/Tutorials/Tracking/SegmentationThreshold.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/Tutorials/Tracking/SegmentationThreshold.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/Tutorials/Tracking/SegmentationThreshold.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/Tutorials/Tracking/SegmentationThreshold.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/Tutorials/Tracking/Tracking.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/Tutorials/Tracking/Tracking.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/Tutorials/Tracking/Tracking.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/Tutorials/Tracking/Tracking.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/Tutorials/Tracking/Tracking.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/Tutorials/Tracking/Tracking.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/Tutorials/Tracking/TrackingTutorial.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/Tutorials/Tracking/TrackingTutorial.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/Tutorials/Tracking/TrackingTutorial.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/Tutorials/Tracking/TrackingTutorial.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/Tutorials/VirtualReality/3DWorld.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/Tutorials/VirtualReality/3DWorld.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/Tutorials/VirtualReality/3DWorld.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/Tutorials/VirtualReality/3DWorld.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/Tutorials/VirtualReality/3DWorldNavigation.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/Tutorials/VirtualReality/3DWorldNavigation.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/Tutorials/VirtualReality/3DWorldNavigation.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/Tutorials/VirtualReality/3DWorldNavigation.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/Tutorials/VirtualReality/3DWorldNavigationPanoramic.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/Tutorials/VirtualReality/3DWorldNavigationPanoramic.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/Tutorials/VirtualReality/3DWorldNavigationPanoramic.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/Tutorials/VirtualReality/3DWorldNavigationPanoramic.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/Tutorials/VirtualReality/3DWorldNavigationPanoramicSliced.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/Tutorials/VirtualReality/3DWorldNavigationPanoramicSliced.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/Tutorials/VirtualReality/3DWorldNavigationPanoramicSliced.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/Tutorials/VirtualReality/3DWorldNavigationPanoramicSliced.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/Tutorials/VirtualReality/3DWorldNavigationStrategy.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/Tutorials/VirtualReality/3DWorldNavigationStrategy.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/Tutorials/VirtualReality/3DWorldNavigationStrategy.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/Tutorials/VirtualReality/3DWorldNavigationStrategy.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/Tutorials/VirtualReality/3DWorldTranslation.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/Tutorials/VirtualReality/3DWorldTranslation.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/Tutorials/VirtualReality/3DWorldTranslation.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/Tutorials/VirtualReality/3DWorldTranslation.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/Tutorials/VirtualReality/3d_world.png",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/Tutorials/VirtualReality/3d_world.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/Tutorials/VirtualReality/Arena/CheckerBoard.png",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/Tutorials/VirtualReality/Arena/CheckerBoard.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/Tutorials/VirtualReality/Arena/PatternedArena.png",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/Tutorials/VirtualReality/Arena/PatternedArena.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/Tutorials/VirtualReality/Arena/big_circle.png",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/Tutorials/VirtualReality/Arena/big_circle.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/Tutorials/VirtualReality/Arena/black_circle_wall.png",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/Tutorials/VirtualReality/Arena/black_circle_wall.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/Tutorials/VirtualReality/Arena/black_circle_wall_stripes.png",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/Tutorials/VirtualReality/Arena/black_circle_wall_stripes.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/Tutorials/VirtualReality/Arena/black_line_wall.png",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/Tutorials/VirtualReality/Arena/black_line_wall.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/Tutorials/VirtualReality/Arena/black_line_wall_stripes.png",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/Tutorials/VirtualReality/Arena/black_line_wall_stripes.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/Tutorials/VirtualReality/Arena/calibration_back.png",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/Tutorials/VirtualReality/Arena/calibration_back.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/Tutorials/VirtualReality/Arena/calibration_floor.png",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/Tutorials/VirtualReality/Arena/calibration_floor.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/Tutorials/VirtualReality/Arena/calibration_front.png",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/Tutorials/VirtualReality/Arena/calibration_front.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/Tutorials/VirtualReality/Arena/calibration_left.png",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/Tutorials/VirtualReality/Arena/calibration_left.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/Tutorials/VirtualReality/Arena/calibration_right.png",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/Tutorials/VirtualReality/Arena/calibration_right.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/Tutorials/VirtualReality/Arena/one_line.png",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/Tutorials/VirtualReality/Arena/one_line.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/Tutorials/VirtualReality/Arena/small_circles.png",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/Tutorials/VirtualReality/Arena/small_circles.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/Tutorials/VirtualReality/Arena/three_lines.png",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/Tutorials/VirtualReality/Arena/three_lines.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/Tutorials/VirtualReality/Shaders/panoramic.frag",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/Tutorials/VirtualReality/Shaders/panoramic.frag"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/Tutorials/VirtualReality/Shaders/panoramic.frag.ori",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/Tutorials/VirtualReality/Shaders/panoramic.frag.ori"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/Tutorials/VirtualReality/Shaders/panoramic.vert",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/Tutorials/VirtualReality/Shaders/panoramic.vert"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/Tutorials/VirtualReality/Shaders/panoramic_sliced.frag",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/Tutorials/VirtualReality/Shaders/panoramic_sliced.frag"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "workflows/Tutorials/VirtualReality/VirtualReality.md",
+      "output": {
+        ".html": {
+          "relative_path": "workflows/Tutorials/VirtualReality/VirtualReality.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/Tutorials/VirtualReality/VirtualReality.zip",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/Tutorials/VirtualReality/VirtualReality.zip"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/Tutorials/VirtualReality/bonsai/Bonsai.config",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/Tutorials/VirtualReality/bonsai/Bonsai.config"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/Tutorials/VirtualReality/bonsai/NuGet.config",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/Tutorials/VirtualReality/bonsai/NuGet.config"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/Tutorials/VirtualReality/bonsai/setup.cmd",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/Tutorials/VirtualReality/bonsai/setup.cmd"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/Tutorials/VirtualReality/bonsai/setup.ps1",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/Tutorials/VirtualReality/bonsai/setup.ps1"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/Tutorials/VirtualReality/flat_room.png",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/Tutorials/VirtualReality/flat_room.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/Tutorials/VirtualReality/navigation.gif",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/Tutorials/VirtualReality/navigation.gif"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/Tutorials/VirtualReality/navigation_panoramic.gif",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/Tutorials/VirtualReality/navigation_panoramic.gif"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/Tutorials/VirtualReality/navigation_panoramic_sliced.gif",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/Tutorials/VirtualReality/navigation_panoramic_sliced.gif"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/Tutorials/VirtualReality/opengl_axis.png",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/Tutorials/VirtualReality/opengl_axis.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/Tutorials/VirtualReality/panorama_cube_map.png",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/Tutorials/VirtualReality/panorama_cube_map.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/Tutorials/VirtualReality/projection_schematics.png",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/Tutorials/VirtualReality/projection_schematics.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/testing2/TrialBasedSession3.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/testing2/TrialBasedSession3.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/testing2/TrialBasedSession3.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/testing2/TrialBasedSession3.svg"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

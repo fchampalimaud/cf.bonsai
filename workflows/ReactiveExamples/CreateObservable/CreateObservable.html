@@ -1,0 +1,142 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>CreateObservable | CF.Bonsai </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="CreateObservable | CF.Bonsai ">
+      
+      
+      <link rel="icon" href="../../../images/logo.svg">
+      <link rel="stylesheet" href="../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../public/main.css">
+      <meta name="docfx:navrel" content="">
+      <meta name="docfx:tocrel" content="../../../articles/toc.html">
+      
+      <meta name="docfx:rel" content="../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/fchampalimaud/cf.bonsai/blob/main/docs/workflows/ReactiveExamples/CreateObservable/CreateObservable.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../index.html">
+            <img id="logo" class="svg" src="../../../images/logo_white.svg" alt="CF.Bonsai">
+            CF.Bonsai
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="createobservable">CreateObservable</h1>
+
+<h2 id="summary">Summary</h2>
+<p>This example demonstrates how the behavior of the <a href="https://bonsai-rx.org/docs/api/Bonsai.Reactive.CreateObservable.html"><em>CreateObservable</em></a> node is modified when subscribed by the high-level operators <a href="https://bonsai-rx.org/docs/api/Bonsai.Reactive.Merge.html"><em>Merge</em></a>, <a href="https://bonsai-rx.org/docs/api/Bonsai.Reactive.Concat.html"><em>Concat</em></a>, or <a href="https://bonsai-rx.org/docs/api/Bonsai.Reactive.Switch.html"><em>Switch</em></a> nodes</p>
+<h2 id="workflow">Workflow</h2>
+<div class="workflow"><p><img src="CreateObservable.bonsai" alt="Example"></p>
+</div>
+<h2 id="details">Details</h2>
+<p>The behavior of the <em>CreateObservable</em> node is a bit special, in the sense that it needs to be subscribed by a subsequent higher-level operator in order to run its internal workflow. In this example, the workflow under the <em>CreateObservable</em> nodes is the same for the three branches, and every instance of the <em>CreateObservable</em> generates a counter (<em>Timer</em>) that starts at 0 and terminates at 4 (<em>Take</em>), when it stops and closes the sequence (see workflow below). In this example, we show three ways in which the node can be subscribed, and how each way changes the subscription schedule.</p>
+<ol>
+<li>Generates a notification whenever the 'A' key is pressed and passes it to <em>MySubject</em>.</li>
+<li>Initiates a counter asynchronously everytime <em>MySubject</em> gets a notification. The counter is subscribed by a <em>Merge</em> node.</li>
+<li>Initiates a counter asynchronously everytime <em>MySubject</em> gets a notification. The counter is subscribed by a <em>Concat</em> node.</li>
+<li>Initiates a counter asynchronously everytime <em>MySubject</em> gets a notification. The counter is subscribed by a <em>Switch</em> node.</li>
+</ol>
+<p><em>CreateObservable</em></p>
+<div class="workflow"><p><img src="CreateObservableInnerWorkflow.bonsai" alt="Example"></p>
+</div>
+<h2 id="visualization">Visualization</h2>
+<p>Visualize the <em>Merge</em>, <em>Concat</em> and <em>Switch</em> nodes using the TimeSeriesVisualizer and their behavior whenever 'A' is pressed.</p>
+<p>You will see that if you only press the key once in every 5 seconds, the nodes behave the same. This is because each branch will have only one active instance of <em>CreateObservable</em> running.</p>
+<p>However, if you press 'A' twice within a ~2 seconds interval, you will generate two active instances of <em>CreateObservable</em>, in each branch, running asynchronously from each other. This will produce very different results when followed by <em>Merge</em>, <em>Concat</em> and <em>Switch</em>:</p>
+<ol>
+<li>The <em>Merge</em> node will output the latest value generated by either concurrent instances of <em>CreateObservable</em>. In doing this, the pair of nodes <em>CreateObservable</em> and <em>Merge</em> will behave similarly to a <a href="https://bonsai-rx.org/docs/api/Bonsai.Reactive.SelectMany.html"><em>SelectMany</em></a> node, which is implicitly followed by a <em>Merge</em> operation.</li>
+<li>The <em>Concat</em> node will only generate values from the second instance, only after first one has terminated, i.e. it will show first the five values generated by the first counter, followed by the five values generated by the second.</li>
+<li>The <em>Switch</em> node will show the values of the first counter only until the second starts. Once this happens the first counter is closed and only the second one will normally produce its notifications.</li>
+</ol>
+<p><strong>Note:</strong> To verify that the inner workflow of the <em>CreateObservable</em> does not run without a subsequent subscription by either of the three higher-level operators, you can remove one of this operators from one of the branches, go inside the <em>CreateObservable</em> workflow, and visualize the notifications generated by the <em>Timer</em> node when your program is running. If you do this, you will see that no element will be generated in response to an 'A' key press.</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/fchampalimaud/cf.bonsai/blob/main/docs/workflows/ReactiveExamples/CreateObservable/CreateObservable.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>&copy; 2024 Champalimaud Foundation and Contributors</span> -<span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

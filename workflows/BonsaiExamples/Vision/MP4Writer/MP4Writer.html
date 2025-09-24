@@ -1,0 +1,133 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>MP4 Writer | CF.Bonsai </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="MP4 Writer | CF.Bonsai ">
+      
+      
+      <link rel="icon" href="../../../../images/logo.svg">
+      <link rel="stylesheet" href="../../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../../public/main.css">
+      <meta name="docfx:navrel" content="">
+      <meta name="docfx:tocrel" content="">
+      
+      <meta name="docfx:rel" content="../../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/fchampalimaud/cf.bonsai/blob/main/docs/workflows/BonsaiExamples/Vision/MP4Writer/MP4Writer.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../../index.html">
+            <img id="logo" class="svg" src="../../../../images/logo_white.svg" alt="CF.Bonsai">
+            CF.Bonsai
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+
+      <div class="content">
+        <div class="actionbar">
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="mp4-writer">MP4 Writer</h1>
+
+<h2 id="summary">Summary</h2>
+<p>This example shows how to convert a MP4 video using <em>FFMPEG</em>.</p>
+<h2 id="workflow">Workflow</h2>
+<div class="workflow"><p><img src="MP4Writer.bonsai" alt="Example"></p>
+</div>
+<h2 id="details">Details</h2>
+<ol start="0">
+<li><p>Before running the workflow, download and unzip the ffmpeg glp-local file from <a href="https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/ffmpeg-master-latest-win64-gpl-shared.zip">ffmpeg</a> to a folder in your computer.</p>
+</li>
+<li><p>Write the frames from a camera into ImageWriter, but in the path, instead of a file, you will add a pipe: \\.\pipe\video. Every frame that is written in the pipe is going to be sent the process in 2.</p>
+</li>
+<li><p>Start a process where the filename points to the ffmpeg executable [ffmpeg]\bin\ffmpeg.exe and the arguments are those of ffmpeg. Here we are using:<br>
+-y -f rawvideo -vcodec rawvideo  -s 640x480 -r 30 -pix_fmt gray -i \\.\pipe\video -c:v libx264 -b:v 5212K -maxrate 5212K -bufsize 5M &quot;myvideo.mp4&quot;</p>
+</li>
+</ol>
+<p>Options that might need to be adapted for your situation are:</p>
+<ul>
+<li>the size (width and height) of the input images (-s)</li>
+<li>the frame rate (-r)</li>
+<li>the input pixel format (-pix_fmt). Set to bgr24 for coloured images.</li>
+<li>the name of the output video (last parameter)</li>
+<li>in case the encoding is rather slow, you might want to append the option '-preset ultrafast' to speed it up.</li>
+</ul>
+<p>Other options that might be useful are:</p>
+<ul>
+<li>to remove audio (-an)</li>
+<li>set to an alternative codec (-vcodec mpeg4). Good for colored images.</li>
+<li>set the quality of the encoding (-qscale 0), with 0 being the best quality.</li>
+</ul>
+<h2 id="follow-up">Follow-up</h2>
+<p>For additional information on the encoding options provided by ffmpeg consult the <a href="https://ffmpeg.org/ffmpeg.html">documentation</a>.</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/fchampalimaud/cf.bonsai/blob/main/docs/workflows/BonsaiExamples/Vision/MP4Writer/MP4Writer.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>&copy; 2024 Champalimaud Foundation and Contributors</span> -<span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
