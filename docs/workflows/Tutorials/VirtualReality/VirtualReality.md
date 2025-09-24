@@ -12,7 +12,7 @@ In this tutorial, you’ll build a complete virtual reality (VR) system in Bonsa
 ## Getting started
 
 ### Setting up
-This tutorial provides Bonsai programs that you can copy and run directly in your Bonsai environment. Before running the examples, ensure that the necessary packages are installed. To quickly set up a working Bonsai environment, download the this [*ZIP file*](~/workflows/Tutorials/VirtualReality/VirtualReality.zip), unzip it to a directory of your choice, and run **setup.cmd**. This will download all required packages and create a local Bonsai executable. To run the examples here, you can simply run this executable, copy the example from this page, and paste it in Bonsai. Alternatively, you can run the local Bonsai executable, and load the examples provided in the ZIP file.
+This tutorial provides Bonsai programs that you can copy and run directly in your Bonsai environment. Before running the examples, ensure that the necessary packages are installed. To quickly set up a working Bonsai environment, download the this [*ZIP file*](~/workflows/Tutorials/VirtualReality/VirtualReality.zip), unzip it to a directory of your choice, go to the directory **bonsai** and run **setup.cmd**. This will download all required packages and create a local Bonsai executable. To run the examples described here. You can simply run this executable, copy the example from this page, and paste it in Bonsai. Alternatively, you can run the local Bonsai executable, and load the examples provided in the ZIP file.
 
 The ZIP file also contains **Shaders** and **Arena** folders with the files used to create and render the 3D environment. These files will be explained in detail throughout the tutorial. 
 
