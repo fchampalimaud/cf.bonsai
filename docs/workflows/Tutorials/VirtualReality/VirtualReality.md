@@ -1,6 +1,4 @@
-
-
-# Virtual Reality Turorial
+# Virtual Reality Tutorial
 In this tutorial, you’ll build a complete virtual reality (VR) system in Bonsai, allowing an agent—whether a fly, a fish, or a mouse—to freely explore a 3D environment. The scene is projected onto a 220º cylindrical display surrounding the agent, with two mirrors used to create an immersive panoramic view. Step by step, you’ll learn how to render the environment from the agent’s perspective and generate the images that  accurately replicate what the agent is supposed to see when displayed from a projector (Fig.1).
 <br>
 <figure style="text-align:center;">
