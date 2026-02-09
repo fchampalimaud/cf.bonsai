@@ -12,3 +12,6 @@ out
 
 # ignore all .svg files in the workflow directory and subfolders
 docs/workflows/**/*.svg
+
+# don't ignore schematic SVGs
+!docs/workflows/**/*Sch.svg
