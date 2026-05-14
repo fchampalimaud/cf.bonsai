@@ -37,11 +37,7 @@ After briefly talking about the importance of standardizing procedures, we will 
 > - Were developed in-house
 > - Leverage open-source hardware and software
 
-<!-- ### Version Control
-- git
-- github
-
-### Project directory tree
+<!-- ### Project directory tree
 - Portable bonsai executable (dedicated environment)
 - Output directory structure
 
@@ -52,7 +48,6 @@ After briefly talking about the importance of standardizing procedures, we will 
 
 ### Harp
 - harp-python
-
 
 ## Examples
 - SoundLateralizationTask

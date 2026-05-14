@@ -212,11 +212,23 @@
 #     - name: FC.Utils
 #       href: about_packages.md
 
-- name: Tutorials (2)  
+- name: Tutorials (3)  
   items:
     - name: Tracking
       href: ../workflows/Tutorials/Tracking/Tracking.md
     - name: VirtualReality
       href: ../workflows/Tutorials/VirtualReality/VirtualReality.md
+    - name: Reproducible Research Practices
+      items:
+        - name: Introduction
+          href: ../workflows/Tutorials/ReproducibleResearchPractices/ReproducibleResearchPractices.md
+        - name: Project Directory Structure
+          href: ../workflows/Tutorials/ReproducibleResearchPractices/ProjectDirectoryStructure.md
+        - name: Harp Data Analysis
+          href: ../workflows/Tutorials/ReproducibleResearchPractices/HarpDataAnalysis.md
+        - name: Version Control
+          href: ../workflows/Tutorials/ReproducibleResearchPractices/VersionControl.md
+        - name: Python Tips
+          href: ../workflows/Tutorials/ReproducibleResearchPractices/PythonTips.md
     # - name: Reactive Combinators
     #   href: ../workflows/Tutorials/Combinators/Combinators.md
