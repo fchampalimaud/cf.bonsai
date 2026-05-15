@@ -37,11 +37,7 @@ After briefly talking about the importance of standardizing procedures, we will 
 > - Were developed in-house
 > - Leverage open-source hardware and software
 
-<!-- ### Project directory tree
-- Portable bonsai executable (dedicated environment)
-- Output directory structure
-
-### Python tips
+<!-- ### Python tips
 - Sgen
 - Startup and shutdown scripts
 - uv
