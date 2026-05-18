@@ -38,9 +38,13 @@ With these 3 steps, one can already start developing and running a Python projec
     ```
 
 ## Sgen
+[Sgen](https://bonsai-rx.org/sgen/index.html) is a code generation tool for Bonsai that generates custom operators for new data types from JSON Schemas. This tool is very helpful to define the objects containing configuration parameters that can be modified by the user in a YAML or JSON file.
+
+The goal for this section is to go over a possible pipeline of how to define a configuration class in Python (with `pydantic`), generate the JSON schema and the Bonsai nodes with `Sgen`, create the configuration file, load it in Bonsai and save the object in a new file.
+
 > [!WARNING]
 > _Under construction_
 
-## Startup and shutdown scripts
+<!-- ## Startup and shutdown scripts
 > [!WARNING]
-> _Under construction_
+> _Under construction_ -->
