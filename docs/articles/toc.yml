@@ -220,15 +220,15 @@
       href: ../workflows/Tutorials/VirtualReality/VirtualReality.md
     # - name: Reactive Combinators
     #   href: ../workflows/Tutorials/Combinators/Combinators.md
-- name: Reproducible Research Practices (5)
-  items:
-    - name: Introduction
-      href: ../workflows/ReproducibleResearchPractices/ReproducibleResearchPractices.md
-    - name: Project Directory Structure
-      href: ../workflows/ReproducibleResearchPractices/ProjectDirectoryStructure.md
-    - name: Harp Data Analysis
-      href: ../workflows/ReproducibleResearchPractices/HarpDataAnalysis.md
-    - name: Version Control
-      href: ../workflows/ReproducibleResearchPractices/VersionControl.md
-    - name: Python Tips
-      href: ../workflows/ReproducibleResearchPractices/PythonTips.md
+# - name: Reproducible Research Practices (5)
+#   items:
+#     - name: Introduction
+#       href: ../workflows/ReproducibleResearchPractices/ReproducibleResearchPractices.md
+#     - name: Project Directory Structure
+#       href: ../workflows/ReproducibleResearchPractices/ProjectDirectoryStructure.md
+#     - name: Harp Data Analysis
+#       href: ../workflows/ReproducibleResearchPractices/HarpDataAnalysis.md
+#     - name: Version Control
+#       href: ../workflows/ReproducibleResearchPractices/VersionControl.md
+#     - name: Python Tips
+#       href: ../workflows/ReproducibleResearchPractices/PythonTips.md
