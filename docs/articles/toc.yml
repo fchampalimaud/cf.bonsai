@@ -117,9 +117,9 @@
     - name: CreateObservable
       href: ../workflows/ReactiveExamples/CreateObservable/CreateObservable.md
 
-- name: Bonsai Examples (26)
+- name: Bonsai Examples (28)
   items:
-    - name: Vision (12)
+    - name: Vision (13)
       items:
         - name: Region Tracking RGB
           href: ../workflows/BonsaiExamples/Vision/RegionTrackingRGB/RegionTrackingRGB.md
@@ -129,8 +129,8 @@
           href: ../workflows/BonsaiExamples/Vision/ColumnwiseOperations/ColumnwiseOperations.md
         - name: Video Annotation
           href: ../workflows/BonsaiExamples/Vision/VideoAnnotation/VideoAnnotation.md
-        #- name: MP4 Writer
-        #  href: ../workflows/BonsaiExamples/Vision/MP4Writer/MP4Writer.md
+        - name: FFmpeg
+          href: ../workflows/BonsaiExamples/Vision/FFmpeg/FFmpeg.md
         - name: Dynamic Cropping
           href: ../workflows/BonsaiExamples/Vision/DynamicCropping/DynamicCropping.md          
         - name: Cropped Region Average
