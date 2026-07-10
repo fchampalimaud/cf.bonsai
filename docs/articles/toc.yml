@@ -38,10 +38,12 @@
         #   href: ../workflows/HarpExamples/BehaviorBoard/NosePokeDetection/NosePokeDetection.md
 #        - name: Nose Poke LED Toggle
 #          href: ../workflows/HarpExamples/BehaviorBoard/NosePokeLEDToggle/NosePokeLEDToggle.md
-    - name: Sound Card (1)
+    - name: Sound Card (2)
       items:
         - name: Play Sound
           href: ../workflows/HarpExamples/SoundCard/PlaySound/PlaySound.md      
+        - name: Load and Play Sound
+          href: ../workflows/HarpExamples/SoundCard/LoadAndPlaySound/LoadAndPlaySound.md      
       #  - name: Sound Hardware Trigger
       #    href: ../workflows/HarpExamples/SoundCard/SoundHardwareTrigger/SoundHardwareTrigger.md      
     - name: Olfactometer (2)

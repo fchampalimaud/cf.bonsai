@@ -11,8 +11,8 @@ This example demonstrates how to play a .wav file using the [Harp SoundCard](htt
 ## Details
 The Harp SoundCard board allows the user to upload wav files using its graphical user interface (see details [here](#uploading-sounds-to-the-harp-soundcard)). Each file is linked to an index (2-31), which can be played by the sound card. 
 1. Establishes the commands to be sent to the SoundCard board. The PortName property in the Behavior node needs to be set to the COM device on the computer. To create the subject node, right-click on the SoundCard node -> Create Source -> Behavior Subject, and name it accordingly. 
-2. Plays the sound stored at index 4, when 'A' is pressed. \*
-3. Plays the sound stored at index 5, when 'S' is pressed. \*\*
+2. Plays the sound stored at index 4 when `A` is pressed. \*
+3. Plays the sound stored at index 5 when `S` is pressed. \*\*
 4. Ensures that command messages are sent only when the device is ready.
     
 \* The example file loaded in index 4 can be found here \
