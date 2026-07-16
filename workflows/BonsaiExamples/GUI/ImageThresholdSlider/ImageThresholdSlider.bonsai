@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WorkflowBuilder Version="2.8.2"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xmlns:cv="clr-namespace:Bonsai.Vision;assembly=Bonsai.Vision"
+                 xmlns:rx="clr-namespace:Bonsai.Reactive;assembly=Bonsai.Core"
+                 xmlns:gui="clr-namespace:Bonsai.Gui;assembly=Bonsai.Gui"
+                 xmlns:viz="clr-namespace:Bonsai.Design.Visualizers;assembly=Bonsai.Design.Visualizers"
+                 xmlns="https://bonsai-rx.org/2018/workflow">
+  <Workflow>
+    <Nodes>
+      <Expression xsi:type="Annotation">
+        <Name>1</Name>
+        <Text><![CDATA[]]></Text>
+      </Expression>
+      <Expression xsi:type="Combinator">
+        <Combinator xsi:type="cv:CameraCapture">
+          <cv:Index>0</cv:Index>
+          <cv:CaptureProperties />
+        </Combinator>
+      </Expression>
+      <Expression xsi:type="Annotation">
+        <Name>1.1</Name>
+        <Text><![CDATA[]]></Text>
+      </Expression>
+      <Expression xsi:type="Combinator">
+        <Combinator xsi:type="cv:Grayscale" />
+      </Expression>
+      <Expression xsi:type="Annotation">
+        <Name>1.2</Name>
+        <Text><![CDATA[]]></Text>
+      </Expression>
+      <Expression xsi:type="rx:BehaviorSubject">
+        <Name>Grayscale Image</Name>
+      </Expression>
+      <Expression xsi:type="SubscribeSubject">
+        <Name>Slider Value</Name>
+      </Expression>
+      <Expression xsi:type="PropertyMapping">
+        <PropertyMappings>
+          <Property Name="ThresholdValue" />
+        </PropertyMappings>
+      </Expression>
+      <Expression xsi:type="Annotation">
+        <Name>1.3</Name>
+        <Text><![CDATA[]]></Text>
+      </Expression>
+      <Expression xsi:type="Combinator">
+        <Combinator xsi:type="cv:Threshold">
+          <cv:ThresholdValue>108.58064516129032</cv:ThresholdValue>
+          <cv:MaxValue>255</cv:MaxValue>
+          <cv:ThresholdType>Binary</cv:ThresholdType>
+        </Combinator>
+      </Expression>
+      <Expression xsi:type="Annotation">
+        <Name>1.4</Name>
+        <Text><![CDATA[]]></Text>
+      </Expression>
+      <Expression xsi:type="rx:BehaviorSubject">
+        <Name>Thresholded Image</Name>
+      </Expression>
+      <Expression xsi:type="Annotation">
+        <Name>2</Name>
+        <Text><![CDATA[]]></Text>
+      </Expression>
+      <Expression xsi:type="Annotation">
+        <Name>2.1</Name>
+        <Text><![CDATA[]]></Text>
+      </Expression>
+      <Expression xsi:type="gui:SliderBuilder">
+        <gui:Enabled>true</gui:Enabled>
+        <gui:Visible>true</gui:Visible>
+        <gui:Minimum>0</gui:Minimum>
+        <gui:Maximum>255</gui:Maximum>
+        <gui:DecimalPlaces xsi:nil="true" />
+        <gui:Value>108.58064516129032</gui:Value>
+      </Expression>
+      <Expression xsi:type="rx:BehaviorSubject">
+        <Name>Slider Value</Name>
+      </Expression>
+      <Expression xsi:type="VisualizerMapping" />
+      <Expression xsi:type="Annotation">
+        <Name>2.2</Name>
+        <Text><![CDATA[]]></Text>
+      </Expression>
+      <Expression xsi:type="SubscribeSubject">
+        <Name>Slider Value</Name>
+      </Expression>
+      <Expression xsi:type="VisualizerMapping" />
+      <Expression xsi:type="Annotation">
+        <Name>2.3</Name>
+        <Text><![CDATA[]]></Text>
+      </Expression>
+      <Expression xsi:type="SubscribeSubject">
+        <Name>Grayscale Image</Name>
+      </Expression>
+      <Expression xsi:type="VisualizerMapping" />
+      <Expression xsi:type="Annotation">
+        <Name>2.4</Name>
+        <Text><![CDATA[]]></Text>
+      </Expression>
+      <Expression xsi:type="SubscribeSubject">
+        <Name>Thresholded Image</Name>
+      </Expression>
+      <Expression xsi:type="VisualizerMapping" />
+      <Expression xsi:type="viz:TableLayoutPanelBuilder">
+        <viz:ColumnCount>2</viz:ColumnCount>
+        <viz:RowCount>2</viz:RowCount>
+        <viz:ColumnStyles />
+        <viz:RowStyles />
+        <viz:CellSpans />
+      </Expression>
+    </Nodes>
+    <Edges>
+      <Edge From="0" To="1" Label="Source1" />
+      <Edge From="1" To="3" Label="Source1" />
+      <Edge From="2" To="3" Label="Source2" />
+      <Edge From="3" To="5" Label="Source1" />
+      <Edge From="4" To="5" Label="Source2" />
+      <Edge From="5" To="9" Label="Source1" />
+      <Edge From="6" To="7" Label="Source1" />
+      <Edge From="7" To="9" Label="Source2" />
+      <Edge From="8" To="9" Label="Source3" />
+      <Edge From="9" To="11" Label="Source1" />
+      <Edge From="10" To="11" Label="Source2" />
+      <Edge From="12" To="26" Label="Source1" />
+      <Edge From="13" To="14" Label="Source1" />
+      <Edge From="14" To="15" Label="Source1" />
+      <Edge From="15" To="16" Label="Source1" />
+      <Edge From="16" To="26" Label="Source2" />
+      <Edge From="17" To="18" Label="Source1" />
+      <Edge From="18" To="19" Label="Source1" />
+      <Edge From="19" To="26" Label="Source3" />
+      <Edge From="20" To="21" Label="Source1" />
+      <Edge From="21" To="22" Label="Source1" />
+      <Edge From="22" To="26" Label="Source4" />
+      <Edge From="23" To="24" Label="Source1" />
+      <Edge From="24" To="25" Label="Source1" />
+      <Edge From="25" To="26" Label="Source5" />
+    </Edges>
+  </Workflow>
+</WorkflowBuilder>
