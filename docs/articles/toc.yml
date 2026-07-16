@@ -117,9 +117,9 @@
     - name: CreateObservable
       href: ../workflows/ReactiveExamples/CreateObservable/CreateObservable.md
 
-- name: Bonsai Examples (26)
+- name: Bonsai Examples (27)
   items:
-    - name: Vision (12)
+    - name: Vision (13)
       items:
         - name: Region Tracking RGB
           href: ../workflows/BonsaiExamples/Vision/RegionTrackingRGB/RegionTrackingRGB.md
