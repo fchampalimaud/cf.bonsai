@@ -147,6 +147,8 @@
           href: ../workflows/BonsaiExamples/Vision/ComposeImageLineByLine/ComposeImageLineByLine.md          
         - name: Trigger Past Frames
           href: ../workflows/BonsaiExamples/Vision/TriggerPastFrames/TriggerPastFrames.md          
+        - name: MP4 Writer
+          href: ../workflows/BonsaiExamples/Vision/MP4Writer/MP4Writer.md          
     - name: Audio (1)
       items:
         - name: Play Tone
