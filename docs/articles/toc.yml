@@ -6,7 +6,7 @@
       href: install_bonsai.md
     - name: Install Harp
       href: install_harp.md
-- name: Bonsai/Harp Examples (18)
+- name: Bonsai/Harp Examples (19)
   items:
     - name: Behavior Board (12)
       items:
@@ -66,6 +66,10 @@
       items:
         - name: Reward Delivery
           href: ../workflows/HarpExamples/Feeder/RewardDelivery/RewardDelivery.md 
+    - name: FlyPAD (1)
+      items:
+        - name: Data Acquisition
+          href: ../workflows/HarpExamples/FlyPAD/DataAcquisition/DataAcquisition.md 
 - name: Reactive Examples (24)
   items:
     - name: Take
