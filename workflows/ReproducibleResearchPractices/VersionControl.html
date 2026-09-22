@@ -1,0 +1,182 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Version Control | CF.Bonsai </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Version Control | CF.Bonsai ">
+      
+      
+      <link rel="icon" href="../../images/logo.svg">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="">
+      <meta name="docfx:tocrel" content="">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/fchampalimaud/cf.bonsai/blob/main/docs/workflows/ReproducibleResearchPractices/VersionControl.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../images/logo_white.svg" alt="CF.Bonsai">
+            CF.Bonsai
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+
+      <div class="content">
+        <div class="actionbar">
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="version-control">Version Control</h1>
+
+<p>It's difficult to navigate the current research environment without encountering code in one form or another. Whether it's written in MATLAB, Python, Bonsai or any other programming language. Whether it's code that makes a setup work or that analyzes data acquired in one of these setups. Whether it's written by a person or by a LLM.</p>
+<p>If you have to write any sort of code for your research, there are a two points you have to consider:</p>
+<ul>
+<li>how to keep track of modifications made to the code.</li>
+<li>where to host the code so that it can be accessed from different computers or shared with other lab members or the larger scientific community.</li>
+</ul>
+<p>The first point can be solved with <a href="https://git-scm.com/">Git</a>, whereas the second can be solved in platforms such as <a href="https://github.com/">GitHub</a> and <a href="https://gitlab.com/">GitLab</a>.</p>
+<h2 id="git">Git</h2>
+<p>Git is a universally adopted version control tool. This tool allows a programmer to modify a project, keep track the history of modifications, create a parallel branch of the project to experiment ideas or develop new features without compromising the main branch that is known to be working. All of these operations are made locally and without the need of creating copies of the project (no more <code>ProjectV2</code> and <code>ProjectFinal</code> and <code>ProjectFinalForRealThisTime</code> directories).</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>To learn how to leverage Git to host your code remotely, read the <a href="#githubgitlab">GitHub/GitLab</a> section.</p>
+</div>
+<p>Let's create our first Git (local) repository. In this tutorial, we'll simply create a project that consists of a single text file called <code>README.md</code>.</p>
+<ol>
+<li>Create a directory somewhere in your computer and a <code>README.md</code> file inside.</li>
+<li>Open a terminal and navigate to the project directory.
+<div class="TIP">
+<h5>Tip</h5>
+<p>In the terminal, you can use the command <code>ls</code> to see what's inside the directory you're currently in. To go to a specific directory run <code>cd [directory_name]</code>.</p>
+<p><em>Special case:</em> to navigate to the previous directory run <code>cd ..</code>.</p>
+</div>
+</li>
+<li>Start the repository run:
+<pre><code>git init
+</code></pre>
+</li>
+<li>Let's now create our first item in the repository's history, which is called a <em>commit</em>. Firstly, let's add the files/changes we want to track. In our case, we only want to track the <code>README.md</code> file.
+<pre><code>git add README.md
+</code></pre>
+<div class="TIP">
+<h5>Tip</h5>
+<p>Although it's not recommended, you can add every file in the project by running <code>git add .</code></p>
+</div>
+</li>
+<li>After staging the <code>README.md</code> file, let's create the first commit of the repo. Every commit usually has a message attached that describes what modifications were made. This way, it's easier to have an idea of how the project evolved with time.
+<pre><code>git commit -m &quot;initial commit&quot;
+</code></pre>
+</li>
+</ol>
+<p>With what we learned so far, we can already keep track of the modifications made to the project across time. If eventually we add a new file to the project or modify the <code>README.md</code> file, we simply have to repeat steps 4 and 5.</p>
+<h3 id="branching-and-merging">Branching and merging</h3>
+<p>Now let's assume that the project is in a state that's usable either by us or by a colleague, but in which we want to work on a new feature or refactor some code. That's were branching and merging come in.</p>
+<div class="IMPORTANT">
+<h5>Important</h5>
+<p>In this situation, we could also just commit the new changes as before and since Git is a version control tool we have access to the project's history so we could simply go back to the commit we know for sure that is working. Although possible, it's not common practice and, for that reason, it's out of the scope of this tutorial.</p>
+</div>
+<p>A possible strategic could be to have two branches: one with the latest stable version of our code and the other in which we develop new features. By default, when we create a repository, there's only the <code>main</code> branch (sometimes called <code>master</code> instead). So, let's create a new branch called <code>develop</code>.</p>
+<pre><code>git branch develop
+</code></pre>
+<p>The <code>develop</code> branch was created but we are still in the <code>main</code> branch. We can confirm this fact by running:</p>
+<pre><code>git status
+</code></pre>
+<p>In order to change to the <code>develop</code> branch, we need to run the following command:</p>
+<pre><code>git checkout develop
+</code></pre>
+<p>If we run <code>git status</code> again, we verify that we are now in the <code>develop</code> branch. However, nothing seemed to have changed in our project. That's because it hasn't. Both branches contain exactly the same content, which in our case is only our <code>README.md</code>. Let's change that!</p>
+<p>Edit the <code>README.md</code> file and repeat steps 4 and 5 from above. Don't forget to use attach a different commit message than the one used before.</p>
+<p>Now, let's go back to the <code>main</code> branch by running <code>git checkout main</code> and open the <code>README.md</code> file. Notice how the modification we just made is not showing up. That's because that modification was only registered in the <code>develop</code> branch. If we now close the file, go to the <code>develop</code> branch again and reopen it, it suddenly appears.</p>
+<p>We'll eventually finish the development of a new feature and, after testing it, we will want to merge the contents of the <code>develop</code> branch into the <code>main</code> branch. In order to do that, we need to run:</p>
+<pre><code>git checkout main # in case we are not in the main branch to begin with
+git merge develop
+</code></pre>
+<p>The last command simply merges the content of the <code>develop</code> branch into the branch we are currently in (in this particular case, the <code>main</code> branch).</p>
+<div class="IMPORTANT">
+<h5>Important</h5>
+<p>With the concepts covered so far, one can already start using Git in projects, but it's important to emphasize that these are really just the basic concepts. For example, we haven't covered what may happen in case we want to merge two branches whose development has diverged over time.</p>
+<p>The good news is that Git is 20+ years old, so it's really easy to find resources on more advanced Git usage.</p>
+</div>
+<h2 id="githubgitlab">GitHub/GitLab</h2>
+<p>After learning how we can do version control of our project, the natural next step is to understand how we can backup our project or share it with others or distribute it to different computers. Platforms like <a href="https://github.com/">GitHub</a> and <a href="https://gitlab.com/">GitLab</a> exist for this purpose.</p>
+<div class="CAUTION">
+<h5>Caution</h5>
+<p>Google Drive and Git don't get along very well, so it's not a good idea to store a Git repository in Google Drive.</p>
+</div>
+<p>For this tutorial, we'll use GitHub just because that's where this website is hosted, although other platforms work in similar ways.</p>
+<div class="WARNING">
+<h5>Warning</h5>
+<p><em>Under construction</em></p>
+</div>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/fchampalimaud/cf.bonsai/blob/main/docs/workflows/ReproducibleResearchPractices/VersionControl.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>&copy; 2024 Champalimaud Foundation and Contributors</span> -<span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
