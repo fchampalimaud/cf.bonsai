@@ -2,7 +2,7 @@
   href: welcome.md
 - name: Getting Started
   items:
-    - name: Install Bonsai 
+    - name: Install Bonsai
       href: install_bonsai.md
     - name: Install Harp
       href: install_harp.md
@@ -36,40 +36,40 @@
           href: ../workflows/HarpExamples/BehaviorBoard/LogSelected/LogSelected.md
         # - name: Nose Poke Detection
         #   href: ../workflows/HarpExamples/BehaviorBoard/NosePokeDetection/NosePokeDetection.md
-#        - name: Nose Poke LED Toggle
-#          href: ../workflows/HarpExamples/BehaviorBoard/NosePokeLEDToggle/NosePokeLEDToggle.md
+    #        - name: Nose Poke LED Toggle
+    #          href: ../workflows/HarpExamples/BehaviorBoard/NosePokeLEDToggle/NosePokeLEDToggle.md
     - name: Sound Card (1)
       items:
         - name: Play Sound
-          href: ../workflows/HarpExamples/SoundCard/PlaySound/PlaySound.md      
+          href: ../workflows/HarpExamples/SoundCard/PlaySound/PlaySound.md
       #  - name: Sound Hardware Trigger
-      #    href: ../workflows/HarpExamples/SoundCard/SoundHardwareTrigger/SoundHardwareTrigger.md      
+      #    href: ../workflows/HarpExamples/SoundCard/SoundHardwareTrigger/SoundHardwareTrigger.md
     - name: Olfactometer (2)
       items:
         - name: End Valve Toggle
           href: ../workflows/HarpExamples/Olfactometer/EndValveToggle/EndValveToggle.md
         - name: Odor Valve Toggle
-          href: ../workflows/HarpExamples/Olfactometer/OdorValveToggle/OdorValveToggle.md         
+          href: ../workflows/HarpExamples/Olfactometer/OdorValveToggle/OdorValveToggle.md
     - name: Syringe Pump (2)
       items:
-#        - name: Toggle Single Steps
-#          href: ../workflows/HarpExamples/SyringePump/ToggleSingleSteps/ToggleSingleSteps.md
-#        - name: Toggle Micro Steps
-#          href: ../workflows/HarpExamples/SyringePump/ToggleMicroSteps/ToggleMicroSteps.md
+        #        - name: Toggle Single Steps
+        #          href: ../workflows/HarpExamples/SyringePump/ToggleSingleSteps/ToggleSingleSteps.md
+        #        - name: Toggle Micro Steps
+        #          href: ../workflows/HarpExamples/SyringePump/ToggleMicroSteps/ToggleMicroSteps.md
         - name: Toggle Multiple Steps
-          href: ../workflows/HarpExamples/SyringePump/ToggleMultipleSteps/ToggleMultipleSteps.md    
+          href: ../workflows/HarpExamples/SyringePump/ToggleMultipleSteps/ToggleMultipleSteps.md
         - name: Create and Execute Protocol
-          href: ../workflows/HarpExamples/SyringePump/CreateAndExecuteProtocol/CreateAndExecuteProtocol.md    
+          href: ../workflows/HarpExamples/SyringePump/CreateAndExecuteProtocol/CreateAndExecuteProtocol.md
         # - name: Calibration Protocol
-        #   href: ../workflows/HarpExamples/SyringePump/CalibrationProtocol/CalibrationProtocol.md    
+        #   href: ../workflows/HarpExamples/SyringePump/CalibrationProtocol/CalibrationProtocol.md
     - name: Feeder (1)
       items:
         - name: Reward Delivery
-          href: ../workflows/HarpExamples/Feeder/RewardDelivery/RewardDelivery.md 
-    - name: FlyPAD (1)
+          href: ../workflows/HarpExamples/Feeder/RewardDelivery/RewardDelivery.md
+    - name: FlyPAD Controller (1)
       items:
         - name: Data Acquisition
-          href: ../workflows/HarpExamples/FlyPAD/DataAcquisition/DataAcquisition.md 
+          href: ../workflows/HarpExamples/FlyPADController/DataAcquisition/DataAcquisition.md
 - name: Reactive Examples (24)
   items:
     - name: Take
@@ -136,23 +136,23 @@
         #- name: MP4 Writer
         #  href: ../workflows/BonsaiExamples/Vision/MP4Writer/MP4Writer.md
         - name: Dynamic Cropping
-          href: ../workflows/BonsaiExamples/Vision/DynamicCropping/DynamicCropping.md          
+          href: ../workflows/BonsaiExamples/Vision/DynamicCropping/DynamicCropping.md
         - name: Cropped Region Average
-          href: ../workflows/BonsaiExamples/Vision/CroppedRegionAverage/CroppedRegionAverage.md          
+          href: ../workflows/BonsaiExamples/Vision/CroppedRegionAverage/CroppedRegionAverage.md
         - name: Image Difference Average
-          href: ../workflows/BonsaiExamples/Vision/ImageDifferenceAverage/ImageDifferenceAverage.md          
+          href: ../workflows/BonsaiExamples/Vision/ImageDifferenceAverage/ImageDifferenceAverage.md
         - name: Single Pixel Value
-          href: ../workflows/BonsaiExamples/Vision/SinglePixelValue/SinglePixelValue.md          
+          href: ../workflows/BonsaiExamples/Vision/SinglePixelValue/SinglePixelValue.md
         - name: Create Image With Circles
-          href: ../workflows/BonsaiExamples/Vision/CreateImageWithCircles/CreateImageWithCircles.md          
+          href: ../workflows/BonsaiExamples/Vision/CreateImageWithCircles/CreateImageWithCircles.md
         - name: Annotate Array of Points
-          href: ../workflows/BonsaiExamples/Vision/AnnotateArrayOfPoints/AnnotateArrayOfPoints.md          
+          href: ../workflows/BonsaiExamples/Vision/AnnotateArrayOfPoints/AnnotateArrayOfPoints.md
         - name: Compose Image Line-by-Line
-          href: ../workflows/BonsaiExamples/Vision/ComposeImageLineByLine/ComposeImageLineByLine.md          
+          href: ../workflows/BonsaiExamples/Vision/ComposeImageLineByLine/ComposeImageLineByLine.md
         - name: Trigger Past Frames
-          href: ../workflows/BonsaiExamples/Vision/TriggerPastFrames/TriggerPastFrames.md          
+          href: ../workflows/BonsaiExamples/Vision/TriggerPastFrames/TriggerPastFrames.md
         - name: MP4 Writer
-          href: ../workflows/BonsaiExamples/Vision/MP4Writer/MP4Writer.md          
+          href: ../workflows/BonsaiExamples/Vision/MP4Writer/MP4Writer.md
     - name: Audio (1)
       items:
         - name: Play Tone
@@ -169,12 +169,12 @@
           href: ../workflows/BonsaiExamples/BonVision/MovingGratings/MovingGratings.md
     - name: IO (1)
       items:
-#        - name: Parse CSV File
-#          href: ../workflows/BonsaiExamples/IO/ParseCSVFile/ParseCSVFile.md
+        #        - name: Parse CSV File
+        #          href: ../workflows/BonsaiExamples/IO/ParseCSVFile/ParseCSVFile.md
         - name: Basic File List Processing
           href: ../workflows/BonsaiExamples/IO/BasicFileListProcessing/BasicFileListProcessing.md
-#        - name: Serial File List Processing
-#          href: ../workflows/BonsaiExamples/IO/ElaborateFileListProcessing/ElaborateFileListProcessing.md
+    #        - name: Serial File List Processing
+    #          href: ../workflows/BonsaiExamples/IO/ElaborateFileListProcessing/ElaborateFileListProcessing.md
     - name: Numeric.Distributions (2)
       items:
         - name: Sample Model Distribution
@@ -193,12 +193,12 @@
           href: ../workflows\BonsaiExamples/DataTypes/ArrayManipulation/ArrayManipulation.md
         - name: Streams to Mat
           href: ../workflows\BonsaiExamples/DataTypes/StreamsToMat/StreamsToMat.md
-#    - name: DAQmx (2)
-#      items:
-#        - name: Digital Inputs (Non-Buffered)
-#          href: ../workflows/BonsaiExamples/DAQmx/DigitalInputsNonBuffered/DigitalInputsNonBuffered.md
-#        - name: AI/AO Synchronization 
-#          href: ../workflows/BonsaiExamples/DAQmx/AIAOSynchronization/AIAOSynchronization.md
+    #    - name: DAQmx (2)
+    #      items:
+    #        - name: Digital Inputs (Non-Buffered)
+    #          href: ../workflows/BonsaiExamples/DAQmx/DigitalInputsNonBuffered/DigitalInputsNonBuffered.md
+    #        - name: AI/AO Synchronization
+    #          href: ../workflows/BonsaiExamples/DAQmx/AIAOSynchronization/AIAOSynchronization.md
     - name: GUI (3)
       items:
         - name: ImageThresholdSlider
@@ -210,7 +210,7 @@
 
 # - name: Neuroscience Tasks (1)
 #   items:
-#     - name: Trial-Based Skeleton 
+#     - name: Trial-Based Skeleton
 #       href: ../workflows/NeuroExamples/TrialBasedSkeleton/TrialBasedSkeleton.md
 
 # - name: Packages
@@ -218,7 +218,7 @@
 #     - name: FC.Utils
 #       href: about_packages.md
 
-- name: Tutorials (2)  
+- name: Tutorials (2)
   items:
     - name: Tracking
       href: ../workflows/Tutorials/Tracking/Tracking.md

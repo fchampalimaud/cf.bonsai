@@ -3,7 +3,7 @@
                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:rx="clr-namespace:Bonsai.Reactive;assembly=Bonsai.Core"
                  xmlns:harp="clr-namespace:Bonsai.Harp;assembly=Bonsai.Harp"
-                 xmlns:p1="clr-namespace:Harp.FlyPAD;assembly=Harp.FlyPAD"
+                 xmlns:fly="clr-namespace:CF.Harp.FlyPADController;assembly=CF.Harp.FlyPADController"
                  xmlns:io="clr-namespace:Bonsai.IO;assembly=Bonsai.System"
                  xmlns="https://bonsai-rx.org/2018/workflow">
   <Workflow>
@@ -16,14 +16,14 @@
         <rx:Name>Commands</rx:Name>
       </Expression>
       <Expression xsi:type="Combinator">
-        <Combinator xsi:type="p1:Device">
+        <Combinator xsi:type="fly:Device">
           <harp:OperationMode>Active</harp:OperationMode>
           <harp:OperationLed>On</harp:OperationLed>
           <harp:DumpRegisters>true</harp:DumpRegisters>
           <harp:VisualIndicators>On</harp:VisualIndicators>
           <harp:Heartbeat>Disabled</harp:Heartbeat>
           <harp:IgnoreErrors>false</harp:IgnoreErrors>
-          <harp:PortName>COM3</harp:PortName>
+          <harp:PortName>COMx</harp:PortName>
         </Combinator>
       </Expression>
       <Expression xsi:type="rx:PublishSubject">
@@ -33,17 +33,17 @@
         <Name>1.1</Name>
         <Text><![CDATA[]]></Text>
       </Expression>
-      <Expression xsi:type="p1:Parse">
-        <harp:Register xsi:type="p1:CapacitanceValues" />
+      <Expression xsi:type="fly:Parse">
+        <harp:Register xsi:type="fly:CapacitanceValues" />
       </Expression>
       <Expression xsi:type="Annotation">
         <Name>2</Name>
         <Text><![CDATA[]]></Text>
       </Expression>
-      <Expression xsi:type="p1:CreateMessage">
+      <Expression xsi:type="fly:CreateMessage">
         <harp:MessageType>Write</harp:MessageType>
-        <harp:Payload xsi:type="p1:CreateEnableAcquisitionPayload">
-          <p1:EnableAcquisition>Enabled</p1:EnableAcquisition>
+        <harp:Payload xsi:type="fly:CreateEnableAcquisitionPayload">
+          <fly:EnableAcquisition>Enabled</fly:EnableAcquisition>
         </harp:Payload>
       </Expression>
       <Expression xsi:type="MulticastSubject">
@@ -84,7 +84,7 @@
         <Text><![CDATA[]]></Text>
       </Expression>
       <Expression xsi:type="Combinator">
-        <Combinator xsi:type="p1:GetDeviceMetadata" />
+        <Combinator xsi:type="fly:GetDeviceMetadata" />
       </Expression>
       <Expression xsi:type="Combinator">
         <Combinator xsi:type="io:WriteAllText">
