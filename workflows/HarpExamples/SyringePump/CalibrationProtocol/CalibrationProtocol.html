@@ -1,0 +1,196 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Calibration Protocol | CF.Bonsai </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Calibration Protocol | CF.Bonsai ">
+      
+      
+      <link rel="icon" href="../../../../images/logo.svg">
+      <link rel="stylesheet" href="../../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../../public/main.css">
+      <meta name="docfx:navrel" content="">
+      <meta name="docfx:tocrel" content="">
+      
+      <meta name="docfx:rel" content="../../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/fchampalimaud/cf.bonsai/blob/main/docs/workflows/HarpExamples/SyringePump/CalibrationProtocol/CalibrationProtocol.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../../index.html">
+            <img id="logo" class="svg" src="../../../../images/logo_white.svg" alt="CF.Bonsai">
+            CF.Bonsai
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+
+      <div class="content">
+        <div class="actionbar">
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="calibration-protocol">Calibration Protocol</h1>
+
+<h2 id="summary">Summary</h2>
+<p>This article demonstrates how to calibrate the <a href="https://harp-tech.org/api/Harp.SyringePump.html">Harp SyringePump</a> (see hardware schematics below), based on the protocol written by Naz Belkaya and Sofia Freitas, and with the contribution of Teresa Serradas Duarte.</p>
+<h2 id="procedure">Procedure</h2>
+<ol>
+<li>Define the Step Mode
+<ul>
+<li>Set the desired step mode (step 1 of the <a href="#details">Details</a> section).</li>
+<li>Set the number of protocol repetitions (step 2.2 of the <a href="#details">Details</a> section).</li>
+</ul>
+</li>
+<li>Prepare for the Calibration
+<ul>
+<li>Gather the required materials: water, SyringePumps and 7 empty Eppendorf tubes.</li>
+<li>Weigh each empty Eppendorf tube and record the initial weights in the spreadsheet.</li>
+</ul>
+</li>
+<li>Connect the Pumps
+<ul>
+<li>Connect the pumps to the computer via the designated COM port (e.g., COM6). Ensure that each pump is identified separately.</li>
+<li>Verify that all pumps are communicating correctly.</li>
+</ul>
+</li>
+<li>Initial Step Count Testing
+<ul>
+<li>Start the calibration with a step count of <strong>5</strong>. You will increase the step count by increments of 5 up to a maximum of 35 for testing.</li>
+<li>The step counts to be tested are: <strong>5</strong>, <strong>10</strong>, <strong>15</strong>, <strong>20</strong>, <strong>25</strong>, <strong>30</strong>, <strong>35</strong>.</li>
+</ul>
+</li>
+<li>Calibrate Each Pump with Different Step Counts
+<ul>
+<li>For each of the 7 Eppendorf tubes:
+<ul>
+<li>Assign a different step count from the list above.</li>
+<li>Adjust the step count in the Bonsai workflow and prepare the pump accordingly.</li>
+<li>Run the Bonsai workflow.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Record Post-Dispensing Weights
+<ul>
+<li>After completing the steps above for each tube, weigh the tubes again.</li>
+<li>Record the post-filling weights in the spreadsheet alongside the corresponding step count.</li>
+</ul>
+</li>
+<li>Curve Fitting and Data Analysis
+<ul>
+<li>Use the recorded data (step counts and corresponding water weights) to fit the curve (Excel, Python, MATLAB).</li>
+</ul>
+</li>
+<li>Final Step
+<ul>
+<li>Using the results, identify the optimal number of steps for dispensing the desired amount of liquid for your experiment or setup.</li>
+</ul>
+</li>
+</ol>
+<div class="NOTE">
+<h5>Note</h5>
+<p>It's expected that the calibration for syringes with equal sections give similar results, because since a motor step corresponds to a linear movement perpendicular to the syringe section, the mass of water dispensed is proportional to the syringe section for a given step mode-step count combination.</p>
+</div>
+<h3 id="mass-to-volume-water-conversion">Mass-to-Volume Water Conversion</h3>
+<p>Since we want the relation between the number of steps and the volume of water dispensed during the execution of a single protocol, we need to convert the mass of water measured into volume, taking into account the <span class="math">\(n\)</span> repetitions of the protocol:</p>
+<p><span class="math">\(V (\mu\text{L}) = \frac{m (\text{g})}{\text{number of repetitions} \times 10^{-3} (\text{g/}\mu\text{L})}\)</span></p>
+<p>where <span class="math">\(V\)</span> is the volume of water and <span class="math">\(m\)</span> is the corresponding mass.</p>
+<h2 id="bonsai-workflow">Bonsai Workflow</h2>
+<div class="workflow"><p><img src="CalibrationProtocol.bonsai" alt="Example"></p>
+</div>
+<h3 id="details">Details</h3>
+<ol>
+<li>Initializes the Harp SyringePump and configures the protocol to be used (identical to what is done in the <a href="https://fchampalimaud.github.io/cf.bonsai/workflows/HarpExamples/SyringePump/CreateAndExecuteProtocol/CreateAndExecuteProtocol.html">Create and Execute Protocol</a> example). Please set the PortName, ProtocolStepCount and the StepMode properties to be used in the protocol before starting the workflow.</li>
+<li>Executes the protocol defined in step 1.
+<ol>
+<li>Enables the motor so that the protocol can be executed.</li>
+<li>This is where the protocol is actually executed <span class="math">\(n\)</span> times so that the calibration is done accurately. Set the Count (number of repetitions) and DelayTime properties adequately before starting the workflow. The DelayTime should be greater than the time it takes for the SyringePump to execute a protocol, which is given by <span class="math">\(\text{step period} \times \text{step count}\)</span> (The default <span class="math">\(\text{step period}\)</span> is 10 ms). Read the <a href="#protocol-selectmany">Protocol SelectMany</a> section to see how it's implemented.</li>
+<li>Disables the motor so that the controller doesn't heat up when it's not being used.</li>
+</ol>
+</li>
+</ol>
+<h4 id="protocol-selectmany">Protocol SelectMany</h4>
+<div class="workflow"><p><img src="ProtocolSelectMany.bonsai" alt="Example"></p>
+</div>
+<ol>
+<li>Starts the protocol defined in the step 1 of the <a href="#details">Details</a> section.</li>
+<li>Delays the data stream so that the protocol isn't stopped before it finishes. Beware that for the defined protocol the 2-second delay is enough, but it might not be enough for other protocols. This delay must be adapted according to the protocol used, as mentioned in the step 2 of the <a href="#details">Details</a> section.</li>
+<li>Stops the protocol.</li>
+<li>Repeats this workflow <span class="math">\(n\)</span> times and returns only the event from the <span class="math">\(n\)</span>-th repetition.</li>
+</ol>
+<h3 id="requirements">Requirements</h3>
+<p>This example requires:</p>
+<ol>
+<li>An up-to-date version of the <a href="https://github.com/harp-tech/device.syringepump/releases">SyringePump firmware</a>. This example used the <em>fw0.6-harp1.6</em>. To upload the new firmware double-click on the <em>SyringePump Device</em> node in Bonsai and follow the instructions.</li>
+<li>The installation of the Bonsai package <em>Harp - SyringePump</em> (from nuget.org).</li>
+<li>It might also be useful to download the <a href="https://github.com/harp-tech/device.syringepump/releases">SyringePump GUI</a>.</li>
+</ol>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/fchampalimaud/cf.bonsai/blob/main/docs/workflows/HarpExamples/SyringePump/CalibrationProtocol/CalibrationProtocol.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>&copy; 2024 Champalimaud Foundation and Contributors</span> -<span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
