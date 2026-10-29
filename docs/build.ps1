@@ -1,5 +1,5 @@
 param (
-    [string]$workflowPath = "workflows"   # default if none is passed
+    [string]$workflowPath = "articles/examples"   # default if none is passed
 )
 
 $baseFolder = @("..\") 
