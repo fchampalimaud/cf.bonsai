@@ -3,7 +3,7 @@
 This example demonstrates how to create an array, add elements to it and remove
 elements from it.
 
-## Workflow
+
 
 :::workflow
 ![Example](~/articles/examples/others/DataTypes/ArrayManipulation/ArrayManipulation.bonsai)

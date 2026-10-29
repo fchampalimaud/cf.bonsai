@@ -1,6 +1,6 @@
 # Parse CSV File
 
-## Workflow
+
 
 :::workflow
 ![Example](~/articles/examples/others/IO/ParseCSVFile/ParseCSVFile.bonsai)

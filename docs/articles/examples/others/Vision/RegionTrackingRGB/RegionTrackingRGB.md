@@ -3,7 +3,7 @@
 This example demonstrates how to setup a simple tracker based on thresholding
 the BGR channels.
 
-## Workflow
+
 
 :::workflow
 ![Example](~/articles/examples/others/Vision/RegionTrackingRGB/RegionTrackingRGB.bonsai)

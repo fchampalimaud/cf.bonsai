@@ -4,7 +4,7 @@ This example demonstrates how to read analog input values from a potentiometer
 using the [Harp Behavior](https://harp-tech.org/api/Harp.Behavior.html) board
 (see hardware schematics below).
 
-## Workflow
+
 
 :::workflow
 ![Example](~/articles/examples/harp/Behavior/AnalogInput/AnalogInput.bonsai)

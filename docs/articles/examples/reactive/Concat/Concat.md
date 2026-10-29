@@ -3,7 +3,7 @@
 This example demonstrates how to unpack the elements of an array using
 [*Concat*](https://bonsai-rx.org/docs/api/Bonsai.Reactive.Concat.html)
 
-## Workflow
+
 
 :::workflow
 ![Example](~/articles/examples/reactive/Concat/Concat.bonsai)

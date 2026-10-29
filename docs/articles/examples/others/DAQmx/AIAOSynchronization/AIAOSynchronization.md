@@ -3,7 +3,7 @@
 This example demonstrates how to send analog outputs and receive analog inputs
 from a National Instruments board in a synchronized way.
 
-## Workflow
+
 
 :::workflow
 ![Example](~/articles/examples/others/DAQmx/AIAOSynchronization/AIAOSynchronization.bonsai)

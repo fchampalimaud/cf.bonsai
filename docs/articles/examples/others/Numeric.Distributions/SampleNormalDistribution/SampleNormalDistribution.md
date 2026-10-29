@@ -3,7 +3,7 @@
 This example demonstrates how to randomly sample from a continuous normal
 distribution.
 
-## Workflow
+
 
 :::workflow
 ![Example](~/articles/examples/others/Numeric.Distributions/SampleNormalDistribution/SampleNormalDistribution.bonsai)

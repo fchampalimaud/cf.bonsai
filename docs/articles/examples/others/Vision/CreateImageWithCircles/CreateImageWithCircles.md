@@ -2,7 +2,7 @@
 
 This example demonstrates how to compose an image with circles in it.
 
-## Workflow
+
 
 :::workflow
 ![Example](~/articles/examples/others/Vision/CreateImageWithCircles/CreateImageWithCircles.bonsai)

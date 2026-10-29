@@ -4,7 +4,7 @@ This example demonstrates how to control the beginning of a stream using the
 *Skip* operator. Here, values are propagated only after 5 events have been
 received.
 
-## Workflow
+
 
 :::workflow
 ![Example](~/articles/examples/reactive/Skip/Skip.bonsai)

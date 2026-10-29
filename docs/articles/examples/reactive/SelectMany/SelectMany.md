@@ -4,7 +4,7 @@ This example demonstrates how segment a stream of data into windows of 10
 elements, and for each window, create a file with the elements in it using
 [*SelectMany*](https://bonsai-rx.org/docs/api/Bonsai.Reactive.SelectMany.html)
 
-## Workflow
+
 
 :::workflow
 ![Example](~/articles/examples/reactive/SelectMany/SelectMany.bonsai)

@@ -3,7 +3,7 @@
 This example demonstrates how to capture a video of fixed duration that starts
 before a given trigger occurs, in this example a key press.
 
-## Workflow
+
 
 :::workflow
 ![Example](~/articles/examples/others/Vision/TriggerPastFrames/TriggerPastFrames.bonsai)

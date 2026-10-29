@@ -4,7 +4,7 @@ This example demonstrates how to combine two streams using the *Zip* operator.
 This operator pairs events from multiple streams whenever they have all produced
 a value. Here, we pair the last two keypresses.
 
-## Workflow
+
 
 :::workflow
 ![Example](~/articles/examples/reactive/Zip/Zip.bonsai)

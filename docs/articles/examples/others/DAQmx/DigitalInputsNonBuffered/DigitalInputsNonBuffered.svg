@@ -4,6 +4,8 @@
 ]>
 <svg width="464.7785" height="212.8252" id="SvgGdi_output" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <style>text { fill: #000; } @media (prefers-color-scheme: dark) { text { fill: #eee; } }</style>
+  <style>text { fill: #000; } @media (prefers-color-scheme: dark) { text { fill: #eee; } }</style>
+  <style>text { fill: #000; } @media (prefers-color-scheme: dark) { text { fill: #eee; } }</style>
   <rect id="background" height="100.00%" style="fill:none;" width="100.00%" y="0.00" x="0.00" />
   <g style="shape-rendering:auto;" id="root_group">
     <line y1="19.00" style="stroke:rgb(169,169,169);fill:none;stroke-linecap:butt;stroke-miterlimit:9;opacity:1;stroke-width:1;stroke-linejoin:miter;" id="2" x2="400.00" y2="19.00" x1="358.00" />

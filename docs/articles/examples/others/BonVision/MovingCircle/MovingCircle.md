@@ -3,7 +3,7 @@
 This example demonstrates how to draw a circle in Shaders and update its
 position according to mouse movements.
 
-## Workflow
+
 
 :::workflow
 ![Example](~/articles/examples/others/BonVision/MovingCircle/MovingCircle.bonsai)

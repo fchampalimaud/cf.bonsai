@@ -4,7 +4,7 @@ This example demonstrates how to control the end of a stream using the
 *TakeUntil* operator. Here, the workflow terminates after a key has been
 pressed.
 
-## Workflow
+
 
 :::workflow
 ![Example](~/articles/examples/reactive/TakeUntil/TakeUntil.bonsai)

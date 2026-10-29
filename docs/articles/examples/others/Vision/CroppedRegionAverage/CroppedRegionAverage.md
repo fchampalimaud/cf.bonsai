@@ -4,7 +4,7 @@ This example demonstrates how to average the pixel intensity of a given region
 of an image. This could be used, for example, to identify whether a certain
 region of the space is being occupied by an animal.
 
-## Workflow
+
 
 :::workflow
 ![Example](~/articles/examples/others/Vision/CroppedRegionAverage/CroppedRegionAverage.bonsai)

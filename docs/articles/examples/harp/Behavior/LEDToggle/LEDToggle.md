@@ -5,7 +5,7 @@ current driven ports in the
 [Harp Behavior](https://harp-tech.org/api/Harp.Behavior.html) board (see
 hardware schematics below).
 
-## Workflow
+
 
 :::workflow
 ![Example](~/articles/examples/harp/Behavior/LEDToggle/LEDToggle.bonsai)

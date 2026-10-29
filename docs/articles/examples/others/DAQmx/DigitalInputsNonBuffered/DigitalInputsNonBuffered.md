@@ -3,7 +3,7 @@
 This example demonstrates how to read two digital inputs from a National
 Instruments board in a non-buffered way (ie. sample-by-sample).
 
-## Workflow
+
 
 :::workflow
 ![Example](~/articles/examples/others/DAQmx/DigitalInputsNonBuffered/DigitalInputsNonBuffered.bonsai)

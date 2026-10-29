@@ -3,7 +3,7 @@
 
 This example demonstrates how to annotate an array of points using circles. 
 
-## Workflow
+
 :::workflow
 ![Example](~/articles/examples/others/Vision/AnnotateArrayOfPoints/AnnotateArrayOfPoints.bonsai)
 :::

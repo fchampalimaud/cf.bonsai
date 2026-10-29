@@ -4,10 +4,10 @@ This example demonstrates how to get the digital input values from a switch
 using the [Harp Behavior](https://harp-tech.org/api/Harp.Behavior.html) board
 (see hardware schematics below).
 
-## Workflow
+
 
 :::workflow
-![Example](~/articles/examples/harp/Behavior/BehaviorBoard/DigitalInput/DigitalInput.bonsai)
+![Example](~/articles/examples/harp/Behavior/DigitalInput/DigitalInput.bonsai)
 :::
 
 ## Details

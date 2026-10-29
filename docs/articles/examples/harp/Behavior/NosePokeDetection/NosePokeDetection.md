@@ -5,7 +5,7 @@ This example demonstrates how to detect a rodent nose poke using the
 [Harp Behavior](https://harp-tech.org/api/Harp.Behavior.html) board (see
 hardware schematics below).
 
-## Workflow
+
 
 :::workflow
 ![Example](~/articles/examples/harp/Behavior/NosePokeDetection/NosePokeDetection.bonsai)

@@ -6,7 +6,7 @@ using the
 [*ReplaySubject*](https://bonsai-rx.org/docs/api/Bonsai.Reactive.ReplaySubject.html)
 node.
 
-## Workflow
+
 
 :::workflow
 ![Example](~/articles/examples/reactive/ReplaySubject/ReplaySubject.bonsai)

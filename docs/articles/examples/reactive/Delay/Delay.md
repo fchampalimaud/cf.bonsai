@@ -4,7 +4,7 @@ This example demonstrates how to delay the propagation of an event using the
 *Delay* operator. Here, the notification of a key press is delayed by one
 second.
 
-## Workflow
+
 
 :::workflow
 ![Example](~/articles/examples/reactive/Delay/Delay.bonsai)

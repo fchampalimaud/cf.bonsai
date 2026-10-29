@@ -4,7 +4,7 @@ This example demonstrates how to create and execute a reward delivery protocol
 using the [Harp SyringePump](https://harp-tech.org/api/Harp.SyringePump.html)
 (see hardware schematics below).
 
-## Workflow
+
 
 :::workflow
 ![Example](~/articles/examples/harp/SyringePump/CreateAndExecuteProtocol/CreateAndExecuteProtocol.bonsai)

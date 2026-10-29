@@ -5,7 +5,7 @@ on a LED using the digital output from the
 [Harp Behavior](https://harp-tech.org/api/Harp.Behavior.html) board (see
 hardware schematics below).
 
-## Workflow
+
 
 :::workflow
 ![Example](~/articles/examples/harp/Behavior/DigitalOutputPulse/DigitalOutputPulse.bonsai)

@@ -4,7 +4,7 @@ This example demonstrates how to trigger frames from a camera using the
 [Harp Behavior](https://harp-tech.org/api/Harp.Behavior.html) board (see
 hardware schematics below).
 
-## Workflow
+
 
 :::workflow
 ![Example](~/articles/examples/harp/Behavior/CameraTrigger/CameraTrigger.bonsai)

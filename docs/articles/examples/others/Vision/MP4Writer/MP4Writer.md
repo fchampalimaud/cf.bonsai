@@ -3,7 +3,7 @@
 
 This example shows how to convert a MP4 video using *FFMPEG*.
 
-## Workflow
+
 
 :::workflow
 ![Example](~/articles/examples/others/Vision/MP4Writer/MP4Writer.bonsai)

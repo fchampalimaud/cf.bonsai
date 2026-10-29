@@ -3,7 +3,7 @@
 This example demostrates how to create an array with N elements whenever a key
 is pressed.
 
-## Workflow
+
 
 :::workflow
 ![Example](~/articles/examples/others/DataTypes/CreateIntArray/CreateIntArray.bonsai)

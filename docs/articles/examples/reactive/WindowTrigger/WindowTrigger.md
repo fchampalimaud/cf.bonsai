@@ -5,7 +5,7 @@ frames, whenever a key is pressed, using the
 [*WindowTrigger*](https://bonsai-rx.org/docs/api/Bonsai.Reactive.WindowTrigger.html)
 operator.
 
-## Workflow
+
 
 :::workflow
 ![Example](~/articles/examples/reactive/WindowTrigger/WindowTrigger.bonsai)

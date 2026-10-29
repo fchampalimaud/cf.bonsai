@@ -4,7 +4,7 @@ This example demonstrates how to toggle a servo motor between two positions
 using [Harp Behavior](https://harp-tech.org/api/Harp.Behavior.html) board (see
 hardware schematics below).
 
-## Workflow
+
 
 :::workflow
 ![Example](~/articles/examples/harp/Behavior/ServoMotorToggle/ServoMotorToggle.bonsai)

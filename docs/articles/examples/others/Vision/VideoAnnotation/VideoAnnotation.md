@@ -3,7 +3,7 @@
 This example demonstrates how to add a circular marker to a camera image and
 save the resulting annotated video.
 
-## Workflow
+
 
 :::workflow
 ![Example](~/articles/examples/others/Vision/VideoAnnotation/VideoAnnotation.bonsai)

@@ -4,7 +4,7 @@ This example demonstrates how to log the events that control the ON/OFF state of
 a LED using the [Harp Behavior](https://harp-tech.org/api/Harp.Behavior.html)
 board (see hardware schematics below).
 
-## Workflow
+
 
 :::workflow
 ![Example](~/articles/examples/harp/Behavior/LogSelected/LogSelected.bonsai)

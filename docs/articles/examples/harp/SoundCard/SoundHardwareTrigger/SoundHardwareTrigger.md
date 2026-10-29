@@ -6,7 +6,7 @@ external trigger given by the
 [Harp Behavior](https://harp-tech.org/api/Harp.Behavior.html) (see hardware
 schematics below).
 
-## Workflow
+
 
 :::workflow
 ![Example](~/articles/examples/harp/SoundCard/PlaySound/PlaySound.bonsai)

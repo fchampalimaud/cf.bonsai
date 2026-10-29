@@ -4,7 +4,7 @@ This example demonstrates how to toggle micro steps using the
 [Harp SyringePump](https://harp-tech.org/api/Harp.SyringePump.html) board (see
 hardware schematics below).
 
-## Workflow
+
 
 :::workflow
 ![Example](~/articles/examples/harp/SyringePump/ToggleMicroSteps/ToggleMicroSteps.bonsai)

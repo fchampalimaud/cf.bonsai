@@ -6,7 +6,7 @@ using the
 node. The subscribed subject only receives the last event generated before the
 subscriptions as well as all of those generated subsequently.
 
-## Workflow
+
 
 :::workflow
 ![Example](~/articles/examples/reactive/BehaviorSubject/BehaviorSubject.bonsai)

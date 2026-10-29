@@ -3,7 +3,7 @@
 This example demonstrates how to combine GUI elements with sub-panels to control
 the start and the stop of a camera using buttons.
 
-## Workflow
+
 
 :::workflow
 ![Example](~/articles/examples/others/GUI/StartCameraSubPanel/StartCameraSubPanel.bonsai)

@@ -4,7 +4,7 @@ This example demonstrates how to play a .wav file using the
 [Harp SoundCard](https://harp-tech.org/api/Harp.SoundCard.html) board (see
 hardware schematics below).
 
-## Workflow
+
 
 :::workflow
 ![Example](~/articles/examples/harp/SoundCard/PlaySound/PlaySound.bonsai)

@@ -7,7 +7,7 @@ node is modified when subscribed by the high-level operators
 [*Concat*](https://bonsai-rx.org/docs/api/Bonsai.Reactive.Concat.html), or
 [*Switch*](https://bonsai-rx.org/docs/api/Bonsai.Reactive.Switch.html) nodes
 
-## Workflow
+
 
 :::workflow
 ![Example](~/articles/examples/reactive/CreateObservable/CreateObservable.bonsai)

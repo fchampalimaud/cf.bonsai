@@ -3,7 +3,7 @@
 This example demonstrates how to setup an Osc server and an Osc client, and how
 messages can be sent from one to the other.
 
-## Workflow
+
 
 :::workflow
 ![Example](~/articles/examples/others/Osc/UDPSendAndReceive/UDPSendAndReceive.bonsai)

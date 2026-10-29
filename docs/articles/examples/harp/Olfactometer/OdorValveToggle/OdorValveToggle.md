@@ -5,7 +5,7 @@ Odor Valves using the
 [Harp Olfactometer](https://github.com/harp-tech/device.olfactometer) board (see
 hardware diagram below).
 
-## Workflow
+
 
 :::workflow
 ![Example](~/articles/examples/harp/Olfactometer/OdorValveToggle/OdorValveToggle.bonsai)

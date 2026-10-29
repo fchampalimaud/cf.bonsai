@@ -4,7 +4,7 @@ This example demonstrates how to get the index of each event generated in a
 stream. In Bonsai this is equivalent to the number of current elements generated
 in a stream subtracted by 1.
 
-## Workflow
+
 
 :::workflow
 ![Example](~/articles/examples/reactive/ElementIndex/ElementIndex.bonsai)

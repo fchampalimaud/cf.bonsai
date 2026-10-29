@@ -3,7 +3,7 @@
 This example demostrates how to group a number of events and output them as
 arrays.
 
-## Workflow
+
 
 :::workflow
 ![Example](~/articles/examples/others/DataTypes/GroupNEventsIntoArray/GroupNEventsIntoArray.bonsai)

@@ -3,7 +3,7 @@
 This example demonstrates how to play a tone with fixed frequency and duration
 whenever a key is pressed.
 
-## Workflow
+
 
 :::workflow
 ![Example](~/articles/examples/others/Audio/PlayTone/PlayTone.bonsai)

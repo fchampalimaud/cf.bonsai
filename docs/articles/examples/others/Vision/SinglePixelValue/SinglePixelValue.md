@@ -3,7 +3,7 @@
 This example demonstrates how to obtain the intensity value of a single pixel in
 a grayscale image.
 
-## Workflow
+
 
 :::workflow
 ![Example](~/articles/examples/others/Vision/SinglePixelValue/SinglePixelValue.bonsai)

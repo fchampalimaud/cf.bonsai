@@ -3,7 +3,7 @@
 This example demonstrates how to get the time interval between two consecutive
 events in a stream using the *TimeInterval* node.
 
-## Workflow
+
 
 :::workflow
 ![Example](~/articles/examples/reactive/TimeInterval/TimeInterval.bonsai)

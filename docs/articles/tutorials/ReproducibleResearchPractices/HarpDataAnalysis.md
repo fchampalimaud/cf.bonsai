@@ -21,7 +21,7 @@ access those logs during data analysis.
 > pip install harp-python
 > ```
 
-## Workflow
+
 
 The workflow below contains the bare minimum to save the harp events in a way
 that can be easily open during data analysis.

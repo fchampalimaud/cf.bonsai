@@ -3,7 +3,7 @@
 This example demonstrates how to combine different GUI elements into a single
 window to control and visualize the output of image thresholding.
 
-## Workflow
+
 
 :::workflow
 ![Example](~/articles/examples/others/GUI/ImageThresholdSlider/ImageThresholdSlider.bonsai)

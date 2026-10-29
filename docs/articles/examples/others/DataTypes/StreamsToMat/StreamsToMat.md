@@ -3,7 +3,7 @@
 This example shows how the make two streams of data converge into a
 *OpenCV.Net.Mat* data type.
 
-## Workflow
+
 
 :::workflow
 ![Example](~/articles/examples/others/DataTypes/StreamsToMat/StreamsToMat.bonsai)

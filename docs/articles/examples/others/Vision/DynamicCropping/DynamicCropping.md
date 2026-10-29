@@ -3,7 +3,7 @@
 This example demonstrates how to set dynamically the values of a node's compound
 property, in this case the *RegionOfInterest* of the *Crop* node.
 
-## Workflow
+
 
 :::workflow
 ![Example](~/articles/examples/others/Vision/DynamicCropping/DynamicCropping.bonsai)

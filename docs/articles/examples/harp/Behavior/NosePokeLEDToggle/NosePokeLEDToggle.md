@@ -5,7 +5,7 @@ This example demonstrates how to toggle the built-in LED from the
 [Harp Behavior](https://harp-tech.org/api/Harp.Behavior.html) board (see
 hardware schematics below).
 
-## Workflow
+
 
 :::workflow
 ![Example](~/articles/examples/harp/Behavior/NosePokeLEDToggle/NosePokeLEDToggle.bonsai)

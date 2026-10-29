@@ -3,7 +3,7 @@
 This example demonstrates how to convert across the different numeric data types
 using direct CSharp expressions in the ExpressionTransform node.
 
-## Workflow
+
 
 :::workflow
 ![Example](~/articles/examples/others/DataTypes/BasicTypeConversions/BasicTypeConversions.bonsai)

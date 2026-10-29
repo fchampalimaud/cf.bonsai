@@ -3,7 +3,7 @@
 This example demonstrates how to randomly sample from a discrete uniform
 distribution.
 
-## Workflow
+
 
 :::workflow
 ![Example](~/articles/examples/others/Numeric.Distributions/SampleDiscreteUniformDistribution/SampleDiscreteUniformDistribution.bonsai)

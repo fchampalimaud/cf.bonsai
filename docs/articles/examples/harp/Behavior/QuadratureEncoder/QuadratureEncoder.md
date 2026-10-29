@@ -4,7 +4,7 @@ This example demonstrates how to obtain the position values of a quadrature
 encoder using the [Harp Behavior](https://harp-tech.org/api/Harp.Behavior.html)
 board (see hardware schematics below).
 
-## Workflow
+
 
 :::workflow
 ![Example](~/articles/examples/harp/Behavior/QuadratureEncoder/QuadratureEncoder.bonsai)

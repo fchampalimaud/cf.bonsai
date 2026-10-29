@@ -8,7 +8,7 @@ use the same board as the
 example, it is assumed that the feeder is using a disk with 40 equally spaced
 reward positions.
 
-## Workflow
+
 
 :::workflow
 ![Example](~/articles/examples/harp/Feeder/RewardDelivery/RewardDelivery.bonsai)

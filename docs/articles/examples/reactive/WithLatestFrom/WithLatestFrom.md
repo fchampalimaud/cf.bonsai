@@ -3,7 +3,7 @@
 This example demonstrates how to sample the latest values of a *Timer* sequence
 whenever a key is pressed.
 
-## Workflow
+
 
 :::workflow
 ![Example](~/articles/examples/reactive/WithLatestFrom/WithLatestFrom.bonsai)

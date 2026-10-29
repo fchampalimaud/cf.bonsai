@@ -2,7 +2,7 @@
 
 Const
 
-## Workflow
+
 
 :::workflow
 ![Example](~/articles/examples/harp/Behavior/LogAll/LogAll.bonsai)

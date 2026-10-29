@@ -3,7 +3,7 @@
 This example demonstrates how to project information of a matrix (in this case
 an image) into a single row vector using the max function.
 
-## Workflow
+
 
 :::workflow
 ![Example](~/articles/examples/others/Vision/ColumnwiseOperations/ColumnwiseOperations.bonsai)

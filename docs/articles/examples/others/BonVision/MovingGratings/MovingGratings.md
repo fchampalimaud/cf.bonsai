@@ -3,7 +3,7 @@
 This example demonstrates how to create gratings of different orientations on
 the press of a key.
 
-## Workflow
+
 
 :::workflow
 ![Example](~/articles/examples/others/BonVision/MovingGratings/MovingGratings.bonsai)

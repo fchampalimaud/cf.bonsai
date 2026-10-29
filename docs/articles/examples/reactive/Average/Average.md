@@ -5,7 +5,7 @@ stream once it has terminated using the
 [*Average*](https://bonsai-rx.org/docs/api/Bonsai.Reactive.Average.html)
 operator.
 
-## Workflow
+
 
 :::workflow
 ![Example](~/articles/examples/reactive/Average/Average.bonsai)

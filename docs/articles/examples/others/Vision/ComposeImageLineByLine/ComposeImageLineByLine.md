@@ -1,6 +1,6 @@
 # Compose Image Line-by-Line
 
-## Workflow
+
 
 :::workflow
 ![Example](~/articles/examples/others/Vision/ComposeImageLineByLine/ComposeImageLineByLine.bonsai)

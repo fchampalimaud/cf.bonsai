@@ -3,7 +3,7 @@
 This example demonstrates how to use the LineGraph GUI element to display
 real-time random data.
 
-## Workflow
+
 
 :::workflow
 ![Example](~/articles/examples/others/GUI/LineGraph/LineGraph.bonsai)

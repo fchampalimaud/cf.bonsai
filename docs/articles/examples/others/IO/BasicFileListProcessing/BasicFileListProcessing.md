@@ -5,7 +5,7 @@ file individually and create new files with the output. It reads two files
 containing a number each, multiplies each number by two and creates two
 respective output files with the result.
 
-## Workflow
+
 
 :::workflow
 ![Example](~/articles/examples/others/IO/BasicFileListProcessing/BasicFileListProcessing.bonsai)

@@ -4,7 +4,7 @@ This example demonstrates how to merge events from two independent streams using
 the *Merge* operator. In this case, presses in either 'A' or 'S' keys are
 propagated.
 
-## Workflow
+
 
 :::workflow
 ![Example](~/articles/examples/reactive/Merge/Merge.bonsai)

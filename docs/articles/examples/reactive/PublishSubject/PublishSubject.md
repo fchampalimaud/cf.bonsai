@@ -6,7 +6,7 @@ using the
 node. The subscribed subject only receives events that are generated after
 subscription.
 
-## Workflow
+
 
 :::workflow
 ![Example](~/articles/examples/reactive/PublishSubject/PublishSubject.bonsai)

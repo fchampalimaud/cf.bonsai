@@ -4,7 +4,7 @@ This example demonstrates how to subtract consecutive frames in a video, and
 average the absolute value of the result. Such a simple technique can be used to
 estimate the amount of motion in an animal.
 
-## Workflow
+
 
 :::workflow
 ![Example](~/articles/examples/others/Vision/ImageDifferenceAverage/ImageDifferenceAverage.bonsai)

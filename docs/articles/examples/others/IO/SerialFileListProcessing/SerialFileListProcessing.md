@@ -3,7 +3,7 @@
 This example demonstrates how to serially process a list of files in a given
 directory (including subdirectories) and generate output files accordingly.
 
-## Workflow
+
 
 :::workflow
 ![Example](~/articles/examples/others/IO/SerialFileListProcessing/SerialFileListProcessing.bonsai)

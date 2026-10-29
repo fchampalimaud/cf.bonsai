@@ -3,10 +3,10 @@
 This example demonstrates how to acquire capacitance data with the
 [Harp FlyPADController](https://github.com/fchampalimaud/device.flypadcontroller).
 
-## Workflow
+
 
 :::workflow
-![Example](~/articles/examples/harp/FlyPAD/DataAcquisition/DataAcquisition.bonsai)
+![Example](~/articles/examples/harp/FlyPADController/DataAcquisition/DataAcquisition.bonsai)
 :::
 
 ## Details

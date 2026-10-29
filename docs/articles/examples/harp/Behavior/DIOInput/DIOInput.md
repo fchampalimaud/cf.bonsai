@@ -4,10 +4,10 @@ This example demonstrates how to read digital input values from the DIO Port0
 using the [Harp Behavior](https://harp-tech.org/api/Harp.Behavior.html) board
 (see hardware schematics below).
 
-## Workflow
+
 
 :::workflow
-![Example](~/articles/examples/harp/Behavior/BehaviorBoard/DIOInput/DIOInput.bonsai)
+![Example](~/articles/examples/harp/Behavior/DIOInput/DIOInput.bonsai)
 :::
 
 ## Details

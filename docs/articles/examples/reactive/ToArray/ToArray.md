@@ -4,7 +4,7 @@ This example demonstrates how to pack the elements of a stream into an array,
 once the stream terminates using
 [*ToArray*](https://bonsai-rx.org/docs/api/Bonsai.Reactive.ToArray.html)
 
-## Workflow
+
 
 :::workflow
 ![Example](~/articles/examples/reactive/ToArray/ToArray.bonsai)
