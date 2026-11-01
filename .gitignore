@@ -10,4 +10,22 @@ out
 .mp4
 
 # ignore all .svg files in the workflow directory and subfolders
-docs/workflows/**/*.svg
+docs/examples/**/*.svg
+docs/tutorials/**/*.svg
+!docs/examples/**/*Sch.svg
+!docs/tutorials/**/*Sch.svg
+docs/_site
+
+
+# Bonsai scripting files
+.vs
+.vscode
+bin
+obj
+Packages
+Bonsai.exe.WebView2
+*.bin
+*.avi
+*.dll
+*.exe
+*.exe.settings

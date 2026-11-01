@@ -1,0 +1,6 @@
+- name: Home
+  href: home/
+- name: Examples
+  href: examples/
+- name: Tutorials
+  href: tutorials/

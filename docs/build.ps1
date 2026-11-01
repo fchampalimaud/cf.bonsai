@@ -1,11 +1,11 @@
 param (
-    [string]$workflowPath = "workflows"   # default if none is passed
+    [string]$workflowPath = "examples"   # default if none is passed
 )
 
-$baseFolder = @("..\") 
+$baseFolder = @("..\")
 
-Write-Host ("Generate SVGs for all examples found..." ) 
-.\docfx-tools\modules\Export-Image.ps1 -libPath $baseFolder -bootstrapperPath "..\.bonsai\Bonsai.exe" -workflowPath $workflowPath 
+Write-Host ("Generate SVGs for all examples found..." )
+.\docfx-tools\modules\Export-Image.ps1 -libPath $baseFolder -bootstrapperPath "..\.bonsai\Bonsai.exe" -workflowPath $workflowPath
 
-# Build documentation 
+# Build documentation
 dotnet docfx @args

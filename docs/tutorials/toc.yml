@@ -1,0 +1,18 @@
+- name: Tracking
+  href: Tracking/Tracking.md
+- name: VirtualReality
+  href: VirtualReality/VirtualReality.md
+# - name: Reactive Combinators
+#   href: Combinators/Combinators.md
+# - name: Reproducible Research Practices (5)
+#   items:
+#     - name: Introduction
+#       href: ReproducibleResearchPractices/ReproducibleResearchPractices.md
+#     - name: Project Directory Structure
+#       href: ReproducibleResearchPractices/ProjectDirectoryStructure.md
+#     - name: Harp Data Analysis
+#       href: ReproducibleResearchPractices/HarpDataAnalysis.md
+#     - name: Version Control
+#       href: ReproducibleResearchPractices/VersionControl.md
+#     - name: Python Tips
+#       href: ReproducibleResearchPractices/PythonTips.md
