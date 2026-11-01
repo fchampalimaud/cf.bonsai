@@ -6,7 +6,7 @@
 # Global configuration options
 [global]
 # List of rules to disable (uncomment and modify as needed)
-# disable = ["MD013", "MD033"]
+disable = ["MD033", "MD059"]
 
 # List of rules to enable exclusively (replaces defaults; only these rules will run)
 # enable = ["MD001", "MD003", "MD004"]
@@ -62,7 +62,8 @@ respect-gitignore = true
 [MD013]
 reflow = true
 # line-length = 100  # Line length
-# code-blocks = false  # Exclude code blocks from line length check
+code-blocks = false  # Exclude code blocks from line length check
+math-blocks = false
 # tables = false  # Exclude tables from line length check
 # headings = true  # Include headings in line length check
 
