@@ -1,3 +1,3 @@
 ---
-redirect_url: home/welcome.html  
+redirect_url: home/welcome.html
 ---
