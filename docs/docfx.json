@@ -12,14 +12,14 @@
     ],
     "resource": [
       {
-        "src": "articles",
+        "src": ".",
         "files": [
           "**"
         ],
         "exclude": [
           "**/*.{md,yml}"
         ],
-        "dest": "articles"
+        "dest": "."
       },
       {
         "files": [

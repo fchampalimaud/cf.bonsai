@@ -13,7 +13,7 @@ const observer = new MutationObserver(() => {
       document.getElementById("logo").src = "https://fchampalimaud.github.io/cf.bonsai/images/logo.svg"
     }
   });
-  
+
   observer.observe(document.documentElement, {
     attributes: true,
     attributeFilter: ['data-bs-theme'] // only observe changes to this specific attribute

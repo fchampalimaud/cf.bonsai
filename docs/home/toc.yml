@@ -1,0 +1,8 @@
+- name: Welcome
+  href: welcome.md
+- name: Install Bonsai
+  href: install_bonsai.md
+- name: Install Harp
+  href: install_harp.md
+- name: Contributing
+  href: contributing.md

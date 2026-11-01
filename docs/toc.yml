@@ -1,6 +1,6 @@
-- name: Getting started
-  href: articles/getting_started/
+- name: Home
+  href: home/
 - name: Examples
-  href: articles/examples/
+  href: examples/
 - name: Tutorials
-  href: articles/tutorials/
+  href: tutorials/
